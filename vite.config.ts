@@ -1,19 +1,10 @@
-import { defineConfig } from "vite";
-import { tanstackStart } from "@tanstack/react-start/plugin/vite";
-import viteReact from "@vitejs/plugin-react";
-import tailwindcss from "@tailwindcss/vite";
-import tsConfigPaths from "vite-tsconfig-paths";
-import { nitro } from "nitro/vite";
+import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
-// Nitro picks its deploy preset automatically (Vercel is detected on Vercel builds).
-// Override with NITRO_PRESET=<preset> when deploying elsewhere.
+// The wrapper writes Lovable's deployable dist/ bundle in the sandbox.
+// Outside Lovable, Nitro still detects hosting presets such as Vercel.
 export default defineConfig({
-  server: { fs: { allow: [process.cwd(), "/persist/node_modules"] } },
-  plugins: [
-    tsConfigPaths({ projects: ["./tsconfig.json"] }),
-    tailwindcss(),
-    tanstackStart(),
-    nitro(),
-    viteReact(),
-  ],
+  tanstackStart: { server: { entry: "server" } },
+  vite: {
+    server: { fs: { allow: [process.cwd(), "/persist/node_modules"] } },
+  },
 });
