@@ -14,13 +14,13 @@ export function BrandTagline({
   className?: string;
   tone?: Tone;
 }) {
-  const textCls = tone === "print" ? "text-neutral-700" : "text-foreground/75";
-  const ruleCls = tone === "print" ? "bg-amber-500/80" : "bg-primary/70";
+  const textCls = "text-foreground/75";
+  const ruleCls = "bg-primary/70";
 
   return (
     <span
       className={cn(
-        "inline-flex items-center gap-2 font-display text-[10px] font-semibold uppercase leading-none tracking-[0.32em]",
+        "inline-flex flex-wrap items-center gap-2 font-display text-[10px] font-semibold uppercase leading-none",
         textCls,
         className,
       )}

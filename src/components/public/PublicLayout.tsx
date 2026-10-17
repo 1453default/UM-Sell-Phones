@@ -1,6 +1,6 @@
 import { type ReactNode } from "react";
 import { Link } from "@tanstack/react-router";
-import { Phone, Instagram, CheckCircle2, ArrowUpRight } from "lucide-react";
+import { Phone, Instagram, CheckCircle2 } from "lucide-react";
 import { SHOP_PHONE, SHOP_INSTAGRAM, SHOP_INSTAGRAM_HANDLE, SHOP_MAPS_URL, whatsappLink } from "@/lib/shop";
 import { Button } from "@/components/ui/button";
 import { Dock } from "@/components/public/Dock";
@@ -10,10 +10,7 @@ export function PublicLayout({ children }: { children: ReactNode }) {
   return (
     <div className="min-h-dvh flex flex-col bg-background">
       <PublicHeader />
-      <main
-        className="flex-1"
-        style={{ paddingBottom: "calc(env(safe-area-inset-bottom) + 7rem)" }}
-      >
+      <main className="flex-1 site-main">
         {children}
       </main>
       <PublicFooter />
@@ -33,15 +30,15 @@ const NAV: { to?: "/" | "/sell-phone" | "/how-it-works"; href?: string; label: s
 
 function PublicHeader() {
   return (
-    <header className="sticky top-0 z-40 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
+    <header className="sticky top-0 z-40 shrink-0 border-b border-border bg-background">
       <div className="mx-auto flex h-18 max-w-6xl items-center justify-between px-4">
         <Link to="/" className="flex min-w-0 items-center gap-2.5">
-          <img src="/USED_MOBILE_LOGO.png" alt="USED MOBILES" className="h-12 w-12 md:h-14 md:w-14 shrink-0 object-contain" onError={(e) => ((e.currentTarget.style.display = "none"))} />
+          <img src="/USED_MOBILE_LOGO.png" alt="" width="56" height="56" className="h-10 w-10 md:h-14 md:w-14 shrink-0 object-contain" onError={(e) => ((e.currentTarget.style.display = "none"))} />
           <div className="min-w-0">
             <div className="font-display text-base font-extrabold leading-none  text-foreground">
               USED MOBILES
             </div>
-            <div className="mt-1.5">
+            <div className="mt-1.5 hidden sm:block">
               <BrandTagline />
             </div>
           </div>
@@ -101,8 +98,8 @@ function PublicFooter() {
             </div>
           </div>
           <p className="text-sm text-muted-foreground leading-relaxed">
-            Hyderabad's trusted destination to sell your old smartphone for the best market price.
-            Instant online quote · Fair valuation · Same-day payment.
+            Sell your used smartphone at our Toli Chowki store. Get an estimated offer online,
+            then confirm the price after inspection.
           </p>
           <div className="mt-4 flex items-center gap-3">
             <a href={SHOP_INSTAGRAM} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-border text-muted-foreground hover:text-primary hover:border-primary transition">

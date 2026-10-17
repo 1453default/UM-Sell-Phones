@@ -40,7 +40,6 @@ export const Route = createFileRoute("/sell-phone/$brand/")({
 });
 
 function BrandPage() {
-  const { brand: slug } = Route.useParams();
   const { series } = Route.useSearch();
   const navigate = useNavigate({ from: Route.fullPath });
   const { brand } = Route.useLoaderData();
@@ -57,6 +56,7 @@ function BrandPage() {
   const showSeries = brand.series.length > 1;
   const chip = (label: string, value: string) => (
     <Button
+      variant="outline"
       key={label}
       type="button"
       aria-pressed={active === value}
@@ -111,7 +111,7 @@ function BrandPage() {
                   params={{ brand: brand.slug, model: m.slug }}
                   className="group flex h-full flex-col items-center gap-3 rounded-md border border-border bg-card p-4 text-center transition hover:border-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                 >
-                  <PhoneImg src={m.images[0]} alt={m.name} eager={i < 10} className="h-28 w-28 md:h-32 md:w-32 transition group-hover:scale-105" />
+                  <PhoneImg src={m.images[0]} alt="" eager={i < 10} className="h-28 w-28 md:h-32 md:w-32 transition group-hover:scale-105" />
                   <span className="text-sm font-semibold leading-snug">{m.name}</span>
                 </Link>
               </li>

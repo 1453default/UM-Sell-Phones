@@ -56,4 +56,4 @@ export const getModelVariants = (brandName: string, modelName: string): SellVari
 export const getVariant = (brandName: string, modelName: string, variantId: string) =>
   getModelVariants(brandName, modelName).find((v) => v.id === variantId);
 
-export const formatINR = (n: number) => `₹ ${n.toLocaleString("en-IN")}`;
+export const formatINR = (n: number) => `₹${n.toLocaleString("en-IN", { maximumFractionDigits: 2 })}`;

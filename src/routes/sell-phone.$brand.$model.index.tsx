@@ -62,7 +62,7 @@ function VariantSelector({ brand, model }: { brand: NonNullable<ReturnType<typeo
             { label: "Variant" },
           ]}
         />
-        <h1 className="mt-4 font-display text-2xl md:text-3xl font-extrabold tracking-tight">Choose variant</h1>
+        <h1 className="mt-4 font-display text-2xl md:text-3xl font-bold">Choose variant</h1>
         <div className="mt-6 grid gap-6 border-y border-border p-5 md:grid-cols-[220px_minmax(0,1fr)] md:items-center md:p-10">
           <div className="flex h-48 items-center justify-center md:h-56">
             <PhoneImg src={model.images[0]} alt={model.name} eager className="h-full w-full" />
@@ -81,6 +81,7 @@ function VariantSelector({ brand, model }: { brand: NonNullable<ReturnType<typeo
                     const on = selected === v.id;
                     return (
                       <Button
+                        variant="outline"
                         key={v.id}
                         type="button"
                         aria-pressed={on}
