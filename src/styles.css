@@ -177,13 +177,27 @@
 }
 .selection-option.is-selected {
   border-color: var(--foreground);
+  box-shadow: inset 0 0 0 1px var(--foreground);
   background: var(--accent);
+  font-weight: 600;
 }
 .selection-option input {
-  width: 18px;
-  height: 18px;
+  width: 22px;
+  height: 22px;
   flex-shrink: 0;
   accent-color: var(--foreground);
+}
+.option-img {
+  width: 88px;
+  height: 88px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+@media (min-width: 640px) {
+  .option-img {
+    width: 112px;
+    height: 112px;
+  }
 }
 .selection-option:focus-within {
   outline: 2px solid var(--ring);

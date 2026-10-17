@@ -1,5 +1,5 @@
-import { useRef, useState, type FormEvent } from "react";
-import { ArrowLeft, ArrowRight, Check, MessageCircle, RotateCcw } from "lucide-react";
+import { useRef, useState } from "react";
+import { ArrowLeft, ArrowRight, Check, RotateCcw } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   BASIC,
@@ -7,13 +7,12 @@ import {
   FAULTS,
   activeQuestions,
   answerSummary,
-  assessmentComplete,
   calculateValuation,
   emptyAnswers,
   toggleFault,
   type Answers,
 } from "@/lib/valuation";
-import { leadLink, normalizeIndianMobile } from "@/lib/lead";
+import { PickupForm } from "./PickupForm";
 import { formatINR, type SellVariant } from "@/data/sellPhonePricing";
 import { type SellBrand, type SellModel } from "@/data/sellPhoneCatalog";
 import { PhoneImg } from "./SellParts";
@@ -39,16 +38,12 @@ export function DeviceAssessment({
   const [step, setStep] = useState(-1);
   const [answers, setAnswers] = useState<Answers>(emptyAnswers);
   const [error, setError] = useState("");
-  const [name, setName] = useState("");
-  const [mobile, setMobile] = useState("");
-  const [handoff, setHandoff] = useState<string | null>(null);
   const heading = useRef<HTMLHeadingElement>(null);
   const result = calculateValuation(variant.uptoPrice, answers);
   const physical = activeQuestions(answers);
   function go(next: number) {
     setError("");
     setStep(next);
-    setHandoff(null);
     requestAnimationFrame(() => {
       heading.current?.focus();
       heading.current?.parentElement?.scrollIntoView({ block: "start", behavior: "instant" });
@@ -74,31 +69,6 @@ export function DeviceAssessment({
   }
   function previous() {
     go(step === 3 && physical.length === 0 ? 1 : step - 1);
-  }
-  function submit(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    const phone = normalizeIndianMobile(mobile);
-    if (!phone) {
-      setError("Enter a valid 10-digit Indian mobile number starting with 6, 7, 8 or 9.");
-      return;
-    }
-    if (!result || !assessmentComplete(answers)) {
-      setError("Complete the device assessment before continuing.");
-      return;
-    }
-    const url = leadLink({
-      name,
-      mobile: phone,
-      model: model.name,
-      brand: brand.name,
-      variant: variant.label,
-      base: result.base,
-      estimate: result.displayedEstimate,
-      answers,
-    });
-    setError("");
-    setHandoff(url);
-    window.open(url, "_blank", "noopener,noreferrer");
   }
   const selectClass = (selected: boolean) => `selection-option ${selected ? "is-selected" : ""}`;
   return (
@@ -163,7 +133,7 @@ export function DeviceAssessment({
                   {[true, false].map((value) => (
                     <label
                       key={String(value)}
-                      className={`${selectClass(answers.basic[q.id] === value)} min-w-24`}
+                      className={`${selectClass(answers.basic[q.id] === value)} min-w-28 justify-center text-base`}
                     >
                       <input
                         type="radio"
@@ -201,7 +171,7 @@ export function DeviceAssessment({
                   <img
                     src={`/about-device-questions/P2/${c.image}`}
                     alt=""
-                    className="h-14 w-14 shrink-0 object-contain"
+                    className="option-img"
                   />
                   <span>{c.label}</span>
                 </label>
@@ -237,7 +207,7 @@ export function DeviceAssessment({
                         <img
                           src={`/about-device-questions/P3/${o.image}`}
                           alt=""
-                          className="h-14 w-14 shrink-0 object-contain"
+                          className="option-img"
                         />
                       )}
                       <span>{o.label}</span>
@@ -264,7 +234,7 @@ export function DeviceAssessment({
                     src={`/about-device-questions/P4/${f.image}`}
                     alt=""
                     loading="lazy"
-                    className="h-10 w-10 shrink-0 object-contain"
+                    className="option-img"
                   />
                   <span>{f.label}</span>
                 </label>
@@ -333,59 +303,7 @@ export function DeviceAssessment({
                 ))}
               </ul>
             </details>
-            <form onSubmit={submit} noValidate className="mt-7 space-y-5">
-              <h2 className="text-xl font-semibold">Continue with USED MOBILES</h2>
-              <div>
-                <label htmlFor="lead-name" className="mb-2 block text-sm font-medium">
-                  Your name
-                </label>
-                <input
-                  id="lead-name"
-                  value={name}
-                  maxLength={80}
-                  autoComplete="name"
-                  onChange={(e) => setName(e.target.value)}
-                  className="field"
-                />
-              </div>
-              <div>
-                <label htmlFor="lead-mobile" className="mb-2 block text-sm font-medium">
-                  Mobile number
-                </label>
-                <input
-                  id="lead-mobile"
-                  type="tel"
-                  inputMode="tel"
-                  autoComplete="tel"
-                  value={mobile}
-                  maxLength={20}
-                  required
-                  aria-invalid={!!error}
-                  aria-describedby={error ? "assessment-error" : undefined}
-                  onChange={(e) => setMobile(e.target.value)}
-                  placeholder="10-digit Indian mobile number"
-                  className="field"
-                />
-              </div>
-              <Button type="submit" size="lg" className="h-12 w-full sm:w-auto">
-                <MessageCircle /> Continue on WhatsApp
-              </Button>
-              <p className="text-xs leading-relaxed text-muted-foreground">{"\n"}</p>
-            </form>
-            {handoff && (
-              <p role="status" className="mt-5 text-sm">
-                Your WhatsApp message is ready.{" "}
-                <a
-                  href={handoff}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline font-semibold"
-                >
-                  Open WhatsApp
-                </a>{" "}
-                if it did not open, then send the message.
-              </p>
-            )}
+            <PickupForm brand={brand} model={model} variant={variant} answers={answers} />
           </div>
         )}
         {error && (
