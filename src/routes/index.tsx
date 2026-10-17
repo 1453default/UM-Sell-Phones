@@ -1,14 +1,12 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { motion } from "framer-motion";
-import { ArrowRight, BadgeCheck, HandCoins, MapPin, MessageCircle, ShieldCheck, Smartphone, Wallet } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { ArrowRight, ArrowUpRight, MapPin, MessageCircle } from "lucide-react";
 import { PublicLayout } from "@/components/public/PublicLayout";
 import { SELL_BRANDS } from "@/data/sellPhoneCatalog";
 import { SHOP_MAPS_URL, whatsappLink } from "@/lib/shop";
 import heroMain from "@/assets/um-counter.jpg";
-import heroEnt from "@/assets/um-ent.jpg";
-import heroLeft from "@/assets/um-left.jpg";
 
-const TITLE = "Sell Your Old Phone for the Best Price — USED MOBILES Hyderabad";
+const TITLE = "Sell Your Phone — Estimated Offers — USED MOBILES Hyderabad";
 const DESC = "Check how much your used iPhone, Samsung, OnePlus or other phone is worth and sell it to USED MOBILES, Toli Chowki, Hyderabad.";
 
 export const Route = createFileRoute("/")({
@@ -25,93 +23,40 @@ export const Route = createFileRoute("/")({
   component: Home,
 });
 
-const STEPS = [
-  { icon: <Smartphone className="h-5 w-5" />, title: "Pick your phone", text: "Choose the brand, model and storage variant." },
-  { icon: <Wallet className="h-5 w-5" />, title: "See the value", text: "Get the maximum price we can offer instantly." },
-  { icon: <BadgeCheck className="h-5 w-5" />, title: "Get paid", text: "Visit our store for a quick check and instant payment." },
-];
-
 function Home() {
-  const featured = SELL_BRANDS.filter((b) => b.logo).slice(0, 8);
-  return (
-    <PublicLayout>
-      <section className="relative overflow-hidden border-b border-border">
-        <div className="absolute inset-0 -z-10 bg-gradient-to-br from-amber/5 via-background to-info/5" />
-        <div className="mx-auto max-w-6xl px-4 pt-6 pb-8 md:pt-16 md:pb-16">
-          <div className="grid gap-10 lg:grid-cols-[1.05fr_1fr] lg:items-center">
-            <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }}>
-              <div className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1.5 text-xs font-semibold text-muted-foreground">
-                <ShieldCheck className="h-3.5 w-3.5 text-emerald" /> Honest prices · Instant payment
-              </div>
-              <h1 className="mt-4 font-display text-4xl md:text-6xl font-extrabold leading-[1.05] tracking-tight text-foreground">
-                Sell your old phone <br />
-                <span className="text-primary">at the best price.</span>
-              </h1>
-              <p className="mt-4 text-base md:text-lg text-muted-foreground max-w-xl">
-                Find out what your iPhone, Samsung, OnePlus and more are worth in seconds — then sell it at our Toli Chowki store.
-              </p>
-              <div className="mt-6 flex flex-wrap gap-3">
-                <Link to="/sell-phone" className="inline-flex h-12 items-center gap-2 rounded-xl bg-primary px-6 font-bold text-primary-foreground hover:bg-amber-dark transition">
-                  <HandCoins className="h-5 w-5" /> Check your phone's value <ArrowRight className="h-4 w-4" />
-                </Link>
-                <a href={whatsappLink("Hi! I'd like to sell my phone.")} target="_blank" rel="noopener" className="inline-flex h-12 items-center gap-2 rounded-xl border border-border bg-card px-5 font-semibold text-foreground hover:border-primary transition">
-                  <MessageCircle className="h-5 w-5 text-whatsapp" /> WhatsApp us
-                </a>
-              </div>
-            </motion.div>
-
-            <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5, delay: 0.15 }} className="relative">
-              <div className="grid grid-cols-5 grid-rows-2 gap-3 h-[380px] sm:h-[440px] md:h-[500px]">
-                <figure className="relative col-span-3 row-span-2 overflow-hidden rounded-2xl border border-border bg-muted shadow-xl">
-                  <img src={heroMain} alt="USED MOBILES store counter" className="h-full w-full object-cover" loading="eager" decoding="async" />
-                  <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/80 via-ink/20 to-transparent p-4">
-                    <a href={SHOP_MAPS_URL} target="_blank" rel="noopener" className="inline-flex items-center gap-1.5 rounded-full bg-card/95 px-3 py-1 text-[11px] font-bold text-foreground">
-                      <MapPin className="h-3 w-3 text-primary" /> Toli Chowki · Hyderabad
-                    </a>
-                  </div>
-                </figure>
-                <figure className="relative col-span-2 overflow-hidden rounded-2xl border border-border bg-muted shadow-md">
-                  <img src={heroEnt} alt="USED MOBILES store interior" className="h-full w-full object-cover" loading="lazy" decoding="async" />
-                </figure>
-                <figure className="relative col-span-2 overflow-hidden rounded-2xl border border-border bg-muted shadow-md">
-                  <img src={heroLeft} alt="USED MOBILES shop side view" className="h-full w-full object-cover" loading="lazy" decoding="async" />
-                </figure>
-              </div>
-              <div className="pointer-events-none absolute -inset-6 -z-10 rounded-3xl bg-gradient-to-br from-amber/10 via-transparent to-info/10 blur-2xl" />
-            </motion.div>
-          </div>
+  const featured = SELL_BRANDS.filter(b => b.logo).slice(0, 8);
+  return <PublicLayout>
+    <section className="store-hero relative overflow-hidden">
+      <img src={heroMain} alt="USED MOBILES store in Toli Chowki, Hyderabad" className="store-hero-photo" fetchPriority="high" />
+      <div className="store-hero-shade" />
+      <div className="relative mx-auto max-w-6xl px-4 py-16 md:py-20">
+        <p className="store-hero-muted text-xs font-semibold uppercase">Toli Chowki · Hyderabad</p>
+        <h1 className="store-hero-copy mt-4 max-w-xl text-4xl md:text-5xl font-bold leading-tight">Sell your phone.<br />At USED MOBILES.</h1>
+        <p className="store-hero-muted mt-5 max-w-md leading-relaxed">Choose your device, tell us its condition and get an estimated offer. Visit our store to confirm the value.</p>
+        <div className="mt-8 flex flex-wrap gap-3">
+          <Button asChild size="lg" className="h-12"><Link to="/sell-phone">Check your phone’s value <ArrowRight /></Link></Button>
+          <Button asChild size="lg" variant="outline" className="h-12"><a href={whatsappLink("Hi! I'd like to sell my phone.")} target="_blank" rel="noopener noreferrer"><MessageCircle /> WhatsApp us</a></Button>
         </div>
-      </section>
-
-      <section id="how-it-works" className="mx-auto max-w-6xl px-4 py-12 scroll-mt-24">
-        <h2 className="font-display text-2xl md:text-3xl font-bold">How it works</h2>
-        <div className="mt-6 grid gap-4 md:grid-cols-3">
-          {STEPS.map((s, i) => (
-            <div key={s.title} className="rounded-2xl border border-border bg-card p-5">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10 text-primary">{s.icon}</div>
-              <div className="mt-3 text-xs font-semibold text-muted-foreground">Step {i + 1}</div>
-              <h3 className="font-semibold">{s.title}</h3>
-              <p className="mt-1 text-sm text-muted-foreground">{s.text}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section id="brands" className="mx-auto max-w-6xl px-4 pb-12 scroll-mt-24">
-        <div className="flex items-end justify-between gap-4">
-          <h2 className="font-display text-2xl md:text-3xl font-bold">Choose your brand</h2>
-          <Link to="/sell-phone" className="text-sm font-semibold text-primary">All {SELL_BRANDS.length} brands →</Link>
-        </div>
-        <ul className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
-          {featured.map((b) => (
-            <li key={b.slug}>
-              <Link to="/sell-phone/$brand" params={{ brand: b.slug }} className="flex h-24 items-center justify-center rounded-2xl border border-border bg-card px-4 transition hover:-translate-y-0.5 hover:border-primary hover:shadow-lg">
-                <img src={b.logo!} alt={`${b.name} logo`} className="h-14 w-auto max-w-[75%] object-contain" decoding="async" />
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </section>
-    </PublicLayout>
-  );
+        <a href={SHOP_MAPS_URL} target="_blank" rel="noopener noreferrer" className="store-hero-muted mt-7 inline-flex items-center gap-2 text-sm"><MapPin className="h-4 w-4" /> Visit our store <ArrowUpRight className="h-3 w-3" /></a>
+      </div>
+    </section>
+    <section className="mx-auto max-w-6xl px-4 py-10 md:py-12">
+      <div className="flex flex-wrap items-end justify-between gap-4"><div><p className="text-xs font-semibold uppercase text-muted-foreground">Start with your device</p><h2 className="mt-2 text-2xl font-bold">Which brand is your phone?</h2></div><Link to="/sell-phone" className="inline-flex items-center gap-2 text-sm font-semibold">All {SELL_BRANDS.length} brands <ArrowRight className="h-4 w-4" /></Link></div>
+      <ul className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-8">{featured.map(b => <li key={b.slug}><Link to="/sell-phone/$brand" params={{ brand: b.slug }} className="flex h-24 items-center justify-center rounded-md border border-border bg-card p-4 hover:border-foreground">{b.logo && <img src={b.logo} alt={b.name} width="100" height="50" loading="lazy" className="max-h-12 w-full object-contain" />}</Link></li>)}</ul>
+    </section>
+    <section className="border-y border-border bg-card">
+      <div className="mx-auto max-w-6xl px-4 py-12"><div className="flex flex-wrap items-center justify-between gap-4"><h2 className="text-2xl font-bold">From phone to offer</h2><Link to="/how-it-works" className="text-sm font-semibold underline">How it works</Link></div>
+        <div className="mt-8 grid gap-8 md:grid-cols-3">{[
+          ["01", "Choose your phone", "Select your exact model and storage/RAM variant."],
+          ["02", "Check its condition", "Answer a few questions to see your estimated offer."],
+          ["03", "Connect with the store", "Share your details on WhatsApp and arrange an in-store inspection."],
+        ].map(([num,title,text]) => <div key={num} className="border-l-2 border-primary pl-5"><span className="font-num text-sm text-muted-foreground">{num}</span><h3 className="mt-2 font-semibold">{title}</h3><p className="mt-2 text-sm leading-relaxed text-muted-foreground">{text}</p></div>)}</div>
+      </div>
+    </section>
+    <section className="mx-auto grid max-w-6xl gap-8 px-4 py-12 md:grid-cols-2"><div><h2 className="text-2xl font-bold">Before you sell</h2><p className="mt-3 text-muted-foreground">A clear estimate. A real conversation. A final inspection.</p></div><div className="divide-y divide-border">{[
+      ["Is the online offer final?", "No. Your estimated offer depends on the condition answers. The store confirms the final price after inspecting the device."],
+      ["What if my phone has no listed price?", "You can still contact USED MOBILES on WhatsApp for an offer. We do not substitute another model’s price."],
+      ["Where can I sell my phone?", "Visit our store in Toli Chowki, Hyderabad. Bring a valid government ID when selling your device."],
+    ].map(([q,a]) => <details key={q} className="py-4"><summary className="cursor-pointer font-semibold">{q}</summary><p className="mt-3 text-sm leading-relaxed text-muted-foreground">{a}</p></details>)}</div></section>
+  </PublicLayout>;
 }
