@@ -2,18 +2,32 @@ import { useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { ChevronRight, Search, Smartphone } from "lucide-react";
 
-export function Crumbs({ items }: { items: { label: string; to?: string; params?: Record<string, string> }[] }) {
+type Crumb = {
+  label: string;
+  to?: "/" | "/sell-phone" | "/sell-phone/$brand" | "/sell-phone/$brand/$model";
+  params?: { brand: string; model?: string };
+};
+
+export function Crumbs({ items }: { items: Crumb[] }) {
   return (
-    <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-1 text-xs text-muted-foreground">
+    <nav
+      aria-label="Breadcrumb"
+      className="flex flex-wrap items-center gap-1 text-xs text-muted-foreground"
+    >
       {items.map((it, i) => (
         <span key={i} className="flex items-center gap-1">
           {i > 0 && <ChevronRight className="h-3 w-3" />}
           {it.to ? (
-            <Link to={it.to as never} params={it.params as never} className="hover:text-primary">
+            <Link to={it.to} params={it.params} className="hover:text-primary">
               {it.label}
             </Link>
           ) : (
-            <span className="font-semibold text-foreground">{it.label}</span>
+            <span
+              aria-current={i === items.length - 1 ? "page" : undefined}
+              className="font-semibold text-foreground"
+            >
+              {it.label}
+            </span>
           )}
         </span>
       ))}
@@ -31,17 +45,30 @@ export function SearchBox(props: { value: string; onChange: (v: string) => void;
         value={props.value}
         onChange={(e) => props.onChange(e.target.value)}
         placeholder={props.label}
-        className="h-12 w-full rounded-xl border border-border bg-card pl-11 pr-4 text-sm outline-none focus:border-primary focus:ring-2 focus:ring-primary/20"
+        className="h-12 w-full rounded-md border border-border bg-card pl-11 pr-4 text-sm outline-none focus:border-primary focus:ring-2 focus:ring-primary/20"
       />
     </label>
   );
 }
 
-export function PhoneImg({ src, alt, className, eager }: { src?: string; alt: string; className?: string; eager?: boolean }) {
-  const [broken, setBroken] = useState(false);
-  if (!src || broken)
+export function PhoneImg({
+  src,
+  alt,
+  className,
+  eager,
+}: {
+  src?: string;
+  alt: string;
+  className?: string;
+  eager?: boolean;
+}) {
+  const [brokenSrc, setBrokenSrc] = useState<string | undefined>();
+  if (!src || brokenSrc === src)
     return (
-      <div className={`flex items-center justify-center text-muted-foreground ${className ?? ""}`} aria-label={alt}>
+      <div
+        className={`flex items-center justify-center text-muted-foreground ${className ?? ""}`}
+        aria-label={alt}
+      >
         <Smartphone className="h-10 w-10" />
       </div>
     );
@@ -51,7 +78,7 @@ export function PhoneImg({ src, alt, className, eager }: { src?: string; alt: st
       alt={alt}
       loading={eager ? "eager" : "lazy"}
       decoding="async"
-      onError={() => setBroken(true)}
+      onError={() => setBrokenSrc(src)}
       className={`object-contain ${className ?? ""}`}
     />
   );

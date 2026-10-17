@@ -8,5 +8,12 @@ import { nitro } from "nitro/vite";
 // Nitro picks its deploy preset automatically (Vercel is detected on Vercel builds).
 // Override with NITRO_PRESET=<preset> when deploying elsewhere.
 export default defineConfig({
-  plugins: [tsConfigPaths({ projects: ["./tsconfig.json"] }), tailwindcss(), tanstackStart(), nitro(), viteReact()],
+  server: { fs: { allow: [process.cwd(), "/persist/node_modules"] } },
+  plugins: [
+    tsConfigPaths({ projects: ["./tsconfig.json"] }),
+    tailwindcss(),
+    tanstackStart(),
+    nitro(),
+    viteReact(),
+  ],
 });

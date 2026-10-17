@@ -7,20 +7,14 @@ type Tone = "default" | "print";
  * Editorial styling: uppercase display, wide tracking, hairline amber rules
  * as separators. Uses existing theme tokens only (primary/amber + foreground).
  */
-export function BrandTagline({
-  className,
-  tone = "default",
-}: {
-  className?: string;
-  tone?: Tone;
-}) {
-  const textCls = tone === "print" ? "text-neutral-700" : "text-foreground/75";
-  const ruleCls = tone === "print" ? "bg-amber-500/80" : "bg-primary/70";
+export function BrandTagline({ className, tone = "default" }: { className?: string; tone?: Tone }) {
+  const textCls = "text-foreground/75";
+  const ruleCls = "bg-primary/70";
 
   return (
     <span
       className={cn(
-        "inline-flex items-center gap-2 font-display text-[10px] font-semibold uppercase leading-none tracking-[0.32em]",
+        "inline-flex flex-wrap items-center gap-2 font-display text-[10px] font-semibold uppercase leading-none",
         textCls,
         className,
       )}

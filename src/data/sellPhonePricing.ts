@@ -19,9 +19,15 @@ export type SellVariant = {
 };
 
 const EMPTY = new Set(["", "—", "-", "null", "undefined", "n/a"]);
-const clean = (v: string | null | undefined) => (v && !EMPTY.has(v.trim().toLowerCase()) ? v.trim() : null);
-const slug = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-const key = (brand: string, model: string) => `${brand.trim().toLowerCase()}|${model.trim().toLowerCase()}`;
+const clean = (v: string | null | undefined) =>
+  v && !EMPTY.has(v.trim().toLowerCase()) ? v.trim() : null;
+const slug = (s: string) =>
+  s
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+const key = (brand: string, model: string) =>
+  `${brand.trim().toLowerCase()}|${model.trim().toLowerCase()}`;
 
 const sizeGb = (s: string) => {
   const m = s.match(/([\d.]+)\s*(TB|GB|MB)/i);
@@ -48,7 +54,9 @@ for (const r of (raw as { records: PriceRecord[] }).records) {
   INDEX.set(k, list);
 }
 for (const list of INDEX.values())
-  list.sort((a, b) => sizeGb(a.storage) - sizeGb(b.storage) || sizeGb(a.ram ?? "") - sizeGb(b.ram ?? ""));
+  list.sort(
+    (a, b) => sizeGb(a.storage) - sizeGb(b.storage) || sizeGb(a.ram ?? "") - sizeGb(b.ram ?? ""),
+  );
 
 export const getModelVariants = (brandName: string, modelName: string): SellVariant[] =>
   INDEX.get(key(brandName, modelName)) ?? [];
@@ -56,4 +64,5 @@ export const getModelVariants = (brandName: string, modelName: string): SellVari
 export const getVariant = (brandName: string, modelName: string, variantId: string) =>
   getModelVariants(brandName, modelName).find((v) => v.id === variantId);
 
-export const formatINR = (n: number) => `₹ ${n.toLocaleString("en-IN")}`;
+export const formatINR = (n: number) =>
+  `₹${n.toLocaleString("en-IN", { maximumFractionDigits: 2 })}`;
