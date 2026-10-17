@@ -1,0 +1,98 @@
+{
+  "brand": "Nothing",
+  "model": "Nothing Phone 2",
+  "official_name": "Nothing Phone 2",
+  "series": "G Series",
+  "release": {
+    "year": 2023,
+    "date": "2023 July 11"
+  },
+  "region": "India",
+  "variants": [
+    {
+      "ram": "8GB",
+      "storage": "128GB"
+    },
+    {
+      "ram": "12GB",
+      "storage": "256GB"
+    },
+    {
+      "ram": "12GB",
+      "storage": "512GB"
+    }
+  ],
+  "display": {
+    "type": "LTPO OLED, 1B colors, 120Hz, 1920Hz PWM, HDR10+, 1600 nits (HBM), 1600 nits (peak)",
+    "size": "6.7 inches, 108.0 cm2 (~87.2% screen-to-body ratio)",
+    "resolution": "1080 x 2412 pixels, 20:9 ratio (~394 ppi density)",
+    "refresh_rate": "120 Hz",
+    "hdr": "HDR10+, HDR10, HDR",
+    "protection": "Corning Gorilla Glass 5"
+  },
+  "processor": {
+    "chipset": "Qualcomm SM8475 Snapdragon 8+ Gen 1 (4 nm)",
+    "cpu": "Octa-core (1x3.0 GHz Cortex-X2 & 3x2.5 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510)",
+    "gpu": "Adreno 730"
+  },
+  "camera": {
+    "rear": [
+      "50 MP, f/1.9, 24mm (wide), 1/1.56\", 1.0µm, PDAF, OIS 50 MP, f/2.2, 114˚ (ultrawide), 1/2.76\", 0.64µm, AF"
+    ],
+    "front": "32 MP, f/2.5, (wide), 1/2.74\", 0.8µm",
+    "video": [
+      "4K@30/60fps",
+      "1080p@30/60fps",
+      "gyro-EIS",
+      "live HDR",
+      "OIS"
+    ]
+  },
+  "battery": {
+    "capacity": "4700 mAh",
+    "charging": "45W wired, PD3.0, PPS, QC4, 100% in 55 min 15W wireless, 100% in 130 min 5W reverse wireless",
+    "wireless_charging": "100% in 55 min 15W wireless"
+  },
+  "design": {
+    "dimensions": "162.1 x 76.4 x 8.6 mm (6.38 x 3.01 x 0.34 in)",
+    "weight": "201.2 g (7.09 oz)",
+    "materials": "Glass front (Gorilla Glass 5), glass back (Gorilla Glass 5), aluminum frame",
+    "colors": [
+      "White",
+      "Dark Gray"
+    ],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "GSM / HSPA / LTE / 5G",
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.3, A2DP, LE, aptX HD, aptX Adaptive",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG",
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "software": {
+    "os_at_launch": "Android 13, upgradable to Android 15, up to 3 major OS updates, Nothing OS 3.0",
+    "update_policy": ""
+  },
+  "features": [
+    "Fingerprint (under display",
+    "optical)",
+    "accelerometer",
+    "proximity",
+    "gyro",
+    "compass"
+  ],
+  "images": [
+    "Nothing/Nothing  images/Nothing_Phone_2.png"
+  ],
+  "research_sources": [
+    {
+      "title": "GSMArena Nothing Phone 2 Specifications",
+      "url": "https://www.gsmarena.com",
+      "source_type": "database"
+    }
+  ],
+  "confidence": "high",
+  "notes": ""
+}

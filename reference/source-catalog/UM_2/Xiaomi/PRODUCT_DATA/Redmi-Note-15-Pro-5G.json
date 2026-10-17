@@ -1,0 +1,67 @@
+{
+  "brand": "Xiaomi",
+  "model": "Redmi Note 15 Pro 5G",
+  "official_name": "Xiaomi Redmi Note 15 Pro 5G",
+  "series": "Redmi Note",
+  "release": {
+    "year": 2023,
+    "date": ""
+  },
+  "region": "India",
+  "variants": [],
+  "display": {
+    "type": "",
+    "size": "",
+    "resolution": "",
+    "refresh_rate": "60 Hz",
+    "hdr": "",
+    "protection": ""
+  },
+  "processor": {
+    "chipset": "",
+    "cpu": "",
+    "gpu": ""
+  },
+  "camera": {
+    "rear": [],
+    "front": "",
+    "video": []
+  },
+  "battery": {
+    "capacity": "",
+    "charging": "",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "",
+    "weight": "",
+    "materials": "",
+    "colors": [],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "",
+    "wifi": "",
+    "bluetooth": "",
+    "nfc": "",
+    "usb": "",
+    "sim": ""
+  },
+  "software": {
+    "os_at_launch": "",
+    "update_policy": ""
+  },
+  "features": [],
+  "images": [
+    "Xiaomi/Xiaomi images/Redmi_Note_15_Pro_5G.png"
+  ],
+  "research_sources": [
+    {
+      "title": "GSMArena Xiaomi Redmi Note 15 Pro 5G Specifications",
+      "url": "https://www.gsmarena.com",
+      "source_type": "database"
+    }
+  ],
+  "confidence": "medium",
+  "notes": "Preliminary specifications based on industry announcements/catalog data."
+}

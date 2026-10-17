@@ -1,0 +1,67 @@
+{
+  "brand": "Tecno",
+  "model": "Tecno Pova 7 Pro 5G",
+  "official_name": "Tecno Pova 7 Pro 5G",
+  "series": "Pova",
+  "release": {
+    "year": 2025,
+    "date": ""
+  },
+  "region": "India",
+  "variants": [],
+  "display": {
+    "type": "",
+    "size": "",
+    "resolution": "",
+    "refresh_rate": "",
+    "hdr": "",
+    "protection": ""
+  },
+  "processor": {
+    "chipset": "",
+    "cpu": "",
+    "gpu": ""
+  },
+  "camera": {
+    "rear": [],
+    "front": "",
+    "video": []
+  },
+  "battery": {
+    "capacity": "",
+    "charging": "",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "",
+    "weight": "",
+    "materials": "",
+    "colors": [],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "",
+    "wifi": "",
+    "bluetooth": "",
+    "nfc": "",
+    "usb": "",
+    "sim": ""
+  },
+  "software": {
+    "os_at_launch": "",
+    "update_policy": ""
+  },
+  "features": [],
+  "images": [
+    "Tecno/Tecno images/Tecno_Pova_7_Pro_5G.png"
+  ],
+  "research_sources": [
+    {
+      "title": "Tecno Official Website",
+      "url": "https://www.tecno.com",
+      "source_type": "official"
+    }
+  ],
+  "confidence": "unverified",
+  "notes": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+}

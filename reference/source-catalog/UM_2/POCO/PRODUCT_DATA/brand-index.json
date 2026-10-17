@@ -1,0 +1,282 @@
+{
+  "brand": "POCO",
+  "total_models": 46,
+  "models": [
+    {
+      "model": "POCO C85",
+      "file": "POCO-C85.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Poco C3",
+      "file": "Poco-C3.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco C31",
+      "file": "Poco-C31.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco C50",
+      "file": "Poco-C50.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco C51",
+      "file": "Poco-C51.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco C55",
+      "file": "Poco-C55.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco C61",
+      "file": "Poco-C61.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco C65",
+      "file": "Poco-C65.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco C71",
+      "file": "Poco-C71.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Poco C75 5G",
+      "file": "Poco-C75-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Poco C81",
+      "file": "Poco-C81.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Poco C81x",
+      "file": "Poco-C81x.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Poco F1",
+      "file": "Poco-F1.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco F3 GT",
+      "file": "Poco-F3-GT.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco F4",
+      "file": "Poco-F4.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco F5",
+      "file": "Poco-F5.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco F6 5G",
+      "file": "Poco-F6-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco F7",
+      "file": "Poco-F7.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Poco M2 Pro",
+      "file": "Poco-M2-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco M2 Reloaded",
+      "file": "Poco-M2-Reloaded.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco M3 Pro 5G",
+      "file": "Poco-M3-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco M4 5G",
+      "file": "Poco-M4-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco M4 Pro",
+      "file": "Poco-M4-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco M4 Pro 5G",
+      "file": "Poco-M4-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco M5",
+      "file": "Poco-M5.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco M6 5G",
+      "file": "Poco-M6-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco M6 Plus 5G",
+      "file": "Poco-M6-Plus-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco M6 Pro 5G",
+      "file": "Poco-M6-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco M7 5G",
+      "file": "Poco-M7-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Poco M7 Plus 5G",
+      "file": "Poco-M7-Plus-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Poco M7 Pro 5G",
+      "file": "Poco-M7-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Poco M8 5G",
+      "file": "Poco-M8-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Poco M8 Power",
+      "file": "Poco-M8-Power.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Poco X2",
+      "file": "Poco-X2.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco X3",
+      "file": "Poco-X3.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco X3 Pro",
+      "file": "Poco-X3-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco X4 Pro 5G",
+      "file": "Poco-X4-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco X5",
+      "file": "Poco-X5.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco X5 Pro 5G",
+      "file": "Poco-X5-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco X6 5G",
+      "file": "Poco-X6-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco X6 Neo",
+      "file": "Poco-X6-Neo.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco X6 Pro 5G",
+      "file": "Poco-X6-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Poco X7 5G",
+      "file": "Poco-X7-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Poco X7 Pro 5G",
+      "file": "Poco-X7-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Poco X8 Pro 5G",
+      "file": "Poco-X8-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Poco X8 Pro Max 5G",
+      "file": "Poco-X8-Pro-Max-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    }
+  ]
+}

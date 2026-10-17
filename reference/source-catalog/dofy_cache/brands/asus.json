@@ -1,0 +1,106 @@
+[
+  {
+    "BrandSeriesId": 116,
+    "Name": "Asus ROG Phone 8 Pro",
+    "DisplayName": "Asus ROG Phone 8 Pro",
+    "EnumName": "Asus_ROG_Phone_8_Pro",
+    "ThumbnailPath": "model/Asus_ROG_Phone_8_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 116,
+    "Name": "Asus ROG Phone 5S Pro 5G",
+    "DisplayName": "Asus ROG Phone 5S Pro 5G",
+    "EnumName": "Asus_ROG_Phone_5s_Pro_5G",
+    "ThumbnailPath": "model/Asus_ROG_Phone_5s_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 116,
+    "Name": "Asus ROG Phone 6 Pro",
+    "DisplayName": "Asus ROG Phone 6 Pro",
+    "EnumName": "Asus_ROG_PHONE_6_PRO",
+    "ThumbnailPath": "model/Asus_ROG_PHONE_6_PRO.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 116,
+    "Name": "Asus ROG Phone 6",
+    "DisplayName": "Asus ROG Phone 6",
+    "EnumName": "Asus_ROG_PHONE_6",
+    "ThumbnailPath": "model/Asus_ROG_PHONE_6.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 116,
+    "Name": "Asus ROG Phone 7 Ultimate",
+    "DisplayName": "Asus ROG Phone 7 Ultimate",
+    "EnumName": "Asus_ROG_PHONE_7_ULTIMATE",
+    "ThumbnailPath": "model/Asus_ROG_PHONE_7_ULTIMATE.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 116,
+    "Name": "Asus ROG Phone 7",
+    "DisplayName": "Asus ROG Phone 7",
+    "EnumName": "Asus_ROG_PHONE_7",
+    "ThumbnailPath": "model/Asus_ROG_PHONE_7.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 339,
+    "Name": "Asus 8Z",
+    "DisplayName": "Asus 8Z",
+    "EnumName": "Asus_8z",
+    "ThumbnailPath": "model/Asus_8z.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 116,
+    "Name": "Asus ROG Phone 5S",
+    "DisplayName": "Asus ROG Phone 5S",
+    "EnumName": "Asus_ROG_Phone_5_s",
+    "ThumbnailPath": "model/Asus_ROG_Phone_5_s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 116,
+    "Name": "Asus ROG Phone 5 Pro",
+    "DisplayName": "Asus ROG Phone 5 Pro",
+    "EnumName": "Asus_ROG_Phone_5_Pro",
+    "ThumbnailPath": "model/Asus_ROG_Phone_5_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 116,
+    "Name": "Asus ROG Phone 5",
+    "DisplayName": "Asus ROG Phone 5",
+    "EnumName": "Asus_ROG_Phone_5",
+    "ThumbnailPath": "model/Asus_ROG_Phone_5.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 116,
+    "Name": "Asus ROG Phone 3",
+    "DisplayName": "Asus ROG Phone 3",
+    "EnumName": "Asus_ROG_Phone_3",
+    "ThumbnailPath": "model/Asus_ROG_Phone_3.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 499,
+    "Name": "Asus 6Z",
+    "DisplayName": "Asus 6Z",
+    "EnumName": "Asus_6Z",
+    "ThumbnailPath": "model/Asus_6Z.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 499,
+    "Name": "Asus ZenFone 5Z",
+    "DisplayName": "Asus ZenFone 5Z",
+    "EnumName": "Asus_ZenFone_5Z",
+    "ThumbnailPath": "model/Asus_ZenFone_5Z.png",
+    "DisplayInList": true
+  }
+]

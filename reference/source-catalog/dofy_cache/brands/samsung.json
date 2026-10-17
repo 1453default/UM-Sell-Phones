@@ -1,0 +1,1330 @@
+[
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F70 Pro 5G",
+    "DisplayName": "Samsung Galaxy F70 Pro 5G",
+    "EnumName": "Samsung_Galaxy_F70_Pro_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_F70_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M47 5G",
+    "DisplayName": "Samsung Galaxy M47 5G",
+    "EnumName": "Samsung_Galaxy_M47_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_M47_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A27 5G",
+    "DisplayName": "Samsung Galaxy A27 5G",
+    "EnumName": "Samsung_Galaxy_A27_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_A27_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 25,
+    "Name": "Samsung Galaxy Z Flip 8",
+    "DisplayName": "Samsung Galaxy Z Flip 8",
+    "EnumName": "Samsung_Galaxy_Z_Flip_8",
+    "ThumbnailPath": "model/Samsung_Galaxy_Z_Flip_8.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 470,
+    "Name": "Samsung Galaxy Z Fold 8 Ultra",
+    "DisplayName": "Samsung Galaxy Z Fold 8 Ultra",
+    "EnumName": "Samsung_Galaxy_Z_Fold_8_Ultra",
+    "ThumbnailPath": "model/Samsung_Galaxy_Z_Fold_8_Ultra.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 470,
+    "Name": "Samsung Galaxy Z Fold 8",
+    "DisplayName": "Samsung Galaxy Z Fold 8",
+    "EnumName": "Samsung_Galaxy_Z_Fold_8",
+    "ThumbnailPath": "model/Samsung_Galaxy_Z_Fold_8.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M17e 5G",
+    "DisplayName": "Samsung Galaxy M17e 5G",
+    "EnumName": "Samsung_Galaxy_M17e_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_M17e_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A37 5G",
+    "DisplayName": "Samsung Galaxy A37 5G",
+    "EnumName": "Samsung_Galaxy_A37_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_A37_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A57 5G",
+    "DisplayName": "Samsung Galaxy A57 5G",
+    "EnumName": "Samsung_Galaxy_A57_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_A57_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F70e",
+    "DisplayName": "Samsung Galaxy F70e",
+    "EnumName": "Samsung_Galaxy_F70e",
+    "ThumbnailPath": "model/Samsung_Galaxy_F70e.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F07",
+    "DisplayName": "Samsung Galaxy F07",
+    "EnumName": "Samsung_Galaxy_F07",
+    "ThumbnailPath": "model/Samsung_Galaxy_F07.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S25 FE",
+    "DisplayName": "Samsung Galaxy S25 FE",
+    "EnumName": "Samsung_Galaxy_S25_FE",
+    "ThumbnailPath": "model/Samsung_Galaxy_S25_FE.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung A73 5G",
+    "DisplayName": "Samsung A73 5G",
+    "EnumName": "Samsung_A73_5G",
+    "ThumbnailPath": "model/Samsung_A73_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A07 5G",
+    "DisplayName": "Samsung Galaxy A07 5G",
+    "EnumName": "Samsung_Galaxy_A07_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_A07_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S26 Ultra",
+    "DisplayName": "Samsung Galaxy S26 Ultra",
+    "EnumName": "Samsung_Galaxy_S26_Ultra",
+    "ThumbnailPath": "model/Samsung_Galaxy_S26_Ultra.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S26 Plus",
+    "DisplayName": "Samsung Galaxy S26 Plus",
+    "EnumName": "Samsung_Galaxy_S26_Plus",
+    "ThumbnailPath": "model/Samsung_Galaxy_S26_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S26",
+    "DisplayName": "Samsung Galaxy S26",
+    "EnumName": "Samsung_Galaxy_S26",
+    "ThumbnailPath": "model/Samsung_Galaxy_S26.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M07",
+    "DisplayName": "Samsung Galaxy M07",
+    "EnumName": "Samsung_Galaxy_M07",
+    "ThumbnailPath": "model/Samsung_Galaxy_M07.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M17 5G",
+    "DisplayName": "Samsung Galaxy M17 5G",
+    "EnumName": "Samsung_Galaxy_M17_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_M17_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A07",
+    "DisplayName": "Samsung Galaxy A07",
+    "EnumName": "Samsung_Galaxy_A07",
+    "ThumbnailPath": "model/Samsung_Galaxy_A07.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F17 5G",
+    "DisplayName": "Samsung Galaxy F17 5G",
+    "EnumName": "Samsung_Galaxy_F17_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_F17_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A17 5G",
+    "DisplayName": "Samsung Galaxy A17 5G",
+    "EnumName": "Samsung_Galaxy_A17_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_A17_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F36 5G",
+    "DisplayName": "Samsung Galaxy F36 5G",
+    "EnumName": "Samsung_Galaxy_F36_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_F36_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M36 5G",
+    "DisplayName": "Samsung Galaxy M36 5G",
+    "EnumName": "Samsung_Galaxy_M36_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_M36_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 25,
+    "Name": "Samsung Galaxy Z Flip 7 FE",
+    "DisplayName": "Samsung Galaxy Z Flip 7 FE",
+    "EnumName": "Samsung_Galaxy_Z_Flip_7_FE",
+    "ThumbnailPath": "model/Samsung_Galaxy_Z_Flip_7_FE.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 25,
+    "Name": "Samsung Galaxy Z Flip 7",
+    "DisplayName": "Samsung Galaxy Z Flip 7",
+    "EnumName": "Samsung_Galaxy_Z_Flip_7",
+    "ThumbnailPath": "model/Samsung_Galaxy_Z_Flip_7.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 470,
+    "Name": "Samsung Galaxy Z Fold 7",
+    "DisplayName": "Samsung Galaxy Z Fold 7",
+    "EnumName": "Samsung_Galaxy_Z_Fold_7",
+    "ThumbnailPath": "model/Samsung_Galaxy_Z_Fold_7.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A26 5G",
+    "DisplayName": "Samsung Galaxy A26 5G",
+    "EnumName": "Samsung_Galaxy_A26_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_A26_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F56 5G",
+    "DisplayName": "Samsung Galaxy F56 5G",
+    "EnumName": "Samsung_Galaxy_F56_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_F56_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M56 5G",
+    "DisplayName": "Samsung Galaxy M56 5G",
+    "EnumName": "Samsung_Galaxy_M56_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_M56_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S25 Edge",
+    "DisplayName": "Samsung Galaxy S25 Edge",
+    "EnumName": "Samsung_Galaxy_S25_Edge",
+    "ThumbnailPath": "model/Samsung_Galaxy_S25_Edge.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F06 5G",
+    "DisplayName": "Samsung Galaxy F06 5G",
+    "EnumName": "Samsung_Galaxy_F06_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_F06_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F16 5G",
+    "DisplayName": "Samsung Galaxy F16 5G",
+    "EnumName": "Samsung_Galaxy_F16_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_F16_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M06 5G",
+    "DisplayName": "Samsung Galaxy M06 5G",
+    "EnumName": "Samsung_Galaxy_M06_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_M06_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M16 5G",
+    "DisplayName": "Samsung Galaxy M16 5G",
+    "EnumName": "Samsung_Galaxy_M16_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_M16_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A06 5G",
+    "DisplayName": "Samsung Galaxy A06 5G",
+    "EnumName": "Samsung_Galaxy_A06_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_A06_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A56 5G",
+    "DisplayName": "Samsung Galaxy A56 5G",
+    "EnumName": "Samsung_Galaxy_A56_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_A56_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A36 5G",
+    "DisplayName": "Samsung Galaxy A36 5G",
+    "EnumName": "Samsung_Galaxy_A36_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_A36_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M15 5G Prime Edition",
+    "DisplayName": "Samsung Galaxy M15 5G Prime Edition",
+    "EnumName": "Samsung_Galaxy_M15_5G_Prime_Edition",
+    "ThumbnailPath": "model/Samsung_Galaxy_M15_5G_Prime_Edition.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S25 Plus",
+    "DisplayName": "Samsung Galaxy S25 Plus",
+    "EnumName": "Samsung_Galaxy_S25_Plus",
+    "ThumbnailPath": "model/Samsung_Galaxy_S25_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S25",
+    "DisplayName": "Samsung Galaxy S25",
+    "EnumName": "Samsung_Galaxy_S25",
+    "ThumbnailPath": "model/Samsung_Galaxy_S25.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S25 Ultra",
+    "DisplayName": "Samsung Galaxy S25 Ultra",
+    "EnumName": "Samsung_Galaxy_S25_Ultra",
+    "ThumbnailPath": "model/Samsung_Galaxy_S25_Ultra.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F05",
+    "DisplayName": "Samsung Galaxy F05",
+    "EnumName": "Samsung_Galaxy_F05",
+    "ThumbnailPath": "model/Samsung_Galaxy_F05.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S24 FE",
+    "DisplayName": "Samsung Galaxy S24 FE",
+    "EnumName": "Samsung_Galaxy_S24_FE",
+    "ThumbnailPath": "model/Samsung_Galaxy_S24_FE.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A16 5G",
+    "DisplayName": "Samsung Galaxy A16 5G",
+    "EnumName": "Samsung_Galaxy_A16_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_A16_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M55s",
+    "DisplayName": "Samsung Galaxy M55s",
+    "EnumName": "Samsung_Galaxy_M55s",
+    "ThumbnailPath": "model/Samsung_Galaxy_M55s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F14",
+    "DisplayName": "Samsung Galaxy F14",
+    "EnumName": "Samsung_Galaxy_F14",
+    "ThumbnailPath": "model/Samsung_Galaxy_F14.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung M13 5G",
+    "DisplayName": "Samsung M13 5G",
+    "EnumName": "Samsung_M13_5G",
+    "ThumbnailPath": "model/Samsung_M13_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M05",
+    "DisplayName": "Samsung Galaxy M05",
+    "EnumName": "Samsung_Galaxy_M05",
+    "ThumbnailPath": "model/Samsung_Galaxy_M05.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung A06",
+    "DisplayName": "Samsung A06",
+    "EnumName": "Samsung_A06",
+    "ThumbnailPath": "model/Samsung_A06.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M35 5G",
+    "DisplayName": "Samsung Galaxy M35 5G",
+    "EnumName": "Samsung_Galaxy_M35_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_M35_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F55",
+    "DisplayName": "Samsung Galaxy F55",
+    "EnumName": "Samsung_Galaxy_F55",
+    "ThumbnailPath": "model/Samsung_Galaxy_F55.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A55 5G",
+    "DisplayName": "Samsung Galaxy A55 5G",
+    "EnumName": "Samsung_Galaxy_A55_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_A55_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A35 5G",
+    "DisplayName": "Samsung Galaxy A35 5G",
+    "EnumName": "Samsung_Galaxy_A35_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_A35_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F15 5G",
+    "DisplayName": "Samsung Galaxy F15 5G",
+    "EnumName": "Samsung_Galaxy_F15_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_F15_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M55",
+    "DisplayName": "Samsung Galaxy M55",
+    "EnumName": "Samsung_Galaxy_M55",
+    "ThumbnailPath": "model/Samsung_Galaxy_M55.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M15",
+    "DisplayName": "Samsung Galaxy M15",
+    "EnumName": "Samsung_Galaxy_M15",
+    "ThumbnailPath": "model/Samsung_Galaxy_M15.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S24 Plus",
+    "DisplayName": "Samsung Galaxy S24 Plus",
+    "EnumName": "Samsung_Galaxy_S24_Plus",
+    "ThumbnailPath": "model/Samsung_Galaxy_S24_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S24",
+    "DisplayName": "Samsung Galaxy S24",
+    "EnumName": "Samsung_Galaxy_S24",
+    "ThumbnailPath": "model/Samsung_Galaxy_S24.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S24 Ultra",
+    "DisplayName": "Samsung Galaxy S24 Ultra",
+    "EnumName": "Samsung_Galaxy_S24_Ultra",
+    "ThumbnailPath": "model/Samsung_Galaxy_S24_Ultra.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 25,
+    "Name": "Samsung Galaxy Z Flip 6 5G",
+    "DisplayName": "Samsung Galaxy Z Flip 6 5G",
+    "EnumName": "Samsung_Galaxy_Z_Flip_6_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_Z_Flip_6_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 470,
+    "Name": "Samsung Galaxy Z Fold 6",
+    "DisplayName": "Samsung Galaxy Z Fold 6",
+    "EnumName": "Samsung_Galaxy_Z_Fold_6",
+    "ThumbnailPath": "model/Samsung_Galaxy_Z_Fold_6.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M14 4G",
+    "DisplayName": "Samsung Galaxy M14 4G",
+    "EnumName": "Samsung_Galaxy_M14_4G",
+    "ThumbnailPath": "model/Samsung_Galaxy_M14_4G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A15 5G",
+    "DisplayName": "Samsung Galaxy A15 5G",
+    "EnumName": "Samsung_Galaxy_A15_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_A15_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A25 5G",
+    "DisplayName": "Samsung Galaxy A25 5G",
+    "EnumName": "Samsung_Galaxy_A25_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_A25_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S23 FE 5G",
+    "DisplayName": "Samsung Galaxy S23 FE 5G",
+    "EnumName": "Samsung_Galaxy_S23_FE_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_S23_FE_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F34 5G",
+    "DisplayName": "Samsung Galaxy F34 5G",
+    "EnumName": "Samsung_Galaxy_F34_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_F34_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 25,
+    "Name": "Samsung Galaxy Z Flip5",
+    "DisplayName": "Samsung Galaxy Z Flip5",
+    "EnumName": "Samsung_Galaxy_Z_Flip5",
+    "ThumbnailPath": "model/Samsung_Galaxy_Z_Flip5.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 470,
+    "Name": "Samsung Galaxy Z Fold5",
+    "DisplayName": "Samsung Galaxy Z Fold5",
+    "EnumName": "Samsung_Galaxy_Z_Fold5",
+    "ThumbnailPath": "model/Samsung_Galaxy_Z_Fold5.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M34 5G",
+    "DisplayName": "Samsung Galaxy M34 5G",
+    "EnumName": "Samsung_Galaxy_M34_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_M34_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A14 4G",
+    "DisplayName": "Samsung Galaxy A14 4G",
+    "EnumName": "Samsung_Galaxy_A14_4G",
+    "ThumbnailPath": "model/Samsung_Galaxy_A14_4G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A05s",
+    "DisplayName": "Samsung Galaxy A05s",
+    "EnumName": "Samsung_Galaxy_A05s",
+    "ThumbnailPath": "model/Samsung_Galaxy_A05s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F54",
+    "DisplayName": "Samsung Galaxy F54",
+    "EnumName": "Samsung_Galaxy_F54",
+    "ThumbnailPath": "model/Samsung_Galaxy_F54.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A05",
+    "DisplayName": "Samsung Galaxy A05",
+    "EnumName": "Samsung_Galaxy_A05",
+    "ThumbnailPath": "model/Samsung_Galaxy_A05.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M14 5G",
+    "DisplayName": "Samsung Galaxy M14 5G",
+    "EnumName": "Samsung_Galaxy_M14_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_M14_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F14 5G",
+    "DisplayName": "Samsung Galaxy F14 5G",
+    "EnumName": "Samsung_GALAXY_F14_5G",
+    "ThumbnailPath": "model/Samsung_GALAXY_F14_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A54",
+    "DisplayName": "Samsung Galaxy A54",
+    "EnumName": "Samsung_GALAXY_A54",
+    "ThumbnailPath": "model/Samsung_GALAXY_A54.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A34",
+    "DisplayName": "Samsung Galaxy A34",
+    "EnumName": "Samsung_GALAXY_A34",
+    "ThumbnailPath": "model/Samsung_GALAXY_A34.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S23 Ultra 5G",
+    "DisplayName": "Samsung Galaxy S23 Ultra 5G",
+    "EnumName": "Samsung_GALAXY_S23_ULTRA_5G",
+    "ThumbnailPath": "model/Samsung_GALAXY_S23_ULTRA_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S23 Plus 5G",
+    "DisplayName": "Samsung Galaxy S23 Plus 5G",
+    "EnumName": "Samsung_GALAXY_S23_PLUS_5G",
+    "ThumbnailPath": "model/Samsung_GALAXY_S23_PLUS_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S23 5G",
+    "DisplayName": "Samsung Galaxy S23 5G",
+    "EnumName": "Samsung_GALAXY_S23_5G",
+    "ThumbnailPath": "model/Samsung_GALAXY_S23_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A23 5G",
+    "DisplayName": "Samsung Galaxy A23 5G",
+    "EnumName": "Samsung_Galaxy_A23_5G",
+    "ThumbnailPath": "model/SAMSUNG_A23_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A14 5G",
+    "DisplayName": "Samsung Galaxy A14 5G",
+    "EnumName": "Samsung_Galaxy_A14_5G",
+    "ThumbnailPath": "model/SAMSUNG_A14_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F04",
+    "DisplayName": "Samsung Galaxy F04",
+    "EnumName": "Samsung_Galaxy_F04",
+    "ThumbnailPath": "model/SAMSUNG_F04.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M04",
+    "DisplayName": "Samsung Galaxy M04",
+    "EnumName": "Samsung_Galaxy_M04",
+    "ThumbnailPath": "model/SAMSUNG_M04.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A04e",
+    "DisplayName": "Samsung Galaxy A04e",
+    "EnumName": "Samsung_Galaxy_A04e",
+    "ThumbnailPath": "model/SAMSUNG_A04e.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A04",
+    "DisplayName": "Samsung Galaxy A04",
+    "EnumName": "Samsung_Galaxy_A04",
+    "ThumbnailPath": "model/SAMSUNG_A04.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A04s",
+    "DisplayName": "Samsung Galaxy A04s",
+    "EnumName": "Samsung_Galaxy_A04s",
+    "ThumbnailPath": "model/SAMSUNG_A04s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 25,
+    "Name": "Samsung Galaxy Z Flip 4",
+    "DisplayName": "Samsung Galaxy Z Flip 4",
+    "EnumName": "Samsung_GALAXY_Z_FLIP_4",
+    "ThumbnailPath": "model/Samsung_GALAXY_Z_FLIP_4.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 470,
+    "Name": "Samsung Galaxy Z Fold 4",
+    "DisplayName": "Samsung Galaxy Z Fold 4",
+    "EnumName": "Samsung_GALAXY_Z_FOLD_4",
+    "ThumbnailPath": "model/Samsung_GALAXY_Z_FOLD_4.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M53 5G",
+    "DisplayName": "Samsung Galaxy M53 5G",
+    "EnumName": "Samsung_Galaxy_M53_5G",
+    "ThumbnailPath": "model/Samsung_M53_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M33 5G",
+    "DisplayName": "Samsung Galaxy M33 5G",
+    "EnumName": "Samsung_Galaxy_M33_5G",
+    "ThumbnailPath": "model/Samsung_M33_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A03 Core",
+    "DisplayName": "Samsung Galaxy A03 Core",
+    "EnumName": "Samsung_Galaxy_A03_Core",
+    "ThumbnailPath": "model/Samsung_A03_Core.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A03",
+    "DisplayName": "Samsung Galaxy A03",
+    "EnumName": "Samsung_Galaxy_A03",
+    "ThumbnailPath": "model/Samsung_A03.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A13",
+    "DisplayName": "Samsung Galaxy A13",
+    "EnumName": "Samsung_Galaxy_A13",
+    "ThumbnailPath": "model/Samsung_Galaxy_A13.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A53 5G",
+    "DisplayName": "Samsung Galaxy A53 5G",
+    "EnumName": "Samsung_Galaxy_A53_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_A53_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M13",
+    "DisplayName": "Samsung Galaxy M13",
+    "EnumName": "Samsung_Galaxy_M13",
+    "ThumbnailPath": "model/Samsung_M13.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F13",
+    "DisplayName": "Samsung Galaxy F13",
+    "EnumName": "Samsung_Galaxy_F13",
+    "ThumbnailPath": "model/Samsung_F13.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A23",
+    "DisplayName": "Samsung Galaxy A23",
+    "EnumName": "Samsung_Galaxy_A23",
+    "ThumbnailPath": "model/Samsung_A23.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F23 5G",
+    "DisplayName": "Samsung Galaxy F23 5G",
+    "EnumName": "Samsung_Galaxy_F23_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_F23_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S22 Plus 5G",
+    "DisplayName": "Samsung Galaxy S22 Plus 5G",
+    "EnumName": "Samsung_Galaxy_S22_Plus_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_S22_Plus_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S22 Ultra 5G",
+    "DisplayName": "Samsung Galaxy S22 Ultra 5G",
+    "EnumName": "Samsung_Galaxy_S22_Ultra_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_S22_Ultra_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S22 5G",
+    "DisplayName": "Samsung Galaxy S22 5G",
+    "EnumName": "Samsung_Galaxy_S22_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_S22_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S21 FE 5G",
+    "DisplayName": "Samsung Galaxy S21 FE 5G",
+    "EnumName": "Samsung_Galaxy_S21_FE_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_S21_FE_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F42 5G",
+    "DisplayName": "Samsung Galaxy F42 5G",
+    "EnumName": "Samsung_Galaxy_F42_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_F42_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F22",
+    "DisplayName": "Samsung Galaxy F22",
+    "EnumName": "Samsung_Galaxy_F22",
+    "ThumbnailPath": "model/Samsung_Galaxy_F22.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F12",
+    "DisplayName": "Samsung Galaxy F12",
+    "EnumName": "Samsung_Galaxy_F12",
+    "ThumbnailPath": "model/Samsung_Galaxy_F12.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F02s",
+    "DisplayName": "Samsung Galaxy F02s",
+    "EnumName": "Samsung_Galaxy_F02s",
+    "ThumbnailPath": "model/Samsung_Galaxy_F02s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F62",
+    "DisplayName": "Samsung Galaxy F62",
+    "EnumName": "Samsung_Galaxy_F62",
+    "ThumbnailPath": "model/Samsung_Galaxy_F62.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 27,
+    "Name": "Samsung Galaxy F41",
+    "DisplayName": "Samsung Galaxy F41",
+    "EnumName": "Samsung_Galaxy_F41",
+    "ThumbnailPath": "model/Samsung_Galaxy_F41.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 25,
+    "Name": "Samsung Galaxy Z Flip3 5G",
+    "DisplayName": "Samsung Galaxy Z Flip3 5G",
+    "EnumName": "Samsung_Galaxy_Z_Flip3_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_Z_Flip3_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 25,
+    "Name": "Samsung Galaxy Z Flip",
+    "DisplayName": "Samsung Galaxy Z Flip",
+    "EnumName": "Samsung_Galaxy_Z_Flip",
+    "ThumbnailPath": "model/Samsung_Galaxy_Z_Flip.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 470,
+    "Name": "Samsung Galaxy Z Fold3 5G",
+    "DisplayName": "Samsung Galaxy Z Fold3 5G",
+    "EnumName": "Samsung_Galaxy_Z_Fold3_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_Z_Fold3_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 470,
+    "Name": "Samsung Galaxy Z Fold2 5G",
+    "DisplayName": "Samsung Galaxy Z Fold2 5G",
+    "EnumName": "Samsung_Galaxy_Z_Fold2_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_Z_Fold2_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 470,
+    "Name": "Samsung Galaxy Fold",
+    "DisplayName": "Samsung Galaxy Fold",
+    "EnumName": "Samsung_Galaxy_Fold",
+    "ThumbnailPath": "model/Samsung_Galaxy_Fold.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M01",
+    "DisplayName": "Samsung Galaxy M01",
+    "EnumName": "Samsung_Galaxy_M01",
+    "ThumbnailPath": "model/Samsung_Galaxy_M01.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M52 5G",
+    "DisplayName": "Samsung Galaxy M52 5G",
+    "EnumName": "Samsung_Galaxy_M52_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_M52_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M32 5G",
+    "DisplayName": "Samsung Galaxy M32 5G",
+    "EnumName": "Samsung_Galaxy_M32_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_M32_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M32",
+    "DisplayName": "Samsung Galaxy M32",
+    "EnumName": "Samsung_Galaxy_M32",
+    "ThumbnailPath": "model/Samsung_Galaxy_M32.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M42 5G",
+    "DisplayName": "Samsung Galaxy M42 5G",
+    "EnumName": "Samsung_Galaxy_M42_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_M42_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M12",
+    "DisplayName": "Samsung Galaxy M12",
+    "EnumName": "Samsung_Galaxy_M12",
+    "ThumbnailPath": "model/Samsung_Galaxy_M12.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M02",
+    "DisplayName": "Samsung Galaxy M02",
+    "EnumName": "Samsung_Galaxy_M02",
+    "ThumbnailPath": "model/Samsung_Galaxy_M02.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M02s",
+    "DisplayName": "Samsung Galaxy M02s",
+    "EnumName": "Samsung_Galaxy_M02s",
+    "ThumbnailPath": "model/Samsung_Galaxy_M02s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M51",
+    "DisplayName": "Samsung Galaxy M51",
+    "EnumName": "Samsung_Galaxy_M51",
+    "ThumbnailPath": "model/Samsung_Galaxy_M51.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M01 Core",
+    "DisplayName": "Samsung Galaxy M01 Core",
+    "EnumName": "Samsung_Galaxy_M01_Core",
+    "ThumbnailPath": "model/Samsung_Galaxy_M01_Core.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M31s",
+    "DisplayName": "Samsung Galaxy M31s",
+    "EnumName": "Samsung_Galaxy_M31s",
+    "ThumbnailPath": "model/Samsung_Galaxy_M31s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M01s",
+    "DisplayName": "Samsung Galaxy M01s",
+    "EnumName": "Samsung_Galaxy_M01s",
+    "ThumbnailPath": "model/Samsung_Galaxy_M01s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M11",
+    "DisplayName": "Samsung Galaxy M11",
+    "EnumName": "Samsung_Galaxy_M11",
+    "ThumbnailPath": "model/Samsung_Galaxy_M11.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M21",
+    "DisplayName": "Samsung Galaxy M21",
+    "EnumName": "Samsung_Galaxy_M21",
+    "ThumbnailPath": "model/Samsung_Galaxy_M21.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M31",
+    "DisplayName": "Samsung Galaxy M31",
+    "EnumName": "Samsung_Galaxy_M31",
+    "ThumbnailPath": "model/Samsung_Galaxy_M31.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M10s",
+    "DisplayName": "Samsung Galaxy M10s",
+    "EnumName": "Samsung_Galaxy_M10s",
+    "ThumbnailPath": "model/Samsung_Galaxy_M10s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M30s",
+    "DisplayName": "Samsung Galaxy M30s",
+    "EnumName": "Samsung_Galaxy_M30s",
+    "ThumbnailPath": "model/Samsung_Galaxy_M30s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M40",
+    "DisplayName": "Samsung Galaxy M40",
+    "EnumName": "Samsung_Galaxy_M40",
+    "ThumbnailPath": "model/Samsung_Galaxy_M40.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M30",
+    "DisplayName": "Samsung Galaxy M30",
+    "EnumName": "Samsung_Galaxy_M30",
+    "ThumbnailPath": "model/Samsung_Galaxy_M30.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M20",
+    "DisplayName": "Samsung Galaxy M20",
+    "EnumName": "Samsung_Galaxy_M20",
+    "ThumbnailPath": "model/Samsung_Galaxy_M20.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 23,
+    "Name": "Samsung Galaxy M10",
+    "DisplayName": "Samsung Galaxy M10",
+    "EnumName": "Samsung_Galaxy_M10",
+    "ThumbnailPath": "model/Samsung_Galaxy_M10.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S20 Ultra 5G",
+    "DisplayName": "Samsung Galaxy S20 Ultra 5G",
+    "EnumName": "Samsung_Galaxy_S20_Ultra_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_S20_Ultra_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S20 FE 5G",
+    "DisplayName": "Samsung Galaxy S20 FE 5G",
+    "EnumName": "Samsung_Galaxy_S20_FE_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_S20_FE_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S21 Ultra 5G",
+    "DisplayName": "Samsung Galaxy S21 Ultra 5G",
+    "EnumName": "Samsung_Galaxy_S21_Ultra_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_S21_Ultra_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S20 FE",
+    "DisplayName": "Samsung Galaxy S20 FE",
+    "EnumName": "Samsung_Galaxy_S20_FE",
+    "ThumbnailPath": "model/Samsung_Galaxy_S20_FE.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S20 Ultra",
+    "DisplayName": "Samsung Galaxy S20 Ultra",
+    "EnumName": "Samsung_Galaxy_S20_Ultra",
+    "ThumbnailPath": "model/Samsung_Galaxy_S20_Ultra.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 26,
+    "Name": "Samsung Galaxy S20",
+    "DisplayName": "Samsung Galaxy S20",
+    "EnumName": "Samsung_Galaxy_S20",
+    "ThumbnailPath": "model/Samsung_Galaxy_S20.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A52s 5G",
+    "DisplayName": "Samsung Galaxy A52s 5G",
+    "EnumName": "Samsung_Galaxy_A52s_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_A52s_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A03s",
+    "DisplayName": "Samsung Galaxy A03s",
+    "EnumName": "Samsung_Galaxy_A03s",
+    "ThumbnailPath": "model/Samsung_Galaxy_A03s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A22 5G",
+    "DisplayName": "Samsung Galaxy A22 5G",
+    "EnumName": "Samsung_Galaxy_A22_5G",
+    "ThumbnailPath": "model/Samsung_Galaxy_A22_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A22",
+    "DisplayName": "Samsung Galaxy A22",
+    "EnumName": "Samsung_Galaxy_A22",
+    "ThumbnailPath": "model/Samsung_Galaxy_A22.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A52",
+    "DisplayName": "Samsung Galaxy A52",
+    "EnumName": "Samsung_Galaxy_A52",
+    "ThumbnailPath": "model/Samsung_Galaxy_A52.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A12",
+    "DisplayName": "Samsung Galaxy A12",
+    "EnumName": "Samsung_Galaxy_A12",
+    "ThumbnailPath": "model/Samsung_Galaxy_A12.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A21s",
+    "DisplayName": "Samsung Galaxy A21s",
+    "EnumName": "Samsung_Galaxy_A21s",
+    "ThumbnailPath": "model/Samsung_Galaxy_A21s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A51",
+    "DisplayName": "Samsung Galaxy A51",
+    "EnumName": "Samsung_Galaxy_A51",
+    "ThumbnailPath": "model/Samsung_Galaxy_A51.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A50s",
+    "DisplayName": "Samsung Galaxy A50s",
+    "EnumName": "Samsung_Galaxy_A50s",
+    "ThumbnailPath": "model/Samsung_Galaxy_A50s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A10s",
+    "DisplayName": "Samsung Galaxy A10s",
+    "EnumName": "Samsung_Galaxy_A10s",
+    "ThumbnailPath": "model/Samsung_Galaxy_A10s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A70",
+    "DisplayName": "Samsung Galaxy A70",
+    "EnumName": "Samsung_Galaxy_A70",
+    "ThumbnailPath": "model/Samsung_Galaxy_A70.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A50",
+    "DisplayName": "Samsung Galaxy A50",
+    "EnumName": "Samsung_Galaxy_A50",
+    "ThumbnailPath": "model/Samsung_Galaxy_A50.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A7 (2018)",
+    "DisplayName": "Samsung Galaxy A7 (2018)",
+    "EnumName": "Samsung_Galaxy_A7_2018",
+    "ThumbnailPath": "model/Samsung_Galaxy_A7_2018.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A72",
+    "DisplayName": "Samsung Galaxy A72",
+    "EnumName": "Samsung_Galaxy_A72",
+    "ThumbnailPath": "model/Samsung_Galaxy_A72.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A32",
+    "DisplayName": "Samsung Galaxy A32",
+    "EnumName": "Samsung_Galaxy_A32",
+    "ThumbnailPath": "model/Samsung_Galaxy_A32.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A31",
+    "DisplayName": "Samsung Galaxy A31",
+    "EnumName": "Samsung_Galaxy_A31",
+    "ThumbnailPath": "model/Samsung_Galaxy_A31.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A71",
+    "DisplayName": "Samsung Galaxy A71",
+    "EnumName": "Samsung_Galaxy_A71",
+    "ThumbnailPath": "model/Samsung_Galaxy_A71.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A70s",
+    "DisplayName": "Samsung Galaxy A70s",
+    "EnumName": "Samsung_Galaxy_A70s",
+    "ThumbnailPath": "model/Samsung_Galaxy_A70s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A20s",
+    "DisplayName": "Samsung Galaxy A20s",
+    "EnumName": "Samsung_Galaxy_A20s",
+    "ThumbnailPath": "model/Samsung_Galaxy_A20s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A30s",
+    "DisplayName": "Samsung Galaxy A30s",
+    "EnumName": "Samsung_Galaxy_A30s",
+    "ThumbnailPath": "model/Samsung_Galaxy_A30s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A80",
+    "DisplayName": "Samsung Galaxy A80",
+    "EnumName": "Samsung_Galaxy_A80",
+    "ThumbnailPath": "model/Samsung_Galaxy_A80.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A20",
+    "DisplayName": "Samsung Galaxy A20",
+    "EnumName": "Samsung_Galaxy_A20",
+    "ThumbnailPath": "model/Samsung_Galaxy_A20.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A30",
+    "DisplayName": "Samsung Galaxy A30",
+    "EnumName": "Samsung_Galaxy_A30",
+    "ThumbnailPath": "model/Samsung_Galaxy_A30.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 16,
+    "Name": "Samsung Galaxy A10",
+    "DisplayName": "Samsung Galaxy A10",
+    "EnumName": "Samsung_Galaxy_A10",
+    "ThumbnailPath": "model/Samsung_Galaxy_A10.png",
+    "DisplayInList": true
+  }
+]

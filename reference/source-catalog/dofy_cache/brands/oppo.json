@@ -1,0 +1,1058 @@
+[
+  {
+    "BrandSeriesId": 65,
+    "Name": "Oppo Find X9",
+    "DisplayName": "Oppo Find X9",
+    "EnumName": "Oppo_Find_X9",
+    "ThumbnailPath": "model/Oppo_Find_X9.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 65,
+    "Name": "Oppo Find X9s",
+    "DisplayName": "Oppo Find X9s",
+    "EnumName": "Oppo_Find_X9s",
+    "ThumbnailPath": "model/Oppo_Find_X9s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 65,
+    "Name": "Oppo Find X9 Ultra",
+    "DisplayName": "Oppo Find X9 Ultra",
+    "EnumName": "Oppo_Find_X9_Ultra",
+    "ThumbnailPath": "model/Oppo_Find_X9_Ultra.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A6c 4G",
+    "DisplayName": "Oppo A6c 4G",
+    "EnumName": "Oppo_A6c_4G",
+    "ThumbnailPath": "model/Oppo_A6c_4G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno 16C 5G",
+    "DisplayName": "Oppo Reno 16C 5G",
+    "EnumName": "Oppo_Reno_16C_5G",
+    "ThumbnailPath": "model/Oppo_Reno_16C_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno 16 5G",
+    "DisplayName": "Oppo Reno 16 5G",
+    "EnumName": "Oppo_Reno_16_5G",
+    "ThumbnailPath": "model/Oppo_Reno_16_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A6s 5G",
+    "DisplayName": "Oppo A6s 5G",
+    "EnumName": "Oppo_A6s_5G",
+    "ThumbnailPath": "model/Oppo_A6s_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 63,
+    "Name": "Oppo K14 5G",
+    "DisplayName": "Oppo K14 5G",
+    "EnumName": "Oppo_K14_5G",
+    "ThumbnailPath": "model/Oppo_K14_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F33 5G",
+    "DisplayName": "Oppo F33 5G",
+    "EnumName": "Oppo_F33_5G",
+    "ThumbnailPath": "model/Oppo_F33_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F33 Pro 5G",
+    "DisplayName": "Oppo F33 Pro 5G",
+    "EnumName": "Oppo_F33_Pro_5G",
+    "ThumbnailPath": "model/Oppo_F33_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 63,
+    "Name": "Oppo K14x 5G",
+    "DisplayName": "Oppo K14x 5G",
+    "EnumName": "Oppo_K14x_5G",
+    "ThumbnailPath": "model/Oppo_K14x_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A6 Pro 5G",
+    "DisplayName": "Oppo A6 Pro 5G",
+    "EnumName": "Oppo_A6_Pro_5G",
+    "ThumbnailPath": "model/Oppo_A6_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A6x 5G",
+    "DisplayName": "Oppo A6x 5G",
+    "EnumName": "Oppo_A6x_5G",
+    "ThumbnailPath": "model/Oppo_A6x_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A6x",
+    "DisplayName": "Oppo A6x",
+    "EnumName": "Oppo_A6x",
+    "ThumbnailPath": "model/Oppo_A6x.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A6 5G",
+    "DisplayName": "Oppo A6 5G",
+    "EnumName": "Oppo_A6_5G",
+    "ThumbnailPath": "model/Oppo_A6_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A5x",
+    "DisplayName": "Oppo A5x",
+    "EnumName": "Oppo_A5x",
+    "ThumbnailPath": "model/Oppo_A5x.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno 15C",
+    "DisplayName": "Oppo Reno 15C",
+    "EnumName": "Oppo_Reno_15C",
+    "ThumbnailPath": "model/Oppo_Reno_15C.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno 15 Pro 5G",
+    "DisplayName": "Oppo Reno 15 Pro 5G",
+    "EnumName": "Oppo_Reno_15_Pro_5G",
+    "ThumbnailPath": "model/Oppo_Reno_15_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno 15 Pro Mini 5G",
+    "DisplayName": "Oppo Reno 15 Pro Mini 5G",
+    "EnumName": "Oppo_Reno_15_Pro_Mini_5G",
+    "ThumbnailPath": "model/Oppo_Reno_15_Pro_Mini_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno 15 5G",
+    "DisplayName": "Oppo Reno 15 5G",
+    "EnumName": "Oppo_Reno_15_5G",
+    "ThumbnailPath": "model/Oppo_Reno_15_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 597,
+    "Name": "Oppo Find X9 Pro",
+    "DisplayName": "Oppo Find X9 Pro",
+    "EnumName": "Oppo_Find_X9_Pro",
+    "ThumbnailPath": "model/Oppo_Find_X9_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F31 5G",
+    "DisplayName": "Oppo F31 5G",
+    "EnumName": "Oppo_F31_5G",
+    "ThumbnailPath": "model/Oppo_F31_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 63,
+    "Name": "Oppo K13 Turbo 5G",
+    "DisplayName": "Oppo K13 Turbo 5G",
+    "EnumName": "Oppo_K13_Turbo_5G",
+    "ThumbnailPath": "model/Oppo_K13_Turbo_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 63,
+    "Name": "Oppo K13 Turbo Pro 5G",
+    "DisplayName": "Oppo K13 Turbo Pro 5G",
+    "EnumName": "Oppo_K13_Turbo_Pro_5G",
+    "ThumbnailPath": "model/Oppo_K13_Turbo_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F31 Pro 5G",
+    "DisplayName": "Oppo F31 Pro 5G",
+    "EnumName": "Oppo_F31_Pro_5G",
+    "ThumbnailPath": "model/Oppo_F31_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F31 Pro Plus 5G",
+    "DisplayName": "Oppo F31 Pro Plus 5G",
+    "EnumName": "Oppo_F31_Pro_Plus_5G",
+    "ThumbnailPath": "model/Oppo_F31_Pro_Plus_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A5 5G",
+    "DisplayName": "Oppo A5 5G",
+    "EnumName": "Oppo_A5_5G",
+    "ThumbnailPath": "model/Oppo_A5_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 63,
+    "Name": "Oppo K13x 5G",
+    "DisplayName": "Oppo K13x 5G",
+    "EnumName": "Oppo_K13x_5G",
+    "ThumbnailPath": "model/Oppo_K13x_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno 14 5G",
+    "DisplayName": "Oppo Reno 14 5G",
+    "EnumName": "Oppo_Reno_14_5G",
+    "ThumbnailPath": "model/Oppo_Reno_14_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno 14 Pro 5G",
+    "DisplayName": "Oppo Reno 14 Pro 5G",
+    "EnumName": "Oppo_Reno_14_Pro_5G",
+    "ThumbnailPath": "model/Oppo_Reno_14_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A5 Pro 5G",
+    "DisplayName": "Oppo A5 Pro 5G",
+    "EnumName": "Oppo_A5_Pro_5G",
+    "ThumbnailPath": "model/Oppo_A5_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A5x 5G",
+    "DisplayName": "Oppo A5x 5G",
+    "EnumName": "Oppo_A5x_5G",
+    "ThumbnailPath": "model/Oppo_A5x_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 63,
+    "Name": "Oppo K13",
+    "DisplayName": "Oppo K13",
+    "EnumName": "Oppo_K13",
+    "ThumbnailPath": "model/Oppo_K13.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "OPPO F29 Pro 5G",
+    "DisplayName": "OPPO F29 Pro 5G",
+    "EnumName": "OPPO_F29_Pro_5G",
+    "ThumbnailPath": "model/OPPO_F29_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F29 5G",
+    "DisplayName": "Oppo F29 5G",
+    "EnumName": "Oppo_F29_5G",
+    "ThumbnailPath": "model/Oppo_F29_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno 13 Pro 5G",
+    "DisplayName": "Oppo Reno 13 Pro 5G",
+    "EnumName": "Oppo_Reno_13_Pro_5G",
+    "ThumbnailPath": "model/Oppo_Reno_13_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno 13 5G",
+    "DisplayName": "Oppo Reno 13 5G",
+    "EnumName": "Oppo_Reno_13_5G",
+    "ThumbnailPath": "model/Oppo_Reno_13_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 65,
+    "Name": "Oppo Find X8 Pro",
+    "DisplayName": "Oppo Find X8 Pro",
+    "EnumName": "Oppo_Find_X8_Pro",
+    "ThumbnailPath": "model/Oppo_Find_X8_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 65,
+    "Name": "Oppo Find X8",
+    "DisplayName": "Oppo Find X8",
+    "EnumName": "Oppo_Find_X8",
+    "ThumbnailPath": "model/Oppo_Find_X8.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A3x 4G",
+    "DisplayName": "Oppo A3x 4G",
+    "EnumName": "Oppo_A3x_4G",
+    "ThumbnailPath": "model/Oppo_A3x_4G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F27 5G",
+    "DisplayName": "Oppo F27 5G",
+    "EnumName": "Oppo_F27_5G",
+    "ThumbnailPath": "model/Oppo_F27_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A3 5G",
+    "DisplayName": "Oppo A3 5G",
+    "EnumName": "Oppo_A3_5G",
+    "ThumbnailPath": "model/Oppo_A3_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A3 Pro 5G",
+    "DisplayName": "Oppo A3 Pro 5G",
+    "EnumName": "Oppo_A3_Pro_5G",
+    "ThumbnailPath": "model/Oppo_A3_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F27 Pro Plus 5G",
+    "DisplayName": "Oppo F27 Pro Plus 5G",
+    "EnumName": "Oppo_F27_Pro_Plus_5G",
+    "ThumbnailPath": "model/Oppo_F27_Pro_Plus_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F25 Pro 5G",
+    "DisplayName": "Oppo F25 Pro 5G",
+    "EnumName": "Oppo_F25_Pro_5G",
+    "ThumbnailPath": "model/Oppo_F25_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "OPPO Reno 11 Pro",
+    "DisplayName": "OPPO Reno 11 Pro",
+    "EnumName": "OPPO_Reno_11_Pro",
+    "ThumbnailPath": "model/OPPO_Reno_11_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "OPPO Reno 11",
+    "DisplayName": "OPPO Reno 11",
+    "EnumName": "OPPO_Reno_11",
+    "ThumbnailPath": "model/OPPO_Reno_11.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 63,
+    "Name": "Oppo K12x 5G",
+    "DisplayName": "Oppo K12x 5G",
+    "EnumName": "Oppo_K12x_5G",
+    "ThumbnailPath": "model/Oppo_K12x_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A3x 5G",
+    "DisplayName": "Oppo A3x 5G",
+    "EnumName": "Oppo_A3x_5G",
+    "ThumbnailPath": "model/Oppo_A3x_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno12 Pro 5G",
+    "DisplayName": "Oppo Reno12 Pro 5G",
+    "EnumName": "Oppo_Reno12_Pro_5G",
+    "ThumbnailPath": "model/Oppo_Reno12_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno12 5G",
+    "DisplayName": "Oppo Reno12 5G",
+    "EnumName": "Oppo_Reno12_5G",
+    "ThumbnailPath": "model/Oppo_Reno12_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A59 5G",
+    "DisplayName": "Oppo A59 5G",
+    "EnumName": "Oppo_A59_5G",
+    "ThumbnailPath": "model/Oppo_A59_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 65,
+    "Name": "Oppo Find N3 Flip",
+    "DisplayName": "Oppo Find N3 Flip",
+    "EnumName": "Oppo_Find_N3_Flip",
+    "ThumbnailPath": "model/Oppo_Find_N3_Flip.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A78 4G",
+    "DisplayName": "Oppo A78 4G",
+    "EnumName": "Oppo_A78_4G",
+    "ThumbnailPath": "model/Oppo_A78_4G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A79 5G",
+    "DisplayName": "Oppo A79 5G",
+    "EnumName": "Oppo_A79_5G",
+    "ThumbnailPath": "model/Oppo_A79_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A18",
+    "DisplayName": "Oppo A18",
+    "EnumName": "Oppo_A18",
+    "ThumbnailPath": "model/Oppo_A18.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A38",
+    "DisplayName": "Oppo A38",
+    "EnumName": "Oppo_A38",
+    "ThumbnailPath": "model/Oppo_A38.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno 10 Pro Plus",
+    "DisplayName": "Oppo Reno 10 Pro Plus",
+    "EnumName": "Oppo_Reno_10_Pro_Plus",
+    "ThumbnailPath": "model/Oppo_Reno_10_Pro_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno 10 Pro",
+    "DisplayName": "Oppo Reno 10 Pro",
+    "EnumName": "Oppo_Reno_10_Pro",
+    "ThumbnailPath": "model/Oppo_Reno_10_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno 10",
+    "DisplayName": "Oppo Reno 10",
+    "EnumName": "Oppo_Reno_10",
+    "ThumbnailPath": "model/Oppo_Reno_10.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A58 4G",
+    "DisplayName": "Oppo A58 4G",
+    "EnumName": "Oppo_A58_4G",
+    "ThumbnailPath": "model/Oppo_A58_4G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F23",
+    "DisplayName": "Oppo F23",
+    "EnumName": "Oppo_F23",
+    "ThumbnailPath": "model/Oppo_F23.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 65,
+    "Name": "Oppo Find N2 Flip",
+    "DisplayName": "Oppo Find N2 Flip",
+    "EnumName": "Oppo_FIND_N2_FLIP",
+    "ThumbnailPath": "model/Oppo_FIND_N2_FLIP.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno 8T 5G",
+    "DisplayName": "Oppo Reno 8T 5G",
+    "EnumName": "Oppo_RENO_8T_5G",
+    "ThumbnailPath": "model/Oppo_RENO_8T_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A78 5G",
+    "DisplayName": "Oppo A78 5G",
+    "EnumName": "OPPO_A78_5G",
+    "ThumbnailPath": "model/OPPO_A78_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A77 2022",
+    "DisplayName": "Oppo A77 2022",
+    "EnumName": "OPPO_A77_2022",
+    "ThumbnailPath": "model/OPPO_A77_2022.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A17",
+    "DisplayName": "Oppo A17",
+    "EnumName": "OPPO_A17",
+    "ThumbnailPath": "model/OPPO_A17.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A17K",
+    "DisplayName": "Oppo A17K",
+    "EnumName": "OPPO_A17K",
+    "ThumbnailPath": "model/OPPO_A17K.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A77S",
+    "DisplayName": "Oppo A77S",
+    "EnumName": "OPPO_A77S",
+    "ThumbnailPath": "model/OPPO_A77S.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F21S Pro 5G",
+    "DisplayName": "Oppo F21S Pro 5G",
+    "EnumName": "OPPO_F21S_PRO_5G",
+    "ThumbnailPath": "model/OPPO_F21S_PRO_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F21S Pro 4G",
+    "DisplayName": "Oppo F21S Pro 4G",
+    "EnumName": "OPPO_F21S_PRO_4G",
+    "ThumbnailPath": "model/OPPO_F21S_PRO_4G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno 8 Pro 5G",
+    "DisplayName": "Oppo Reno 8 Pro 5G",
+    "EnumName": "OPPO_RENO_8_PRO_5G",
+    "ThumbnailPath": "model/OPPO_RENO_8_PRO_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno 8 5G",
+    "DisplayName": "Oppo Reno 8 5G",
+    "EnumName": "OPPO_RENO_8_5G",
+    "ThumbnailPath": "model/OPPO_RENO_8_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A16E",
+    "DisplayName": "Oppo A16E",
+    "EnumName": "OPPO_A16E",
+    "ThumbnailPath": "model/OPPO_A16E.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A16K",
+    "DisplayName": "Oppo A16K",
+    "EnumName": "OPPO_A16K",
+    "ThumbnailPath": "model/OPPO_A16K.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A76",
+    "DisplayName": "Oppo A76",
+    "EnumName": "OPPO_A76",
+    "ThumbnailPath": "model/OPPO_A76.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A96",
+    "DisplayName": "Oppo A96",
+    "EnumName": "OPPO_A96",
+    "ThumbnailPath": "model/OPPO_A96.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F21 Pro 5G",
+    "DisplayName": "Oppo F21 Pro 5G",
+    "EnumName": "OPPO_F21_Pro_5G",
+    "ThumbnailPath": "model/OPPO_F21_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F21 Pro",
+    "DisplayName": "Oppo F21 Pro",
+    "EnumName": "OPPO_F21_Pro",
+    "ThumbnailPath": "model/OPPO_F21_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno 7 5G",
+    "DisplayName": "Oppo Reno 7 5G",
+    "EnumName": "OPPO_Reno_7_5G",
+    "ThumbnailPath": "model/OPPO_Reno_7_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno 7 Pro 5G",
+    "DisplayName": "Oppo Reno 7 Pro 5G",
+    "EnumName": "OPPO_Reno_7_Pro_5G",
+    "ThumbnailPath": "model/OPPO_Reno_7_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 63,
+    "Name": "Oppo K10 5G",
+    "DisplayName": "Oppo K10 5G",
+    "EnumName": "Oppo_K10_5G",
+    "ThumbnailPath": "model/Oppo_K10_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 63,
+    "Name": "Oppo K10",
+    "DisplayName": "Oppo K10",
+    "EnumName": "Oppo_K10",
+    "ThumbnailPath": "model/Oppo_K10.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A57 2022",
+    "DisplayName": "Oppo A57 2022",
+    "EnumName": "Oppo_A57_2022",
+    "ThumbnailPath": "model/Oppo_A57_2022.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 65,
+    "Name": "Oppo Find X2",
+    "DisplayName": "Oppo Find X2",
+    "EnumName": "OPPO_Find_X2",
+    "ThumbnailPath": "model/OPPO_Find_X2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 65,
+    "Name": "Oppo Find X",
+    "DisplayName": "Oppo Find X",
+    "EnumName": "OPPO_Find_X",
+    "ThumbnailPath": "model/OPPO_Find_X.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno6 Pro 5G",
+    "DisplayName": "Oppo Reno6 Pro 5G",
+    "EnumName": "OPPO_Reno6_Pro_5G",
+    "ThumbnailPath": "model/OPPO_Reno6_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno5 Pro 5G",
+    "DisplayName": "Oppo Reno5 Pro 5G",
+    "EnumName": "OPPO_Reno5_Pro_5G",
+    "ThumbnailPath": "model/OPPO_Reno5_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno 2",
+    "DisplayName": "Oppo Reno 2",
+    "EnumName": "OPPO_Reno_2",
+    "ThumbnailPath": "model/OPPO_Reno_2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno6 5G",
+    "DisplayName": "Oppo Reno6 5G",
+    "EnumName": "OPPO_Reno6_5G",
+    "ThumbnailPath": "model/OPPO_Reno6_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno4 Pro",
+    "DisplayName": "Oppo Reno4 Pro",
+    "EnumName": "OPPO_Reno4_Pro",
+    "ThumbnailPath": "model/OPPO_Reno4_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno3 Pro",
+    "DisplayName": "Oppo Reno3 Pro",
+    "EnumName": "OPPO_Reno3_Pro",
+    "ThumbnailPath": "model/OPPO_Reno3_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno2 F",
+    "DisplayName": "Oppo Reno2 F",
+    "EnumName": "OPPO_Reno2_F",
+    "ThumbnailPath": "model/OPPO_Reno2_F.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno 2Z",
+    "DisplayName": "Oppo Reno 2Z",
+    "EnumName": "OPPO_Reno_2Z",
+    "ThumbnailPath": "model/OPPO_Reno_2Z.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno 10X Zoom",
+    "DisplayName": "Oppo Reno 10X Zoom",
+    "EnumName": "OPPO_Reno_10x_Zoom",
+    "ThumbnailPath": "model/OPPO_Reno_10x_Zoom.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 417,
+    "Name": "Oppo Reno",
+    "DisplayName": "Oppo Reno",
+    "EnumName": "OPPO_Reno",
+    "ThumbnailPath": "model/OPPO_Reno.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 63,
+    "Name": "Oppo K3",
+    "DisplayName": "Oppo K3",
+    "EnumName": "OPPO_K3",
+    "ThumbnailPath": "model/OPPO_K3.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 63,
+    "Name": "Oppo K1",
+    "DisplayName": "Oppo K1",
+    "EnumName": "OPPO_K1",
+    "ThumbnailPath": "model/OPPO_K1.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A5 2020",
+    "DisplayName": "Oppo A5 2020",
+    "EnumName": "OPPO_A5_2020",
+    "ThumbnailPath": "model/OPPO_A5_2020.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A1K",
+    "DisplayName": "Oppo A1K",
+    "EnumName": "OPPO_A1K",
+    "ThumbnailPath": "model/OPPO_A1K.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A33",
+    "DisplayName": "Oppo A33",
+    "EnumName": "OPPO_A33",
+    "ThumbnailPath": "model/OPPO_A33.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A16",
+    "DisplayName": "Oppo A16",
+    "EnumName": "OPPO_A16",
+    "ThumbnailPath": "model/OPPO_A16.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A55",
+    "DisplayName": "Oppo A55",
+    "EnumName": "OPPO_A55",
+    "ThumbnailPath": "model/OPPO_A55.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A74 5G",
+    "DisplayName": "Oppo A74 5G",
+    "EnumName": "OPPO_A74_5G",
+    "ThumbnailPath": "model/OPPO_A74_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A53S 5G",
+    "DisplayName": "Oppo A53S 5G",
+    "EnumName": "OPPO_A53s_5G",
+    "ThumbnailPath": "model/OPPO_A53s_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A54",
+    "DisplayName": "Oppo A54",
+    "EnumName": "OPPO_A54",
+    "ThumbnailPath": "model/OPPO_A54.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A15S",
+    "DisplayName": "Oppo A15S",
+    "EnumName": "OPPO_A15s",
+    "ThumbnailPath": "model/OPPO_A15s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A15",
+    "DisplayName": "Oppo A15",
+    "EnumName": "OPPO_A15",
+    "ThumbnailPath": "model/OPPO_A15.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A33 2020",
+    "DisplayName": "Oppo A33 2020",
+    "EnumName": "OPPO_A33_2020",
+    "ThumbnailPath": "model/OPPO_A33_2020.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A53",
+    "DisplayName": "Oppo A53",
+    "EnumName": "OPPO_A53",
+    "ThumbnailPath": "model/OPPO_A53.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A11K",
+    "DisplayName": "Oppo A11K",
+    "EnumName": "OPPO_A11K",
+    "ThumbnailPath": "model/OPPO_A11K.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A52",
+    "DisplayName": "Oppo A52",
+    "EnumName": "OPPO_A52",
+    "ThumbnailPath": "model/OPPO_A52.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A12",
+    "DisplayName": "Oppo A12",
+    "EnumName": "OPPO_A12",
+    "ThumbnailPath": "model/OPPO_A12.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A31",
+    "DisplayName": "Oppo A31",
+    "EnumName": "OPPO_A31",
+    "ThumbnailPath": "model/OPPO_A31.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A9 2020",
+    "DisplayName": "Oppo A9 2020",
+    "EnumName": "OPPO_A9_2020",
+    "ThumbnailPath": "model/OPPO_A9_2020.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A9",
+    "DisplayName": "Oppo A9",
+    "EnumName": "OPPO_A9",
+    "ThumbnailPath": "model/OPPO_A9.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A3S",
+    "DisplayName": "Oppo A3S",
+    "EnumName": "OPPO_A3s",
+    "ThumbnailPath": "model/OPPO_A3s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 431,
+    "Name": "Oppo A7",
+    "DisplayName": "Oppo A7",
+    "EnumName": "OPPO_A7",
+    "ThumbnailPath": "model/OPPO_A7.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 59,
+    "Name": "Oppo R17",
+    "DisplayName": "Oppo R17",
+    "EnumName": "OPPO_R17",
+    "ThumbnailPath": "model/OPPO_R17.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 59,
+    "Name": "Oppo R17 Pro",
+    "DisplayName": "Oppo R17 Pro",
+    "EnumName": "OPPO_R17_Pro",
+    "ThumbnailPath": "model/OPPO_R17_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F11 Pro Avenger Edition",
+    "DisplayName": "Oppo F11 Pro Avenger Edition",
+    "EnumName": "OPPO_F11_Pro_Avenger_Edition",
+    "ThumbnailPath": "model/OPPO_F11_Pro_Avenger_Edition.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F19S",
+    "DisplayName": "Oppo F19S",
+    "EnumName": "OPPO_F19s",
+    "ThumbnailPath": "model/OPPO_F19s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F19",
+    "DisplayName": "Oppo F19",
+    "EnumName": "OPPO_F19",
+    "ThumbnailPath": "model/OPPO_F19.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F19 Pro Plus 5G",
+    "DisplayName": "Oppo F19 Pro Plus 5G",
+    "EnumName": "OPPO_F19_Pro_Plus_5G",
+    "ThumbnailPath": "model/OPPO_F19_Pro_Plus_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F19 Pro",
+    "DisplayName": "Oppo F19 Pro",
+    "EnumName": "OPPO_F19_Pro",
+    "ThumbnailPath": "model/OPPO_F19_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F17",
+    "DisplayName": "Oppo F17",
+    "EnumName": "OPPO_F17",
+    "ThumbnailPath": "model/OPPO_F17.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F17 Pro",
+    "DisplayName": "Oppo F17 Pro",
+    "EnumName": "OPPO_F17_Pro",
+    "ThumbnailPath": "model/OPPO_F17_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F15",
+    "DisplayName": "Oppo F15",
+    "EnumName": "OPPO_F15",
+    "ThumbnailPath": "model/OPPO_F15.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F11",
+    "DisplayName": "Oppo F11",
+    "EnumName": "OPPO_F11",
+    "ThumbnailPath": "model/OPPO_F11.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F11 Pro",
+    "DisplayName": "Oppo F11 Pro",
+    "EnumName": "OPPO_F11_Pro",
+    "ThumbnailPath": "model/OPPO_F11_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F9",
+    "DisplayName": "Oppo F9",
+    "EnumName": "OPPO_F9",
+    "ThumbnailPath": "model/OPPO_F9.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 405,
+    "Name": "Oppo F9 Pro",
+    "DisplayName": "Oppo F9 Pro",
+    "EnumName": "OPPO_F9_Pro",
+    "ThumbnailPath": "model/OPPO_F9_Pro.png",
+    "DisplayInList": true
+  }
+]

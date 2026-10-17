@@ -1,0 +1,86 @@
+{
+  "brand": "Lava",
+  "model": "Lava Agni 2 5G",
+  "official_name": "Lava Agni 2 5G",
+  "series": "G Series",
+  "release": {
+    "year": 2023,
+    "date": "2023-05-16"
+  },
+  "region": "India",
+  "variants": [
+    {
+      "ram": "8 GB",
+      "storage": "256 GB"
+    }
+  ],
+  "display": {
+    "type": "Curved AMOLED, 120Hz, HDR10+",
+    "size": "6.78 inches",
+    "resolution": "1080 x 2400 pixels",
+    "refresh_rate": "120 Hz",
+    "hdr": "HDR10+",
+    "protection": "Double-reinforced glass"
+  },
+  "processor": {
+    "chipset": "MediaTek Dimensity 7050 (6 nm)",
+    "cpu": "Octa-core (2x2.6 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55)",
+    "gpu": "Mali-G68 MC4"
+  },
+  "camera": {
+    "rear": [
+      "50 MP, 1.0µm (wide)",
+      "8 MP (ultrawide)",
+      "2 MP (macro)",
+      "2 MP (depth)"
+    ],
+    "front": "16 MP",
+    "video": [
+      "4K@30fps",
+      "1080p@30/60fps"
+    ]
+  },
+  "battery": {
+    "capacity": "4700 mAh",
+    "charging": "66W wired, 50% in 16 min",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "164.2 x 74.7 x 8.8 mm",
+    "weight": "210 g",
+    "materials": "3D Dual Curved Glass front and back",
+    "colors": [
+      "Glass Viridian"
+    ],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "5G, 4G LTE",
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG",
+    "sim": "Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "software": {
+    "os_at_launch": "Android 13 / Android 14",
+    "update_policy": ""
+  },
+  "features": [
+    "3D Curved AMOLED Display",
+    "In-display fingerprint sensor",
+    "Clean Android experience with no ads"
+  ],
+  "images": [
+    "Lava/Lava images/Lava_Agni_2_5G.png"
+  ],
+  "research_sources": [
+    {
+      "title": "Lava Agni 2 5G Official Specifications",
+      "url": "https://www.lava.com/in",
+      "source_type": "official"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Verified from official manufacturer technical specifications."
+}

@@ -1,0 +1,1362 @@
+[
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y05",
+    "DisplayName": "Vivo Y05",
+    "EnumName": "Vivo_Y05",
+    "ThumbnailPath": "model/Vivo_Y05.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 458,
+    "Name": "Vivo T5e",
+    "DisplayName": "Vivo T5e",
+    "EnumName": "Vivo_T5e",
+    "ThumbnailPath": "model/Vivo_T5e.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 458,
+    "Name": "Vivo T5 Lite 5G",
+    "DisplayName": "Vivo T5 Lite 5G",
+    "EnumName": "Vivo_T5_Lite_5G",
+    "ThumbnailPath": "model/Vivo_T5_Lite_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 32,
+    "Name": "Vivo S2 5G",
+    "DisplayName": "Vivo S2 5G",
+    "EnumName": "Vivo_S2_5G",
+    "ThumbnailPath": "model/Vivo_S2_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V70 FE",
+    "DisplayName": "Vivo V70 FE",
+    "EnumName": "Vivo_V70_FE",
+    "ThumbnailPath": "model/Vivo_V70_FE.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y11 5G",
+    "DisplayName": "Vivo Y11 5G",
+    "EnumName": "Vivo_Y11_5G",
+    "ThumbnailPath": "model/Vivo_Y11_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y51 Pro 5G",
+    "DisplayName": "Vivo Y51 Pro 5G",
+    "EnumName": "Vivo_Y51_Pro_5G",
+    "ThumbnailPath": "model/Vivo_Y51_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 458,
+    "Name": "Vivo T5x 5G",
+    "DisplayName": "Vivo T5x 5G",
+    "EnumName": "Vivo_T5x_5G",
+    "ThumbnailPath": "model/Vivo_T5x_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 458,
+    "Name": "Vivo T5 Pro 5G",
+    "DisplayName": "Vivo T5 Pro 5G",
+    "EnumName": "Vivo_T5_Pro_5G",
+    "ThumbnailPath": "model/Vivo_T5_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X300 FE",
+    "DisplayName": "Vivo X300 FE",
+    "EnumName": "Vivo_X300_FE",
+    "ThumbnailPath": "model/Vivo_X300_FE.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X300 Ultra",
+    "DisplayName": "Vivo X300 Ultra",
+    "EnumName": "Vivo_X300_Ultra",
+    "ThumbnailPath": "model/Vivo_X300_Ultra.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y21 5G",
+    "DisplayName": "Vivo Y21 5G",
+    "EnumName": "Vivo_Y21_5G",
+    "ThumbnailPath": "model/Vivo_Y21_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X200T",
+    "DisplayName": "Vivo X200T",
+    "EnumName": "Vivo_X200T",
+    "ThumbnailPath": "model/Vivo_X200T.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V70 5G",
+    "DisplayName": "Vivo V70 5G",
+    "EnumName": "Vivo_V70_5G",
+    "ThumbnailPath": "model/Vivo_V70_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V70 Elite",
+    "DisplayName": "Vivo V70 Elite",
+    "EnumName": "Vivo_V70_Elite",
+    "ThumbnailPath": "model/Vivo_V70_Elite.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y19s 5G",
+    "DisplayName": "Vivo Y19s 5G",
+    "EnumName": "Vivo_Y19s_5G",
+    "ThumbnailPath": "model/Vivo_Y19s_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X300 Pro",
+    "DisplayName": "Vivo X300 Pro",
+    "EnumName": "Vivo_X300_Pro",
+    "ThumbnailPath": "model/Vivo_X300_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X300",
+    "DisplayName": "Vivo X300",
+    "EnumName": "Vivo_X300",
+    "ThumbnailPath": "model/Vivo_X300.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V60e",
+    "DisplayName": "Vivo V60e",
+    "EnumName": "Vivo_V60e",
+    "ThumbnailPath": "model/Vivo_V60e.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y400 5G",
+    "DisplayName": "Vivo Y400 5G",
+    "EnumName": "Vivo_Y400_5G",
+    "ThumbnailPath": "model/Vivo_Y400_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 458,
+    "Name": "Vivo T4R 5G",
+    "DisplayName": "Vivo T4R 5G",
+    "EnumName": "Vivo_T4R_5G",
+    "ThumbnailPath": "model/Vivo_T4R_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 458,
+    "Name": "Vivo T4 Pro 5G",
+    "DisplayName": "Vivo T4 Pro 5G",
+    "EnumName": "Vivo_T4_Pro_5G",
+    "ThumbnailPath": "model/Vivo_T4_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y31 Pro 5G",
+    "DisplayName": "Vivo Y31 Pro 5G",
+    "EnumName": "Vivo_Y31_Pro_5G",
+    "ThumbnailPath": "model/Vivo_Y31_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y31 5G",
+    "DisplayName": "Vivo Y31 5G",
+    "EnumName": "Vivo_Y31_5G",
+    "ThumbnailPath": "model/Vivo_Y31_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V60 5G",
+    "DisplayName": "Vivo V60 5G",
+    "EnumName": "Vivo_V60_5G",
+    "ThumbnailPath": "model/Vivo_V60_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 462,
+    "Name": "Vivo X Fold 5",
+    "DisplayName": "Vivo X Fold 5",
+    "EnumName": "Vivo_X_Fold_5",
+    "ThumbnailPath": "model/Vivo_X_Fold_5.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y19 5G",
+    "DisplayName": "Vivo Y19 5G",
+    "EnumName": "Vivo_Y19_5G",
+    "ThumbnailPath": "model/Vivo_Y19_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y400 Pro 5G",
+    "DisplayName": "Vivo Y400 Pro 5G",
+    "EnumName": "Vivo_Y400_Pro_5G",
+    "ThumbnailPath": "model/Vivo_Y400_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 458,
+    "Name": "Vivo T4 Lite 5G",
+    "DisplayName": "Vivo T4 Lite 5G",
+    "EnumName": "Vivo_T4_Lite_5G",
+    "ThumbnailPath": "model/Vivo_T4_Lite_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X200 FE",
+    "DisplayName": "Vivo X200 FE",
+    "EnumName": "Vivo_X200_FE",
+    "ThumbnailPath": "model/Vivo_X200_FE.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V50e 5G",
+    "DisplayName": "Vivo V50e 5G",
+    "EnumName": "Vivo_V50e_5G",
+    "ThumbnailPath": "model/Vivo_V50e_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 458,
+    "Name": "Vivo T4 Ultra",
+    "DisplayName": "Vivo T4 Ultra",
+    "EnumName": "Vivo_T4_Ultra",
+    "ThumbnailPath": "model/Vivo_T4_Ultra.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y39 5G",
+    "DisplayName": "Vivo Y39 5G",
+    "EnumName": "Vivo_Y39_5G",
+    "ThumbnailPath": "model/Vivo_Y39_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 458,
+    "Name": "Vivo T4 5G",
+    "DisplayName": "Vivo T4 5G",
+    "EnumName": "Vivo_T4_5G",
+    "ThumbnailPath": "model/Vivo_T4_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y18t",
+    "DisplayName": "Vivo Y18t",
+    "EnumName": "Vivo_Y18t",
+    "ThumbnailPath": "model/Vivo_Y18t.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y19e",
+    "DisplayName": "Vivo Y19e",
+    "EnumName": "Vivo_Y19e",
+    "ThumbnailPath": "model/Vivo_Y19e.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V50 5G",
+    "DisplayName": "Vivo V50 5G",
+    "EnumName": "Vivo_V50_5G",
+    "ThumbnailPath": "model/Vivo_V50_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 458,
+    "Name": "Vivo T4x 5G",
+    "DisplayName": "Vivo T4x 5G",
+    "EnumName": "Vivo_T4x_5G",
+    "ThumbnailPath": "model/Vivo_T4x_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y29 5G",
+    "DisplayName": "Vivo Y29 5G",
+    "EnumName": "Vivo_Y29_5G",
+    "ThumbnailPath": "model/Vivo_Y29_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X200 Pro 5G",
+    "DisplayName": "Vivo X200 Pro 5G",
+    "EnumName": "Vivo_X200_Pro_5G",
+    "ThumbnailPath": "model/Vivo_X200_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X200 5G",
+    "DisplayName": "Vivo X200 5G",
+    "EnumName": "Vivo_X200_5G",
+    "ThumbnailPath": "model/Vivo_X200_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y300 Plus 5G",
+    "DisplayName": "Vivo Y300 Plus 5G",
+    "EnumName": "Vivo_Y300_Plus_5G",
+    "ThumbnailPath": "model/Vivo_Y300_Plus_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y300 5G",
+    "DisplayName": "Vivo Y300 5G",
+    "EnumName": "Vivo_Y300_5G",
+    "ThumbnailPath": "model/Vivo_Y300_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V40e",
+    "DisplayName": "Vivo V40e",
+    "EnumName": "Vivo_V40e",
+    "ThumbnailPath": "model/Vivo_V40e.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 458,
+    "Name": "Vivo T3 Ultra 5G",
+    "DisplayName": "Vivo T3 Ultra 5G",
+    "EnumName": "Vivo_T3_Ultra_5G",
+    "ThumbnailPath": "model/Vivo_T3_Ultra_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 458,
+    "Name": "Vivo T3 Pro 5G",
+    "DisplayName": "Vivo T3 Pro 5G",
+    "EnumName": "Vivo_T3_Pro_5G",
+    "ThumbnailPath": "model/Vivo_T3_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 462,
+    "Name": "Vivo X Fold 3 Pro",
+    "DisplayName": "Vivo X Fold 3 Pro",
+    "EnumName": "Vivo_X_Fold_3_Pro",
+    "ThumbnailPath": "model/Vivo_X_Fold_3_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y200 Pro 5G",
+    "DisplayName": "Vivo Y200 Pro 5G",
+    "EnumName": "Vivo_Y200_Pro_5G",
+    "ThumbnailPath": "model/Vivo_Y200_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y58 5G",
+    "DisplayName": "Vivo Y58 5G",
+    "EnumName": "Vivo_Y58_5G",
+    "ThumbnailPath": "model/Vivo_Y58_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V30 Pro 5G",
+    "DisplayName": "Vivo V30 Pro 5G",
+    "EnumName": "Vivo_V30_Pro_5G",
+    "ThumbnailPath": "model/Vivo_V30_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V30 5G",
+    "DisplayName": "Vivo V30 5G",
+    "EnumName": "Vivo_V30_5G",
+    "ThumbnailPath": "model/Vivo_V30_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y200e 5G",
+    "DisplayName": "Vivo Y200e 5G",
+    "EnumName": "Vivo_Y200e_5G",
+    "ThumbnailPath": "model/Vivo_Y200e_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 458,
+    "Name": "Vivo T3X 5G",
+    "DisplayName": "Vivo T3X 5G",
+    "EnumName": "Vivo_T3X_5G",
+    "ThumbnailPath": "model/Vivo_T3X_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y18e",
+    "DisplayName": "Vivo Y18e",
+    "EnumName": "Vivo_Y18e",
+    "ThumbnailPath": "model/Vivo_Y18e.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y18",
+    "DisplayName": "Vivo Y18",
+    "EnumName": "Vivo_Y18",
+    "ThumbnailPath": "model/Vivo_Y18.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V30e",
+    "DisplayName": "Vivo V30e",
+    "EnumName": "Vivo_V30e",
+    "ThumbnailPath": "model/Vivo_V30e.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 458,
+    "Name": "Vivo T3 5G",
+    "DisplayName": "Vivo T3 5G",
+    "EnumName": "Vivo_T3_5G",
+    "ThumbnailPath": "model/Vivo_T3_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V40 Pro 5G",
+    "DisplayName": "Vivo V40 Pro 5G",
+    "EnumName": "Vivo_V40_Pro_5G",
+    "ThumbnailPath": "model/Vivo_V40_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V40 5G",
+    "DisplayName": "Vivo V40 5G",
+    "EnumName": "Vivo_V40_5G",
+    "ThumbnailPath": "model/Vivo_V40_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 458,
+    "Name": "Vivo T3 Lite 5G",
+    "DisplayName": "Vivo T3 Lite 5G",
+    "EnumName": "Vivo_T3_Lite_5G",
+    "ThumbnailPath": "model/Vivo_T3_Lite_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y28s 5G",
+    "DisplayName": "Vivo Y28s 5G",
+    "EnumName": "Vivo_Y28s_5G",
+    "ThumbnailPath": "model/Vivo_Y28s_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y28e 5G",
+    "DisplayName": "Vivo Y28e 5G",
+    "EnumName": "Vivo_Y28e_5G",
+    "ThumbnailPath": "model/Vivo_Y28e_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y18i",
+    "DisplayName": "Vivo Y18i",
+    "EnumName": "Vivo_Y18i",
+    "ThumbnailPath": "model/Vivo_Y18i.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X100 Pro 5G",
+    "DisplayName": "Vivo X100 Pro 5G",
+    "EnumName": "Vivo_X100_Pro_5G",
+    "ThumbnailPath": "model/Vivo_X100_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X100 5G",
+    "DisplayName": "Vivo X100 5G",
+    "EnumName": "Vivo_X100_5G",
+    "ThumbnailPath": "model/Vivo_X100_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y28 5G",
+    "DisplayName": "Vivo Y28 5G",
+    "EnumName": "Vivo_Y28_5G",
+    "ThumbnailPath": "model/Vivo_Y28_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V29 Pro",
+    "DisplayName": "Vivo V29 Pro",
+    "EnumName": "Vivo_V29_Pro",
+    "ThumbnailPath": "model/Vivo_V29_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V29",
+    "DisplayName": "Vivo V29",
+    "EnumName": "Vivo_V29",
+    "ThumbnailPath": "model/Vivo_V29.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 458,
+    "Name": "Vivo T2 Pro 5G",
+    "DisplayName": "Vivo T2 Pro 5G",
+    "EnumName": "Vivo_T2_Pro_5G",
+    "ThumbnailPath": "model/Vivo_T2_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V29e",
+    "DisplayName": "Vivo V29e",
+    "EnumName": "Vivo_V29e",
+    "ThumbnailPath": "model/Vivo_V29e.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y01A",
+    "DisplayName": "Vivo Y01A",
+    "EnumName": "Vivo_Y01A",
+    "ThumbnailPath": "model/Vivo_Y01A.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y27",
+    "DisplayName": "Vivo Y27",
+    "EnumName": "Vivo_Y27",
+    "ThumbnailPath": "model/Vivo_Y27.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y36 4G",
+    "DisplayName": "Vivo Y36 4G",
+    "EnumName": "Vivo_Y36_4G",
+    "ThumbnailPath": "model/Vivo_Y36_4G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y17s",
+    "DisplayName": "Vivo Y17s",
+    "EnumName": "Vivo_Y17s",
+    "ThumbnailPath": "model/Vivo_Y17s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y200 5G",
+    "DisplayName": "Vivo Y200 5G",
+    "EnumName": "Vivo_Y200_5G",
+    "ThumbnailPath": "model/Vivo_Y200_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y02t",
+    "DisplayName": "Vivo Y02t",
+    "EnumName": "Vivo_Y02t",
+    "ThumbnailPath": "model/Vivo_Y02t.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y100A",
+    "DisplayName": "Vivo Y100A",
+    "EnumName": "Vivo_Y100A",
+    "ThumbnailPath": "model/Vivo_Y100A.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 458,
+    "Name": "Vivo T2X 5G",
+    "DisplayName": "Vivo T2X 5G",
+    "EnumName": "Vivo_T2X_5G",
+    "ThumbnailPath": "model/Vivo_T2X_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 458,
+    "Name": "Vivo T2 5G",
+    "DisplayName": "Vivo T2 5G",
+    "EnumName": "Vivo_T2_5G",
+    "ThumbnailPath": "model/Vivo_T2_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X90 Pro Plus 5G",
+    "DisplayName": "Vivo X90 Pro Plus 5G",
+    "EnumName": "Vivo_X90_PRO_PLUS_5G",
+    "ThumbnailPath": "model/Vivo_X90_PRO_PLUS_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X90 Pro 5G",
+    "DisplayName": "Vivo X90 Pro 5G",
+    "EnumName": "Vivo_X90_PRO_5G",
+    "ThumbnailPath": "model/Vivo_X90_PRO_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X90 5G",
+    "DisplayName": "Vivo X90 5G",
+    "EnumName": "Vivo_X90_5G",
+    "ThumbnailPath": "model/Vivo_X90_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y75 4G",
+    "DisplayName": "Vivo Y75 4G",
+    "EnumName": "Vivo_Y75_4G",
+    "ThumbnailPath": "model/Vivo_Y75_4G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V27 Pro",
+    "DisplayName": "Vivo V27 Pro",
+    "EnumName": "Vivo_V27_PRO",
+    "ThumbnailPath": "model/Vivo_V27_PRO.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V27",
+    "DisplayName": "Vivo V27",
+    "EnumName": "Vivo_V27",
+    "ThumbnailPath": "model/Vivo_V27.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y100",
+    "DisplayName": "Vivo Y100",
+    "EnumName": "Vivo_Y100",
+    "ThumbnailPath": "model/Vivo_Y100.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y56 5G",
+    "DisplayName": "Vivo Y56 5G",
+    "EnumName": "Vivo_Y56_5G",
+    "ThumbnailPath": "model/Vivo_Y56_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y35",
+    "DisplayName": "Vivo Y35",
+    "EnumName": "VIVO_Y35",
+    "ThumbnailPath": "model/VIVO_Y35.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y22 2022",
+    "DisplayName": "Vivo Y22 2022",
+    "EnumName": "VIVO_Y22_2022",
+    "ThumbnailPath": "model/VIVO_Y22_2022.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y16",
+    "DisplayName": "Vivo Y16",
+    "EnumName": "VIVO_Y16",
+    "ThumbnailPath": "model/VIVO_Y16.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "VIVO Y02",
+    "DisplayName": "VIVO Y02",
+    "EnumName": "VIVO_Y02",
+    "ThumbnailPath": "model/VIVO_Y02.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V25",
+    "DisplayName": "Vivo V25",
+    "EnumName": "VIVO_V25",
+    "ThumbnailPath": "model/VIVO_V25.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V25 Pro",
+    "DisplayName": "Vivo V25 Pro",
+    "EnumName": "VIVO_V25_PRO",
+    "ThumbnailPath": "model/VIVO_V25_PRO.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 458,
+    "Name": "Vivo T1X",
+    "DisplayName": "Vivo T1X",
+    "EnumName": "VIVO_T1X",
+    "ThumbnailPath": "model/VIVO_T1X.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y21G",
+    "DisplayName": "Vivo Y21G",
+    "EnumName": "Vivo_Y21G",
+    "ThumbnailPath": "model/Vivo_Y21G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y15s 2021",
+    "DisplayName": "Vivo Y15s 2021",
+    "EnumName": "Vivo_Y15s_2021",
+    "ThumbnailPath": "model/Vivo_Y15s_2021.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y33T",
+    "DisplayName": "Vivo Y33T",
+    "EnumName": "Vivo_Y33T",
+    "ThumbnailPath": "model/Vivo_Y33T.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y15c",
+    "DisplayName": "Vivo Y15c",
+    "EnumName": "Vivo_Y15c",
+    "ThumbnailPath": "model/Vivo_Y15c.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V21e 5G",
+    "DisplayName": "Vivo V21e 5G",
+    "EnumName": "Vivo_V21e_5G",
+    "ThumbnailPath": "model/Vivo_V21e_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X80 Pro",
+    "DisplayName": "Vivo X80 Pro",
+    "EnumName": "Vivo_X80_Pro",
+    "ThumbnailPath": "model/Vivo_X80_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X80",
+    "DisplayName": "Vivo X80",
+    "EnumName": "Vivo_X80",
+    "ThumbnailPath": "model/Vivo_X80.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 458,
+    "Name": "Vivo T1 Pro",
+    "DisplayName": "Vivo T1 Pro",
+    "EnumName": "Vivo_T1_Pro",
+    "ThumbnailPath": "model/Vivo_T1_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 458,
+    "Name": "Vivo T1",
+    "DisplayName": "Vivo T1",
+    "EnumName": "Vivo_T1",
+    "ThumbnailPath": "model/Vivo_T1.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y01",
+    "DisplayName": "Vivo Y01",
+    "EnumName": "Vivo_Y01",
+    "ThumbnailPath": "model/Vivo_Y01.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 458,
+    "Name": "Vivo T1 5G",
+    "DisplayName": "Vivo T1 5G",
+    "EnumName": "Vivo_T1_5G",
+    "ThumbnailPath": "model/Vivo_T1_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 336,
+    "Name": "Vivo NEX",
+    "DisplayName": "Vivo NEX",
+    "EnumName": "Vivo_NEX",
+    "ThumbnailPath": "model/Vivo_NEX.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y21a",
+    "DisplayName": "Vivo Y21a",
+    "EnumName": "Vivo_Y21a",
+    "ThumbnailPath": "model/Vivo_Y21a.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y21e",
+    "DisplayName": "Vivo Y21e",
+    "EnumName": "Vivo_Y21e",
+    "ThumbnailPath": "model/Vivo_Y21e.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y21T",
+    "DisplayName": "Vivo Y21T",
+    "EnumName": "Vivo_Y21T",
+    "ThumbnailPath": "model/Vivo_Y21T.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y20T",
+    "DisplayName": "Vivo Y20T",
+    "EnumName": "Vivo_Y20T",
+    "ThumbnailPath": "model/Vivo_Y20T.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y72 5G",
+    "DisplayName": "Vivo Y72 5G",
+    "EnumName": "Vivo_Y72_5G",
+    "ThumbnailPath": "model/Vivo_Y72_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y73",
+    "DisplayName": "Vivo Y73",
+    "EnumName": "Vivo_Y73",
+    "ThumbnailPath": "model/Vivo_Y73.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y75 5G",
+    "DisplayName": "Vivo Y75 5G",
+    "EnumName": "Vivo_Y75_5G",
+    "ThumbnailPath": "model/Vivo_Y75_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y3s 2021",
+    "DisplayName": "Vivo Y3s 2021",
+    "EnumName": "Vivo_Y3s_2021",
+    "ThumbnailPath": "model/Vivo_Y3s_2021.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X70 Pro",
+    "DisplayName": "Vivo X70 Pro",
+    "EnumName": "Vivo_X70_Pro",
+    "ThumbnailPath": "model/Vivo_X70_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X60 Pro Plus",
+    "DisplayName": "Vivo X60 Pro Plus",
+    "EnumName": "Vivo_X60_Pro_Plus",
+    "ThumbnailPath": "model/Vivo_X60_Pro_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X60 Pro",
+    "DisplayName": "Vivo X60 Pro",
+    "EnumName": "Vivo_X60_Pro",
+    "ThumbnailPath": "model/Vivo_X60_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X60",
+    "DisplayName": "Vivo X60",
+    "EnumName": "Vivo_X60",
+    "ThumbnailPath": "model/Vivo_X60.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X50 Pro",
+    "DisplayName": "Vivo X50 Pro",
+    "EnumName": "Vivo_X50_Pro",
+    "ThumbnailPath": "model/Vivo_X50_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X50",
+    "DisplayName": "Vivo X50",
+    "EnumName": "Vivo_X50",
+    "ThumbnailPath": "model/Vivo_X50.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X70 Pro Plus",
+    "DisplayName": "Vivo X70 Pro Plus",
+    "EnumName": "Vivo_X70_Pro_Plus",
+    "ThumbnailPath": "model/Vivo_X70_Pro_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V20 2021",
+    "DisplayName": "Vivo V20 2021",
+    "EnumName": "Vivo_V20_2021",
+    "ThumbnailPath": "model/Vivo_V20_2021.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V20 SE",
+    "DisplayName": "Vivo V20 SE",
+    "EnumName": "Vivo_V20_SE",
+    "ThumbnailPath": "model/Vivo_V20_SE.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V20",
+    "DisplayName": "Vivo V20",
+    "EnumName": "Vivo_V20",
+    "ThumbnailPath": "model/Vivo_V20.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V23e 5G",
+    "DisplayName": "Vivo V23e 5G",
+    "EnumName": "Vivo_V23e_5G",
+    "ThumbnailPath": "model/Vivo_V23e_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V23 Pro",
+    "DisplayName": "Vivo V23 Pro",
+    "EnumName": "Vivo_V23_Pro",
+    "ThumbnailPath": "model/Vivo_V23_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V23 5G",
+    "DisplayName": "Vivo V23 5G",
+    "EnumName": "Vivo_V23_5G",
+    "ThumbnailPath": "model/Vivo_V23_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V21 5G",
+    "DisplayName": "Vivo V21 5G",
+    "EnumName": "Vivo_V21_5G",
+    "ThumbnailPath": "model/Vivo_V21_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V20 Pro",
+    "DisplayName": "Vivo V20 Pro",
+    "EnumName": "Vivo_V20_Pro",
+    "ThumbnailPath": "model/Vivo_V20_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V19",
+    "DisplayName": "Vivo V19",
+    "EnumName": "Vivo_V19",
+    "ThumbnailPath": "model/Vivo_V19.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V17 Pro",
+    "DisplayName": "Vivo V17 Pro",
+    "EnumName": "Vivo_V17_Pro",
+    "ThumbnailPath": "model/Vivo_V17_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 33,
+    "Name": "Vivo U20",
+    "DisplayName": "Vivo U20",
+    "EnumName": "Vivo_U20",
+    "ThumbnailPath": "model/Vivo_U20.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 33,
+    "Name": "Vivo U10",
+    "DisplayName": "Vivo U10",
+    "EnumName": "Vivo_U10",
+    "ThumbnailPath": "model/Vivo_U10.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 32,
+    "Name": "Vivo S1 Pro",
+    "DisplayName": "Vivo S1 Pro",
+    "EnumName": "Vivo_S1_Pro",
+    "ThumbnailPath": "model/Vivo_S1_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 32,
+    "Name": "Vivo S1",
+    "DisplayName": "Vivo S1",
+    "EnumName": "Vivo_S1",
+    "ThumbnailPath": "model/Vivo_S1.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 31,
+    "Name": "Vivo Z1x",
+    "DisplayName": "Vivo Z1x",
+    "EnumName": "Vivo_Z1x",
+    "ThumbnailPath": "model/Vivo_Z1x.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 31,
+    "Name": "Vivo Z1 Pro",
+    "DisplayName": "Vivo Z1 Pro",
+    "EnumName": "Vivo_Z1_Pro",
+    "ThumbnailPath": "model/Vivo_Z1_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 31,
+    "Name": "Vivo Z10",
+    "DisplayName": "Vivo Z10",
+    "EnumName": "Vivo_Z10",
+    "ThumbnailPath": "model/Vivo_Z10.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y21 2021",
+    "DisplayName": "Vivo Y21 2021",
+    "EnumName": "Vivo_Y21_2021",
+    "ThumbnailPath": "model/Vivo_Y21_2021.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y33s",
+    "DisplayName": "Vivo Y33s",
+    "EnumName": "Vivo_Y33s",
+    "ThumbnailPath": "model/Vivo_Y33s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y20G",
+    "DisplayName": "Vivo Y20G",
+    "EnumName": "Vivo_Y20G",
+    "ThumbnailPath": "model/Vivo_Y20G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y30",
+    "DisplayName": "Vivo Y30",
+    "EnumName": "Vivo_Y30",
+    "ThumbnailPath": "model/Vivo_Y30.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y11 2019",
+    "DisplayName": "Vivo Y11 2019",
+    "EnumName": "Vivo_Y11_2019",
+    "ThumbnailPath": "model/Vivo_Y11_2019.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y19",
+    "DisplayName": "Vivo Y19",
+    "EnumName": "Vivo_Y19",
+    "ThumbnailPath": "model/Vivo_Y19.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y90",
+    "DisplayName": "Vivo Y90",
+    "EnumName": "Vivo_Y90",
+    "ThumbnailPath": "model/Vivo_Y90.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y12",
+    "DisplayName": "Vivo Y12",
+    "EnumName": "Vivo_Y12",
+    "ThumbnailPath": "model/Vivo_Y12.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y15 2019",
+    "DisplayName": "Vivo Y15 2019",
+    "EnumName": "Vivo_Y15_2019",
+    "ThumbnailPath": "model/Vivo_Y15_2019.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y91i",
+    "DisplayName": "Vivo Y91i",
+    "EnumName": "Vivo_Y91i",
+    "ThumbnailPath": "model/Vivo_Y91i.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y95",
+    "DisplayName": "Vivo Y95",
+    "EnumName": "Vivo_Y95",
+    "ThumbnailPath": "model/Vivo_Y95.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y12G",
+    "DisplayName": "Vivo Y12G",
+    "EnumName": "Vivo_Y12G",
+    "ThumbnailPath": "model/Vivo_Y12G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y53s",
+    "DisplayName": "Vivo Y53s",
+    "EnumName": "Vivo_Y53s",
+    "ThumbnailPath": "model/Vivo_Y53s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y1s",
+    "DisplayName": "Vivo Y1s",
+    "EnumName": "Vivo_Y1s",
+    "ThumbnailPath": "model/Vivo_Y1s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y12s",
+    "DisplayName": "Vivo Y12s",
+    "EnumName": "Vivo_Y12s",
+    "ThumbnailPath": "model/Vivo_Y12s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y31 2021",
+    "DisplayName": "Vivo Y31 2021",
+    "EnumName": "Vivo_Y31_2021",
+    "ThumbnailPath": "model/Vivo_Y31_2021.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y20A",
+    "DisplayName": "Vivo Y20A",
+    "EnumName": "Vivo_Y20A",
+    "ThumbnailPath": "model/Vivo_Y20A.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y51A",
+    "DisplayName": "Vivo Y51A",
+    "EnumName": "Vivo_Y51A",
+    "ThumbnailPath": "model/Vivo_Y51A.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y51 2020",
+    "DisplayName": "Vivo Y51 2020",
+    "EnumName": "Vivo_Y51_2020",
+    "ThumbnailPath": "model/Vivo_Y51_2020.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y20",
+    "DisplayName": "Vivo Y20",
+    "EnumName": "Vivo_Y20",
+    "ThumbnailPath": "model/Vivo_Y20.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y20i",
+    "DisplayName": "Vivo Y20i",
+    "EnumName": "Vivo_Y20i",
+    "ThumbnailPath": "model/Vivo_Y20i.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y50",
+    "DisplayName": "Vivo Y50",
+    "EnumName": "Vivo_Y50",
+    "ThumbnailPath": "model/Vivo_Y50.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y17",
+    "DisplayName": "Vivo Y17",
+    "EnumName": "Vivo_Y17",
+    "ThumbnailPath": "model/Vivo_Y17.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y91",
+    "DisplayName": "Vivo Y91",
+    "EnumName": "Vivo_Y91",
+    "ThumbnailPath": "model/Vivo_Y91.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y93",
+    "DisplayName": "Vivo Y93",
+    "EnumName": "Vivo_Y93",
+    "ThumbnailPath": "model/Vivo_Y93.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 412,
+    "Name": "Vivo Y81",
+    "DisplayName": "Vivo Y81",
+    "EnumName": "Vivo_Y81",
+    "ThumbnailPath": "model/Vivo_Y81.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 408,
+    "Name": "Vivo X21",
+    "DisplayName": "Vivo X21",
+    "EnumName": "Vivo_X21",
+    "ThumbnailPath": "model/Vivo_X21.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V17",
+    "DisplayName": "Vivo V17",
+    "EnumName": "Vivo_V17",
+    "ThumbnailPath": "model/Vivo_V17.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V15",
+    "DisplayName": "Vivo V15",
+    "EnumName": "Vivo_V15",
+    "ThumbnailPath": "model/Vivo_V15.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V15 Pro",
+    "DisplayName": "Vivo V15 Pro",
+    "EnumName": "Vivo_V15_Pro",
+    "ThumbnailPath": "model/Vivo_V15_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V11",
+    "DisplayName": "Vivo V11",
+    "EnumName": "Vivo_V11",
+    "ThumbnailPath": "model/Vivo_V11.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 422,
+    "Name": "Vivo V11 Pro",
+    "DisplayName": "Vivo V11 Pro",
+    "EnumName": "Vivo_V11_Pro",
+    "ThumbnailPath": "model/Vivo_V11_Pro.png",
+    "DisplayInList": true
+  }
+]

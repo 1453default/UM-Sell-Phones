@@ -1,0 +1,67 @@
+{
+  "brand": "POCO",
+  "model": "Poco F3 GT",
+  "official_name": "Poco F3 GT",
+  "series": "G Series",
+  "release": {
+    "year": 2023,
+    "date": ""
+  },
+  "region": "India",
+  "variants": [],
+  "display": {
+    "type": "",
+    "size": "",
+    "resolution": "",
+    "refresh_rate": "60 Hz",
+    "hdr": "",
+    "protection": ""
+  },
+  "processor": {
+    "chipset": "",
+    "cpu": "",
+    "gpu": ""
+  },
+  "camera": {
+    "rear": [],
+    "front": "",
+    "video": []
+  },
+  "battery": {
+    "capacity": "",
+    "charging": "",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "",
+    "weight": "",
+    "materials": "",
+    "colors": [],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "",
+    "wifi": "",
+    "bluetooth": "",
+    "nfc": "",
+    "usb": "",
+    "sim": ""
+  },
+  "software": {
+    "os_at_launch": "",
+    "update_policy": ""
+  },
+  "features": [],
+  "images": [
+    "POCO/POCO  images/POCO_F3_GT.png"
+  ],
+  "research_sources": [
+    {
+      "title": "GSMArena Poco F3 GT Specifications",
+      "url": "https://www.gsmarena.com",
+      "source_type": "database"
+    }
+  ],
+  "confidence": "low",
+  "notes": ""
+}

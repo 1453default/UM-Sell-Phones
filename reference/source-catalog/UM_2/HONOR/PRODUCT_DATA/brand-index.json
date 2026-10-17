@@ -1,0 +1,66 @@
+{
+  "brand": "HONOR",
+  "total_models": 10,
+  "models": [
+    {
+      "model": "Honor 20",
+      "file": "Honor-20.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Honor 200 5G",
+      "file": "Honor-200-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Honor 200 Lite 5G",
+      "file": "Honor-200-Lite-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Honor 200 Pro 5G",
+      "file": "Honor-200-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Honor 20i",
+      "file": "Honor-20i.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Honor 8C",
+      "file": "Honor-8C.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Honor 90 5G",
+      "file": "Honor-90-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Honor X7c",
+      "file": "Honor-X7c.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Honor X9b",
+      "file": "Honor-X9b.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Honor X9c",
+      "file": "Honor-X9c.json",
+      "image_count": 1,
+      "confidence": "low"
+    }
+  ]
+}

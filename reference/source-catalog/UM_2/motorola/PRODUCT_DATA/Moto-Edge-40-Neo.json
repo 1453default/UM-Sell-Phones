@@ -1,0 +1,67 @@
+{
+  "brand": "motorola",
+  "model": "Moto Edge 40 Neo",
+  "official_name": "motorola Moto Edge 40 Neo",
+  "series": "Edge",
+  "release": {
+    "year": 2023,
+    "date": ""
+  },
+  "region": "India",
+  "variants": [],
+  "display": {
+    "type": "",
+    "size": "",
+    "resolution": "",
+    "refresh_rate": "60 Hz",
+    "hdr": "",
+    "protection": ""
+  },
+  "processor": {
+    "chipset": "",
+    "cpu": "",
+    "gpu": ""
+  },
+  "camera": {
+    "rear": [],
+    "front": "",
+    "video": []
+  },
+  "battery": {
+    "capacity": "",
+    "charging": "",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "",
+    "weight": "",
+    "materials": "",
+    "colors": [],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "",
+    "wifi": "",
+    "bluetooth": "",
+    "nfc": "",
+    "usb": "",
+    "sim": ""
+  },
+  "software": {
+    "os_at_launch": "",
+    "update_policy": ""
+  },
+  "features": [],
+  "images": [
+    "motorola/motorola  images/Motorola_Edge_40_Neo.png"
+  ],
+  "research_sources": [
+    {
+      "title": "GSMArena motorola Moto Edge 40 Neo Specifications",
+      "url": "https://www.gsmarena.com",
+      "source_type": "database"
+    }
+  ],
+  "confidence": "low",
+  "notes": ""
+}

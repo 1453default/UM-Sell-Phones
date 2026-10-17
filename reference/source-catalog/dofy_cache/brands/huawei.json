@@ -1,0 +1,82 @@
+[
+  {
+    "BrandSeriesId": 126,
+    "Name": "Huawei Mate 30 Pro",
+    "DisplayName": "Huawei Mate 30 Pro",
+    "EnumName": "Huawei_Mate_30_Pro",
+    "ThumbnailPath": "model/Huawei_Mate_30_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 126,
+    "Name": "Huawei Mate 20",
+    "DisplayName": "Huawei Mate 20",
+    "EnumName": "Huawei_Mate_20",
+    "ThumbnailPath": "model/Huawei_Mate_20.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 126,
+    "Name": "Huawei Mate 10",
+    "DisplayName": "Huawei Mate 10",
+    "EnumName": "Huawei_Mate_10",
+    "ThumbnailPath": "model/Huawei_Mate_10.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 126,
+    "Name": "Huawei Mate 20 Pro",
+    "DisplayName": "Huawei Mate 20 Pro",
+    "EnumName": "Huawei_Mate_20_Pro",
+    "ThumbnailPath": "model/Huawei_Mate_20_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 125,
+    "Name": "Huawei Nova 3",
+    "DisplayName": "Huawei Nova 3",
+    "EnumName": "Huawei_Nova_3",
+    "ThumbnailPath": "model/Huawei_Nova_3.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 124,
+    "Name": "Huawei Y9s",
+    "DisplayName": "Huawei Y9s",
+    "EnumName": "Huawei_Y9s",
+    "ThumbnailPath": "model/Huawei_Y9s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 124,
+    "Name": "Huawei Y5 2017",
+    "DisplayName": "Huawei Y5 2017",
+    "EnumName": "Huawei_Y5_2017",
+    "ThumbnailPath": "model/Huawei_Y5_2017.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 123,
+    "Name": "Huawei P30 Lite",
+    "DisplayName": "Huawei P30 Lite",
+    "EnumName": "Huawei_P30_Lite",
+    "ThumbnailPath": "model/Huawei_P30_Lite.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 123,
+    "Name": "Huawei P30 Pro",
+    "DisplayName": "Huawei P30 Pro",
+    "EnumName": "Huawei_P30_Pro",
+    "ThumbnailPath": "model/Huawei_P30_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 123,
+    "Name": "Huawei P20 Pro",
+    "DisplayName": "Huawei P20 Pro",
+    "EnumName": "Huawei_P20_Pro",
+    "ThumbnailPath": "model/Huawei_P20_Pro.png",
+    "DisplayInList": true
+  }
+]

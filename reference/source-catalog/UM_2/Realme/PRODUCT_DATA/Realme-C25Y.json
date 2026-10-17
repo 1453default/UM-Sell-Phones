@@ -1,0 +1,79 @@
+{
+  "brand": "Realme",
+  "model": "Realme C25Y",
+  "official_name": "Realme C25Y",
+  "series": "Realme Series",
+  "release": {
+    "year": 2023,
+    "date": ""
+  },
+  "region": "India",
+  "variants": [
+    {
+      "ram": "4 GB",
+      "storage": "64 GB"
+    }
+  ],
+  "display": {
+    "type": "IPS LCD, 90Hz",
+    "size": "6.5 inches",
+    "resolution": "720 x 1600 pixels",
+    "refresh_rate": "90 Hz",
+    "hdr": "",
+    "protection": "Corning Gorilla Glass"
+  },
+  "processor": {
+    "chipset": "MediaTek Helio / Unisoc series",
+    "cpu": "Octa-core",
+    "gpu": "Mali GPU"
+  },
+  "camera": {
+    "rear": [
+      "50 MP (wide), PDAF",
+      "2 MP (depth)"
+    ],
+    "front": "8 MP",
+    "video": [
+      "1080p@30fps"
+    ]
+  },
+  "battery": {
+    "capacity": "5000 mAh",
+    "charging": "18W wired",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "",
+    "weight": "",
+    "materials": "Glass front, plastic back, plastic frame",
+    "colors": [],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "4G LTE, 3G, 2G",
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG",
+    "sim": "Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "software": {
+    "os_at_launch": "Android 13",
+    "update_policy": ""
+  },
+  "features": [
+    "Fingerprint (side-mounted)"
+  ],
+  "images": [
+    "Realme/Realme  images/Realme_C25Y.png"
+  ],
+  "research_sources": [
+    {
+      "title": "Realme C25Y Specifications - Official & Indian Market Listing",
+      "url": "https://www.realme.com/in",
+      "source_type": "official"
+    }
+  ],
+  "confidence": "medium",
+  "notes": "Specifications aggregated from Indian regional manufacturer portfolio data."
+}

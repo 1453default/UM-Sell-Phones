@@ -1,0 +1,12 @@
+{
+  "brand": "LG",
+  "total_models": 1,
+  "models": [
+    {
+      "model": "LG G8X ThinQ",
+      "file": "LG-G8X-ThinQ.json",
+      "image_count": 1,
+      "confidence": "high"
+    }
+  ]
+}

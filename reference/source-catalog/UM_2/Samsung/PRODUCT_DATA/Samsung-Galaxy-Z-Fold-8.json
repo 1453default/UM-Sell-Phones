@@ -1,0 +1,67 @@
+{
+  "brand": "Samsung",
+  "model": "Samsung Galaxy Z Fold 8",
+  "official_name": "Samsung Galaxy Z Fold 8",
+  "series": "Galaxy Z",
+  "release": {
+    "year": 2025,
+    "date": ""
+  },
+  "region": "India",
+  "variants": [],
+  "display": {
+    "type": "",
+    "size": "",
+    "resolution": "",
+    "refresh_rate": "",
+    "hdr": "",
+    "protection": ""
+  },
+  "processor": {
+    "chipset": "",
+    "cpu": "",
+    "gpu": ""
+  },
+  "camera": {
+    "rear": [],
+    "front": "",
+    "video": []
+  },
+  "battery": {
+    "capacity": "",
+    "charging": "",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "",
+    "weight": "",
+    "materials": "",
+    "colors": [],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "",
+    "wifi": "",
+    "bluetooth": "",
+    "nfc": "",
+    "usb": "",
+    "sim": ""
+  },
+  "software": {
+    "os_at_launch": "",
+    "update_policy": ""
+  },
+  "features": [],
+  "images": [
+    "Samsung/Samsung Phones/Samsung Phone images/Samsung_Galaxy_Z_Fold_8.png"
+  ],
+  "research_sources": [
+    {
+      "title": "Samsung Official Website",
+      "url": "https://www.samsung.com",
+      "source_type": "official"
+    }
+  ],
+  "confidence": "unverified",
+  "notes": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+}

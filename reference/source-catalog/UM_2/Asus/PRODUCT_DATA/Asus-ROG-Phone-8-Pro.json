@@ -1,0 +1,93 @@
+{
+  "brand": "Asus",
+  "model": "Asus ROG Phone 8 Pro",
+  "official_name": "Asus ROG Phone 8 Pro",
+  "series": "ROG",
+  "release": {
+    "year": 2024,
+    "date": "2024 January 08"
+  },
+  "region": "India",
+  "variants": [
+    {
+      "ram": "16GB",
+      "storage": "512GB"
+    },
+    {
+      "ram": "24GB",
+      "storage": "1TB"
+    }
+  ],
+  "display": {
+    "type": "LTPO AMOLED, 1B colors, 165Hz, HDR10, 1600 nits (HBM), 2500 nits (peak)",
+    "size": "6.78 inches, 111.0 cm2 (~88.2% screen-to-body ratio)",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~388 ppi density)",
+    "refresh_rate": "165 Hz",
+    "hdr": "HDR10, HDR",
+    "protection": "Corning Gorilla Glass Victus 2"
+  },
+  "processor": {
+    "chipset": "Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)",
+    "cpu": "Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520)",
+    "gpu": "Adreno 750"
+  },
+  "camera": {
+    "rear": [
+      "50 MP, f/1.9, 24mm (wide), 1/1.56\", 1.0µm, PDAF, gimbal OIS 32 MP, f/2.4, (telephoto), 1/3.2\", 0.7µm, PDAF, OIS, 3x optical zoom 13 MP, f/2.2, 13mm, 120˚ (ultrawide)"
+    ],
+    "front": "32 MP, f/2.5, 22mm (wide), 1/3.2\", 0.7µm",
+    "video": [
+      "8K@24fps",
+      "4K@30/60fps",
+      "1080p@30/60/120/240fps",
+      "720p@480fps; gyro-EIS",
+      "HDR10+"
+    ]
+  },
+  "battery": {
+    "capacity": "5500 mAh",
+    "charging": "65W wired, PD3.0, PPS, QC5, 100% in 39 min - International 30W wired, PD3.0, PPS - India 15W wireless (Qi) 10W reverse wired",
+    "wireless_charging": "PPS - India 15W wireless (Qi) 10W reverse wired"
+  },
+  "design": {
+    "dimensions": "163.8 x 76.8 x 8.9 mm (6.45 x 3.02 x 0.35 in)",
+    "weight": "225 g (7.94 oz)",
+    "materials": "Glass front (Gorilla Glass Victus 2), glass back (Gorilla Glass), aluminum frame",
+    "colors": [
+      "Phantom Black"
+    ],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "GSM / CDMA / HSPA / LTE / 5G",
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, Wi-Fi Direct",
+    "bluetooth": "5.4, A2DP, LE, aptX HD, aptX Adaptive, aptX Lossless",
+    "nfc": "Yes",
+    "usb": "USB Type-C (side), DisplayPort 1.4; USB Type-C (bottom), OTG",
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "software": {
+    "os_at_launch": "Android 14, up to 2 major OS updates",
+    "update_policy": ""
+  },
+  "features": [
+    "Fingerprint (under display",
+    "optical)",
+    "accelerometer",
+    "gyro",
+    "proximity",
+    "compass"
+  ],
+  "images": [
+    "Asus/Asus images/Asus_ROG_Phone_8_Pro.png"
+  ],
+  "research_sources": [
+    {
+      "title": "GSMArena Asus ROG Phone 8 Pro Specifications",
+      "url": "https://www.gsmarena.com",
+      "source_type": "database"
+    }
+  ],
+  "confidence": "high",
+  "notes": ""
+}

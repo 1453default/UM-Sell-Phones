@@ -1,0 +1,72 @@
+{
+  "brand": "Nothing",
+  "total_models": 11,
+  "models": [
+    {
+      "model": "Nothing Phone 1",
+      "file": "Nothing-Phone-1.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Nothing Phone 2",
+      "file": "Nothing-Phone-2.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Nothing Phone 2a",
+      "file": "Nothing-Phone-2a.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Nothing Phone 2a Plus",
+      "file": "Nothing-Phone-2a-Plus.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Nothing Phone 3",
+      "file": "Nothing-Phone-3.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Nothing Phone 3a",
+      "file": "Nothing-Phone-3a.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Nothing Phone 3a Lite",
+      "file": "Nothing-Phone-3a-Lite.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Nothing Phone 3a Pro",
+      "file": "Nothing-Phone-3a-Pro.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Nothing Phone 4a",
+      "file": "Nothing-Phone-4a.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Nothing Phone 4a Pro",
+      "file": "Nothing-Phone-4a-Pro.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Nothing Phone 4b",
+      "file": "Nothing-Phone-4b.json",
+      "image_count": 1,
+      "confidence": "high"
+    }
+  ]
+}

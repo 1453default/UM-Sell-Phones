@@ -1,0 +1,93 @@
+{
+  "brand": "Nothing",
+  "model": "Nothing Phone 4b",
+  "official_name": "Nothing Phone 4b",
+  "series": "G Series",
+  "release": {
+    "year": 2026,
+    "date": "2026 July 07"
+  },
+  "region": "India",
+  "variants": [
+    {
+      "ram": "8GB",
+      "storage": "128GB"
+    },
+    {
+      "ram": "8GB",
+      "storage": "256GB"
+    }
+  ],
+  "display": {
+    "type": "AMOLED, 120Hz, 480Hz PWM, 600 nits (typ), 1200 nits (HBM), 2000 nits (peak)",
+    "size": "6.77 inches, 112.4 cm2 (~87.4% screen-to-body ratio)",
+    "resolution": "1080 x 2344 pixels, 19.5:9 ratio (~381 ppi density)",
+    "refresh_rate": "120 Hz",
+    "hdr": "",
+    "protection": "Dragontail Pro Glass"
+  },
+  "processor": {
+    "chipset": "Qualcomm Snapdragon 6 Gen 4 (4 nm)",
+    "cpu": "Octa-core (1x2.3 GHz Cortex-A720s & 3x2.2 GHz Cortex-A720s & 4x1.8 GHz Cortex-A520s)",
+    "gpu": "Adreno 810"
+  },
+  "camera": {
+    "rear": [
+      "50 MP, f/1.8, (wide), 1/2.76\", PDAF, OIS 8 MP, f/2.2, 15mm, 120˚ (ultrawide), 1/4.0\", 1.12µm"
+    ],
+    "front": "16 MP, f/2.4, (wide), 1/3.0\"",
+    "video": [
+      "4K@30fps",
+      "1080p@30/60/120fps",
+      "gyro-EIS"
+    ]
+  },
+  "battery": {
+    "capacity": "5200 mAh",
+    "charging": "33W wired, PPS, UFCS, PD 7.5W reverse wired",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "164.4 x 78.2 x 8.6 mm (6.47 x 3.08 x 0.34 in)",
+    "weight": "210 g (7.41 oz)",
+    "materials": "Glass front, plastic frame, plastic back",
+    "colors": [
+      "White",
+      "Black",
+      "Blue"
+    ],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "GSM / HSPA / LTE / 5G",
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "6.0, A2DP, LE",
+    "nfc": "Yes (market/region dependent)",
+    "usb": "USB Type-C 2.0, OTG",
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "software": {
+    "os_at_launch": "Android 16, Nothing OS 4.1, up to 3 major OS updates",
+    "update_policy": ""
+  },
+  "features": [
+    "Fingerprint (under display",
+    "optical)",
+    "accelerometer",
+    "gyro",
+    "proximity",
+    "compass"
+  ],
+  "images": [
+    "Nothing/Nothing  images/Nothing_Phone_4b.png"
+  ],
+  "research_sources": [
+    {
+      "title": "GSMArena Nothing Phone 4b Specifications",
+      "url": "https://www.gsmarena.com",
+      "source_type": "database"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Preliminary specifications based on industry announcements/catalog data."
+}

@@ -1,0 +1,67 @@
+{
+  "brand": "motorola",
+  "model": "Moto Edge 70 Pro Plus",
+  "official_name": "motorola Moto Edge 70 Pro Plus",
+  "series": "Edge",
+  "release": {
+    "year": 2025,
+    "date": ""
+  },
+  "region": "India",
+  "variants": [],
+  "display": {
+    "type": "",
+    "size": "",
+    "resolution": "",
+    "refresh_rate": "",
+    "hdr": "",
+    "protection": ""
+  },
+  "processor": {
+    "chipset": "",
+    "cpu": "",
+    "gpu": ""
+  },
+  "camera": {
+    "rear": [],
+    "front": "",
+    "video": []
+  },
+  "battery": {
+    "capacity": "",
+    "charging": "",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "",
+    "weight": "",
+    "materials": "",
+    "colors": [],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "",
+    "wifi": "",
+    "bluetooth": "",
+    "nfc": "",
+    "usb": "",
+    "sim": ""
+  },
+  "software": {
+    "os_at_launch": "",
+    "update_policy": ""
+  },
+  "features": [],
+  "images": [
+    "motorola/motorola  images/Moto_Edge_70_Pro_Plus.png"
+  ],
+  "research_sources": [
+    {
+      "title": "motorola Official Website",
+      "url": "https://www.motorola.com",
+      "source_type": "official"
+    }
+  ],
+  "confidence": "unverified",
+  "notes": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+}

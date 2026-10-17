@@ -1,0 +1,97 @@
+{
+  "brand": "CMF",
+  "model": "Phone 1",
+  "official_name": "CMF by Nothing Phone 1",
+  "series": "CMF Phone",
+  "release": {
+    "year": 2024,
+    "date": "2024-07-08"
+  },
+  "region": "India",
+  "variants": [
+    {
+      "ram": "6 GB",
+      "storage": "128 GB"
+    },
+    {
+      "ram": "8 GB",
+      "storage": "128 GB"
+    }
+  ],
+  "display": {
+    "type": "Super AMOLED, 120Hz, HDR10+, 2000 nits (peak)",
+    "size": "6.67 inches",
+    "resolution": "1080 x 2400 pixels",
+    "refresh_rate": "120 Hz",
+    "hdr": "HDR10+",
+    "protection": "Glass front"
+  },
+  "processor": {
+    "chipset": "Mediatek Dimensity 7300 (4 nm)",
+    "cpu": "Octa-core (4x2.5 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+    "gpu": "Mali-G615 MC2"
+  },
+  "camera": {
+    "rear": [
+      "50 MP, f/1.8, (wide), PDAF",
+      "2 MP, f/2.4, (depth)"
+    ],
+    "front": "16 MP, f/2.0, (wide)",
+    "video": [
+      "4K@30fps",
+      "1080p@30/60fps"
+    ]
+  },
+  "battery": {
+    "capacity": "5000 mAh",
+    "charging": "33W wired, 50% in 20 min (advertised), 5W reverse wired",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "164 x 77 x 8.2 mm",
+    "weight": "197 g",
+    "materials": "Glass front, plastic back / vegan leather back, plastic frame",
+    "colors": [
+      "Black",
+      "Orange",
+      "Light Green",
+      "Blue"
+    ],
+    "ip_rating": "IP52"
+  },
+  "connectivity": {
+    "network": "5G, 4G LTE, 3G, 2G",
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+    "bluetooth": "5.3, A2DP, LE",
+    "nfc": "No (India variant)",
+    "usb": "USB Type-C 2.0, OTG",
+    "sim": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "software": {
+    "os_at_launch": "Android 14, Nothing OS 2.6",
+    "update_policy": "2 major Android updates, 3 years security patches"
+  },
+  "features": [
+    "Interchangeable modular back covers",
+    "Accessory Point screw mount (lanyard, kickstand, card case)",
+    "Fingerprint (under display, optical)",
+    "microSDXC slot (hybrid)"
+  ],
+  "research_sources": [
+    {
+      "title": "CMF by Nothing Phone 1 Official Specs",
+      "url": "https://in.cmf.tech/pages/phone-1",
+      "source_type": "official"
+    },
+    {
+      "title": "GSMArena CMF Phone 1 Specifications",
+      "url": "https://www.gsmarena.com/cmf_phone_1-13175.php",
+      "source_type": "database"
+    }
+  ],
+  "confidence": "high",
+  "notes": "India launch featured Flipkart exclusive sale; Indian variant omits NFC.",
+  "images": [
+    "CMF/CMF images/CMF_Phone_1.png"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "brand": "Samsung",
+  "model": "Samsung Galaxy A23 5G",
+  "official_name": "Samsung Galaxy A23 5G",
+  "series": "Galaxy A",
+  "release": {
+    "year": 2023,
+    "date": ""
+  },
+  "region": "India",
+  "variants": [],
+  "display": {
+    "type": "",
+    "size": "",
+    "resolution": "",
+    "refresh_rate": "60 Hz",
+    "hdr": "",
+    "protection": ""
+  },
+  "processor": {
+    "chipset": "",
+    "cpu": "",
+    "gpu": ""
+  },
+  "camera": {
+    "rear": [],
+    "front": "",
+    "video": []
+  },
+  "battery": {
+    "capacity": "",
+    "charging": "",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "",
+    "weight": "",
+    "materials": "",
+    "colors": [],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "",
+    "wifi": "",
+    "bluetooth": "",
+    "nfc": "",
+    "usb": "",
+    "sim": ""
+  },
+  "software": {
+    "os_at_launch": "",
+    "update_policy": ""
+  },
+  "features": [],
+  "images": [
+    "Samsung/Samsung Phones/Samsung Phone images/SAMSUNG_A23_5G.png"
+  ],
+  "research_sources": [
+    {
+      "title": "GSMArena Samsung Galaxy A23 5G Specifications",
+      "url": "https://www.gsmarena.com",
+      "source_type": "database"
+    }
+  ],
+  "confidence": "low",
+  "notes": ""
+}

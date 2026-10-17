@@ -1,0 +1,306 @@
+{
+  "brand": "OnePlus",
+  "total_models": 50,
+  "models": [
+    {
+      "model": "OnePlus 10 Pro 5G",
+      "file": "OnePlus-10-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 10r 5G",
+      "file": "OnePlus-10r-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 11 5G",
+      "file": "OnePlus-11-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 11R 5G",
+      "file": "OnePlus-11R-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 12",
+      "file": "OnePlus-12.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 12R",
+      "file": "OnePlus-12R.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 13",
+      "file": "OnePlus-13.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 13R",
+      "file": "OnePlus-13R.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 15",
+      "file": "OnePlus-15.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "OnePlus 5",
+      "file": "OnePlus-5.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 5T",
+      "file": "OnePlus-5T.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 6",
+      "file": "OnePlus-6.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 6T",
+      "file": "OnePlus-6T.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 6T McLaren",
+      "file": "OnePlus-6T-McLaren.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 7",
+      "file": "OnePlus-7.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 7 Pro",
+      "file": "OnePlus-7-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 7T",
+      "file": "OnePlus-7T.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 7T Pro",
+      "file": "OnePlus-7T-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 7T Pro McLaren Edition",
+      "file": "OnePlus-7T-Pro-McLaren-Edition.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 8",
+      "file": "OnePlus-8.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 8 Pro",
+      "file": "OnePlus-8-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 8T",
+      "file": "OnePlus-8T.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 9",
+      "file": "OnePlus-9.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 9 Pro 5G",
+      "file": "OnePlus-9-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 9R 5G",
+      "file": "OnePlus-9R-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus 9RT 5G",
+      "file": "OnePlus-9RT-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus Nord",
+      "file": "OnePlus-Nord.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus Nord 2 5G",
+      "file": "OnePlus-Nord-2-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus Nord 4",
+      "file": "OnePlus-Nord-4.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus Nord 5",
+      "file": "OnePlus-Nord-5.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "OnePlus Nord 6 5G",
+      "file": "OnePlus-Nord-6-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "OnePlus Nord CE 2 5G",
+      "file": "OnePlus-Nord-CE-2-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus Nord CE 2 lite",
+      "file": "OnePlus-Nord-CE-2-lite.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus Nord CE 4 5G",
+      "file": "OnePlus-Nord-CE-4-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus Nord CE 5 5G",
+      "file": "OnePlus-Nord-CE-5-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "OnePlus Nord CE 5G",
+      "file": "OnePlus-Nord-CE-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "OnePlus Nord CE 6 5G",
+      "file": "OnePlus-Nord-CE-6-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "OnePlus Nord CE 6 Lite 5G",
+      "file": "OnePlus-Nord-CE-6-Lite-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "OnePlus Nord CE4 Lite 5G",
+      "file": "OnePlus-Nord-CE4-Lite-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus Nord N20 SE",
+      "file": "OnePlus-Nord-N20-SE.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OnePlus Open",
+      "file": "OnePlus-Open.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oneplus 10T",
+      "file": "Oneplus-10T.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oneplus 13S",
+      "file": "Oneplus-13S.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oneplus 15R",
+      "file": "Oneplus-15R.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Oneplus N6",
+      "file": "Oneplus-N6.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Oneplus N6x",
+      "file": "Oneplus-N6x.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Oneplus Nord 2T 5G",
+      "file": "Oneplus-Nord-2T-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oneplus Nord 3 5G",
+      "file": "Oneplus-Nord-3-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oneplus Nord CE 3 5G",
+      "file": "Oneplus-Nord-CE-3-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oneplus Nord CE 3 Lite 5G",
+      "file": "Oneplus-Nord-CE-3-Lite-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    }
+  ]
+}

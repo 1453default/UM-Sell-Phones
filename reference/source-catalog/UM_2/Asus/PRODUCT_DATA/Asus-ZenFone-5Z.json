@@ -1,0 +1,94 @@
+{
+  "brand": "Asus",
+  "model": "Asus ZenFone 5Z",
+  "official_name": "Asus ZenFone 5Z",
+  "series": "ZenFone",
+  "release": {
+    "year": 2018,
+    "date": "2018 April"
+  },
+  "region": "India",
+  "variants": [
+    {
+      "ram": "2GB",
+      "storage": "16GB"
+    },
+    {
+      "ram": "2GB",
+      "storage": "32GB"
+    },
+    {
+      "ram": "3GB",
+      "storage": "32GB"
+    }
+  ],
+  "display": {
+    "type": "IPS LCD",
+    "size": "5.7 inches, 83.8 cm2 (~75.4% screen-to-body ratio)",
+    "resolution": "720 x 1440 pixels, 18:9 ratio (~282 ppi density)",
+    "refresh_rate": "60 Hz",
+    "hdr": "",
+    "protection": ""
+  },
+  "processor": {
+    "chipset": "Qualcomm MSM8937 Snapdragon 430 (28 nm)",
+    "cpu": "Octa-core (4x1.4 GHz Cortex-A53 & 4x1.1 GHz Cortex A53)",
+    "gpu": "Adreno 505"
+  },
+  "camera": {
+    "rear": [
+      "13 MP, f/2.2, PDAF Auxiliary lens"
+    ],
+    "front": "8 MP, f/2.0",
+    "video": [
+      "1080p@30fps"
+    ]
+  },
+  "battery": {
+    "capacity": "3000 mAh",
+    "charging": "",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "152.4 x 73 x 7.8 mm (6.00 x 2.87 x 0.31 in)",
+    "weight": "150 g (5.29 oz)",
+    "materials": "Glass front, aluminum back, aluminum frame",
+    "colors": [
+      "Black",
+      "Gold",
+      "Blue"
+    ],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "GSM / HSPA / LTE",
+    "wifi": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0",
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "software": {
+    "os_at_launch": "Android 8.0 (Oreo), EMUI 8",
+    "update_policy": ""
+  },
+  "features": [
+    "Fingerprint (rear-mounted)",
+    "accelerometer",
+    "gyro",
+    "proximity",
+    "compass"
+  ],
+  "images": [
+    "Asus/Asus images/Asus_ZenFone_5Z.png"
+  ],
+  "research_sources": [
+    {
+      "title": "GSMArena Asus ZenFone 5Z Specifications",
+      "url": "https://www.gsmarena.com",
+      "source_type": "database"
+    }
+  ],
+  "confidence": "high",
+  "notes": ""
+}

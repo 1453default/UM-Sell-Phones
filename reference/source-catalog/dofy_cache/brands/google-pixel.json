@@ -1,0 +1,234 @@
+[
+  {
+    "BrandSeriesId": 601,
+    "Name": "Google Pixel 11 Pro XL",
+    "DisplayName": "Google Pixel 11 Pro XL",
+    "EnumName": "Google_Pixel_11_Pro_XL",
+    "ThumbnailPath": "model/Google_Pixel_11_Pro_XL.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 601,
+    "Name": "Google Pixel 11 Pro",
+    "DisplayName": "Google Pixel 11 Pro",
+    "EnumName": "Google_Pixel_11_Pro",
+    "ThumbnailPath": "model/Google_Pixel_11_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 601,
+    "Name": "Google Pixel 11 Pro Fold",
+    "DisplayName": "Google Pixel 11 Pro Fold",
+    "EnumName": "Google_Pixel_11_Pro_Fold",
+    "ThumbnailPath": "model/Google_Pixel_11_Pro_Fold.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 601,
+    "Name": "Google Pixel 11",
+    "DisplayName": "Google Pixel 11",
+    "EnumName": "Google_Pixel_11",
+    "ThumbnailPath": "model/Google_Pixel_11.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 590,
+    "Name": "Google Pixel 10A",
+    "DisplayName": "Google Pixel 10A",
+    "EnumName": "Google_Pixel_10A",
+    "ThumbnailPath": "model/Google_Pixel_10A.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 590,
+    "Name": "Google pixel 10 Pro Fold",
+    "DisplayName": "Google pixel 10 Pro Fold",
+    "EnumName": "Google_pixel_10_Pro_Fold",
+    "ThumbnailPath": "model/Google_pixel_10_Pro_Fold.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 590,
+    "Name": "Google Pixel 10",
+    "DisplayName": "Google Pixel 10",
+    "EnumName": "Google_Pixel_10",
+    "ThumbnailPath": "model/Google_Pixel_10.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 590,
+    "Name": "Google Pixel 10 Pro XL",
+    "DisplayName": "Google Pixel 10 Pro XL",
+    "EnumName": "Google_Pixel_10_Pro_XL",
+    "ThumbnailPath": "model/Google_Pixel_10_Pro_XL.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 590,
+    "Name": "Google Pixel 10 Pro",
+    "DisplayName": "Google Pixel 10 Pro",
+    "EnumName": "Google_Pixel_10_Pro",
+    "ThumbnailPath": "model/Google_Pixel_10_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 480,
+    "Name": "Google Pixel 9A",
+    "DisplayName": "Google Pixel 9A",
+    "EnumName": "Google_Pixel_9A",
+    "ThumbnailPath": "model/Google_Pixel_9A.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 480,
+    "Name": "Google Pixel 9 Pro",
+    "DisplayName": "Google Pixel 9 Pro",
+    "EnumName": "Google_Pixel_9_Pro",
+    "ThumbnailPath": "model/Google_Pixel_9_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 480,
+    "Name": "Google Pixel 9 Pro XL",
+    "DisplayName": "Google Pixel 9 Pro XL",
+    "EnumName": "Google_Pixel_9_Pro_XL",
+    "ThumbnailPath": "model/Google_Pixel_9_Pro_XL.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 480,
+    "Name": "Google Pixel 9",
+    "DisplayName": "Google Pixel 9",
+    "EnumName": "Google_Pixel_9",
+    "ThumbnailPath": "model/Google_Pixel_9.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 480,
+    "Name": "Google Pixel 9 Pro Fold",
+    "DisplayName": "Google Pixel 9 Pro Fold",
+    "EnumName": "Google_Pixel_9_Pro_Fold",
+    "ThumbnailPath": "model/Google_Pixel_9_Pro_Fold.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 520,
+    "Name": "Google Pixel 8A",
+    "DisplayName": "Google Pixel 8A",
+    "EnumName": "Google_Pixel_8A",
+    "ThumbnailPath": "model/Google_Pixel_8A.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 519,
+    "Name": "Google Pixel Fold Porcelain",
+    "DisplayName": "Google Pixel Fold Porcelain",
+    "EnumName": "Google_Pixel_Fold_Porcelain",
+    "ThumbnailPath": "model/Google_Pixel_Fold_Porcelain.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 520,
+    "Name": "Google Pixel 8 pro",
+    "DisplayName": "Google Pixel 8 pro",
+    "EnumName": "Google_Pixel_8_pro",
+    "ThumbnailPath": "model/Google_Pixel_8_pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 520,
+    "Name": "Google Pixel 8",
+    "DisplayName": "Google Pixel 8",
+    "EnumName": "Google_Pixel_8",
+    "ThumbnailPath": "model/Google_Pixel_8.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 514,
+    "Name": "Google Pixel 7A",
+    "DisplayName": "Google Pixel 7A",
+    "EnumName": "Google_Pixel_7A",
+    "ThumbnailPath": "model/Pixel_7A.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 514,
+    "Name": "Google Pixel 7 Pro",
+    "DisplayName": "Google Pixel 7 Pro",
+    "EnumName": "Google_Pixel_7_Pro",
+    "ThumbnailPath": "model/Google_Pixel_PIXEL_7_PRO.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 514,
+    "Name": "Google Pixel 7",
+    "DisplayName": "Google Pixel 7",
+    "EnumName": "Google_Pixel_7",
+    "ThumbnailPath": "model/Google_Pixel_PIXEL_7.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 39,
+    "Name": "Google Pixel 4 XL",
+    "DisplayName": "Google Pixel 4 XL",
+    "EnumName": "Google_Pixel_4_XL",
+    "ThumbnailPath": "model/Google_Pixel_4_XL.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 39,
+    "Name": "Google Pixel 4",
+    "DisplayName": "Google Pixel 4",
+    "EnumName": "Google_Pixel_4",
+    "ThumbnailPath": "model/Google_Pixel_4.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 502,
+    "Name": "Google Pixel 5 5G",
+    "DisplayName": "Google Pixel 5 5G",
+    "EnumName": "Google_Pixel_5_5G",
+    "ThumbnailPath": "model/Google_Pixel_5_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 502,
+    "Name": "Google Pixel 5A 5G",
+    "DisplayName": "Google Pixel 5A 5G",
+    "EnumName": "Google_Pixel_5A_5G",
+    "ThumbnailPath": "model/Google_Pixel_5A_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 501,
+    "Name": "Google Pixel 6 Pro 5G",
+    "DisplayName": "Google Pixel 6 Pro 5G",
+    "EnumName": "Google_Pixel_6_Pro_5G",
+    "ThumbnailPath": "model/Google_Pixel_6_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 501,
+    "Name": "Google Pixel 6 5G",
+    "DisplayName": "Google Pixel 6 5G",
+    "EnumName": "Google_Pixel_6_5G",
+    "ThumbnailPath": "model/Google_Pixel_6_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 501,
+    "Name": "Google Pixel 6A",
+    "DisplayName": "Google Pixel 6A",
+    "EnumName": "Google_Pixel_6A",
+    "ThumbnailPath": "model/Google_Pixel_6A.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 39,
+    "Name": "Google Pixel 4A",
+    "DisplayName": "Google Pixel 4A",
+    "EnumName": "Google_Pixel_4A",
+    "ThumbnailPath": "model/Google_Pixel_4A.png",
+    "DisplayInList": true
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "brand": "Nothing",
+  "model": "Nothing Phone 3a Pro",
+  "official_name": "Nothing Phone 3a Pro",
+  "series": "G Series",
+  "release": {
+    "year": 2025,
+    "date": "2025 March 04"
+  },
+  "region": "India",
+  "variants": [
+    {
+      "ram": "8GB",
+      "storage": "128GB"
+    },
+    {
+      "ram": "8GB",
+      "storage": "256GB"
+    },
+    {
+      "ram": "12GB",
+      "storage": "256GB"
+    }
+  ],
+  "display": {
+    "type": "AMOLED, 1B colors, 120Hz, 2160Hz PWM, HDR10+, 800 nits (typ), 1300 nits (HBM), 3000 nits (peak)",
+    "size": "6.77 inches, 111.5 cm2 (~88.0% screen-to-body ratio)",
+    "resolution": "1080 x 2392 pixels (~387 ppi density)",
+    "refresh_rate": "120 Hz",
+    "hdr": "HDR10+, HDR10, HDR",
+    "protection": "Panda Glass"
+  },
+  "processor": {
+    "chipset": "Qualcomm SM7635 Snapdragon 7s Gen 3 (4 nm)",
+    "cpu": "Octa-core (1x2.5 GHz Cortex-A720 & 3x2.4 GHz Cortex-A720 & 4x1.8 GHz Cortex-A520)",
+    "gpu": "Adreno 810"
+  },
+  "camera": {
+    "rear": [
+      "50 MP, f/1.9, 24mm (wide), 1/1.56\", 1.0µm, dual pixel PDAF, OIS 50 MP, f/2.6, 70mm (periscope telephoto) (15cm - ∞), 1/1.95\", 0.8µm, PDAF, OIS, 3x optical zoom 8 MP, f/2.2, 15mm, 120˚ (ultrawide), 1/4.0\", 1.12µm"
+    ],
+    "front": "50 MP, f/2.2, 24mm (wide), 1/2.76\"",
+    "video": [
+      "4K@30fps",
+      "1080p@30/60/120fps",
+      "gyro-EIS",
+      "OIS"
+    ]
+  },
+  "battery": {
+    "capacity": "5000 mAh",
+    "charging": "50W wired, 50% in 19 min, 100% in 56 min",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "163.5 x 77.5 x 8.4 mm (6.44 x 3.05 x 0.33 in)",
+    "weight": "211 g (7.44 oz)",
+    "materials": "Glass front (Panda Glass), plastic frame, glass back",
+    "colors": [
+      "Black",
+      "Gray"
+    ],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "GSM / HSPA / LTE / 5G",
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.4, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG",
+    "sim": "· Nano-SIM + Nano-SIM + eSIM (max 2 at a time)· Nano-SIM + Nano-SIM - India only"
+  },
+  "software": {
+    "os_at_launch": "Android 15, upgradable to Android 16, Nothing OS 4.0, up to 3 major OS updates",
+    "update_policy": ""
+  },
+  "features": [
+    "Fingerprint (under display",
+    "optical)",
+    "accelerometer",
+    "gyro",
+    "proximity",
+    "compass"
+  ],
+  "images": [
+    "Nothing/Nothing  images/Nothing_Phone_3a_Pro.png"
+  ],
+  "research_sources": [
+    {
+      "title": "GSMArena Nothing Phone 3a Pro Specifications",
+      "url": "https://www.gsmarena.com",
+      "source_type": "database"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Preliminary specifications based on industry announcements/catalog data."
+}

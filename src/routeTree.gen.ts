@@ -10,33 +10,98 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as SellPhoneRouteImport } from './routes/sell-phone'
+import { Route as SellPhoneIndexRouteImport } from './routes/sell-phone.index'
+import { Route as SellPhoneBrandIndexRouteImport } from './routes/sell-phone.$brand.index'
+import { Route as SellPhoneBrandModelIndexRouteImport } from './routes/sell-phone.$brand.$model.index'
+import { Route as SellPhoneBrandModelVariantRouteImport } from './routes/sell-phone.$brand.$model.$variant'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SellPhoneRoute = SellPhoneRouteImport.update({
+  id: '/sell-phone',
+  path: '/sell-phone',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SellPhoneIndexRoute = SellPhoneIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => SellPhoneRoute,
+} as any)
+const SellPhoneBrandIndexRoute = SellPhoneBrandIndexRouteImport.update({
+  id: '/$brand/',
+  path: '/$brand/',
+  getParentRoute: () => SellPhoneRoute,
+} as any)
+const SellPhoneBrandModelIndexRoute =
+  SellPhoneBrandModelIndexRouteImport.update({
+    id: '/$brand/$model/',
+    path: '/$brand/$model/',
+    getParentRoute: () => SellPhoneRoute,
+  } as any)
+const SellPhoneBrandModelVariantRoute =
+  SellPhoneBrandModelVariantRouteImport.update({
+    id: '/$brand/$model/$variant',
+    path: '/$brand/$model/$variant',
+    getParentRoute: () => SellPhoneRoute,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/sell-phone': typeof SellPhoneRouteWithChildren
+  '/sell-phone/': typeof SellPhoneIndexRoute
+  '/sell-phone/$brand/': typeof SellPhoneBrandIndexRoute
+  '/sell-phone/$brand/$model/$variant': typeof SellPhoneBrandModelVariantRoute
+  '/sell-phone/$brand/$model/': typeof SellPhoneBrandModelIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/sell-phone': typeof SellPhoneIndexRoute
+  '/sell-phone/$brand': typeof SellPhoneBrandIndexRoute
+  '/sell-phone/$brand/$model/$variant': typeof SellPhoneBrandModelVariantRoute
+  '/sell-phone/$brand/$model': typeof SellPhoneBrandModelIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/sell-phone': typeof SellPhoneRouteWithChildren
+  '/sell-phone/': typeof SellPhoneIndexRoute
+  '/sell-phone/$brand/': typeof SellPhoneBrandIndexRoute
+  '/sell-phone/$brand/$model/$variant': typeof SellPhoneBrandModelVariantRoute
+  '/sell-phone/$brand/$model/': typeof SellPhoneBrandModelIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/sell-phone'
+    | '/sell-phone/'
+    | '/sell-phone/$brand/'
+    | '/sell-phone/$brand/$model/$variant'
+    | '/sell-phone/$brand/$model/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/sell-phone'
+    | '/sell-phone/$brand'
+    | '/sell-phone/$brand/$model/$variant'
+    | '/sell-phone/$brand/$model'
+  id:
+    | '__root__'
+    | '/'
+    | '/sell-phone'
+    | '/sell-phone/'
+    | '/sell-phone/$brand/'
+    | '/sell-phone/$brand/$model/$variant'
+    | '/sell-phone/$brand/$model/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  SellPhoneRoute: typeof SellPhoneRouteWithChildren
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +113,65 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/sell-phone': {
+      id: '/sell-phone'
+      path: '/sell-phone'
+      fullPath: '/sell-phone'
+      preLoaderRoute: typeof SellPhoneRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sell-phone/': {
+      id: '/sell-phone/'
+      path: '/'
+      fullPath: '/sell-phone/'
+      preLoaderRoute: typeof SellPhoneIndexRouteImport
+      parentRoute: typeof SellPhoneRoute
+    }
+    '/sell-phone/$brand/': {
+      id: '/sell-phone/$brand/'
+      path: '/$brand'
+      fullPath: '/sell-phone/$brand/'
+      preLoaderRoute: typeof SellPhoneBrandIndexRouteImport
+      parentRoute: typeof SellPhoneRoute
+    }
+    '/sell-phone/$brand/$model/': {
+      id: '/sell-phone/$brand/$model/'
+      path: '/$brand/$model'
+      fullPath: '/sell-phone/$brand/$model/'
+      preLoaderRoute: typeof SellPhoneBrandModelIndexRouteImport
+      parentRoute: typeof SellPhoneRoute
+    }
+    '/sell-phone/$brand/$model/$variant': {
+      id: '/sell-phone/$brand/$model/$variant'
+      path: '/$brand/$model/$variant'
+      fullPath: '/sell-phone/$brand/$model/$variant'
+      preLoaderRoute: typeof SellPhoneBrandModelVariantRouteImport
+      parentRoute: typeof SellPhoneRoute
+    }
   }
 }
 
+interface SellPhoneRouteChildren {
+  SellPhoneIndexRoute: typeof SellPhoneIndexRoute
+  SellPhoneBrandIndexRoute: typeof SellPhoneBrandIndexRoute
+  SellPhoneBrandModelVariantRoute: typeof SellPhoneBrandModelVariantRoute
+  SellPhoneBrandModelIndexRoute: typeof SellPhoneBrandModelIndexRoute
+}
+
+const SellPhoneRouteChildren: SellPhoneRouteChildren = {
+  SellPhoneIndexRoute: SellPhoneIndexRoute,
+  SellPhoneBrandIndexRoute: SellPhoneBrandIndexRoute,
+  SellPhoneBrandModelVariantRoute: SellPhoneBrandModelVariantRoute,
+  SellPhoneBrandModelIndexRoute: SellPhoneBrandModelIndexRoute,
+}
+
+const SellPhoneRouteWithChildren = SellPhoneRoute._addFileChildren(
+  SellPhoneRouteChildren,
+)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  SellPhoneRoute: SellPhoneRouteWithChildren,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

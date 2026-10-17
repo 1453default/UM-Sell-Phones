@@ -1,0 +1,67 @@
+{
+  "brand": "Apple",
+  "model": "Apple iPhone Duo",
+  "official_name": "Apple iPhone Duo",
+  "series": "iPhone",
+  "release": {
+    "year": 2025,
+    "date": ""
+  },
+  "region": "India",
+  "variants": [],
+  "display": {
+    "type": "",
+    "size": "",
+    "resolution": "",
+    "refresh_rate": "",
+    "hdr": "",
+    "protection": ""
+  },
+  "processor": {
+    "chipset": "",
+    "cpu": "",
+    "gpu": ""
+  },
+  "camera": {
+    "rear": [],
+    "front": "",
+    "video": []
+  },
+  "battery": {
+    "capacity": "",
+    "charging": "",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "",
+    "weight": "",
+    "materials": "",
+    "colors": [],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "",
+    "wifi": "",
+    "bluetooth": "",
+    "nfc": "",
+    "usb": "",
+    "sim": ""
+  },
+  "software": {
+    "os_at_launch": "",
+    "update_policy": ""
+  },
+  "features": [],
+  "images": [
+    "Apple/Apple Phones Images/Apple_iPhone_Duo.png"
+  ],
+  "research_sources": [
+    {
+      "title": "Apple Official Website",
+      "url": "https://www.apple.com",
+      "source_type": "official"
+    }
+  ],
+  "confidence": "unverified",
+  "notes": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+}

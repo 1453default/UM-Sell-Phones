@@ -1,0 +1,1026 @@
+{
+  "brand": "vivo",
+  "total_models": 170,
+  "models": [
+    {
+      "model": "VIVO Y02",
+      "file": "VIVO-Y02.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo NEX",
+      "file": "Vivo-NEX.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo S1",
+      "file": "Vivo-S1.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo S1 Pro",
+      "file": "Vivo-S1-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo S2 5G",
+      "file": "Vivo-S2-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo T1",
+      "file": "Vivo-T1.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo T1 5G",
+      "file": "Vivo-T1-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo T1 Pro",
+      "file": "Vivo-T1-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo T1X",
+      "file": "Vivo-T1X.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo T2 5G",
+      "file": "Vivo-T2-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo T2 Pro 5G",
+      "file": "Vivo-T2-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo T2X 5G",
+      "file": "Vivo-T2X-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo T3 5G",
+      "file": "Vivo-T3-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo T3 Lite 5G",
+      "file": "Vivo-T3-Lite-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo T3 Pro 5G",
+      "file": "Vivo-T3-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo T3 Ultra 5G",
+      "file": "Vivo-T3-Ultra-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo T3X 5G",
+      "file": "Vivo-T3X-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo T4 5G",
+      "file": "Vivo-T4-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Vivo T4 Lite 5G",
+      "file": "Vivo-T4-Lite-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Vivo T4 Pro 5G",
+      "file": "Vivo-T4-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Vivo T4 Ultra",
+      "file": "Vivo-T4-Ultra.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Vivo T4R 5G",
+      "file": "Vivo-T4R-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Vivo T4x 5G",
+      "file": "Vivo-T4x-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Vivo T5 Lite 5G",
+      "file": "Vivo-T5-Lite-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Vivo T5 Pro 5G",
+      "file": "Vivo-T5-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Vivo T5e",
+      "file": "Vivo-T5e.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Vivo T5x 5G",
+      "file": "Vivo-T5x-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Vivo U10",
+      "file": "Vivo-U10.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo U20",
+      "file": "Vivo-U20.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V11",
+      "file": "Vivo-V11.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V11 Pro",
+      "file": "Vivo-V11-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V15",
+      "file": "Vivo-V15.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V15 Pro",
+      "file": "Vivo-V15-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V17",
+      "file": "Vivo-V17.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V17 Pro",
+      "file": "Vivo-V17-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V19",
+      "file": "Vivo-V19.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V20",
+      "file": "Vivo-V20.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V20 2021",
+      "file": "Vivo-V20-2021.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V20 Pro",
+      "file": "Vivo-V20-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V20 SE",
+      "file": "Vivo-V20-SE.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V21 5G",
+      "file": "Vivo-V21-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V21e 5G",
+      "file": "Vivo-V21e-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V23 5G",
+      "file": "Vivo-V23-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V23 Pro",
+      "file": "Vivo-V23-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V23e 5G",
+      "file": "Vivo-V23e-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V25",
+      "file": "Vivo-V25.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V25 Pro",
+      "file": "Vivo-V25-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V27",
+      "file": "Vivo-V27.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V27 Pro",
+      "file": "Vivo-V27-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V29",
+      "file": "Vivo-V29.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V29 Pro",
+      "file": "Vivo-V29-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V29e",
+      "file": "Vivo-V29e.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V30 5G",
+      "file": "Vivo-V30-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V30 Pro 5G",
+      "file": "Vivo-V30-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V30e",
+      "file": "Vivo-V30e.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V40 5G",
+      "file": "Vivo-V40-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V40 Pro 5G",
+      "file": "Vivo-V40-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V40e",
+      "file": "Vivo-V40e.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V50 5G",
+      "file": "Vivo-V50-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V50e 5G",
+      "file": "Vivo-V50e-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo V60 5G",
+      "file": "Vivo-V60-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Vivo V60e",
+      "file": "Vivo-V60e.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Vivo V70 5G",
+      "file": "Vivo-V70-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Vivo V70 Elite",
+      "file": "Vivo-V70-Elite.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Vivo V70 FE",
+      "file": "Vivo-V70-FE.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Vivo X Fold 3 Pro",
+      "file": "Vivo-X-Fold-3-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo X Fold 5",
+      "file": "Vivo-X-Fold-5.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo X100 5G",
+      "file": "Vivo-X100-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo X100 Pro 5G",
+      "file": "Vivo-X100-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo X200 5G",
+      "file": "Vivo-X200-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo X200 FE",
+      "file": "Vivo-X200-FE.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo X200 Pro 5G",
+      "file": "Vivo-X200-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo X200T",
+      "file": "Vivo-X200T.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo X21",
+      "file": "Vivo-X21.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo X300",
+      "file": "Vivo-X300.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Vivo X300 FE",
+      "file": "Vivo-X300-FE.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Vivo X300 Pro",
+      "file": "Vivo-X300-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Vivo X300 Ultra",
+      "file": "Vivo-X300-Ultra.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Vivo X50",
+      "file": "Vivo-X50.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo X50 Pro",
+      "file": "Vivo-X50-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo X60",
+      "file": "Vivo-X60.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo X60 Pro",
+      "file": "Vivo-X60-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo X60 Pro Plus",
+      "file": "Vivo-X60-Pro-Plus.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo X70 Pro",
+      "file": "Vivo-X70-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo X70 Pro Plus",
+      "file": "Vivo-X70-Pro-Plus.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo X80",
+      "file": "Vivo-X80.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo X80 Pro",
+      "file": "Vivo-X80-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo X90 5G",
+      "file": "Vivo-X90-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo X90 Pro 5G",
+      "file": "Vivo-X90-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo X90 Pro Plus 5G",
+      "file": "Vivo-X90-Pro-Plus-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y01",
+      "file": "Vivo-Y01.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y01A",
+      "file": "Vivo-Y01A.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y02t",
+      "file": "Vivo-Y02t.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y05",
+      "file": "Vivo-Y05.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y100",
+      "file": "Vivo-Y100.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y100A",
+      "file": "Vivo-Y100A.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y11 2019",
+      "file": "Vivo-Y11-2019.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y11 5G",
+      "file": "Vivo-Y11-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y12",
+      "file": "Vivo-Y12.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y12G",
+      "file": "Vivo-Y12G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y12s",
+      "file": "Vivo-Y12s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y15 2019",
+      "file": "Vivo-Y15-2019.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y15c",
+      "file": "Vivo-Y15c.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y15s 2021",
+      "file": "Vivo-Y15s-2021.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y16",
+      "file": "Vivo-Y16.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y17",
+      "file": "Vivo-Y17.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y17s",
+      "file": "Vivo-Y17s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y18",
+      "file": "Vivo-Y18.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y18e",
+      "file": "Vivo-Y18e.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y18i",
+      "file": "Vivo-Y18i.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y18t",
+      "file": "Vivo-Y18t.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y19",
+      "file": "Vivo-Y19.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y19 5G",
+      "file": "Vivo-Y19-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y19e",
+      "file": "Vivo-Y19e.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y19s 5G",
+      "file": "Vivo-Y19s-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y1s",
+      "file": "Vivo-Y1s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y20",
+      "file": "Vivo-Y20.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y200 5G",
+      "file": "Vivo-Y200-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y200 Pro 5G",
+      "file": "Vivo-Y200-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y200e 5G",
+      "file": "Vivo-Y200e-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y20A",
+      "file": "Vivo-Y20A.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y20G",
+      "file": "Vivo-Y20G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y20T",
+      "file": "Vivo-Y20T.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y20i",
+      "file": "Vivo-Y20i.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y21 2021",
+      "file": "Vivo-Y21-2021.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y21 5G",
+      "file": "Vivo-Y21-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y21G",
+      "file": "Vivo-Y21G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y21T",
+      "file": "Vivo-Y21T.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y21a",
+      "file": "Vivo-Y21a.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y21e",
+      "file": "Vivo-Y21e.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y22 2022",
+      "file": "Vivo-Y22-2022.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y27",
+      "file": "Vivo-Y27.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y28 5G",
+      "file": "Vivo-Y28-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y28e 5G",
+      "file": "Vivo-Y28e-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y28s 5G",
+      "file": "Vivo-Y28s-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y29 5G",
+      "file": "Vivo-Y29-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y30",
+      "file": "Vivo-Y30.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y300 5G",
+      "file": "Vivo-Y300-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Vivo Y300 Plus 5G",
+      "file": "Vivo-Y300-Plus-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Vivo Y31 2021",
+      "file": "Vivo-Y31-2021.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y31 5G",
+      "file": "Vivo-Y31-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y31 Pro 5G",
+      "file": "Vivo-Y31-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y33T",
+      "file": "Vivo-Y33T.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y33s",
+      "file": "Vivo-Y33s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y35",
+      "file": "Vivo-Y35.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y36 4G",
+      "file": "Vivo-Y36-4G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y39 5G",
+      "file": "Vivo-Y39-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y3s 2021",
+      "file": "Vivo-Y3s-2021.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y400 5G",
+      "file": "Vivo-Y400-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Vivo Y400 Pro 5G",
+      "file": "Vivo-Y400-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Vivo Y50",
+      "file": "Vivo-Y50.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y51 2020",
+      "file": "Vivo-Y51-2020.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y51 Pro 5G",
+      "file": "Vivo-Y51-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y51A",
+      "file": "Vivo-Y51A.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y53s",
+      "file": "Vivo-Y53s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y56 5G",
+      "file": "Vivo-Y56-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y58 5G",
+      "file": "Vivo-Y58-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y72 5G",
+      "file": "Vivo-Y72-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y73",
+      "file": "Vivo-Y73.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y75 4G",
+      "file": "Vivo-Y75-4G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y75 5G",
+      "file": "Vivo-Y75-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y81",
+      "file": "Vivo-Y81.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y90",
+      "file": "Vivo-Y90.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y91",
+      "file": "Vivo-Y91.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y91i",
+      "file": "Vivo-Y91i.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y93",
+      "file": "Vivo-Y93.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Y95",
+      "file": "Vivo-Y95.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Z1 Pro",
+      "file": "Vivo-Z1-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Z10",
+      "file": "Vivo-Z10.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Vivo Z1x",
+      "file": "Vivo-Z1x.json",
+      "image_count": 1,
+      "confidence": "low"
+    }
+  ]
+}

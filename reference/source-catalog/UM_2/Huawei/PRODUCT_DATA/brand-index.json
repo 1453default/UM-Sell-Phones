@@ -1,0 +1,66 @@
+{
+  "brand": "Huawei",
+  "total_models": 10,
+  "models": [
+    {
+      "model": "Huawei Mate 10",
+      "file": "Huawei-Mate-10.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Huawei Mate 20",
+      "file": "Huawei-Mate-20.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Huawei Mate 20 Pro",
+      "file": "Huawei-Mate-20-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Huawei Mate 30 Pro",
+      "file": "Huawei-Mate-30-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Huawei Nova 3",
+      "file": "Huawei-Nova-3.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Huawei P20 Pro",
+      "file": "Huawei-P20-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Huawei P30 Lite",
+      "file": "Huawei-P30-Lite.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Huawei P30 Pro",
+      "file": "Huawei-P30-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Huawei Y5 2017",
+      "file": "Huawei-Y5-2017.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Huawei Y9s",
+      "file": "Huawei-Y9s.json",
+      "image_count": 1,
+      "confidence": "low"
+    }
+  ]
+}

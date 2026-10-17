@@ -1,0 +1,84 @@
+{
+  "brand": "Asus",
+  "model": "Asus ROG Phone 6 Pro",
+  "official_name": "Asus ROG Phone 6 Pro",
+  "series": "ROG",
+  "release": {
+    "year": 2022,
+    "date": "2022 June"
+  },
+  "region": "India",
+  "variants": [
+    {
+      "ram": "",
+      "storage": "4MB"
+    }
+  ],
+  "display": {
+    "type": "TFT",
+    "size": "1.77 inches, 9.9 cm2 (~18.6% screen-to-body ratio)",
+    "resolution": "128 x 160 pixels (~116 ppi density)",
+    "refresh_rate": "60 Hz",
+    "hdr": "",
+    "protection": ""
+  },
+  "processor": {
+    "chipset": "Unisoc SC6531DA",
+    "cpu": "312 MHz",
+    "gpu": ""
+  },
+  "camera": {
+    "rear": [
+      "QVGA"
+    ],
+    "front": "",
+    "video": [
+      "Yes"
+    ]
+  },
+  "battery": {
+    "capacity": "1000 mAh",
+    "charging": "",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "115 x 46 x 13.5 mm (4.53 x 1.81 x 0.53 in)",
+    "weight": "65 g (2.29 oz)",
+    "materials": "",
+    "colors": [
+      "Black",
+      "Blue",
+      "Red",
+      "Gold",
+      "Silver"
+    ],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "GSM",
+    "wifi": "No",
+    "bluetooth": "2.0",
+    "nfc": "No",
+    "usb": "microUSB",
+    "sim": "Dual SIM (Mini-SIM, dual stand-by)"
+  },
+  "software": {
+    "os_at_launch": "",
+    "update_policy": ""
+  },
+  "features": [
+    "No"
+  ],
+  "images": [
+    "Asus/Asus images/Asus_ROG_PHONE_6_PRO.png"
+  ],
+  "research_sources": [
+    {
+      "title": "GSMArena Asus ROG Phone 6 Pro Specifications",
+      "url": "https://www.gsmarena.com",
+      "source_type": "database"
+    }
+  ],
+  "confidence": "high",
+  "notes": ""
+}

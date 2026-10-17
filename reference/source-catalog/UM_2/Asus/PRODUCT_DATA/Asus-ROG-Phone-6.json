@@ -1,0 +1,101 @@
+{
+  "brand": "Asus",
+  "model": "Asus ROG Phone 6",
+  "official_name": "Asus ROG Phone 6",
+  "series": "ROG",
+  "release": {
+    "year": 2022,
+    "date": "2022 July 05"
+  },
+  "region": "India",
+  "variants": [
+    {
+      "ram": "8GB",
+      "storage": "128GB"
+    },
+    {
+      "ram": "12GB",
+      "storage": "128GB"
+    },
+    {
+      "ram": "12GB",
+      "storage": "256GB"
+    },
+    {
+      "ram": "16GB",
+      "storage": "512GB"
+    }
+  ],
+  "display": {
+    "type": "AMOLED, 1B colors, 165Hz, HDR10+, 800 nits (typ), 1200 nits (peak)",
+    "size": "6.78 inches, 109.5 cm2 (~82.2% screen-to-body ratio)",
+    "resolution": "1080 x 2448 pixels (~395 ppi density)",
+    "refresh_rate": "165 Hz",
+    "hdr": "HDR10+, HDR10, HDR",
+    "protection": "Corning Gorilla Glass Victus"
+  },
+  "processor": {
+    "chipset": "Qualcomm SM8475 Snapdragon 8+ Gen 1 (4 nm)",
+    "cpu": "Octa-core (1x3.19 GHz Cortex-X2 & 3x2.75 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510)",
+    "gpu": "Adreno 730"
+  },
+  "camera": {
+    "rear": [
+      "50 MP, f/1.9, (wide), 1/1.56\", 1.0µm, PDAF 13 MP, f/2.2, (ultrawide) 5 MP (macro)"
+    ],
+    "front": "12 MP, 28mm (wide)",
+    "video": [
+      "8K@24fps",
+      "4K@30/60/120fps",
+      "1080p@30/60/120/240fps",
+      "720p@480fps; gyro-EIS"
+    ]
+  },
+  "battery": {
+    "capacity": "6000 mAh",
+    "charging": "65W wired, PD3.0, QC5, 100% in 42 min 10W reverse wired",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "173 x 77 x 10.3 mm (6.81 x 3.03 x 0.41 in)",
+    "weight": "239 g (8.43 oz)",
+    "materials": "Glass front (Gorilla Glass Victus), glass back (Gorilla Glass 3), aluminum frame",
+    "colors": [
+      "Phantom Black",
+      "Storm White"
+    ],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "GSM / CDMA / HSPA / LTE / 5G",
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac/6e, tri-band, Wi-Fi Direct",
+    "bluetooth": "5.2, A2DP, LE, aptX HD, aptX Adaptive, aptX Lossless",
+    "nfc": "Yes",
+    "usb": "USB Type-C 3.1 (side), USB Type-C 2.0 (bottom), OTG, accessory connector",
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "software": {
+    "os_at_launch": "Android 12, upgradable to Android 13",
+    "update_policy": ""
+  },
+  "features": [
+    "Fingerprint (under display",
+    "optical)",
+    "accelerometer",
+    "gyro",
+    "proximity",
+    "compass"
+  ],
+  "images": [
+    "Asus/Asus images/Asus_ROG_PHONE_6.png"
+  ],
+  "research_sources": [
+    {
+      "title": "GSMArena Asus ROG Phone 6 Specifications",
+      "url": "https://www.gsmarena.com",
+      "source_type": "database"
+    }
+  ],
+  "confidence": "high",
+  "notes": ""
+}

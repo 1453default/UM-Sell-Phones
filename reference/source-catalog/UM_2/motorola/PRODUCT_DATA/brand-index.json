@@ -1,0 +1,522 @@
+{
+  "brand": "motorola",
+  "total_models": 86,
+  "models": [
+    {
+      "model": "MOTO G32",
+      "file": "MOTO-G32.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto E13",
+      "file": "Moto-E13.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto E22S",
+      "file": "Moto-E22S.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto E32",
+      "file": "Moto-E32.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto E32S",
+      "file": "Moto-E32S.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto E40",
+      "file": "Moto-E40.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto E6s",
+      "file": "Moto-E6s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Edge 20",
+      "file": "Moto-Edge-20.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Edge 20 Fusion",
+      "file": "Moto-Edge-20-Fusion.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Edge 20 Pro",
+      "file": "Moto-Edge-20-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Edge 30",
+      "file": "Moto-Edge-30.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Edge 30 Fusion",
+      "file": "Moto-Edge-30-Fusion.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Edge 30 Pro",
+      "file": "Moto-Edge-30-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Edge 30 Ultra",
+      "file": "Moto-Edge-30-Ultra.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Edge 40",
+      "file": "Moto-Edge-40.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Edge 40 Neo",
+      "file": "Moto-Edge-40-Neo.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Edge 50 5G",
+      "file": "Moto-Edge-50-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Edge 50 Fusion",
+      "file": "Moto-Edge-50-Fusion.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Edge 50 Neo",
+      "file": "Moto-Edge-50-Neo.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Edge 50 Pro 5G",
+      "file": "Moto-Edge-50-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Edge 60",
+      "file": "Moto-Edge-60.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Moto Edge 60 Fusion",
+      "file": "Moto-Edge-60-Fusion.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Moto Edge 60 Pro",
+      "file": "Moto-Edge-60-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Moto Edge 60 Stylus",
+      "file": "Moto-Edge-60-Stylus.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Moto Edge 70",
+      "file": "Moto-Edge-70.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Moto Edge 70 Fusion",
+      "file": "Moto-Edge-70-Fusion.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Moto Edge 70 Max",
+      "file": "Moto-Edge-70-Max.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Moto Edge 70 Pro",
+      "file": "Moto-Edge-70-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Moto Edge 70 Pro Plus",
+      "file": "Moto-Edge-70-Pro-Plus.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Moto Edge Plus",
+      "file": "Moto-Edge-Plus.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G 5G",
+      "file": "Moto-G-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G Max",
+      "file": "Moto-G-Max.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G04",
+      "file": "Moto-G04.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G04s",
+      "file": "Moto-G04s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G05",
+      "file": "Moto-G05.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Moto G10 Power",
+      "file": "Moto-G10-Power.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G13",
+      "file": "Moto-G13.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G14",
+      "file": "Moto-G14.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G22",
+      "file": "Moto-G22.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G24 Power",
+      "file": "Moto-G24-Power.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G30",
+      "file": "Moto-G30.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G31",
+      "file": "Moto-G31.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G34 5G",
+      "file": "Moto-G34-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G35 5G",
+      "file": "Moto-G35-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G37",
+      "file": "Moto-G37.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G37 Power",
+      "file": "Moto-G37-Power.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G40 Fusion",
+      "file": "Moto-G40-Fusion.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G42",
+      "file": "Moto-G42.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G45 5G",
+      "file": "Moto-G45-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G51 5G",
+      "file": "Moto-G51-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G52",
+      "file": "Moto-G52.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G54 5G",
+      "file": "Moto-G54-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G57 Power",
+      "file": "Moto-G57-Power.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G60",
+      "file": "Moto-G60.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G62 5G",
+      "file": "Moto-G62-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G64 5G",
+      "file": "Moto-G64-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G67 Power",
+      "file": "Moto-G67-Power.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G7",
+      "file": "Moto-G7.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G7 Power",
+      "file": "Moto-G7-Power.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G71 5G",
+      "file": "Moto-G71-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G72 5G",
+      "file": "Moto-G72-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G73",
+      "file": "Moto-G73.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G77 Power",
+      "file": "Moto-G77-Power.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G8 Plus",
+      "file": "Moto-G8-Plus.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G8 Power Lite",
+      "file": "Moto-G8-Power-Lite.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G82 5G",
+      "file": "Moto-G82-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G84 5G",
+      "file": "Moto-G84-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G85 5G",
+      "file": "Moto-G85-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Moto G86 Power 5G",
+      "file": "Moto-G86-Power-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G9",
+      "file": "Moto-G9.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G9 Power",
+      "file": "Moto-G9-Power.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto G96 5G",
+      "file": "Moto-G96-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto One Action",
+      "file": "Moto-One-Action.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto One Fusion Plus",
+      "file": "Moto-One-Fusion-Plus.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto One Macro",
+      "file": "Moto-One-Macro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto One Vision",
+      "file": "Moto-One-Vision.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Razr",
+      "file": "Moto-Razr.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Razr 40",
+      "file": "Moto-Razr-40.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Razr 40 Ultra",
+      "file": "Moto-Razr-40-Ultra.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Razr 50",
+      "file": "Moto-Razr-50.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Razr 50 Ultra",
+      "file": "Moto-Razr-50-Ultra.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Razr 5G",
+      "file": "Moto-Razr-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Razr 60",
+      "file": "Moto-Razr-60.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Razr 60 Ultra",
+      "file": "Moto-Razr-60-Ultra.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Moto Razr Fold",
+      "file": "Moto-Razr-Fold.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Motorola Edge 50 Ultra 5G",
+      "file": "Motorola-Edge-50-Ultra-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    }
+  ]
+}

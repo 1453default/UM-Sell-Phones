@@ -1,0 +1,306 @@
+[
+  {
+    "BrandSeriesId": 603,
+    "Name": "Apple iPhone Duo",
+    "DisplayName": "Apple iPhone Duo",
+    "EnumName": "Apple_iPhone_Duo",
+    "ThumbnailPath": "model/Apple_iPhone_Duo.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 602,
+    "Name": "Apple iPhone 18 Pro Max",
+    "DisplayName": "Apple iPhone 18 Pro Max",
+    "EnumName": "Apple_iPhone_18_Pro_Max",
+    "ThumbnailPath": "model/Apple_iPhone_18_Pro_Max.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 602,
+    "Name": "Apple iPhone 18 Pro",
+    "DisplayName": "Apple iPhone 18 Pro",
+    "EnumName": "Apple_iPhone_18_Pro",
+    "ThumbnailPath": "model/Apple_iPhone_18_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 587,
+    "Name": "Apple iPhone 17e",
+    "DisplayName": "Apple iPhone 17e",
+    "EnumName": "Apple_iPhone_17e",
+    "ThumbnailPath": "model/Apple_iPhone_17e.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 587,
+    "Name": "Apple iPhone 17 Pro Max",
+    "DisplayName": "Apple iPhone 17 Pro Max",
+    "EnumName": "Apple_iPhone_17_Pro_Max",
+    "ThumbnailPath": "model/Apple_iPhone_17_Pro_Max.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 587,
+    "Name": "Apple iPhone 17 Pro",
+    "DisplayName": "Apple iPhone 17 Pro",
+    "EnumName": "Apple_iPhone_17_Pro",
+    "ThumbnailPath": "model/Apple_iPhone_17_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 588,
+    "Name": "Apple iPhone Air",
+    "DisplayName": "Apple iPhone Air",
+    "EnumName": "Apple_iPhone_Air",
+    "ThumbnailPath": "model/Apple_iPhone_Air.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 587,
+    "Name": "Apple iPhone 17",
+    "DisplayName": "Apple iPhone 17",
+    "EnumName": "Apple_iPhone_17",
+    "ThumbnailPath": "model/Apple_iPhone_17.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 482,
+    "Name": "Apple iPhone 16e",
+    "DisplayName": "Apple iPhone 16e",
+    "EnumName": "Apple_iPhone_16e",
+    "ThumbnailPath": "model/Apple_iPhone_16e.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 482,
+    "Name": "Apple iPhone 16 Pro Max",
+    "DisplayName": "Apple iPhone 16 Pro Max",
+    "EnumName": "Apple_iPhone_16_Pro_Max",
+    "ThumbnailPath": "model/Apple_iPhone_16_Pro_Max.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 482,
+    "Name": "Apple iPhone 16 Pro",
+    "DisplayName": "Apple iPhone 16 Pro",
+    "EnumName": "Apple_iPhone_16_Pro",
+    "ThumbnailPath": "model/Apple_iPhone_16_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 482,
+    "Name": "Apple iPhone 16 Plus",
+    "DisplayName": "Apple iPhone 16 Plus",
+    "EnumName": "Apple_iPhone_16_Plus",
+    "ThumbnailPath": "model/Apple_iPhone_16_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 482,
+    "Name": "Apple iPhone 16",
+    "DisplayName": "Apple iPhone 16",
+    "EnumName": "Apple_iPhone_16",
+    "ThumbnailPath": "model/Apple_iPhone_16.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 516,
+    "Name": "Apple iPhone 15",
+    "DisplayName": "Apple iPhone 15",
+    "EnumName": "Apple_iPhone_15",
+    "ThumbnailPath": "model/Apple_iPhone_15.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 516,
+    "Name": "Apple iPhone 15 Plus",
+    "DisplayName": "Apple iPhone 15 Plus",
+    "EnumName": "Apple_iPhone_15_Plus",
+    "ThumbnailPath": "model/Apple_iPhone_15_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 516,
+    "Name": "Apple iPhone 15 Pro Max",
+    "DisplayName": "Apple iPhone 15 Pro Max",
+    "EnumName": "Apple_iPhone_15_Pro_Max",
+    "ThumbnailPath": "model/Apple_iPhone_15_Pro_Max.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 516,
+    "Name": "Apple iPhone 15 Pro",
+    "DisplayName": "Apple iPhone 15 Pro",
+    "EnumName": "Apple_iPhone_15_Pro",
+    "ThumbnailPath": "model/Apple_iPhone_15_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 505,
+    "Name": "Apple iPhone 14 Plus",
+    "DisplayName": "Apple iPhone 14 Plus",
+    "EnumName": "Apple_IPHONE_14_PLUS",
+    "ThumbnailPath": "model/Apple_IPHONE_14_PLUS.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 505,
+    "Name": "Apple iPhone 14 Pro Max",
+    "DisplayName": "Apple iPhone 14 Pro Max",
+    "EnumName": "APPLE_IPHONE_14_PRO_MAX",
+    "ThumbnailPath": "model/APPLE_IPHONE_14_PRO_MAX.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 505,
+    "Name": "Apple iPhone 14 Pro",
+    "DisplayName": "Apple iPhone 14 Pro",
+    "EnumName": "APPLE_IPHONE_14_PRO",
+    "ThumbnailPath": "model/APPLE_IPHONE_14_PRO.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 505,
+    "Name": "Apple iPhone 14",
+    "DisplayName": "Apple iPhone 14",
+    "EnumName": "APPLE_IPHONE_14",
+    "ThumbnailPath": "model/APPLE_IPHONE_14.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 503,
+    "Name": "Apple iPhone SE 2022",
+    "DisplayName": "Apple iPhone SE 2022",
+    "EnumName": "Apple_Iphone_Se_2022",
+    "ThumbnailPath": "model/Apple_Iphone_Se_2022.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 490,
+    "Name": "Apple iPhone XS Max",
+    "DisplayName": "Apple iPhone XS Max",
+    "EnumName": "Apple_iPhone_XS_Max",
+    "ThumbnailPath": "model/Apple_iPhone_XS_Max.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 490,
+    "Name": "Apple iPhone XR",
+    "DisplayName": "Apple iPhone XR",
+    "EnumName": "Apple_iPhone_XR",
+    "ThumbnailPath": "model/Apple_iPhone_XR.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 490,
+    "Name": "Apple iPhone X",
+    "DisplayName": "Apple iPhone X",
+    "EnumName": "Apple_iPhone_X",
+    "ThumbnailPath": "model/Apple_iPhone_X.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 489,
+    "Name": "Apple iPhone 13 Pro Max",
+    "DisplayName": "Apple iPhone 13 Pro Max",
+    "EnumName": "Apple_iPhone_13_Pro_Max",
+    "ThumbnailPath": "model/Apple_iPhone_13_Pro_Max.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 489,
+    "Name": "Apple iPhone 13 Pro",
+    "DisplayName": "Apple iPhone 13 Pro",
+    "EnumName": "Apple_iPhone_13_Pro",
+    "ThumbnailPath": "model/Apple_iPhone_13_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 489,
+    "Name": "Apple iPhone 13 Mini",
+    "DisplayName": "Apple iPhone 13 Mini",
+    "EnumName": "Apple_iPhone_13_Mini",
+    "ThumbnailPath": "model/Apple_iPhone_13_Mini.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 489,
+    "Name": "Apple iPhone 13",
+    "DisplayName": "Apple iPhone 13",
+    "EnumName": "Apple_iPhone_13",
+    "ThumbnailPath": "model/Apple_iPhone_13.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 488,
+    "Name": "Apple iPhone 12 Pro Max",
+    "DisplayName": "Apple iPhone 12 Pro Max",
+    "EnumName": "Apple_iPhone_12_Pro_Max",
+    "ThumbnailPath": "model/Apple_iPhone_12_Pro_Max.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 488,
+    "Name": "Apple iPhone 12 Pro",
+    "DisplayName": "Apple iPhone 12 Pro",
+    "EnumName": "Apple_iPhone_12_Pro",
+    "ThumbnailPath": "model/Apple_iPhone_12_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 488,
+    "Name": "Apple iPhone 12 Mini",
+    "DisplayName": "Apple iPhone 12 Mini",
+    "EnumName": "Apple_iPhone_12_Mini",
+    "ThumbnailPath": "model/Apple_iPhone_12_Mini.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 488,
+    "Name": "Apple iPhone 12",
+    "DisplayName": "Apple iPhone 12",
+    "EnumName": "Apple_iPhone_12",
+    "ThumbnailPath": "model/Apple_iPhone_12.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 503,
+    "Name": "Apple iPhone SE 2020",
+    "DisplayName": "Apple iPhone SE 2020",
+    "EnumName": "Apple_iPhone_SE_2020",
+    "ThumbnailPath": "model/Apple_iPhone_SE_2020.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 487,
+    "Name": "Apple iPhone 11 Pro Max",
+    "DisplayName": "Apple iPhone 11 Pro Max",
+    "EnumName": "Apple_iPhone_11_Pro_Max",
+    "ThumbnailPath": "model/Apple_iPhone_11_Pro_Max.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 487,
+    "Name": "Apple iPhone 11 Pro",
+    "DisplayName": "Apple iPhone 11 Pro",
+    "EnumName": "Apple_iPhone_11_Pro",
+    "ThumbnailPath": "model/Apple_iPhone_11_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 487,
+    "Name": "Apple iPhone 11",
+    "DisplayName": "Apple iPhone 11",
+    "EnumName": "Apple_iPhone_11",
+    "ThumbnailPath": "model/Apple_iPhone_11.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 490,
+    "Name": "Apple iPhone XS",
+    "DisplayName": "Apple iPhone XS",
+    "EnumName": "Apple_iPhone_XS",
+    "ThumbnailPath": "model/Apple_iPhone_XS.png",
+    "DisplayInList": true
+  }
+]

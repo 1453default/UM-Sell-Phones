@@ -1,0 +1,222 @@
+{
+  "brand": "Nokia",
+  "total_models": 36,
+  "models": [
+    {
+      "model": " Nokia XR20",
+      "file": "Nokia-XR20.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "HMD Fusion",
+      "file": "HMD-Fusion.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "HMD Vibe 5G",
+      "file": "HMD-Vibe-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia 2.2",
+      "file": "Nokia-2.2.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia 2.3",
+      "file": "Nokia-2.3.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia 2.4",
+      "file": "Nokia-2.4.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia 3.1 Plus",
+      "file": "Nokia-3.1-Plus.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia 3.2",
+      "file": "Nokia-3.2.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia 3.4",
+      "file": "Nokia-3.4.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia 4.2",
+      "file": "Nokia-4.2.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia 5.1 Plus",
+      "file": "Nokia-5.1-Plus.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia 5.3",
+      "file": "Nokia-5.3.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia 5.4",
+      "file": "Nokia-5.4.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia 6.1 Plus",
+      "file": "Nokia-6.1-Plus.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia 6.2",
+      "file": "Nokia-6.2.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia 7.2",
+      "file": "Nokia-7.2.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia 9 PureView",
+      "file": "Nokia-9-PureView.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia C01 Plus",
+      "file": "Nokia-C01-Plus.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia C12",
+      "file": "Nokia-C12.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia C12 Pro",
+      "file": "Nokia-C12-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia C20 Plus",
+      "file": "Nokia-C20-Plus.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia C21 Plus",
+      "file": "Nokia-C21-Plus.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia C22",
+      "file": "Nokia-C22.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia C30",
+      "file": "Nokia-C30.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia C31",
+      "file": "Nokia-C31.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia C32",
+      "file": "Nokia-C32.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia G10",
+      "file": "Nokia-G10.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia G11 Plus",
+      "file": "Nokia-G11-Plus.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia G20",
+      "file": "Nokia-G20.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia G21",
+      "file": "Nokia-G21.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia G42 5G",
+      "file": "Nokia-G42-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia G60 5G",
+      "file": "Nokia-G60-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia HMD Crest",
+      "file": "Nokia-HMD-Crest.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia HMD Crest Max 5G",
+      "file": "Nokia-HMD-Crest-Max-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia HMD Skyline 5G",
+      "file": "Nokia-HMD-Skyline-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Nokia X30 5G",
+      "file": "Nokia-X30-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    }
+  ]
+}

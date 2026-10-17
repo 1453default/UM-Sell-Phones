@@ -1,0 +1,18 @@
+{
+  "brand": "CMF",
+  "total_models": 2,
+  "models": [
+    {
+      "model": "CMF Phone 1",
+      "file": "CMF-Phone-1.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "CMF Phone 2 Pro",
+      "file": "CMF-Phone-2-Pro.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    }
+  ]
+}

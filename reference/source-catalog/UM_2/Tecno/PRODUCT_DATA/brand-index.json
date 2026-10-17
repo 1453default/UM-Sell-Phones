@@ -1,0 +1,612 @@
+{
+  "brand": "Tecno",
+  "total_models": 101,
+  "models": [
+    {
+      "model": "Tecno Camon 12 Air",
+      "file": "Tecno-Camon-12-Air.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Camon 15",
+      "file": "Tecno-Camon-15.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Camon 15 Pro",
+      "file": "Tecno-Camon-15-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Camon 16",
+      "file": "Tecno-Camon-16.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Camon 16 Premier",
+      "file": "Tecno-Camon-16-Premier.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Camon 17",
+      "file": "Tecno-Camon-17.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Camon 17 Pro",
+      "file": "Tecno-Camon-17-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Camon 18",
+      "file": "Tecno-Camon-18.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Camon 19",
+      "file": "Tecno-Camon-19.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Camon 19 Neo",
+      "file": "Tecno-Camon-19-Neo.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Camon 19 Pro 5G",
+      "file": "Tecno-Camon-19-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Camon 19 Pro Mondrian Edtion",
+      "file": "Tecno-Camon-19-Pro-Mondrian-Edtion.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Camon 20",
+      "file": "Tecno-Camon-20.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Camon 20 Avocado Art Edition",
+      "file": "Tecno-Camon-20-Avocado-Art-Edition.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Camon 20 Premier 5G",
+      "file": "Tecno-Camon-20-Premier-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Camon 20 Pro 5G",
+      "file": "Tecno-Camon-20-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Camon 30 5G",
+      "file": "Tecno-Camon-30-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Camon 30 Premier 5G",
+      "file": "Tecno-Camon-30-Premier-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Camon 30S Pro",
+      "file": "Tecno-Camon-30S-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Camon 40 Premier",
+      "file": "Tecno-Camon-40-Premier.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Tecno Camon 50 Ultra 5G",
+      "file": "Tecno-Camon-50-Ultra-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Tecno Camon I Air 2+",
+      "file": "Tecno-Camon-I-Air-2+.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Camon I Click 2",
+      "file": "Tecno-Camon-I-Click-2.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Camon i 2x",
+      "file": "Tecno-Camon-i-2x.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Camon i Click",
+      "file": "Tecno-Camon-i-Click.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Camon i Sky 3",
+      "file": "Tecno-Camon-i-Sky-3.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Camon i2",
+      "file": "Tecno-Camon-i2.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Camon i4",
+      "file": "Tecno-Camon-i4.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Phantom 9",
+      "file": "Tecno-Phantom-9.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Phantom V Flip",
+      "file": "Tecno-Phantom-V-Flip.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Phantom V Flip 2",
+      "file": "Tecno-Phantom-V-Flip-2.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Phantom V Fold",
+      "file": "Tecno-Phantom-V-Fold.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Phantom V Fold 2",
+      "file": "Tecno-Phantom-V-Fold-2.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Phantom X",
+      "file": "Tecno-Phantom-X.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Phantom X2",
+      "file": "Tecno-Phantom-X2.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Phantom X2 Pro",
+      "file": "Tecno-Phantom-X2-Pro.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Pop 5 Lite",
+      "file": "Tecno-Pop-5-Lite.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Pop 5 Pro",
+      "file": "Tecno-Pop-5-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Pop 6 Pro",
+      "file": "Tecno-Pop-6-Pro.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Pop 7 Pro",
+      "file": "Tecno-Pop-7-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Pop 8",
+      "file": "Tecno-Pop-8.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Pop 9 5G",
+      "file": "Tecno-Pop-9-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Pop X 4G",
+      "file": "Tecno-Pop-X-4G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Pop X 5G",
+      "file": "Tecno-Pop-X-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Pova",
+      "file": "Tecno-Pova.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Pova 2",
+      "file": "Tecno-Pova-2.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Pova 3",
+      "file": "Tecno-Pova-3.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Pova 4",
+      "file": "Tecno-Pova-4.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Pova 4 Pro",
+      "file": "Tecno-Pova-4-Pro.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Pova 5 4G",
+      "file": "Tecno-Pova-5-4G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Pova 5 Pro",
+      "file": "Tecno-Pova-5-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Pova 5G",
+      "file": "Tecno-Pova-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Pova 6 Neo 5G",
+      "file": "Tecno-Pova-6-Neo-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Pova 6 Pro 5G",
+      "file": "Tecno-Pova-6-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Pova 7 5G",
+      "file": "Tecno-Pova-7-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Tecno Pova 7 Pro 5G",
+      "file": "Tecno-Pova-7-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Tecno Pova 8 5G",
+      "file": "Tecno-Pova-8-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Tecno Pova Curve 2 5G",
+      "file": "Tecno-Pova-Curve-2-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Pova Curve 5G",
+      "file": "Tecno-Pova-Curve-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Pova Neo",
+      "file": "Tecno-Pova-Neo.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Pova Neo2",
+      "file": "Tecno-Pova-Neo2.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Pova Slim 5G",
+      "file": "Tecno-Pova-Slim-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark 10 4G",
+      "file": "Tecno-Spark-10-4G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark 10 5G",
+      "file": "Tecno-Spark-10-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark 10 Pro",
+      "file": "Tecno-Spark-10-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark 10 Pro Moon Explorer Edition",
+      "file": "Tecno-Spark-10-Pro-Moon-Explorer-Edition.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark 10C",
+      "file": "Tecno-Spark-10C.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark 20",
+      "file": "Tecno-Spark-20.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark 20 Pro",
+      "file": "Tecno-Spark-20-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark 20 Pro Plus",
+      "file": "Tecno-Spark-20-Pro-Plus.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark 20C",
+      "file": "Tecno-Spark-20C.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark 30C 5G",
+      "file": "Tecno-Spark-30C-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark 4",
+      "file": "Tecno-Spark-4.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark 4 Air",
+      "file": "Tecno-Spark-4-Air.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark 5",
+      "file": "Tecno-Spark-5.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark 5 Pro",
+      "file": "Tecno-Spark-5-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark 6 Air",
+      "file": "Tecno-Spark-6-Air.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark 6 Go",
+      "file": "Tecno-Spark-6-Go.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark 7",
+      "file": "Tecno-Spark-7.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark 7 Pro",
+      "file": "Tecno-Spark-7-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark 7T",
+      "file": "Tecno-Spark-7T.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark 8",
+      "file": "Tecno-Spark-8.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark 8 Pro",
+      "file": "Tecno-Spark-8-Pro.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Spark 8C",
+      "file": "Tecno-Spark-8C.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Spark 8P",
+      "file": "Tecno-Spark-8P.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark 8T",
+      "file": "Tecno-Spark-8T.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Spark 9",
+      "file": "Tecno-Spark-9.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Spark 9T",
+      "file": "Tecno-Spark-9T.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Spark Go",
+      "file": "Tecno-Spark-Go.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark Go 1S",
+      "file": "Tecno-Spark-Go-1S.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark Go 2020",
+      "file": "Tecno-Spark-Go-2020.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark Go 2021",
+      "file": "Tecno-Spark-Go-2021.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark Go 2022",
+      "file": "Tecno-Spark-Go-2022.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Spark Go 2023",
+      "file": "Tecno-Spark-Go-2023.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Tecno Spark Go 2024",
+      "file": "Tecno-Spark-Go-2024.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark Go 5G",
+      "file": "Tecno-Spark-Go-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark Go Plus",
+      "file": "Tecno-Spark-Go-Plus.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark Go1",
+      "file": "Tecno-Spark-Go1.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark Power",
+      "file": "Tecno-Spark-Power.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark Power 2",
+      "file": "Tecno-Spark-Power-2.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Tecno Spark Power 2 Air",
+      "file": "Tecno-Spark-Power-2-Air.json",
+      "image_count": 1,
+      "confidence": "medium"
+    }
+  ]
+}

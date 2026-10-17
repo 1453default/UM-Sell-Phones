@@ -1,0 +1,67 @@
+{
+  "brand": "google-pixel",
+  "model": "Google Pixel 11",
+  "official_name": "google-pixel Google Pixel 11",
+  "series": "Pixel",
+  "release": {
+    "year": 2025,
+    "date": ""
+  },
+  "region": "India",
+  "variants": [],
+  "display": {
+    "type": "",
+    "size": "",
+    "resolution": "",
+    "refresh_rate": "",
+    "hdr": "",
+    "protection": ""
+  },
+  "processor": {
+    "chipset": "",
+    "cpu": "",
+    "gpu": ""
+  },
+  "camera": {
+    "rear": [],
+    "front": "",
+    "video": []
+  },
+  "battery": {
+    "capacity": "",
+    "charging": "",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "",
+    "weight": "",
+    "materials": "",
+    "colors": [],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "",
+    "wifi": "",
+    "bluetooth": "",
+    "nfc": "",
+    "usb": "",
+    "sim": ""
+  },
+  "software": {
+    "os_at_launch": "",
+    "update_policy": ""
+  },
+  "features": [],
+  "images": [
+    "google-pixel/google-pixel  images/Google_Pixel_11.png"
+  ],
+  "research_sources": [
+    {
+      "title": "google-pixel Official Website",
+      "url": "https://www.google-pixel.com",
+      "source_type": "official"
+    }
+  ],
+  "confidence": "unverified",
+  "notes": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+}

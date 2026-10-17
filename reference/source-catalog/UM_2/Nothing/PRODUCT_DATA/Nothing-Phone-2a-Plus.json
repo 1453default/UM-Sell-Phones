@@ -1,0 +1,97 @@
+{
+  "brand": "Nothing",
+  "model": "Nothing Phone 2a Plus",
+  "official_name": "Nothing Phone 2a Plus",
+  "series": "G Series",
+  "release": {
+    "year": 2024,
+    "date": "2024 July 27"
+  },
+  "region": "India",
+  "variants": [
+    {
+      "ram": "4GB",
+      "storage": "128GB"
+    },
+    {
+      "ram": "6GB",
+      "storage": "128GB"
+    },
+    {
+      "ram": "8GB",
+      "storage": "256GB"
+    },
+    {
+      "ram": "8GB",
+      "storage": "512GB"
+    }
+  ],
+  "display": {
+    "type": "IPS LCD, 120Hz, 1000 nits (HBM)",
+    "size": "6.67 inches, 107.2 cm2 (~85.2% screen-to-body ratio)",
+    "resolution": "720 x 1604 pixels, 20:9 ratio (~264 ppi density)",
+    "refresh_rate": "120 Hz",
+    "hdr": "",
+    "protection": ""
+  },
+  "processor": {
+    "chipset": "Mediatek Dimensity 6300 (6 nm)",
+    "cpu": "Octa-core (2x2.4 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+    "gpu": "Mali-G57 MC2"
+  },
+  "camera": {
+    "rear": [
+      "32 MP, f/1.8, (wide), PDAF Auxiliary lens"
+    ],
+    "front": "8 MP, f/2.0, (wide)",
+    "video": [
+      "1080p@30/60fps"
+    ]
+  },
+  "battery": {
+    "capacity": "5100 mAh",
+    "charging": "45W wired, PD, 50% in 30 min",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "165.7 x 76 x 7.7 mm (6.52 x 2.99 x 0.30 in)",
+    "weight": "186 g (6.56 oz)",
+    "materials": "",
+    "colors": [
+      "Black",
+      "Purple",
+      "White"
+    ],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "GSM / CDMA / HSPA / CDMA2000 / LTE / 5G",
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.3, A2DP, LE, aptX HD",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG",
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "software": {
+    "os_at_launch": "Android 14, ColorOS 14",
+    "update_policy": ""
+  },
+  "features": [
+    "Fingerprint (side-mounted)",
+    "accelerometer",
+    "proximity",
+    "compass"
+  ],
+  "images": [
+    "Nothing/Nothing  images/Nothing_Phone_2a_Plus.png"
+  ],
+  "research_sources": [
+    {
+      "title": "GSMArena Nothing Phone 2a Plus Specifications",
+      "url": "https://www.gsmarena.com",
+      "source_type": "database"
+    }
+  ],
+  "confidence": "high",
+  "notes": ""
+}

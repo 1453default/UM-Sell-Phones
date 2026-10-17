@@ -1,0 +1,93 @@
+{
+  "brand": "Nubia",
+  "model": "Red Magic 3S",
+  "official_name": "ZTE Nubia Red Magic 3S",
+  "series": "Red Magic",
+  "release": {
+    "year": 2019,
+    "date": "2019-09-01"
+  },
+  "region": "India",
+  "variants": [
+    {
+      "ram": "8 GB",
+      "storage": "128 GB"
+    },
+    {
+      "ram": "12 GB",
+      "storage": "256 GB"
+    }
+  ],
+  "display": {
+    "type": "AMOLED, 90Hz, HDR",
+    "size": "6.65 inches",
+    "resolution": "1080 x 2340 pixels",
+    "refresh_rate": "90 Hz",
+    "hdr": "HDR",
+    "protection": "Corning Gorilla Glass 4"
+  },
+  "processor": {
+    "chipset": "Qualcomm SM8150-AC Snapdragon 855+ (7 nm)",
+    "cpu": "Octa-core (1x2.96 GHz Kryo 485 & 3x2.42 GHz Kryo 485 & 4x1.78 GHz Kryo 485)",
+    "gpu": "Adreno 640 (700 MHz)"
+  },
+  "camera": {
+    "rear": [
+      "48 MP, f/1.7, 26mm (wide), 1/2.0\", 0.8µm, PDAF"
+    ],
+    "front": "16 MP, f/2.0, 26mm (wide), 1/3.06\", 1.0µm",
+    "video": [
+      "8K@15fps",
+      "4K@30/60fps",
+      "1080p@30/60fps",
+      "1920fps slow-motion"
+    ]
+  },
+  "battery": {
+    "capacity": "5000 mAh",
+    "charging": "27W wired, QC4+",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "171.7 x 78.5 x 9.7 mm",
+    "weight": "215 g",
+    "materials": "Glass front, aluminum back, aluminum frame",
+    "colors": [
+      "Eclipse Black",
+      "Mecha Silver",
+      "Cyber Neon"
+    ],
+    "ip_rating": "IP55"
+  },
+  "connectivity": {
+    "network": "4G LTE, 3G, 2G",
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac",
+    "bluetooth": "5.0, A2DP, aptX, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 3.0",
+    "sim": "Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "software": {
+    "os_at_launch": "Android 9.0 (Pie), Redmagic 2.0",
+    "update_policy": ""
+  },
+  "features": [
+    "Upgraded centrifugal internal cooling fan",
+    "UFS 3.0 fast storage",
+    "Capacitive shoulder triggers",
+    "RGB lighting",
+    "3.5mm headphone jack"
+  ],
+  "research_sources": [
+    {
+      "title": "ZTE Nubia Red Magic 3S Specifications",
+      "url": "https://www.gsmarena.com/zte_nubia_red_magic_3s-9836.php",
+      "source_type": "database"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Upgraded refresh to Snapdragon 855+ and UFS 3.0 storage.",
+  "images": [
+    "Nubia/Nubia  images/Nubia_Red_Magic_3S.png"
+  ]
+}

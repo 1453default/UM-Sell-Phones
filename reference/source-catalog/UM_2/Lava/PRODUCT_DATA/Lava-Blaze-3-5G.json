@@ -1,0 +1,87 @@
+{
+  "brand": "Lava",
+  "model": "Lava Blaze 3 5G",
+  "official_name": "Lava Blaze 3 5G",
+  "series": "G Series",
+  "release": {
+    "year": 2023,
+    "date": "2023-11-02"
+  },
+  "region": "India",
+  "variants": [
+    {
+      "ram": "4 GB",
+      "storage": "64 GB"
+    },
+    {
+      "ram": "6 GB",
+      "storage": "128 GB"
+    }
+  ],
+  "display": {
+    "type": "IPS LCD, 90Hz",
+    "size": "6.56 inches",
+    "resolution": "720 x 1600 pixels",
+    "refresh_rate": "90 Hz",
+    "hdr": "",
+    "protection": "Glass"
+  },
+  "processor": {
+    "chipset": "MediaTek Dimensity 6020 (7 nm)",
+    "cpu": "Octa-core (2x2.2 GHz & 6x2.0 GHz)",
+    "gpu": "Mali-G57 MC2"
+  },
+  "camera": {
+    "rear": [
+      "50 MP (wide), PDAF",
+      "VGA secondary"
+    ],
+    "front": "8 MP",
+    "video": [
+      "1080p@30fps"
+    ]
+  },
+  "battery": {
+    "capacity": "5000 mAh",
+    "charging": "18W wired",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "165.3 x 75.8 x 8.9 mm",
+    "weight": "207 g",
+    "materials": "Glass back, plastic frame",
+    "colors": [
+      "Glass Blue",
+      "Glass Green"
+    ],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "5G, 4G LTE",
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG",
+    "sim": "Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "software": {
+    "os_at_launch": "Android 13 / Android 14",
+    "update_policy": ""
+  },
+  "features": [
+    "Side-mounted fingerprint",
+    "Segment-first premium glass back"
+  ],
+  "images": [
+    "Lava/Lava images/Lava_Blaze_3_5G.png"
+  ],
+  "research_sources": [
+    {
+      "title": "Lava Blaze 3 5G Official Specifications",
+      "url": "https://www.lava.com/in",
+      "source_type": "official"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Verified from official manufacturer technical specifications."
+}

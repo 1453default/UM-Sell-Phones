@@ -1,24 +1,33 @@
-# Project Ignition
+# Sell Your Phone — USED MOBILES
 
-For this project I want you to make Github repository and don't add anything in that. Connect the project with that Github repository and create dot TXT file and describe in two lines what you've done in that
+Standalone site where customers select brand → model → storage/RAM variant and see the
+"Get up to" price, then connect to WhatsApp ("Check Exact Value") for a condition-based quote.
 
-This project was built with [Lovable](https://lovable.dev).
+## Stack
+TanStack Start v1 (React 19, file routes in `src/routes`), Vite 8, Tailwind CSS v4
+(`src/styles.css`), Nitro for the server build. No database, no auth, no external backend dependencies.
 
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/f617cbca-3f69-45c8-b220-67e765c6bc91).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
+## Commands
+```bash
+npm install       # install dependencies
+npm run dev       # http://localhost:3000
+npm run build     # production build -> .output/
+npm run preview   # serve the build
+npm run typecheck # verify TypeScript types
 ```
+`src/routeTree.gen.ts` is regenerated automatically by the router plugin.
+
+## Structure
+- `src/routes/` — `/` landing page, `/sell-phone`, `/sell-phone/$brand`, `/sell-phone/$brand/$model`, `/sell-phone/$brand/$model/$variant`
+- `src/components/public/` — header, footer, mobile dock, brand tagline
+- `src/components/sell/SellParts.tsx` — breadcrumbs, search box, phone image component
+- `src/data/sellPhoneCatalog.generated.json` + `sellPhoneCatalog.ts` — brands, models, image paths
+- `src/data/dofyPriceCatalog.generated.json` + `sellPhonePricing.ts` — price catalog (brand + model + storage/RAM match)
+- `public/sell-phone/logos/*.webp`, `public/sell-phone/phones/<brand>/<model>.webp` — local catalog images (1330 phone models across 22 brands)
+- `public/about-device-questions/P1–P5/` — images for device condition questionnaire
+- `reference/` — documentation, catalog source references, and condition question assets
+- `scripts/` — catalog maintenance and verification scripts (Python 3)
+
+## Deploy on Vercel
+New Vercel project from this repo · Framework: Other · Install: `npm install` · Build: `npm run build`.
+Nitro detects Vercel automatically. For other hosts set `NITRO_PRESET` (e.g. `netlify`, `node-server`).

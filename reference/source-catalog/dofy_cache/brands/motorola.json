@@ -1,0 +1,690 @@
+[
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge 70 Pro Plus",
+    "DisplayName": "Moto Edge 70 Pro Plus",
+    "EnumName": "Moto_Edge_70_Pro_Plus",
+    "ThumbnailPath": "model/Moto_Edge_70_Pro_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge 70 Max",
+    "DisplayName": "Moto Edge 70 Max",
+    "EnumName": "Moto_Edge_70_Max",
+    "ThumbnailPath": "model/Moto_Edge_70_Max.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G77 Power",
+    "DisplayName": "Moto G77 Power",
+    "EnumName": "Moto_G77_Power",
+    "ThumbnailPath": "model/Moto_G77_Power.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G Max",
+    "DisplayName": "Moto G Max",
+    "EnumName": "Moto_G_Max",
+    "ThumbnailPath": "model/Moto_G_Max.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G37",
+    "DisplayName": "Moto G37",
+    "EnumName": "Moto_G37",
+    "ThumbnailPath": "model/Moto_G37.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G37 Power",
+    "DisplayName": "Moto G37 Power",
+    "EnumName": "Moto_G37_Power",
+    "ThumbnailPath": "model/Moto_G37_Power.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge 70 Pro",
+    "DisplayName": "Moto Edge 70 Pro",
+    "EnumName": "Moto_Edge_70_Pro",
+    "ThumbnailPath": "model/Moto_Edge_70_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 192,
+    "Name": "Moto Razr Fold",
+    "DisplayName": "Moto Razr Fold",
+    "EnumName": "Moto_Razr_Fold",
+    "ThumbnailPath": "model/Moto_Razr_Fold.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge 70",
+    "DisplayName": "Moto Edge 70",
+    "EnumName": "Moto_Edge_70",
+    "ThumbnailPath": "model/Moto_Edge_70.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge 70 Fusion",
+    "DisplayName": "Moto Edge 70 Fusion",
+    "EnumName": "Moto_Edge_70_Fusion",
+    "ThumbnailPath": "model/Moto_Edge_70_Fusion.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G67 Power",
+    "DisplayName": "Moto G67 Power",
+    "EnumName": "Moto_G67_Power",
+    "ThumbnailPath": "model/Moto_G67_Power.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G57 Power",
+    "DisplayName": "Moto G57 Power",
+    "EnumName": "Moto_G57_Power",
+    "ThumbnailPath": "model/Moto_G57_Power.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G86 Power 5G",
+    "DisplayName": "Moto G86 Power 5G",
+    "EnumName": "Moto_G86_Power_5G",
+    "ThumbnailPath": "model/Moto_G86_Power_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge 60 Stylus",
+    "DisplayName": "Moto Edge 60 Stylus",
+    "EnumName": "Moto_Edge_60_Stylus",
+    "ThumbnailPath": "model/Moto_Edge_60_Stylus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G96 5G",
+    "DisplayName": "Moto G96 5G",
+    "EnumName": "Moto_G96_5G",
+    "ThumbnailPath": "model/Moto_G96_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 192,
+    "Name": "Moto Razr 60 Ultra",
+    "DisplayName": "Moto Razr 60 Ultra",
+    "EnumName": "Moto_Razr_60_Ultra",
+    "ThumbnailPath": "model/Moto_Razr_60_Ultra.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 192,
+    "Name": "Moto Razr 60",
+    "DisplayName": "Moto Razr 60",
+    "EnumName": "Moto_Razr_60",
+    "ThumbnailPath": "model/Moto_Razr_60.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge 60",
+    "DisplayName": "Moto Edge 60",
+    "EnumName": "Moto_Edge_60",
+    "ThumbnailPath": "model/Moto_Edge_60.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge 60 Fusion",
+    "DisplayName": "Moto Edge 60 Fusion",
+    "EnumName": "Moto_Edge_60_Fusion",
+    "ThumbnailPath": "model/Moto_Edge_60_Fusion.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge 60 Pro",
+    "DisplayName": "Moto Edge 60 Pro",
+    "EnumName": "Moto_Edge_60_Pro",
+    "ThumbnailPath": "model/Moto_Edge_60_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G35 5G",
+    "DisplayName": "Moto G35 5G",
+    "EnumName": "Moto_G35_5G",
+    "ThumbnailPath": "model/Moto_G35_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G05",
+    "DisplayName": "Moto G05",
+    "EnumName": "Moto_G05",
+    "ThumbnailPath": "model/Moto_G05_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 192,
+    "Name": "Moto Razr 50",
+    "DisplayName": "Moto Razr 50",
+    "EnumName": "Moto_Razr_50",
+    "ThumbnailPath": "model/Moto_Razr_50.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge 50 Neo",
+    "DisplayName": "Moto Edge 50 Neo",
+    "EnumName": "Moto_Edge_50_Neo",
+    "ThumbnailPath": "model/Moto_Edge_50_Neo.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G45 5G",
+    "DisplayName": "Moto G45 5G",
+    "EnumName": "Moto_G45_5G",
+    "ThumbnailPath": "model/Moto_G45_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G04s",
+    "DisplayName": "Moto G04s",
+    "EnumName": "Moto_G04s",
+    "ThumbnailPath": "model/Moto_G04s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 192,
+    "Name": "Moto Razr 50 Ultra",
+    "DisplayName": "Moto Razr 50 Ultra",
+    "EnumName": "Moto_Razr_50_Ultra",
+    "ThumbnailPath": "model/Moto_Razr_50_Ultra.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Motorola Edge 50 Ultra 5G",
+    "DisplayName": "Motorola Edge 50 Ultra 5G",
+    "EnumName": "Motorola_Edge_50_Ultra_5G",
+    "ThumbnailPath": "model/Motorola_Edge_50_Ultra_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge 50 Fusion",
+    "DisplayName": "Moto Edge 50 Fusion",
+    "EnumName": "Moto_Edge_50_Fusion",
+    "ThumbnailPath": "model/Moto_Edge_50_Fusion.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G04",
+    "DisplayName": "Moto G04",
+    "EnumName": "Moto_G04",
+    "ThumbnailPath": "model/Moto_G04.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G24 Power",
+    "DisplayName": "Moto G24 Power",
+    "EnumName": "Moto_G24_Power",
+    "ThumbnailPath": "model/Motorola_Moto_G24_Power.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G64 5G",
+    "DisplayName": "Moto G64 5G",
+    "EnumName": "Moto_G64_5G",
+    "ThumbnailPath": "model/Moto_G64_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge 50 Pro 5G",
+    "DisplayName": "Moto Edge 50 Pro 5G",
+    "EnumName": "Moto_Edge_50_Pro_5G",
+    "ThumbnailPath": "model/Moto_Edge_50_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge 50 5G",
+    "DisplayName": "Moto Edge 50 5G",
+    "EnumName": "Moto_Edge_50_5G",
+    "ThumbnailPath": "model/Moto_Edge_50_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G85 5G",
+    "DisplayName": "Moto G85 5G",
+    "EnumName": "Moto_G85_5G",
+    "ThumbnailPath": "model/Moto_G85_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G34 5G",
+    "DisplayName": "Moto G34 5G",
+    "EnumName": "Moto_G34_5G",
+    "ThumbnailPath": "model/Motorola_Moto_G34_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G54 5G",
+    "DisplayName": "Moto G54 5G",
+    "EnumName": "Moto_G54_5G",
+    "ThumbnailPath": "model/Moto_G54_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G84 5G",
+    "DisplayName": "Moto G84 5G",
+    "EnumName": "Moto_G84_5G",
+    "ThumbnailPath": "model/Moto_G84_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G14",
+    "DisplayName": "Moto G14",
+    "EnumName": "Moto_G14",
+    "ThumbnailPath": "model/Motorola_Moto_G14.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge 40 Neo",
+    "DisplayName": "Moto Edge 40 Neo",
+    "EnumName": "Moto_Edge_40_Neo",
+    "ThumbnailPath": "model/Motorola_Edge_40_Neo.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 192,
+    "Name": "Moto Razr 40",
+    "DisplayName": "Moto Razr 40",
+    "EnumName": "Moto_Razr_40",
+    "ThumbnailPath": "model/Moto_Razr_40.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 192,
+    "Name": "Moto Razr 40 Ultra",
+    "DisplayName": "Moto Razr 40 Ultra",
+    "EnumName": "Moto_Razr_40_Ultra",
+    "ThumbnailPath": "model/Moto_Razr_40_Ultra.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge 40",
+    "DisplayName": "Moto Edge 40",
+    "EnumName": "Moto_Edge_40",
+    "ThumbnailPath": "model/Moto_Edge_40.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G13",
+    "DisplayName": "Moto G13",
+    "EnumName": "Moto_G13",
+    "ThumbnailPath": "model/motorola_G13.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G73",
+    "DisplayName": "Moto G73",
+    "EnumName": "Moto_G73",
+    "ThumbnailPath": "model/Motorola_G73.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 183,
+    "Name": "Moto E22S",
+    "DisplayName": "Moto E22S",
+    "EnumName": "Moto_E22S",
+    "ThumbnailPath": "model/Motorola_E22S.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 183,
+    "Name": "Moto E32",
+    "DisplayName": "Moto E32",
+    "EnumName": "Moto_E32",
+    "ThumbnailPath": "model/Motorola_E32.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G72 5G",
+    "DisplayName": "Moto G72 5G",
+    "EnumName": "Moto_G72_5G",
+    "ThumbnailPath": "model/Motorola_G72_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G62 5G",
+    "DisplayName": "Moto G62 5G",
+    "EnumName": "Moto_G62_5G",
+    "ThumbnailPath": "model/Motorola_G62_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 183,
+    "Name": "Moto E13",
+    "DisplayName": "Moto E13",
+    "EnumName": "Moto_E13",
+    "ThumbnailPath": "model/Motorola_E13.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge 30 Ultra",
+    "DisplayName": "Moto Edge 30 Ultra",
+    "EnumName": "Moto_Edge_30_Ultra",
+    "ThumbnailPath": "model/MOTOROLA_EDGE_30_ULTRA.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge 30 Fusion",
+    "DisplayName": "Moto Edge 30 Fusion",
+    "EnumName": "Moto_Edge_30_Fusion",
+    "ThumbnailPath": "model/MOTOROLA_EDGE_30_FUSION.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "MOTO G32",
+    "DisplayName": "MOTO G32",
+    "EnumName": "MOTO_G32",
+    "ThumbnailPath": "model/MOTO_G32.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G31",
+    "DisplayName": "Moto G31",
+    "EnumName": "Moto_G31",
+    "ThumbnailPath": "model/Motorola_Moto_G31.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge 30 Pro",
+    "DisplayName": "Moto Edge 30 Pro",
+    "EnumName": "Moto_Edge_30_Pro",
+    "ThumbnailPath": "model/Motorola_Moto_Edge_30_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge 30",
+    "DisplayName": "Moto Edge 30",
+    "EnumName": "Moto_Edge_30",
+    "ThumbnailPath": "model/Moto_Edge_30.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 183,
+    "Name": "Moto E32S",
+    "DisplayName": "Moto E32S",
+    "EnumName": "Moto_E32S",
+    "ThumbnailPath": "model/Moto_E32S.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G22",
+    "DisplayName": "Moto G22",
+    "EnumName": "Moto_G22",
+    "ThumbnailPath": "model/Moto_G22.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G52",
+    "DisplayName": "Moto G52",
+    "EnumName": "Moto_G52",
+    "ThumbnailPath": "model/Moto_G52.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G51 5G",
+    "DisplayName": "Moto G51 5G",
+    "EnumName": "Moto_G51_5G_",
+    "ThumbnailPath": "model/Motorola_Moto_G51_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G82 5G",
+    "DisplayName": "Moto G82 5G",
+    "EnumName": "Moto_G82_5G",
+    "ThumbnailPath": "model/Moto_G82_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G71 5G",
+    "DisplayName": "Moto G71 5G",
+    "EnumName": "Moto_G71_5G",
+    "ThumbnailPath": "model/Motorola_Moto_G71_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G42",
+    "DisplayName": "Moto G42",
+    "EnumName": "Moto_G42",
+    "ThumbnailPath": "model/Moto_G42.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 183,
+    "Name": "Moto E40",
+    "DisplayName": "Moto E40",
+    "EnumName": "Moto_E40",
+    "ThumbnailPath": "model/Motorola_Moto_E40.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 192,
+    "Name": "Moto Razr 5G",
+    "DisplayName": "Moto Razr 5G",
+    "EnumName": "Moto_Razr_5G",
+    "ThumbnailPath": "model/Motorola_Moto_Razr_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 192,
+    "Name": "Moto Razr",
+    "DisplayName": "Moto Razr",
+    "EnumName": "Moto_Razr",
+    "ThumbnailPath": "model/Motorola_Moto_Razr.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge 20",
+    "DisplayName": "Moto Edge 20",
+    "EnumName": "Moto_Edge_20",
+    "ThumbnailPath": "model/Motorola_Moto_Edge_20.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge 20 Fusion",
+    "DisplayName": "Moto Edge 20 Fusion",
+    "EnumName": "Moto_Edge_20_Fusion",
+    "ThumbnailPath": "model/Motorola_Moto_Edge_20_Fusion.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge 20 Pro",
+    "DisplayName": "Moto Edge 20 Pro",
+    "EnumName": "Moto_Edge_20_Pro",
+    "ThumbnailPath": "model/Motorola_Moto_Edge_20_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 438,
+    "Name": "Moto Edge Plus",
+    "DisplayName": "Moto Edge Plus",
+    "EnumName": "Moto_Edge_Plus",
+    "ThumbnailPath": "model/Motorola_Moto_Edge_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 190,
+    "Name": "Moto One Fusion Plus",
+    "DisplayName": "Moto One Fusion Plus",
+    "EnumName": "Moto_One_Fusion_Plus",
+    "ThumbnailPath": "model/Motorola_One_Fusion_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 190,
+    "Name": "Moto One Macro",
+    "DisplayName": "Moto One Macro",
+    "EnumName": "Moto_One_Macro",
+    "ThumbnailPath": "model/Motorola_One_Macro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 190,
+    "Name": "Moto One Action",
+    "DisplayName": "Moto One Action",
+    "EnumName": "Moto_One_Action",
+    "ThumbnailPath": "model/Motorola_One_Action.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 190,
+    "Name": "Moto One Vision",
+    "DisplayName": "Moto One Vision",
+    "EnumName": "Moto_One_Vision",
+    "ThumbnailPath": "model/Motorola_One_Vision.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G8 Plus",
+    "DisplayName": "Moto G8 Plus",
+    "EnumName": "Moto_G8_Plus",
+    "ThumbnailPath": "model/Motorola_Moto_G8_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G40 Fusion",
+    "DisplayName": "Moto G40 Fusion",
+    "EnumName": "Moto_G40_Fusion",
+    "ThumbnailPath": "model/Motorola_Moto_G40_Fusion.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G60",
+    "DisplayName": "Moto G60",
+    "EnumName": "Moto_G60",
+    "ThumbnailPath": "model/Motorola_Moto_G60.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G10 Power",
+    "DisplayName": "Moto G10 Power",
+    "EnumName": "Moto_G10_Power",
+    "ThumbnailPath": "model/Motorola_Moto_G10_Power.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G30",
+    "DisplayName": "Moto G30",
+    "EnumName": "Moto_G30",
+    "ThumbnailPath": "model/Motorola_Moto_G30.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G 5G",
+    "DisplayName": "Moto G 5G",
+    "EnumName": "Moto_G_5G",
+    "ThumbnailPath": "model/Motorola_Moto_G_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G9 Power",
+    "DisplayName": "Moto G9 Power",
+    "EnumName": "Moto_G9_Power",
+    "ThumbnailPath": "model/Motorola_Moto_G9_Power.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G9",
+    "DisplayName": "Moto G9",
+    "EnumName": "Moto_G9",
+    "ThumbnailPath": "model/Motorola_Moto_G9.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G8 Power Lite",
+    "DisplayName": "Moto G8 Power Lite",
+    "EnumName": "Moto_G8_Power_Lite",
+    "ThumbnailPath": "model/Motorola_Moto_G8_Power_Lite.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G7",
+    "DisplayName": "Moto G7",
+    "EnumName": "Moto_G7",
+    "ThumbnailPath": "model/Motorola_Moto_G7.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 456,
+    "Name": "Moto G7 Power",
+    "DisplayName": "Moto G7 Power",
+    "EnumName": "Moto_G7_Power",
+    "ThumbnailPath": "model/Motorola_Moto_G7_Power.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 183,
+    "Name": "Moto E6s",
+    "DisplayName": "Moto E6s",
+    "EnumName": "Moto_E6s",
+    "ThumbnailPath": "model/Motorola_Moto_E6s.png",
+    "DisplayInList": true
+  }
+]

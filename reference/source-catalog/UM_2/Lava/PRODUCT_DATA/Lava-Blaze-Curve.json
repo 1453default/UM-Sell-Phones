@@ -1,0 +1,89 @@
+{
+  "brand": "Lava",
+  "model": "Lava Blaze Curve",
+  "official_name": "Lava Blaze Curve",
+  "series": "Blaze",
+  "release": {
+    "year": 2024,
+    "date": "2024-03-05"
+  },
+  "region": "India",
+  "variants": [
+    {
+      "ram": "8 GB",
+      "storage": "128 GB"
+    },
+    {
+      "ram": "8 GB",
+      "storage": "256 GB"
+    }
+  ],
+  "display": {
+    "type": "3D Curved AMOLED, 120Hz, HDR10+",
+    "size": "6.67 inches",
+    "resolution": "1080 x 2400 pixels",
+    "refresh_rate": "120 Hz",
+    "hdr": "HDR10+",
+    "protection": "Glass"
+  },
+  "processor": {
+    "chipset": "MediaTek Dimensity 7050 (6 nm)",
+    "cpu": "Octa-core (2x2.6 GHz & 6x2.0 GHz)",
+    "gpu": "Mali-G68 MC4"
+  },
+  "camera": {
+    "rear": [
+      "64 MP (wide), EIS",
+      "8 MP (ultrawide)",
+      "2 MP (macro)"
+    ],
+    "front": "32 MP",
+    "video": [
+      "4K@30fps",
+      "1080p@30/60fps"
+    ]
+  },
+  "battery": {
+    "capacity": "5000 mAh",
+    "charging": "33W wired",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "161.8 x 74 x 8.8 mm",
+    "weight": "189 g",
+    "materials": "Double curved glass back",
+    "colors": [
+      "Iron Glass",
+      "Viridian Glass"
+    ],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "4G LTE, 3G, 2G",
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG",
+    "sim": "Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "software": {
+    "os_at_launch": "Android 13 / Android 14",
+    "update_policy": ""
+  },
+  "features": [
+    "Stereo speakers with Dolby Atmos",
+    "In-display fingerprint sensor"
+  ],
+  "images": [
+    "Lava/Lava images/Lava_Blaze_Curve.png"
+  ],
+  "research_sources": [
+    {
+      "title": "Lava Blaze Curve Official Specifications",
+      "url": "https://www.lava.com/in",
+      "source_type": "official"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Verified from official manufacturer technical specifications."
+}

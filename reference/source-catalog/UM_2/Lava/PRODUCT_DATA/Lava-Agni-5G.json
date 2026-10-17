@@ -1,0 +1,84 @@
+{
+  "brand": "Lava",
+  "model": "Lava Agni 5G",
+  "official_name": "Lava Agni 5G",
+  "series": "G Series",
+  "release": {
+    "year": 2021,
+    "date": "2021-11-09"
+  },
+  "region": "India",
+  "variants": [
+    {
+      "ram": "8 GB",
+      "storage": "128 GB"
+    }
+  ],
+  "display": {
+    "type": "IPS LCD, 90Hz",
+    "size": "6.78 inches",
+    "resolution": "1080 x 2460 pixels",
+    "refresh_rate": "90 Hz",
+    "hdr": "",
+    "protection": "Corning Gorilla Glass"
+  },
+  "processor": {
+    "chipset": "MediaTek Dimensity 810 (6 nm)",
+    "cpu": "Octa-core (2x2.4 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+    "gpu": "Mali-G57 MC2"
+  },
+  "camera": {
+    "rear": [
+      "64 MP, f/1.8 (wide)",
+      "5 MP (ultrawide)",
+      "2 MP (macro)",
+      "2 MP (depth)"
+    ],
+    "front": "16 MP, f/2.0",
+    "video": [
+      "1080p@30fps"
+    ]
+  },
+  "battery": {
+    "capacity": "5000 mAh",
+    "charging": "30W wired",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "168.8 x 76.8 x 9.1 mm",
+    "weight": "204 g",
+    "materials": "Glass front, plastic back",
+    "colors": [
+      "Fiery Blue"
+    ],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "5G, 4G LTE",
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG",
+    "sim": "Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "software": {
+    "os_at_launch": "Android 13 / Android 14",
+    "update_policy": ""
+  },
+  "features": [
+    "Side-mounted fingerprint sensor",
+    "First 5G phone from an Indian brand"
+  ],
+  "images": [
+    "Lava/Lava images/Lava_Agni_5G.png"
+  ],
+  "research_sources": [
+    {
+      "title": "Lava Agni 5G Official Specifications",
+      "url": "https://www.lava.com/in",
+      "source_type": "official"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Verified from official manufacturer technical specifications."
+}

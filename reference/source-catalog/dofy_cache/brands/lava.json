@@ -1,0 +1,338 @@
+[
+  {
+    "BrandSeriesId": 469,
+    "Name": "Lava Blaze Duo 3 5G",
+    "DisplayName": "Lava Blaze Duo 3 5G",
+    "EnumName": "Lava_Blaze_Duo_3_5G",
+    "ThumbnailPath": "model/Lava_Blaze_Duo_3_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 521,
+    "Name": "Lava Play Max 5G",
+    "DisplayName": "Lava Play Max 5G",
+    "EnumName": "Lava_Play_Max_5G",
+    "ThumbnailPath": "model/Lava_Play_Max_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 440,
+    "Name": "Lava Agni 4 5G",
+    "DisplayName": "Lava Agni 4 5G",
+    "EnumName": "Lava_Agni_4_5G",
+    "ThumbnailPath": "model/Lava_Agni_4_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 468,
+    "Name": "Lava Yuva 4",
+    "DisplayName": "Lava Yuva 4",
+    "EnumName": "Lava_Yuva_4",
+    "ThumbnailPath": "model/Lava_Yuva_4.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 468,
+    "Name": "Lava Yuva Smart",
+    "DisplayName": "Lava Yuva Smart",
+    "EnumName": "Lava_Yuva_Smart",
+    "ThumbnailPath": "model/Lava_Yuva_Smart.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 593,
+    "Name": "Lava Bold 5G",
+    "DisplayName": "Lava Bold 5G",
+    "EnumName": "Lava_Bold_5G",
+    "ThumbnailPath": "model/Lava_Bold_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 468,
+    "Name": "Lava Yuva Star 2",
+    "DisplayName": "Lava Yuva Star 2",
+    "EnumName": "Lava_Yuva_Star_2",
+    "ThumbnailPath": "model/Lava_Yuva_Star_2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 592,
+    "Name": "Lava Strom Play 5G",
+    "DisplayName": "Lava Strom Play 5G",
+    "EnumName": "Lava_Strom_Play_5G",
+    "ThumbnailPath": "model/Lava_Strom_Play_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 469,
+    "Name": "Lava Blaze Amoled 2",
+    "DisplayName": "Lava Blaze Amoled 2",
+    "EnumName": "Lava_Blaze_Amoled_2",
+    "ThumbnailPath": "model/Lava_Blaze_Amoled_2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 521,
+    "Name": "Lava Play Ultra",
+    "DisplayName": "Lava Play Ultra",
+    "EnumName": "Lava_Play_Ultra",
+    "ThumbnailPath": "model/Lava_Play_Ultra.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 521,
+    "Name": "Lava O3",
+    "DisplayName": "Lava O3",
+    "EnumName": "Lava_O3",
+    "ThumbnailPath": "model/Lava_O3.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 468,
+    "Name": "Lava Yuva Smart 2",
+    "DisplayName": "Lava Yuva Smart 2",
+    "EnumName": "Lava_Yuva_Smart_2",
+    "ThumbnailPath": "model/Lava_Yuva_Smart_2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 469,
+    "Name": "Lava Blaze Dragon",
+    "DisplayName": "Lava Blaze Dragon",
+    "EnumName": "Lava_Blaze_Dragon",
+    "ThumbnailPath": "model/Lava_Blaze_Dragon.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 593,
+    "Name": "Lava Bold N1 5G",
+    "DisplayName": "Lava Bold N1 5G",
+    "EnumName": "Lava_Bold_N1_5G",
+    "ThumbnailPath": "model/Lava_Bold_N1_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 521,
+    "Name": "Lava Shark",
+    "DisplayName": "Lava Shark",
+    "EnumName": "Lava_Shark",
+    "ThumbnailPath": "model/Lava_Shark.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 521,
+    "Name": "Lava Shark 5G",
+    "DisplayName": "Lava Shark 5G",
+    "EnumName": "Lava_Shark_5G",
+    "ThumbnailPath": "model/Lava_Shark_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 469,
+    "Name": "Lava Blaze Amoled",
+    "DisplayName": "Lava Blaze Amoled",
+    "EnumName": "Lava_Blaze_Amoled",
+    "ThumbnailPath": "model/Lava_Blaze_Amoled.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 593,
+    "Name": "Lava Bold N1",
+    "DisplayName": "Lava Bold N1",
+    "EnumName": "Lava_Bold_N1",
+    "ThumbnailPath": "model/Lava_Bold_N1.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 593,
+    "Name": "Lava Bold N1 Pro",
+    "DisplayName": "Lava Bold N1 Pro",
+    "EnumName": "Lava_Bold_N1_Pro",
+    "ThumbnailPath": "model/Lava_Bold_N1_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 592,
+    "Name": "Lava Storm Lite 5G",
+    "DisplayName": "Lava Storm Lite 5G",
+    "EnumName": "Lava_Storm_Lite_5G",
+    "ThumbnailPath": "model/Lava_Storm_Lite_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 469,
+    "Name": "Lava Blaze 3 5G",
+    "DisplayName": "Lava Blaze 3 5G",
+    "EnumName": "Lava_Blaze_3_5G",
+    "ThumbnailPath": "model/Lava_Blaze_3_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 440,
+    "Name": "Lava Agni 3 5G",
+    "DisplayName": "Lava Agni 3 5G",
+    "EnumName": "Lava_Agni_3_5G",
+    "ThumbnailPath": "model/Lava_Agni_3_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 469,
+    "Name": "Lava Blaze Pro 5G",
+    "DisplayName": "Lava Blaze Pro 5G",
+    "EnumName": "Lava_Blaze_Pro_5G",
+    "ThumbnailPath": "model/Lava_Blaze_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 469,
+    "Name": "Lava Blaze Curve",
+    "DisplayName": "Lava Blaze Curve",
+    "EnumName": "Lava_Blaze_Curve",
+    "ThumbnailPath": "model/Lava_Blaze_Curve.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 521,
+    "Name": "Lava O2",
+    "DisplayName": "Lava O2",
+    "EnumName": "Lava_O2",
+    "ThumbnailPath": "model/Lava_02.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 469,
+    "Name": "Lava Blaze X",
+    "DisplayName": "Lava Blaze X",
+    "EnumName": "Lava_Blaze_X",
+    "ThumbnailPath": "model/Lava_Blaze_X.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 468,
+    "Name": "Lava Yuva 5G",
+    "DisplayName": "Lava Yuva 5G",
+    "EnumName": "Lava_Yuva_5G",
+    "ThumbnailPath": "model/Lava_Yuva_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 468,
+    "Name": "Lava Yuva 3",
+    "DisplayName": "Lava Yuva 3",
+    "EnumName": "Lava_Yuva_3",
+    "ThumbnailPath": "model/Lava_Yuva_3.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 468,
+    "Name": "Lava Yuva 3 Pro",
+    "DisplayName": "Lava Yuva 3 Pro",
+    "EnumName": "Lava_Yuva_3_Pro",
+    "ThumbnailPath": "model/Lava_Yuva_3_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 521,
+    "Name": "Lava Storm 5G",
+    "DisplayName": "Lava Storm 5G",
+    "EnumName": "Lava_Storm_5G",
+    "ThumbnailPath": "model/Lava_Storm_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 468,
+    "Name": "Lava Yuva 2",
+    "DisplayName": "Lava Yuva 2",
+    "EnumName": "Lava_Yuva_2",
+    "ThumbnailPath": "model/Lava_Yuva_2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 469,
+    "Name": "Lava Blaze 2 Pro",
+    "DisplayName": "Lava Blaze 2 Pro",
+    "EnumName": "Lava_Blaze_2_Pro",
+    "ThumbnailPath": "model/Lava_Blaze_2_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 521,
+    "Name": "Lava O1",
+    "DisplayName": "Lava O1",
+    "EnumName": "Lava_O1",
+    "ThumbnailPath": "model/Lava_O1.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 469,
+    "Name": "Lava Blaze 2 4G",
+    "DisplayName": "Lava Blaze 2 4G",
+    "EnumName": "Lava_Blaze_2_4G",
+    "ThumbnailPath": "model/Lava_Blaze_2_4G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 440,
+    "Name": "Lava Agni 2 5G",
+    "DisplayName": "Lava Agni 2 5G",
+    "EnumName": "Lava_Agni_2_5G",
+    "ThumbnailPath": "model/Lava_Agni_2_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 469,
+    "Name": "Lava Blaze 2 5G",
+    "DisplayName": "Lava Blaze 2 5G",
+    "EnumName": "Lava_Blaze_2_5G",
+    "ThumbnailPath": "model/Lava_Blaze_2_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 469,
+    "Name": "Lava Blaze 4G",
+    "DisplayName": "Lava Blaze 4G",
+    "EnumName": "Lava_BLAZE_4G",
+    "ThumbnailPath": "model/Lava_BLAZE_4G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 469,
+    "Name": "Lava Blaze Pro",
+    "DisplayName": "Lava Blaze Pro",
+    "EnumName": "Lava_BLAZE_PRO",
+    "ThumbnailPath": "model/Lava_BLAZE_PRO.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 469,
+    "Name": "Lava Blaze Nxt",
+    "DisplayName": "Lava Blaze Nxt",
+    "EnumName": "Lava_BLAZE_NXT",
+    "ThumbnailPath": "model/Lava_BLAZE_NXT.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 469,
+    "Name": "Lava Blaze 5G",
+    "DisplayName": "Lava Blaze 5G",
+    "EnumName": "Lava_BLAZE_5G",
+    "ThumbnailPath": "model/Lava_BLAZE_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 468,
+    "Name": "Lava Yuva 2 Pro",
+    "DisplayName": "Lava Yuva 2 Pro",
+    "EnumName": "Lava_YUVA_2_PRO",
+    "ThumbnailPath": "model/Lava_YUVA_2_PRO.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 440,
+    "Name": "Lava Agni 5G",
+    "DisplayName": "Lava Agni 5G",
+    "EnumName": "Lava_Agni_5G",
+    "ThumbnailPath": "model/Lava_Agni_5G.png",
+    "DisplayInList": true
+  }
+]

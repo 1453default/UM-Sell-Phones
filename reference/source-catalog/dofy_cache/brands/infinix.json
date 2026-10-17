@@ -1,0 +1,562 @@
+[
+  {
+    "BrandSeriesId": 528,
+    "Name": "Infinix Smart 20",
+    "DisplayName": "Infinix Smart 20",
+    "EnumName": "Infinix_Smart_20",
+    "ThumbnailPath": "model/Infinix_Smart_20.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 166,
+    "Name": "Infinix Note 60 Pro",
+    "DisplayName": "Infinix Note 60 Pro",
+    "EnumName": "Infinix_Note_60_Pro",
+    "ThumbnailPath": "model/Infinix_Note_60_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 166,
+    "Name": "Infinix Note Edge",
+    "DisplayName": "Infinix Note Edge",
+    "EnumName": "Infinix_Note_Edge",
+    "ThumbnailPath": "model/Infinix_Note_Edge.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 515,
+    "Name": "Infinix GT 30 5G",
+    "DisplayName": "Infinix GT 30 5G",
+    "EnumName": "Infinix_GT_30_5G",
+    "ThumbnailPath": "model/Infinix_GT_30_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 416,
+    "Name": "Infinix Hot 60 5G",
+    "DisplayName": "Infinix Hot 60 5G",
+    "EnumName": "Infinix_Hot_60_5G",
+    "ThumbnailPath": "model/Infinix_Hot_60_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 528,
+    "Name": "Infinix Smart 10",
+    "DisplayName": "Infinix Smart 10",
+    "EnumName": "Infinix_Smart_10",
+    "ThumbnailPath": "model/Infinix_Smart_10.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 416,
+    "Name": "Infinix Hot 60i 5G",
+    "DisplayName": "Infinix Hot 60i 5G",
+    "EnumName": "Infinix_Hot_60i_5G",
+    "ThumbnailPath": "model/Infinix_Hot_60i_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 166,
+    "Name": "Infinix Note 50s 5G",
+    "DisplayName": "Infinix Note 50s 5G",
+    "EnumName": "Infinix_Note_50s_5G",
+    "ThumbnailPath": "model/Infinix_Note_50s_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 515,
+    "Name": "Infinix GT 30 Pro 5G",
+    "DisplayName": "Infinix GT 30 Pro 5G",
+    "EnumName": "Infinix_GT_30_Pro_5G",
+    "ThumbnailPath": "model/Infinix_GT_30_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 166,
+    "Name": "Infinix Note 50X 5G",
+    "DisplayName": "Infinix Note 50X 5G",
+    "EnumName": "Infinix_Note_50X_5G",
+    "ThumbnailPath": "model/Infinix_Note_50X_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 528,
+    "Name": "Infinix Smart 9 HD",
+    "DisplayName": "Infinix Smart 9 HD",
+    "EnumName": "Infinix_Smart_9_HD",
+    "ThumbnailPath": "model/Infinix_Smart_9_HD.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 421,
+    "Name": "Infinix Zero Flip",
+    "DisplayName": "Infinix Zero Flip",
+    "EnumName": "Infinix_Zero_Flip",
+    "ThumbnailPath": "model/Infinix_Zero_Flip.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 416,
+    "Name": "Infinix Hot 50 5G",
+    "DisplayName": "Infinix Hot 50 5G",
+    "EnumName": "Infinix_Hot_50_5G",
+    "ThumbnailPath": "model/Infinix_Hot_50_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 421,
+    "Name": "Infinix Zero 40 5G",
+    "DisplayName": "Infinix Zero 40 5G",
+    "EnumName": "Infinix_Zero_40_5G",
+    "ThumbnailPath": "model/Infinix_Zero_40_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 166,
+    "Name": "Infinix Note 40 Pro 5G Racing Edition",
+    "DisplayName": "Infinix Note 40 Pro 5G Racing Edition",
+    "EnumName": "Infinix_Note_40_Pro_5G_Racing_Edition",
+    "ThumbnailPath": "model/Infinix_Note_40_Pro_5G_Racing_Edition.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 166,
+    "Name": "Infinix Note 40X 5G",
+    "DisplayName": "Infinix Note 40X 5G",
+    "EnumName": "Infinix_Note_40X_5G",
+    "ThumbnailPath": "model/Infinix_Note_40X_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 515,
+    "Name": "Infinix GT 20 Pro",
+    "DisplayName": "Infinix GT 20 Pro",
+    "EnumName": "Infinix_GT_20_Pro",
+    "ThumbnailPath": "model/Infinix_GT_20_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 528,
+    "Name": "Infinix Smart 8 Pro",
+    "DisplayName": "Infinix Smart 8 Pro",
+    "EnumName": "Infinix_Smart_8_Pro",
+    "ThumbnailPath": "model/Infinix_Smart_8_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 528,
+    "Name": "Infinix Smart 8 Plus",
+    "DisplayName": "Infinix Smart 8 Plus",
+    "EnumName": "Infinix_Smart_8_Plus",
+    "ThumbnailPath": "model/Infinix_Smart_8_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 416,
+    "Name": "Infinix Hot 40i",
+    "DisplayName": "Infinix Hot 40i",
+    "EnumName": "Infinix_Hot_40i",
+    "ThumbnailPath": "model/Infinix_Hot_40i.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 166,
+    "Name": "Infinix Note 40 5G",
+    "DisplayName": "Infinix Note 40 5G",
+    "EnumName": "Infinix_Note_40_5G",
+    "ThumbnailPath": "model/Infinix_Note_40_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 166,
+    "Name": "Infinix Note 40 Pro Plus 5G",
+    "DisplayName": "Infinix Note 40 Pro Plus 5G",
+    "EnumName": "Infinix_Note_40_Pro_Plus_5G",
+    "ThumbnailPath": "model/Infinix_Note_40_Pro_Plus_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 528,
+    "Name": "Infinix Smart 8",
+    "DisplayName": "Infinix Smart 8",
+    "EnumName": "Infinix_Smart_8",
+    "ThumbnailPath": "model/Infinix_Smart_8.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 166,
+    "Name": "Infinix Note 40 Pro 5G",
+    "DisplayName": "Infinix Note 40 Pro 5G",
+    "EnumName": "Infinix_Note_40_Pro_5G",
+    "ThumbnailPath": "model/Infinix_Note_40_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 528,
+    "Name": "Infinix Smart 8 HD",
+    "DisplayName": "Infinix Smart 8 HD",
+    "EnumName": "Infinix_Smart_8_HD",
+    "ThumbnailPath": "model/Infinix_Smart_8_HD.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 528,
+    "Name": "Infinix Smart 7 HD",
+    "DisplayName": "Infinix Smart 7 HD",
+    "EnumName": "Infinix_Smart_7_Hd",
+    "ThumbnailPath": "model/Infinix_Smart_7_Hd.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 515,
+    "Name": "Infinix GT 10 Pro",
+    "DisplayName": "Infinix GT 10 Pro",
+    "EnumName": "Infinix_GT_10_Pro",
+    "ThumbnailPath": "model/Infinix_GT_10_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 421,
+    "Name": "Infinix Zero 20 5G",
+    "DisplayName": "Infinix Zero 20 5G",
+    "EnumName": "Infinix_Zero_20_5G",
+    "ThumbnailPath": "model/Infinix_Zero_20_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 421,
+    "Name": "Infinix Zero 30 5G",
+    "DisplayName": "Infinix Zero 30 5G",
+    "EnumName": "Infinix_Zero_30_5G",
+    "ThumbnailPath": "model/Infinix_Zero_30_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 416,
+    "Name": "Infinix Hot 20 4G",
+    "DisplayName": "Infinix Hot 20 4G",
+    "EnumName": "Infinix_Hot_20_4G",
+    "ThumbnailPath": "model/Infinix_Hot_20_4G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 416,
+    "Name": "Infinix Hot 20 5G",
+    "DisplayName": "Infinix Hot 20 5G",
+    "EnumName": "Infinix_Hot_20_5G",
+    "ThumbnailPath": "model/Infinix_Hot_20_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 421,
+    "Name": "Infinix Zero 5G 2023",
+    "DisplayName": "Infinix Zero 5G 2023",
+    "EnumName": "Infinix_Zero_5G_2023",
+    "ThumbnailPath": "model/Infinix_Zero_5G_2023.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 166,
+    "Name": "Infinix Note 30 5G",
+    "DisplayName": "Infinix Note 30 5G",
+    "EnumName": "Infinix_Note_30_5G",
+    "ThumbnailPath": "model/Infinix_Note_30_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 416,
+    "Name": "Infinix Hot 30i",
+    "DisplayName": "Infinix Hot 30i",
+    "EnumName": "Infinix_HOT_30i",
+    "ThumbnailPath": "model/Infinix_HOT_30i.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 421,
+    "Name": "Infinix Zero 5G 2023 Turbo",
+    "DisplayName": "Infinix Zero 5G 2023 Turbo",
+    "EnumName": "Infinix_ZERO_5G_2023_TURBO",
+    "ThumbnailPath": "model/Infinix_ZERO_5G_2023_TURBO.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 528,
+    "Name": "Infinix SMART 7",
+    "DisplayName": "Infinix SMART 7",
+    "EnumName": "Infinix_SMART_7",
+    "ThumbnailPath": "model/Infinix_SMART_7.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 421,
+    "Name": "Infinix Zero Ultra",
+    "DisplayName": "Infinix Zero Ultra",
+    "EnumName": "Infinix_ZERO_ULTRA",
+    "ThumbnailPath": "model/Infinix_ZERO_ULTRA.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 528,
+    "Name": "INFINIX  SMART 5A",
+    "DisplayName": "INFINIX  SMART 5A",
+    "EnumName": "INFINIX_SMART_5A",
+    "ThumbnailPath": "model/INFINIX_SMART_5A.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 528,
+    "Name": "Infinix  Smart 6 Plus",
+    "DisplayName": "Infinix  Smart 6 Plus",
+    "EnumName": "INFINIX_SMART_6_PLUS",
+    "ThumbnailPath": "model/INFINIX_SMART_6_PLUS.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 528,
+    "Name": "INFINIX  SMART 6",
+    "DisplayName": "INFINIX  SMART 6",
+    "EnumName": "INFINIX_SMART_6",
+    "ThumbnailPath": "model/INFINIX_SMART_6.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 528,
+    "Name": "INFINIX  SMART 6 HD",
+    "DisplayName": "INFINIX  SMART 6 HD",
+    "EnumName": "INFINIX_SMART_6_HD",
+    "ThumbnailPath": "model/INFINIX_SMART_6_HD.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 416,
+    "Name": "Infinix Hot 12",
+    "DisplayName": "Infinix Hot 12",
+    "EnumName": "INFINIX_HOT_12",
+    "ThumbnailPath": "model/INFINIX_HOT_12.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 166,
+    "Name": "Infinix Note 12 Pro 5G",
+    "DisplayName": "Infinix Note 12 Pro 5G",
+    "EnumName": "INFINIX_NOTE_12_PRO_5G",
+    "ThumbnailPath": "model/INFINIX_NOTE_12_PRO_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 166,
+    "Name": "Infinix Note 12 Pro",
+    "DisplayName": "Infinix Note 12 Pro",
+    "EnumName": "Infinix_NOTE_12_PRO",
+    "ThumbnailPath": "model/Infinix_NOTE_12_PRO.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 416,
+    "Name": "Infinix Hot 12 Pro 5G",
+    "DisplayName": "Infinix Hot 12 Pro 5G",
+    "EnumName": "Infinix_HOT_12_PRO_5G",
+    "ThumbnailPath": "model/Infinix_HOT_12_PRO_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 416,
+    "Name": "Infinix Hot 11 2022",
+    "DisplayName": "Infinix Hot 11 2022",
+    "EnumName": "INFINIX_HOT_11_2022",
+    "ThumbnailPath": "model/INFINIX_HOT_11_2022.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 166,
+    "Name": "Infinix NOTE 12 TURBO",
+    "DisplayName": "Infinix NOTE 12 TURBO",
+    "EnumName": "Infinix_NOTE_12_TURBO",
+    "ThumbnailPath": "model/Infinix_NOTE_12_TURBO.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 166,
+    "Name": "Infinix Note 11S",
+    "DisplayName": "Infinix Note 11S",
+    "EnumName": "Infinix_Note_11s",
+    "ThumbnailPath": "model/Infinix_Note_11s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 166,
+    "Name": "Infinix Note 11",
+    "DisplayName": "Infinix Note 11",
+    "EnumName": "Infinix_Note_11",
+    "ThumbnailPath": "model/Infinix_Note_11.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 421,
+    "Name": "Infinix Zero 5 G",
+    "DisplayName": "Infinix Zero 5 G",
+    "EnumName": "Infinix_Zero_5_G",
+    "ThumbnailPath": "model/Infinix_Zero_5_G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 166,
+    "Name": "Infinix Note 11S Free Fire Edition",
+    "DisplayName": "Infinix Note 11S Free Fire Edition",
+    "EnumName": "Infinix_Note_11S_Free_Fire_Edition",
+    "ThumbnailPath": "model/Infinix_Note_11S_Free_Fire_Edition.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 416,
+    "Name": "Infinix Hot 12 Play",
+    "DisplayName": "Infinix Hot 12 Play",
+    "EnumName": "Infinix_Hot_12_Play",
+    "ThumbnailPath": "model/Infinix_Hot_12_Play.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 166,
+    "Name": "Infinix Note 10 Pro",
+    "DisplayName": "Infinix Note 10 Pro",
+    "EnumName": "Infinix_Note_10_Pro",
+    "ThumbnailPath": "model/Infinix_Note_10_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 166,
+    "Name": "Infinix Note 10",
+    "DisplayName": "Infinix Note 10",
+    "EnumName": "Infinix_Note_10",
+    "ThumbnailPath": "model/Infinix_Note_10.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 166,
+    "Name": "Infinix Note 7",
+    "DisplayName": "Infinix Note 7",
+    "EnumName": "Infinix_Note_7",
+    "ThumbnailPath": "model/Infinix_Note_7.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 166,
+    "Name": "Infinix Note 5",
+    "DisplayName": "Infinix Note 5",
+    "EnumName": "Infinix_Note_5",
+    "ThumbnailPath": "model/Infinix_Note_5.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 416,
+    "Name": "Infinix Hot 11S",
+    "DisplayName": "Infinix Hot 11S",
+    "EnumName": "Infinix_Hot_11S",
+    "ThumbnailPath": "model/Infinix_Hot_11S.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 416,
+    "Name": "Infinix Hot 11",
+    "DisplayName": "Infinix Hot 11",
+    "EnumName": "Infinix_Hot_11",
+    "ThumbnailPath": "model/Infinix_Hot_11.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 416,
+    "Name": "Infinix Hot 10s",
+    "DisplayName": "Infinix Hot 10s",
+    "EnumName": "Infinix_Hot_10s",
+    "ThumbnailPath": "model/Infinix_Hot_10s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 416,
+    "Name": "Infinix Hot 10",
+    "DisplayName": "Infinix Hot 10",
+    "EnumName": "Infinix_Hot_10",
+    "ThumbnailPath": "model/Infinix_Hot_10.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 416,
+    "Name": "Infinix Hot 9 Pro",
+    "DisplayName": "Infinix Hot 9 Pro",
+    "EnumName": "Infinix_Hot_9_Pro",
+    "ThumbnailPath": "model/Infinix_Hot_9_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 416,
+    "Name": "Infinix Hot 8",
+    "DisplayName": "Infinix Hot 8",
+    "EnumName": "Infinix_Hot_8",
+    "ThumbnailPath": "model/Infinix_Hot_8.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 416,
+    "Name": "Infinix Hot 7",
+    "DisplayName": "Infinix Hot 7",
+    "EnumName": "Infinix_Hot_7",
+    "ThumbnailPath": "model/Infinix_Hot_7.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 416,
+    "Name": "Infinix Hot 6 Pro",
+    "DisplayName": "Infinix Hot 6 Pro",
+    "EnumName": "Infinix_Hot_6_Pro",
+    "ThumbnailPath": "model/Infinix_Hot_6_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 416,
+    "Name": "Infinix Hot 7 Pro",
+    "DisplayName": "Infinix Hot 7 Pro",
+    "EnumName": "Infinix_Hot_7_Pro",
+    "ThumbnailPath": "model/Infinix_Hot_7_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 416,
+    "Name": "Infinix Hot 9",
+    "DisplayName": "Infinix Hot 9",
+    "EnumName": "Infinix_Hot_9",
+    "ThumbnailPath": "model/Infinix_Hot_9.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 416,
+    "Name": "Infinix Hot 10 Play",
+    "DisplayName": "Infinix Hot 10 Play",
+    "EnumName": "Infinix_Hot_10_Play",
+    "ThumbnailPath": "model/Infinix_Hot_10_Play.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 421,
+    "Name": "Infinix Zero 8i",
+    "DisplayName": "Infinix Zero 8i",
+    "EnumName": "Infinix_Zero_8i",
+    "ThumbnailPath": "model/Infinix_Zero_8i.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 421,
+    "Name": "Infinix Zero 5 Pro",
+    "DisplayName": "Infinix Zero 5 Pro",
+    "EnumName": "Infinix_Zero_5_Pro",
+    "ThumbnailPath": "model/Infinix_Zero_5_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 421,
+    "Name": "Infinix Zero 5",
+    "DisplayName": "Infinix Zero 5",
+    "EnumName": "Infinix_Zero_5",
+    "ThumbnailPath": "model/Infinix_Zero_5.png",
+    "DisplayInList": true
+  }
+]

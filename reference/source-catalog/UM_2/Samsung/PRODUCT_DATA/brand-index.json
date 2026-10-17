@@ -1,0 +1,1002 @@
+{
+  "brand": "Samsung",
+  "total_models": 166,
+  "models": [
+    {
+      "model": "Samsung A06",
+      "file": "Samsung-A06.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung A73 5G",
+      "file": "Samsung-A73-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A03",
+      "file": "Samsung-Galaxy-A03.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A03 Core",
+      "file": "Samsung-Galaxy-A03-Core.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A03s",
+      "file": "Samsung-Galaxy-A03s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A04",
+      "file": "Samsung-Galaxy-A04.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A04e",
+      "file": "Samsung-Galaxy-A04e.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A04s",
+      "file": "Samsung-Galaxy-A04s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A05",
+      "file": "Samsung-Galaxy-A05.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A05s",
+      "file": "Samsung-Galaxy-A05s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A06 5G",
+      "file": "Samsung-Galaxy-A06-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A07",
+      "file": "Samsung-Galaxy-A07.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A07 5G",
+      "file": "Samsung-Galaxy-A07-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A10",
+      "file": "Samsung-Galaxy-A10.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A10s",
+      "file": "Samsung-Galaxy-A10s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A12",
+      "file": "Samsung-Galaxy-A12.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A13",
+      "file": "Samsung-Galaxy-A13.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A14 4G",
+      "file": "Samsung-Galaxy-A14-4G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A14 5G",
+      "file": "Samsung-Galaxy-A14-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A15 5G",
+      "file": "Samsung-Galaxy-A15-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A16 5G",
+      "file": "Samsung-Galaxy-A16-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A17 5G",
+      "file": "Samsung-Galaxy-A17-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A20",
+      "file": "Samsung-Galaxy-A20.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A20s",
+      "file": "Samsung-Galaxy-A20s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A21s",
+      "file": "Samsung-Galaxy-A21s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A22",
+      "file": "Samsung-Galaxy-A22.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A22 5G",
+      "file": "Samsung-Galaxy-A22-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A23",
+      "file": "Samsung-Galaxy-A23.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A23 5G",
+      "file": "Samsung-Galaxy-A23-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A25 5G",
+      "file": "Samsung-Galaxy-A25-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A26 5G",
+      "file": "Samsung-Galaxy-A26-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A27 5G",
+      "file": "Samsung-Galaxy-A27-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A30",
+      "file": "Samsung-Galaxy-A30.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A30s",
+      "file": "Samsung-Galaxy-A30s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A31",
+      "file": "Samsung-Galaxy-A31.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A32",
+      "file": "Samsung-Galaxy-A32.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A34",
+      "file": "Samsung-Galaxy-A34.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A35 5G",
+      "file": "Samsung-Galaxy-A35-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A36 5G",
+      "file": "Samsung-Galaxy-A36-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A37 5G",
+      "file": "Samsung-Galaxy-A37-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A50",
+      "file": "Samsung-Galaxy-A50.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A50s",
+      "file": "Samsung-Galaxy-A50s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A51",
+      "file": "Samsung-Galaxy-A51.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A52",
+      "file": "Samsung-Galaxy-A52.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A52s 5G",
+      "file": "Samsung-Galaxy-A52s-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A53 5G",
+      "file": "Samsung-Galaxy-A53-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A54",
+      "file": "Samsung-Galaxy-A54.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A55 5G",
+      "file": "Samsung-Galaxy-A55-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A56 5G",
+      "file": "Samsung-Galaxy-A56-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A57 5G",
+      "file": "Samsung-Galaxy-A57-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A7 (2018)",
+      "file": "Samsung-Galaxy-A7-(2018).json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A70",
+      "file": "Samsung-Galaxy-A70.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A70s",
+      "file": "Samsung-Galaxy-A70s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A71",
+      "file": "Samsung-Galaxy-A71.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A72",
+      "file": "Samsung-Galaxy-A72.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy A80",
+      "file": "Samsung-Galaxy-A80.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F02s",
+      "file": "Samsung-Galaxy-F02s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F04",
+      "file": "Samsung-Galaxy-F04.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F05",
+      "file": "Samsung-Galaxy-F05.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F06 5G",
+      "file": "Samsung-Galaxy-F06-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F07",
+      "file": "Samsung-Galaxy-F07.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F12",
+      "file": "Samsung-Galaxy-F12.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F13",
+      "file": "Samsung-Galaxy-F13.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F14",
+      "file": "Samsung-Galaxy-F14.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F14 5G",
+      "file": "Samsung-Galaxy-F14-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F15 5G",
+      "file": "Samsung-Galaxy-F15-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F16 5G",
+      "file": "Samsung-Galaxy-F16-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F17 5G",
+      "file": "Samsung-Galaxy-F17-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F22",
+      "file": "Samsung-Galaxy-F22.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F23 5G",
+      "file": "Samsung-Galaxy-F23-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F34 5G",
+      "file": "Samsung-Galaxy-F34-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F36 5G",
+      "file": "Samsung-Galaxy-F36-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F41",
+      "file": "Samsung-Galaxy-F41.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F42 5G",
+      "file": "Samsung-Galaxy-F42-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F54",
+      "file": "Samsung-Galaxy-F54.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F55",
+      "file": "Samsung-Galaxy-F55.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F56 5G",
+      "file": "Samsung-Galaxy-F56-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F62",
+      "file": "Samsung-Galaxy-F62.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F70 Pro 5G",
+      "file": "Samsung-Galaxy-F70-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy F70e",
+      "file": "Samsung-Galaxy-F70e.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy Fold",
+      "file": "Samsung-Galaxy-Fold.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M01",
+      "file": "Samsung-Galaxy-M01.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M01 Core",
+      "file": "Samsung-Galaxy-M01-Core.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M01s",
+      "file": "Samsung-Galaxy-M01s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M02",
+      "file": "Samsung-Galaxy-M02.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M02s",
+      "file": "Samsung-Galaxy-M02s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M04",
+      "file": "Samsung-Galaxy-M04.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M05",
+      "file": "Samsung-Galaxy-M05.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M06 5G",
+      "file": "Samsung-Galaxy-M06-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M07",
+      "file": "Samsung-Galaxy-M07.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M10",
+      "file": "Samsung-Galaxy-M10.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M10s",
+      "file": "Samsung-Galaxy-M10s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M11",
+      "file": "Samsung-Galaxy-M11.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M12",
+      "file": "Samsung-Galaxy-M12.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M13",
+      "file": "Samsung-Galaxy-M13.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M14 4G",
+      "file": "Samsung-Galaxy-M14-4G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M14 5G",
+      "file": "Samsung-Galaxy-M14-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M15",
+      "file": "Samsung-Galaxy-M15.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M15 5G Prime Edition",
+      "file": "Samsung-Galaxy-M15-5G-Prime-Edition.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M16 5G",
+      "file": "Samsung-Galaxy-M16-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M17 5G",
+      "file": "Samsung-Galaxy-M17-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M17e 5G",
+      "file": "Samsung-Galaxy-M17e-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M20",
+      "file": "Samsung-Galaxy-M20.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M21",
+      "file": "Samsung-Galaxy-M21.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M30",
+      "file": "Samsung-Galaxy-M30.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M30s",
+      "file": "Samsung-Galaxy-M30s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M31",
+      "file": "Samsung-Galaxy-M31.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M31s",
+      "file": "Samsung-Galaxy-M31s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M32",
+      "file": "Samsung-Galaxy-M32.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M32 5G",
+      "file": "Samsung-Galaxy-M32-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M33 5G",
+      "file": "Samsung-Galaxy-M33-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M34 5G",
+      "file": "Samsung-Galaxy-M34-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M35 5G",
+      "file": "Samsung-Galaxy-M35-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M36 5G",
+      "file": "Samsung-Galaxy-M36-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M40",
+      "file": "Samsung-Galaxy-M40.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M42 5G",
+      "file": "Samsung-Galaxy-M42-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M47 5G",
+      "file": "Samsung-Galaxy-M47-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M51",
+      "file": "Samsung-Galaxy-M51.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M52 5G",
+      "file": "Samsung-Galaxy-M52-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M53 5G",
+      "file": "Samsung-Galaxy-M53-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M55",
+      "file": "Samsung-Galaxy-M55.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M55s",
+      "file": "Samsung-Galaxy-M55s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy M56 5G",
+      "file": "Samsung-Galaxy-M56-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S20",
+      "file": "Samsung-Galaxy-S20.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S20 FE",
+      "file": "Samsung-Galaxy-S20-FE.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S20 FE 5G",
+      "file": "Samsung-Galaxy-S20-FE-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S20 Ultra",
+      "file": "Samsung-Galaxy-S20-Ultra.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S20 Ultra 5G",
+      "file": "Samsung-Galaxy-S20-Ultra-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S21 FE 5G",
+      "file": "Samsung-Galaxy-S21-FE-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S21 Ultra 5G",
+      "file": "Samsung-Galaxy-S21-Ultra-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S22 5G",
+      "file": "Samsung-Galaxy-S22-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S22 Plus 5G",
+      "file": "Samsung-Galaxy-S22-Plus-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S22 Ultra 5G",
+      "file": "Samsung-Galaxy-S22-Ultra-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S23 5G",
+      "file": "Samsung-Galaxy-S23-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S23 FE 5G",
+      "file": "Samsung-Galaxy-S23-FE-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S23 Plus 5G",
+      "file": "Samsung-Galaxy-S23-Plus-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S23 Ultra 5G",
+      "file": "Samsung-Galaxy-S23-Ultra-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S24",
+      "file": "Samsung-Galaxy-S24.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S24 FE",
+      "file": "Samsung-Galaxy-S24-FE.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S24 Plus",
+      "file": "Samsung-Galaxy-S24-Plus.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S24 Ultra",
+      "file": "Samsung-Galaxy-S24-Ultra.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S25",
+      "file": "Samsung-Galaxy-S25.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S25 Edge",
+      "file": "Samsung-Galaxy-S25-Edge.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S25 FE",
+      "file": "Samsung-Galaxy-S25-FE.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S25 Plus",
+      "file": "Samsung-Galaxy-S25-Plus.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S25 Ultra",
+      "file": "Samsung-Galaxy-S25-Ultra.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy S26",
+      "file": "Samsung-Galaxy-S26.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Samsung Galaxy S26 Plus",
+      "file": "Samsung-Galaxy-S26-Plus.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Samsung Galaxy S26 Ultra",
+      "file": "Samsung-Galaxy-S26-Ultra.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Samsung Galaxy Z Flip",
+      "file": "Samsung-Galaxy-Z-Flip.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy Z Flip 4",
+      "file": "Samsung-Galaxy-Z-Flip-4.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy Z Flip 6 5G",
+      "file": "Samsung-Galaxy-Z-Flip-6-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy Z Flip 7",
+      "file": "Samsung-Galaxy-Z-Flip-7.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Samsung Galaxy Z Flip 7 FE",
+      "file": "Samsung-Galaxy-Z-Flip-7-FE.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Samsung Galaxy Z Flip 8",
+      "file": "Samsung-Galaxy-Z-Flip-8.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Samsung Galaxy Z Flip3 5G",
+      "file": "Samsung-Galaxy-Z-Flip3-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy Z Flip5",
+      "file": "Samsung-Galaxy-Z-Flip5.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy Z Fold 4",
+      "file": "Samsung-Galaxy-Z-Fold-4.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy Z Fold 6",
+      "file": "Samsung-Galaxy-Z-Fold-6.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy Z Fold 7",
+      "file": "Samsung-Galaxy-Z-Fold-7.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Samsung Galaxy Z Fold 8",
+      "file": "Samsung-Galaxy-Z-Fold-8.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Samsung Galaxy Z Fold 8 Ultra",
+      "file": "Samsung-Galaxy-Z-Fold-8-Ultra.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Samsung Galaxy Z Fold2 5G",
+      "file": "Samsung-Galaxy-Z-Fold2-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy Z Fold3 5G",
+      "file": "Samsung-Galaxy-Z-Fold3-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung Galaxy Z Fold5",
+      "file": "Samsung-Galaxy-Z-Fold5.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Samsung M13 5G",
+      "file": "Samsung-M13-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    }
+  ]
+}

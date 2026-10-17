@@ -1,0 +1,810 @@
+[
+  {
+    "BrandSeriesId": 424,
+    "Name": "Tecno Pova Curve 2 5G",
+    "DisplayName": "Tecno Pova Curve 2 5G",
+    "EnumName": "Tecno_Pova_Curve_2_5G",
+    "ThumbnailPath": "model/Tecno_Pova_Curve_2_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 512,
+    "Name": "Tecno Pop X 4G",
+    "DisplayName": "Tecno Pop X 4G",
+    "EnumName": "Tecno_Pop_X_4G",
+    "ThumbnailPath": "model/Tecno_Pop_X_4G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 512,
+    "Name": "Tecno Pop X 5G",
+    "DisplayName": "Tecno Pop X 5G",
+    "EnumName": "Tecno_Pop_X_5G",
+    "ThumbnailPath": "model/Tecno_Pop_X_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 424,
+    "Name": "Tecno Pova 8 5G",
+    "DisplayName": "Tecno Pova 8 5G",
+    "EnumName": "Tecno_Pova_8_5G",
+    "ThumbnailPath": "model/Tecno_Pova_8_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon 50 Ultra 5G",
+    "DisplayName": "Tecno Camon 50 Ultra 5G",
+    "EnumName": "Tecno_Camon_50_Ultra_5G",
+    "ThumbnailPath": "model/Tecno_Camon_50_Ultra_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 424,
+    "Name": "Tecno Pova 7 5G",
+    "DisplayName": "Tecno Pova 7 5G",
+    "EnumName": "Tecno_Pova_7_5G",
+    "ThumbnailPath": "model/Tecno_Pova_7_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 424,
+    "Name": "Tecno Pova 7 Pro 5G",
+    "DisplayName": "Tecno Pova 7 Pro 5G",
+    "EnumName": "Tecno_Pova_7_Pro_5G",
+    "ThumbnailPath": "model/Tecno_Pova_7_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark Go 5G",
+    "DisplayName": "Tecno Spark Go 5G",
+    "EnumName": "Tecno_Spark_Go_5G",
+    "ThumbnailPath": "model/Tecno_Spark_Go_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 424,
+    "Name": "Tecno Pova Slim 5G",
+    "DisplayName": "Tecno Pova Slim 5G",
+    "EnumName": "Tecno_Pova_Slim_5G",
+    "ThumbnailPath": "model/Tecno_Pova_Slim_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 424,
+    "Name": "Tecno Pova Curve 5G",
+    "DisplayName": "Tecno Pova Curve 5G",
+    "EnumName": "Tecno_Pova_Curve_5G",
+    "ThumbnailPath": "model/Tecno_Pova_Curve_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark Go 1S",
+    "DisplayName": "Tecno Spark Go 1S",
+    "EnumName": "Tecno_Spark_Go_1S",
+    "ThumbnailPath": "model/Tecno_Spark_Go_1S.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon 40 Premier",
+    "DisplayName": "Tecno Camon 40 Premier",
+    "EnumName": "Tecno_Camon_40_Premier",
+    "ThumbnailPath": "model/Tecno_Camon_40_Premier.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 406,
+    "Name": "Tecno Phantom V Flip 2",
+    "DisplayName": "Tecno Phantom V Flip 2",
+    "EnumName": "Tecno_Phantom_V_Flip_2",
+    "ThumbnailPath": "model/Tecno_Phantom_V_Flip_2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 406,
+    "Name": "Tecno Phantom V Fold 2",
+    "DisplayName": "Tecno Phantom V Fold 2",
+    "EnumName": "Tecno_Phantom_V_Fold_2",
+    "ThumbnailPath": "model/Tecno_Phantom_V_Fold_2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 512,
+    "Name": "Tecno Pop 9 5G",
+    "DisplayName": "Tecno Pop 9 5G",
+    "EnumName": "Tecno_Pop_9_5G",
+    "ThumbnailPath": "model/Tecno_Pop_9_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 424,
+    "Name": "Tecno Pova 6 Neo 5G",
+    "DisplayName": "Tecno Pova 6 Neo 5G",
+    "EnumName": "Tecno_Pova_6_Neo_5G",
+    "ThumbnailPath": "model/Tecno_Pova_6_Neo_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 30C 5G",
+    "DisplayName": "Tecno Spark 30C 5G",
+    "EnumName": "Tecno_Spark_30C_5G",
+    "ThumbnailPath": "model/Tecno_Spark_30C_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon 30S Pro",
+    "DisplayName": "Tecno Camon 30S Pro",
+    "EnumName": "Tecno_Camon_30S_Pro",
+    "ThumbnailPath": "model/Tecno_Camon_30S_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark Go1",
+    "DisplayName": "Tecno Spark Go1",
+    "EnumName": "Tecno_Spark_Go1",
+    "ThumbnailPath": "model/Tecno_Spark_Go1.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 389,
+    "Name": "Tecno Pop 8",
+    "DisplayName": "Tecno Pop 8",
+    "EnumName": "Tecno_Pop_8",
+    "ThumbnailPath": "model/Tecno_Pop_8.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 389,
+    "Name": "Tecno Camon 30 5G",
+    "DisplayName": "Tecno Camon 30 5G",
+    "EnumName": "Tecno_Camon_30_5G",
+    "ThumbnailPath": "model/Tecno_Camon_30_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 20 Pro",
+    "DisplayName": "Tecno Spark 20 Pro",
+    "EnumName": "Tecno_Spark_20_Pro",
+    "ThumbnailPath": "model/Tecno_Spark_20_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 20 Pro Plus",
+    "DisplayName": "Tecno Spark 20 Pro Plus",
+    "EnumName": "Tecno_Spark_20_Pro_Plus",
+    "ThumbnailPath": "model/Tecno_Spark_20_Pro_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 20C",
+    "DisplayName": "Tecno Spark 20C",
+    "EnumName": "Tecno_Spark_20C",
+    "ThumbnailPath": "model/Tecno_Spark_20C.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 20",
+    "DisplayName": "Tecno Spark 20",
+    "EnumName": "Tecno_Spark_20",
+    "ThumbnailPath": "model/Tecno_Spark_20.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 424,
+    "Name": "Tecno Pova 6 Pro 5G",
+    "DisplayName": "Tecno Pova 6 Pro 5G",
+    "EnumName": "Tecno_Pova_6_Pro_5G",
+    "ThumbnailPath": "model/Tecno_Pova_6_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon 30 Premier 5G",
+    "DisplayName": "Tecno Camon 30 Premier 5G",
+    "EnumName": "Tecno_Camon_30_Premier_5G",
+    "ThumbnailPath": "model/Tecno_Camon_30_Premier_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 406,
+    "Name": "Tecno Phantom V Flip",
+    "DisplayName": "Tecno Phantom V Flip",
+    "EnumName": "Tecno_Phantom_V_Flip",
+    "ThumbnailPath": "model/Tecno_Phantom_V_Flip.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 8T",
+    "DisplayName": "Tecno Spark 8T",
+    "EnumName": "Tecno_Spark_8T",
+    "ThumbnailPath": "model/Tecno_Spark_8T.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon 20 Premier 5G",
+    "DisplayName": "Tecno Camon 20 Premier 5G",
+    "EnumName": "Tecno_Camon_20_Premier_5G",
+    "ThumbnailPath": "model/Tecno_Camon_20_Premier_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 424,
+    "Name": "Tecno Pova 5 Pro",
+    "DisplayName": "Tecno Pova 5 Pro",
+    "EnumName": "Tecno_Pova_5_Pro",
+    "ThumbnailPath": "model/Tecno_Pova_5_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 10 4G",
+    "DisplayName": "Tecno Spark 10 4G",
+    "EnumName": "Tecno_Spark_10_4G",
+    "ThumbnailPath": "model/Tecno_Spark_10_4G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon 20 Avocado Art Edition",
+    "DisplayName": "Tecno Camon 20 Avocado Art Edition",
+    "EnumName": "Tecno_Camon_20_Avocado_Art_Edition",
+    "ThumbnailPath": "model/Tecno_Camon_20_Avocado_Art_Edition.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 10 Pro Moon Explorer Edition",
+    "DisplayName": "Tecno Spark 10 Pro Moon Explorer Edition",
+    "EnumName": "Tecno_Spark_10_Pro_Moon_Explorer_Edition",
+    "ThumbnailPath": "model/Tecno_Spark_10_Pro_Moon_Explorer_Edition.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark Go 2024",
+    "DisplayName": "Tecno Spark Go 2024",
+    "EnumName": "Tecno_Spark_Go_2024",
+    "ThumbnailPath": "model/Tecno_Spark_Go_2024.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 424,
+    "Name": "Tecno Pova 5 4G",
+    "DisplayName": "Tecno Pova 5 4G",
+    "EnumName": "Tecno_Pova_5_4G",
+    "ThumbnailPath": "model/Tecno_Pova_5_4G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon 20 Pro 5G",
+    "DisplayName": "Tecno Camon 20 Pro 5G",
+    "EnumName": "Tecno_Camon_20_Pro_5G",
+    "ThumbnailPath": "model/Tecno_Camon_20_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon 20",
+    "DisplayName": "Tecno Camon 20",
+    "EnumName": "Tecno_Camon_20",
+    "ThumbnailPath": "model/Tecno_Camon_20.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 10C",
+    "DisplayName": "Tecno Spark 10C",
+    "EnumName": "Tecno_Spark_10C",
+    "ThumbnailPath": "model/Tecno_Spark_10C.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 406,
+    "Name": "Tecno Phantom V Fold",
+    "DisplayName": "Tecno Phantom V Fold",
+    "EnumName": "Tecno_Phantom_V_Fold",
+    "ThumbnailPath": "model/Tecno_Phantom_V_Fold.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 10 Pro",
+    "DisplayName": "Tecno Spark 10 Pro",
+    "EnumName": "Tecno_Spark_10_Pro",
+    "ThumbnailPath": "model/Tecno_Spark_10_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 10 5G",
+    "DisplayName": "Tecno Spark 10 5G",
+    "EnumName": "Tecno_Spark_10_5G",
+    "ThumbnailPath": "model/Tecno_Spark_10_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 424,
+    "Name": "Tecno Pova 4 Pro",
+    "DisplayName": "Tecno Pova 4 Pro",
+    "EnumName": "Tecno_POVA_4_PRO",
+    "ThumbnailPath": "model/Tecno_POVA_4_PRO.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 424,
+    "Name": "Tecno Pova Neo2",
+    "DisplayName": "Tecno Pova Neo2",
+    "EnumName": "Tecno_POVA_NEO2",
+    "ThumbnailPath": "model/Tecno_POVA_NEO2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 424,
+    "Name": "Tecno Pova Neo",
+    "DisplayName": "Tecno Pova Neo",
+    "EnumName": "Tecno_Pova_Neo",
+    "ThumbnailPath": "model/Tecno_POVA_NEO_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 424,
+    "Name": "Tecno Pova 5G",
+    "DisplayName": "Tecno Pova 5G",
+    "EnumName": "Tecno_POVA_5G",
+    "ThumbnailPath": "model/Tecno_POVA_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 424,
+    "Name": "Tecno Pova 4",
+    "DisplayName": "Tecno Pova 4",
+    "EnumName": "Tecno_POVA_4",
+    "ThumbnailPath": "model/Tecno_POVA_4.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 424,
+    "Name": "Tecno Pova 3",
+    "DisplayName": "Tecno Pova 3",
+    "EnumName": "Tecno_POVA_3",
+    "ThumbnailPath": "model/Tecno_POVA_3.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 512,
+    "Name": "Tecno Pop 5 Lite",
+    "DisplayName": "Tecno Pop 5 Lite",
+    "EnumName": "Tecno_POP_5_LITE",
+    "ThumbnailPath": "model/Tecno_POP_5_LITE.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 512,
+    "Name": "Tecno Pop 5 Pro",
+    "DisplayName": "Tecno Pop 5 Pro",
+    "EnumName": "Tecno_POP_5_PRO",
+    "ThumbnailPath": "model/Tecno_POP_5_PRO.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 512,
+    "Name": "Tecno Pop 6 Pro",
+    "DisplayName": "Tecno Pop 6 Pro",
+    "EnumName": "Tecno_POP_6_PRO",
+    "ThumbnailPath": "model/Tecno_POP_6_PRO.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon 19 Pro Mondrian Edtion",
+    "DisplayName": "Tecno Camon 19 Pro Mondrian Edtion",
+    "EnumName": "Tecno_CAMON_19_PRO_MONDRIAN_EDTION",
+    "ThumbnailPath": "model/Tecno_CAMON_19_PRO_MONDRIAN_EDTION.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon 19 Pro 5G",
+    "DisplayName": "Tecno Camon 19 Pro 5G",
+    "EnumName": "Tecno_CAMON_19_PRO_5G",
+    "ThumbnailPath": "model/Tecno_CAMON_19_PRO_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon 19 Neo",
+    "DisplayName": "Tecno Camon 19 Neo",
+    "EnumName": "Tecno_CAMON_19_NEO",
+    "ThumbnailPath": "model/Tecno_CAMON_19_NEO.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon 19",
+    "DisplayName": "Tecno Camon 19",
+    "EnumName": "Tecno_CAMON_19",
+    "ThumbnailPath": "model/Tecno_CAMON_19.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 8 Pro",
+    "DisplayName": "Tecno Spark 8 Pro",
+    "EnumName": "Tecno_SPARK_8_PRO",
+    "ThumbnailPath": "model/Tecno_SPARK_8_PRO.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 8C",
+    "DisplayName": "Tecno Spark 8C",
+    "EnumName": "Tecno_SPARK_8C",
+    "ThumbnailPath": "model/Tecno_SPARK_8C.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark Go 2022",
+    "DisplayName": "Tecno Spark Go 2022",
+    "EnumName": "Tecno_SPARK_GO_2022",
+    "ThumbnailPath": "model/Tecno_SPARK_GO_2022.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 9T",
+    "DisplayName": "Tecno Spark 9T",
+    "EnumName": "Tecno_SPARK_9T",
+    "ThumbnailPath": "model/Tecno_SPARK_9T.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 8P",
+    "DisplayName": "Tecno Spark 8P",
+    "EnumName": "Tecno_SPARK_8P",
+    "ThumbnailPath": "model/Tecno_SPARK_8P.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 9",
+    "DisplayName": "Tecno Spark 9",
+    "EnumName": "Tecno_SPARK_9",
+    "ThumbnailPath": "model/Tecno_SPARK_9.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark Go 2023",
+    "DisplayName": "Tecno Spark Go 2023",
+    "EnumName": "Tecno_SPARK_GO_2023",
+    "ThumbnailPath": "model/Tecno_SPARK_GO_2023.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 406,
+    "Name": "Tecno Phantom X2 Pro",
+    "DisplayName": "Tecno Phantom X2 Pro",
+    "EnumName": "Tecno_PHANTOM_X2_PRO",
+    "ThumbnailPath": "model/Tecno_PHANTOM_X2_PRO.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 406,
+    "Name": "Tecno Phantom X2",
+    "DisplayName": "Tecno Phantom X2",
+    "EnumName": "Tecno_PHANTOM_X2",
+    "ThumbnailPath": "model/Tecno_PHANTOM_X2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 406,
+    "Name": "Tecno Phantom X",
+    "DisplayName": "Tecno Phantom X",
+    "EnumName": "Tecno_PHANTOM_X",
+    "ThumbnailPath": "model/Tecno_PHANTOM_X.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 512,
+    "Name": "Tecno Pop 7 Pro",
+    "DisplayName": "Tecno Pop 7 Pro",
+    "EnumName": "Tecno_POP_7_PRO",
+    "ThumbnailPath": "model/Tecno_POP_7_PRO.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon 18",
+    "DisplayName": "Tecno Camon 18",
+    "EnumName": "Tecno_Camon_18",
+    "ThumbnailPath": "model/Tecno_Camon_18.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 424,
+    "Name": "Tecno Pova 2",
+    "DisplayName": "Tecno Pova 2",
+    "EnumName": "Tecno_POVA_2",
+    "ThumbnailPath": "model/Tecno_POVA_2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 424,
+    "Name": "Tecno Pova",
+    "DisplayName": "Tecno Pova",
+    "EnumName": "Tecno_POVA",
+    "ThumbnailPath": "model/Tecno_POVA.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 406,
+    "Name": "Tecno Phantom 9",
+    "DisplayName": "Tecno Phantom 9",
+    "EnumName": "Tecno_Phantom_9",
+    "ThumbnailPath": "model/Tecno_Phantom_9.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark Power",
+    "DisplayName": "Tecno Spark Power",
+    "EnumName": "Tecno_Spark_Power",
+    "ThumbnailPath": "model/Tecno_Spark_Power.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 8",
+    "DisplayName": "Tecno Spark 8",
+    "EnumName": "Tecno_Spark_8",
+    "ThumbnailPath": "model/Tecno_Spark_8.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 7T",
+    "DisplayName": "Tecno Spark 7T",
+    "EnumName": "Tecno_Spark_7T",
+    "ThumbnailPath": "model/Tecno_Spark_7T.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark Go 2021",
+    "DisplayName": "Tecno Spark Go 2021",
+    "EnumName": "Tecno_Spark_Go_2021",
+    "ThumbnailPath": "model/Tecno_Spark_Go_2021.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 7 Pro",
+    "DisplayName": "Tecno Spark 7 Pro",
+    "EnumName": "Tecno_Spark_7_Pro",
+    "ThumbnailPath": "model/Tecno_Spark_7_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 7",
+    "DisplayName": "Tecno Spark 7",
+    "EnumName": "Tecno_Spark_7",
+    "ThumbnailPath": "model/Tecno_Spark_7.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 6 Go",
+    "DisplayName": "Tecno Spark 6 Go",
+    "EnumName": "Tecno_Spark_6_Go",
+    "ThumbnailPath": "model/Tecno_Spark_6_Go.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark Power 2 Air",
+    "DisplayName": "Tecno Spark Power 2 Air",
+    "EnumName": "Tecno_Spark_Power_2_Air",
+    "ThumbnailPath": "model/Tecno_Spark_Power_2_Air.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark Power 2",
+    "DisplayName": "Tecno Spark Power 2",
+    "EnumName": "Tecno_Spark_Power_2",
+    "ThumbnailPath": "model/Tecno_Spark_Power_2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark Go 2020",
+    "DisplayName": "Tecno Spark Go 2020",
+    "EnumName": "Tecno_Spark_Go_2020",
+    "ThumbnailPath": "model/Tecno_Spark_Go_2020.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 5 Pro",
+    "DisplayName": "Tecno Spark 5 Pro",
+    "EnumName": "Tecno_Spark_5_Pro",
+    "ThumbnailPath": "model/Tecno_Spark_5_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 6 Air",
+    "DisplayName": "Tecno Spark 6 Air",
+    "EnumName": "Tecno_Spark_6_Air",
+    "ThumbnailPath": "model/Tecno_Spark_6_Air.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 5",
+    "DisplayName": "Tecno Spark 5",
+    "EnumName": "Tecno_Spark_5",
+    "ThumbnailPath": "model/Tecno_Spark_5.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark Go",
+    "DisplayName": "Tecno Spark Go",
+    "EnumName": "Tecno_Spark_Go",
+    "ThumbnailPath": "model/Tecno_Spark_Go.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 4 Air",
+    "DisplayName": "Tecno Spark 4 Air",
+    "EnumName": "Tecno_Spark_4_Air",
+    "ThumbnailPath": "model/Tecno_Spark_4_Air.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark 4",
+    "DisplayName": "Tecno Spark 4",
+    "EnumName": "Tecno_Spark_4",
+    "ThumbnailPath": "model/Tecno_Spark_4.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 403,
+    "Name": "Tecno Spark Go Plus",
+    "DisplayName": "Tecno Spark Go Plus",
+    "EnumName": "Tecno_Spark_Go_Plus",
+    "ThumbnailPath": "model/Tecno_Spark_Go_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon i 2x",
+    "DisplayName": "Tecno Camon i 2x",
+    "EnumName": "Tecno_Camon_i_2x",
+    "ThumbnailPath": "model/Tecno_Camon_i_2x.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon 17",
+    "DisplayName": "Tecno Camon 17",
+    "EnumName": "Tecno_Camon_17",
+    "ThumbnailPath": "model/Tecno_Camon_17.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon 16 Premier",
+    "DisplayName": "Tecno Camon 16 Premier",
+    "EnumName": "Tecno_Camon_16_Premier",
+    "ThumbnailPath": "model/Tecno_Camon_16_Premier.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon 16",
+    "DisplayName": "Tecno Camon 16",
+    "EnumName": "Tecno_Camon_16",
+    "ThumbnailPath": "model/Tecno_Camon_16.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon 15",
+    "DisplayName": "Tecno Camon 15",
+    "EnumName": "Tecno_Camon_15",
+    "ThumbnailPath": "model/Tecno_Camon_15.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon i2",
+    "DisplayName": "Tecno Camon i2",
+    "EnumName": "Tecno_Camon_i2",
+    "ThumbnailPath": "model/Tecno_Camon_i2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon i4",
+    "DisplayName": "Tecno Camon i4",
+    "EnumName": "Tecno_Camon_i4",
+    "ThumbnailPath": "model/Tecno_Camon_i4.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon I Click 2",
+    "DisplayName": "Tecno Camon I Click 2",
+    "EnumName": "Tecno_Camon_I_Click_2",
+    "ThumbnailPath": "model/Tecno_Camon_I_Click_2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon 15 Pro",
+    "DisplayName": "Tecno Camon 15 Pro",
+    "EnumName": "Tecno_Camon_15_Pro",
+    "ThumbnailPath": "model/Tecno_Camon_15_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon i Sky 3",
+    "DisplayName": "Tecno Camon i Sky 3",
+    "EnumName": "Tecno_CAMON_i_Sky_3",
+    "ThumbnailPath": "model/Tecno_CAMON_i_Sky_3.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon I Air 2+",
+    "DisplayName": "Tecno Camon I Air 2+",
+    "EnumName": "Tecno_Camon_I_Air_2",
+    "ThumbnailPath": "model/Tecno_Camon_I_Air_2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon 12 Air",
+    "DisplayName": "Tecno Camon 12 Air",
+    "EnumName": "Tecno_Camon_12_Air",
+    "ThumbnailPath": "model/Tecno_Camon_12_Air.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon i Click",
+    "DisplayName": "Tecno Camon i Click",
+    "EnumName": "Tecno_Camon_i_Click",
+    "ThumbnailPath": "model/Tecno_Camon_i_Click.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 167,
+    "Name": "Tecno Camon 17 Pro",
+    "DisplayName": "Tecno Camon 17 Pro",
+    "EnumName": "Tecno_Camon_17_Pro",
+    "ThumbnailPath": "model/Tecno_Camon_17_Pro.png",
+    "DisplayInList": true
+  }
+]

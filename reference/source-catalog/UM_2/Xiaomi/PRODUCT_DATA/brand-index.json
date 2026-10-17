@@ -1,0 +1,654 @@
+{
+  "brand": "Xiaomi",
+  "total_models": 108,
+  "models": [
+    {
+      "model": "Redmi 10",
+      "file": "Redmi-10.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 10 Power",
+      "file": "Redmi-10-Power.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 10 Prime",
+      "file": "Redmi-10-Prime.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 10 Prime 2022",
+      "file": "Redmi-10-Prime-2022.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 10A",
+      "file": "Redmi-10A.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 10A Sport",
+      "file": "Redmi-10A-Sport.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 11 Prime",
+      "file": "Redmi-11-Prime.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 11 Prime 5G",
+      "file": "Redmi-11-Prime-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 12 4G",
+      "file": "Redmi-12-4G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 12 5G",
+      "file": "Redmi-12-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 12C",
+      "file": "Redmi-12C.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 13 5G",
+      "file": "Redmi-13-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 13C",
+      "file": "Redmi-13C.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 13C 5G",
+      "file": "Redmi-13C-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 14C 5G",
+      "file": "Redmi-14C-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Redmi 15 5G",
+      "file": "Redmi-15-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Redmi 15A 5G",
+      "file": "Redmi-15A-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Redmi 15C 5G",
+      "file": "Redmi-15C-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Redmi 6",
+      "file": "Redmi-6.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 6A",
+      "file": "Redmi-6A.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 7",
+      "file": "Redmi-7.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 7A",
+      "file": "Redmi-7A.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 8",
+      "file": "Redmi-8.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 8A",
+      "file": "Redmi-8A.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 8A Dual",
+      "file": "Redmi-8A-Dual.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 9",
+      "file": "Redmi-9.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 9 Activ",
+      "file": "Redmi-9-Activ.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 9 Prime",
+      "file": "Redmi-9-Prime.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 9A",
+      "file": "Redmi-9A.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi 9i",
+      "file": "Redmi-9i.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi A1 2022",
+      "file": "Redmi-A1-2022.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi A1 Plus",
+      "file": "Redmi-A1-Plus.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi A2",
+      "file": "Redmi-A2.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi A2 2023",
+      "file": "Redmi-A2-2023.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi A2 Plus",
+      "file": "Redmi-A2-Plus.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi A3",
+      "file": "Redmi-A3.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi A3X",
+      "file": "Redmi-A3X.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi A4 5G",
+      "file": "Redmi-A4-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Redmi A5",
+      "file": "Redmi-A5.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Redmi A7 Pro 5G",
+      "file": "Redmi-A7-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Redmi Go",
+      "file": "Redmi-Go.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi K20",
+      "file": "Redmi-K20.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi K20 Pro",
+      "file": "Redmi-K20-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi K50i",
+      "file": "Redmi-K50i.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 10",
+      "file": "Redmi-Note-10.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 10 Lite",
+      "file": "Redmi-Note-10-Lite.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 10 Pro",
+      "file": "Redmi-Note-10-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 10 Pro Max",
+      "file": "Redmi-Note-10-Pro-Max.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 10S",
+      "file": "Redmi-Note-10S.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 10T 5G",
+      "file": "Redmi-Note-10T-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 11",
+      "file": "Redmi-Note-11.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 11 Pro",
+      "file": "Redmi-Note-11-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 11 Pro Plus 5G",
+      "file": "Redmi-Note-11-Pro-Plus-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 11 Se",
+      "file": "Redmi-Note-11-Se.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 11S",
+      "file": "Redmi-Note-11S.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 11T 5G",
+      "file": "Redmi-Note-11T-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 12 4G",
+      "file": "Redmi-Note-12-4G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 12 5G",
+      "file": "Redmi-Note-12-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 12 Pro 5G",
+      "file": "Redmi-Note-12-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 12 Pro Plus 5G",
+      "file": "Redmi-Note-12-Pro-Plus-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 13 5G",
+      "file": "Redmi-Note-13-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 13 Pro 5G",
+      "file": "Redmi-Note-13-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 13 Pro Plus",
+      "file": "Redmi-Note-13-Pro-Plus.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 14 5G",
+      "file": "Redmi-Note-14-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Redmi Note 14 Pro 5G",
+      "file": "Redmi-Note-14-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Redmi Note 14 Pro Plus 5G",
+      "file": "Redmi-Note-14-Pro-Plus-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Redmi Note 14 SE 5G",
+      "file": "Redmi-Note-14-SE-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Redmi Note 15 5G",
+      "file": "Redmi-Note-15-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Redmi Note 15 Pro 5G",
+      "file": "Redmi-Note-15-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Redmi Note 15 Pro Plus 5G",
+      "file": "Redmi-Note-15-Pro-Plus-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Redmi Note 15 SE 5G",
+      "file": "Redmi-Note-15-SE-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Redmi Note 17 5G",
+      "file": "Redmi-Note-17-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Redmi Note 5",
+      "file": "Redmi-Note-5.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 5 Pro",
+      "file": "Redmi-Note-5-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 6 Pro",
+      "file": "Redmi-Note-6-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 7",
+      "file": "Redmi-Note-7.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 7 Pro",
+      "file": "Redmi-Note-7-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 7S",
+      "file": "Redmi-Note-7S.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 8",
+      "file": "Redmi-Note-8.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 8 Pro",
+      "file": "Redmi-Note-8-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 9",
+      "file": "Redmi-Note-9.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 9 Pro",
+      "file": "Redmi-Note-9-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Note 9 Pro Max",
+      "file": "Redmi-Note-9-Pro-Max.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Turbo 5",
+      "file": "Redmi-Turbo-5.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Y2",
+      "file": "Redmi-Y2.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Redmi Y3",
+      "file": "Redmi-Y3.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Xiaomi 11 Lite NE 5G",
+      "file": "Xiaomi-11-Lite-NE-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Xiaomi 14 CIVI",
+      "file": "Xiaomi-14-CIVI.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Xiaomi 15",
+      "file": "Xiaomi-15.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Xiaomi 15 Ultra",
+      "file": "Xiaomi-15-Ultra.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Xiaomi 17",
+      "file": "Xiaomi-17.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Xiaomi 17 Ultra",
+      "file": "Xiaomi-17-Ultra.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Xiaomi Mi 10",
+      "file": "Xiaomi-Mi-10.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Xiaomi Mi 10T",
+      "file": "Xiaomi-Mi-10T.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Xiaomi Mi 10T Pro",
+      "file": "Xiaomi-Mi-10T-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Xiaomi Mi 10i",
+      "file": "Xiaomi-Mi-10i.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Xiaomi Mi 11 Lite",
+      "file": "Xiaomi-Mi-11-Lite.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Xiaomi Mi 11 Ultra",
+      "file": "Xiaomi-Mi-11-Ultra.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Xiaomi Mi 11T Pro 5G",
+      "file": "Xiaomi-Mi-11T-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Xiaomi Mi 11X",
+      "file": "Xiaomi-Mi-11X.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Xiaomi Mi 11X Pro",
+      "file": "Xiaomi-Mi-11X-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Xiaomi Mi 11i 5G",
+      "file": "Xiaomi-Mi-11i-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Xiaomi Mi 11i HyperCharge 5G",
+      "file": "Xiaomi-Mi-11i-HyperCharge-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Xiaomi Mi 12 Pro 5G",
+      "file": "Xiaomi-Mi-12-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Xiaomi Mi 13 Pro",
+      "file": "Xiaomi-Mi-13-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Xiaomi Mi 14",
+      "file": "Xiaomi-Mi-14.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Xiaomi Mi 14 Ultra",
+      "file": "Xiaomi-Mi-14-Ultra.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Xiaomi Mi Black Shark 2",
+      "file": "Xiaomi-Mi-Black-Shark-2.json",
+      "image_count": 1,
+      "confidence": "low"
+    }
+  ]
+}

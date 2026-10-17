@@ -1,0 +1,100 @@
+{
+  "brand": "Nothing",
+  "model": "Nothing Phone 4a Pro",
+  "official_name": "Nothing Phone 4a Pro",
+  "series": "G Series",
+  "release": {
+    "year": 2026,
+    "date": "2026 March 05"
+  },
+  "region": "India",
+  "variants": [
+    {
+      "ram": "8GB",
+      "storage": "128GB"
+    },
+    {
+      "ram": "8GB",
+      "storage": "256GB"
+    },
+    {
+      "ram": "12GB",
+      "storage": "256GB"
+    }
+  ],
+  "display": {
+    "type": "AMOLED, 1B colors, 144Hz, 2160Hz PWM, HDR10+, 800 nits (typ), 1600 nits (HBM), 5000 nits (peak)",
+    "size": "6.83 inches, 117.8 cm2 (~93.9% screen-to-body ratio)",
+    "resolution": "1260 x 2800 pixels, 20:9 ratio (~440 ppi density)",
+    "refresh_rate": "144 Hz",
+    "hdr": "HDR10+, HDR10, HDR",
+    "protection": "Corning Gorilla Glass 7i"
+  },
+  "processor": {
+    "chipset": "Qualcomm SM7750-AB Snapdragon 7 Gen 4 (4 nm)",
+    "cpu": "Octa-core (1x2.8 GHz Cortex-720 & 4x2.4 GHz Cortex-720 & 3x1.8 GHz Cortex-520)",
+    "gpu": "Adreno 722"
+  },
+  "camera": {
+    "rear": [
+      "50 MP, f/1.9, 24mm (wide), 1/1.56\", 1.0µm, dual pixel PDAF, OIS 50 MP, f/2.9, 80mm (periscope telephoto), 1/2.75\", 0.64µm, PDAF, OIS, 3.5x optical zoom 8 MP, f/2.2, 15mm, 120˚ (ultrawide), 1/4.0\", 1.12µm"
+    ],
+    "front": "32 MP, f/2.2, 22mm (wide), 1/3.42\", 0.64µm",
+    "video": [
+      "4K@30/60fps",
+      "1080p@30/60/120fps",
+      "gyro-EIS",
+      "OIS",
+      "Dolby Vision HDR",
+      "Ultra XDR"
+    ]
+  },
+  "battery": {
+    "capacity": "5080 mAh",
+    "charging": "50W wired, 50% in 22 min, 100% in 64 min 7.5W reverse wired",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "163.7 x 76.6 x 8 mm (6.44 x 3.02 x 0.31 in)",
+    "weight": "210 g (7.41 oz)",
+    "materials": "Glass front (Gorilla Glass 7i), aluminum frame, aluminum back",
+    "colors": [
+      "Black",
+      "Silver",
+      "Pink"
+    ],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "GSM / HSPA / LTE / 5G",
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.4, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG",
+    "sim": "· Nano-SIM + Nano-SIM + eSIM (max 2 at a time) · Nano-SIM + Nano-SIM"
+  },
+  "software": {
+    "os_at_launch": "Android 16, Nothing OS 4.1, up to 3 major OS updates",
+    "update_policy": ""
+  },
+  "features": [
+    "Fingerprint (under display",
+    "optical)",
+    "accelerometer",
+    "gyro",
+    "proximity",
+    "compass"
+  ],
+  "images": [
+    "Nothing/Nothing  images/Nothing_Phone_4a_Pro.png"
+  ],
+  "research_sources": [
+    {
+      "title": "GSMArena Nothing Phone 4a Pro Specifications",
+      "url": "https://www.gsmarena.com",
+      "source_type": "database"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Preliminary specifications based on industry announcements/catalog data."
+}

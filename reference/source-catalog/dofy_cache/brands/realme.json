@@ -1,0 +1,1354 @@
+[
+  {
+    "BrandSeriesId": 598,
+    "Name": "Realme 16T 5G",
+    "DisplayName": "Realme 16T 5G",
+    "EnumName": "Realme_16T_5G",
+    "ThumbnailPath": "model/Realme_16T_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 484,
+    "Name": "Realme P4R 5G",
+    "DisplayName": "Realme P4R 5G",
+    "EnumName": "Realme_P4R_5G",
+    "ThumbnailPath": "model/Realme_P4R_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 100x 5G",
+    "DisplayName": "Realme Narzo 100x 5G",
+    "EnumName": "Realme_Narzo_100x_5G",
+    "ThumbnailPath": "model/Realme_Narzo_100x_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C100x",
+    "DisplayName": "Realme C100x",
+    "EnumName": "Realme_C100x",
+    "ThumbnailPath": "model/Realme_C100x.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 598,
+    "Name": "Realme 16x 5G",
+    "DisplayName": "Realme 16x 5G",
+    "EnumName": "Realme_16x_5G",
+    "ThumbnailPath": "model/Realme_16x_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 100 Lite 5G",
+    "DisplayName": "Realme Narzo 100 Lite 5G",
+    "EnumName": "Realme_Narzo_100_Lite_5G",
+    "ThumbnailPath": "model/Realme_Narzo_100_Lite_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 484,
+    "Name": "Realme P4 Lite 5G",
+    "DisplayName": "Realme P4 Lite 5G",
+    "EnumName": "Realme_P4_Lite_5G",
+    "ThumbnailPath": "model/Realme_P4_Lite_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 598,
+    "Name": "Realme 16 5G",
+    "DisplayName": "Realme 16 5G",
+    "EnumName": "Realme_16_5G",
+    "ThumbnailPath": "model/Realme_16_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 484,
+    "Name": "Realme P4 Power 5G",
+    "DisplayName": "Realme P4 Power 5G",
+    "EnumName": "Realme_P4_Power_5G",
+    "ThumbnailPath": "model/Realme_P4_Power_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C73 5G",
+    "DisplayName": "Realme C73 5G",
+    "EnumName": "Realme_C73_5G",
+    "ThumbnailPath": "model/Realme_C73_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C85 5G",
+    "DisplayName": "Realme C85 5G",
+    "EnumName": "Realme_C85_5G",
+    "ThumbnailPath": "model/Realme_C85_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 90x 5G",
+    "DisplayName": "Realme Narzo 90x 5G",
+    "EnumName": "Realme_Narzo_90x_5G",
+    "ThumbnailPath": "model/Realme_Narzo_90x_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 90 5G",
+    "DisplayName": "Realme Narzo 90 5G",
+    "EnumName": "Realme_Narzo_90_5G",
+    "ThumbnailPath": "model/Realme_Narzo_90_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 598,
+    "Name": "Realme 16 Pro Plus 5G",
+    "DisplayName": "Realme 16 Pro Plus 5G",
+    "EnumName": "Realme_16_Pro_Plus_5G",
+    "ThumbnailPath": "model/Realme_16_Pro_Plus_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 598,
+    "Name": "Realme 16 Pro 5G",
+    "DisplayName": "Realme 16 Pro 5G",
+    "EnumName": "Realme_16_Pro_5G",
+    "ThumbnailPath": "model/Realme_16_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 484,
+    "Name": "Realme P4 Lite",
+    "DisplayName": "Realme P4 Lite",
+    "EnumName": "Realme_P4_Lite",
+    "ThumbnailPath": "model/Realme_P4_Lite.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo Power 5G",
+    "DisplayName": "Realme Narzo Power 5G",
+    "EnumName": "Realme_Narzo_Power_5G",
+    "ThumbnailPath": "model/Realme_Narzo_Power_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C83 5G",
+    "DisplayName": "Realme C83 5G",
+    "EnumName": "Realme_C83_5G",
+    "ThumbnailPath": "model/Realme_C83_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 80 Lite 5G",
+    "DisplayName": "Realme Narzo 80 Lite 5G",
+    "EnumName": "Realme_Narzo_80_Lite_5G",
+    "ThumbnailPath": "model/Realme_Narzo_80_Lite_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 484,
+    "Name": "Realme P4x 5G",
+    "DisplayName": "Realme P4x 5G",
+    "EnumName": "Realme_P4x_5G",
+    "ThumbnailPath": "model/Realme_P4x_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 594,
+    "Name": "Realme 15X 5G",
+    "DisplayName": "Realme 15X 5G",
+    "EnumName": "Realme_15X_5G",
+    "ThumbnailPath": "model/Realme_15X_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 77,
+    "Name": "Realme GT 8 Pro",
+    "DisplayName": "Realme GT 8 Pro",
+    "EnumName": "Realme_GT_8_Pro",
+    "ThumbnailPath": "model/Realme_GT_8_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C71",
+    "DisplayName": "Realme C71",
+    "EnumName": "Realme_C71",
+    "ThumbnailPath": "model/Realme_C71.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 484,
+    "Name": "Realme P4 5G",
+    "DisplayName": "Realme P4 5G",
+    "EnumName": "Realme_P4_5G",
+    "ThumbnailPath": "model/Realme_P4_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 484,
+    "Name": "Realme P4 Pro 5G",
+    "DisplayName": "Realme P4 Pro 5G",
+    "EnumName": "Realme_P4_Pro_5G",
+    "ThumbnailPath": "model/Realme_P4_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 80 Lite",
+    "DisplayName": "Realme Narzo 80 Lite",
+    "EnumName": "Realme_Narzo_80_Lite",
+    "ThumbnailPath": "model/Realme_Narzo_80_Lite.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 484,
+    "Name": "Realme P3 Lite 5G",
+    "DisplayName": "Realme P3 Lite 5G",
+    "EnumName": "Realme_P3_Lite_5G",
+    "ThumbnailPath": "model/Realme_P3_Lite_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 584,
+    "Name": "Realme 14T 5G",
+    "DisplayName": "Realme 14T 5G",
+    "EnumName": "Realme_14T_5G",
+    "ThumbnailPath": "model/Realme_14T_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 594,
+    "Name": "Realme 15T",
+    "DisplayName": "Realme 15T",
+    "EnumName": "Realme_15T",
+    "ThumbnailPath": "model/Realme_15T.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 594,
+    "Name": "Realme 15  Pro 5G",
+    "DisplayName": "Realme 15  Pro 5G",
+    "EnumName": "Realme_15_Pro_5G",
+    "ThumbnailPath": "model/Realme_15_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 594,
+    "Name": "Realme 15 5G",
+    "DisplayName": "Realme 15 5G",
+    "EnumName": "Realme_15_5G",
+    "ThumbnailPath": "model/Realme_15_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 80X 5G",
+    "DisplayName": "Realme Narzo 80X 5G",
+    "EnumName": "Realme_Narzo_80X_5G",
+    "ThumbnailPath": "model/Realme_Narzo_80X_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 80 Pro 5G",
+    "DisplayName": "Realme Narzo 80 Pro 5G",
+    "EnumName": "Realme_Narzo_80_Pro_5G",
+    "ThumbnailPath": "model/Realme_Narzo_80_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C75 5G",
+    "DisplayName": "Realme C75 5G",
+    "EnumName": "Realme_C75_5G",
+    "ThumbnailPath": "model/Realme_C75_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 77,
+    "Name": "Realme GT 7",
+    "DisplayName": "Realme GT 7",
+    "EnumName": "Realme_GT_7",
+    "ThumbnailPath": "model/Realme_GT_7.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 77,
+    "Name": "Realme GT 7T",
+    "DisplayName": "Realme GT 7T",
+    "EnumName": "Realme_GT_7T",
+    "ThumbnailPath": "model/Realme_GT_7T.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 484,
+    "Name": "Realme 14 Pro Lite 5G",
+    "DisplayName": "Realme 14 Pro Lite 5G",
+    "EnumName": "Realme_14_Pro_Lite_5G",
+    "ThumbnailPath": "model/Realme_14_Pro_Lite_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 484,
+    "Name": "Realme P3X 5G",
+    "DisplayName": "Realme P3X 5G",
+    "EnumName": "Realme_P3X_5G",
+    "ThumbnailPath": "model/Realme_P3X_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 484,
+    "Name": "Realme P3 Pro 5G",
+    "DisplayName": "Realme P3 Pro 5G",
+    "EnumName": "Realme_P3_Pro_5G",
+    "ThumbnailPath": "model/Realme_P3_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 484,
+    "Name": "Realme P3 Ultra 5G",
+    "DisplayName": "Realme P3 Ultra 5G",
+    "EnumName": "Realme_P3_Ultra_5G",
+    "ThumbnailPath": "model/Realme_P3_Ultra_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 484,
+    "Name": "Realme P3 5G",
+    "DisplayName": "Realme P3 5G",
+    "EnumName": "Realme_P3_5G",
+    "ThumbnailPath": "model/Realme_P3_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 77,
+    "Name": "Realme GT 7 Pro 5G",
+    "DisplayName": "Realme GT 7 Pro 5G",
+    "EnumName": "Realme_GT_7_Pro_5G",
+    "ThumbnailPath": "model/Realme_GT_7_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 584,
+    "Name": "Realme 14 Pro Plus 5G",
+    "DisplayName": "Realme 14 Pro Plus 5G",
+    "EnumName": "Realme_14_Pro_Plus_5G",
+    "ThumbnailPath": "model/Realme_14_Pro_Plus_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 584,
+    "Name": "Realme 14X 5G",
+    "DisplayName": "Realme 14X 5G",
+    "EnumName": "Realme_14X_5G",
+    "ThumbnailPath": "model/Realme_14X_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 584,
+    "Name": "Realme 14 Pro 5G",
+    "DisplayName": "Realme 14 Pro 5G",
+    "EnumName": "Realme_14_Pro_5G",
+    "ThumbnailPath": "model/Realme_14_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 484,
+    "Name": "Realme P1 Speed 5G",
+    "DisplayName": "Realme P1 Speed 5G",
+    "EnumName": "Realme_P1_Speed_5G",
+    "ThumbnailPath": "model/Realme_P1_Speed_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 484,
+    "Name": "Realme P2 Pro 5G",
+    "DisplayName": "Realme P2 Pro 5G",
+    "EnumName": "Realme_P2_Pro_5G",
+    "ThumbnailPath": "model/Realme_P2_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 70 Turbo 5G",
+    "DisplayName": "Realme Narzo 70 Turbo 5G",
+    "EnumName": "Realme_Narzo_70_Turbo_5G",
+    "ThumbnailPath": "model/Realme_Narzo_70_Turbo_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C63 5G",
+    "DisplayName": "Realme C63 5G",
+    "EnumName": "Realme_C63_5G",
+    "ThumbnailPath": "model/Realme_C63_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C61",
+    "DisplayName": "Realme C61",
+    "EnumName": "Realme_C61",
+    "ThumbnailPath": "model/Realme_C61.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 467,
+    "Name": "Realme 13 5G",
+    "DisplayName": "Realme 13 5G",
+    "EnumName": "Realme_13_5G",
+    "ThumbnailPath": "model/Realme_13_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 467,
+    "Name": "Realme 13 Plus 5G",
+    "DisplayName": "Realme 13 Plus 5G",
+    "EnumName": "Realme_13_Plus_5G",
+    "ThumbnailPath": "model/Realme_13_Plus_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo N65 5G",
+    "DisplayName": "Realme Narzo N65 5G",
+    "EnumName": "Realme_Narzo_N65_5G",
+    "ThumbnailPath": "model/Realme_Narzo_N65_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo N63",
+    "DisplayName": "Realme Narzo N63",
+    "EnumName": "Realme_Narzo_N63",
+    "ThumbnailPath": "model/Realme_Narzo_N63.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 77,
+    "Name": "Realme GT 6",
+    "DisplayName": "Realme GT 6",
+    "EnumName": "Realme_GT_6",
+    "ThumbnailPath": "model/Realme_GT_6.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 77,
+    "Name": "Realme GT 6T",
+    "DisplayName": "Realme GT 6T",
+    "EnumName": "Realme_GT_6T",
+    "ThumbnailPath": "model/Realme_GT_6T.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 445,
+    "Name": "Realme 12 Plus 5G",
+    "DisplayName": "Realme 12 Plus 5G",
+    "EnumName": "Realme_12_Plus_5G",
+    "ThumbnailPath": "model/Realme_12_Plus_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 70 pro 5G",
+    "DisplayName": "Realme Narzo 70 pro 5G",
+    "EnumName": "Realme_Narzo_70_pro_5G",
+    "ThumbnailPath": "model/Realme_Narzo_70_pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C65 5G",
+    "DisplayName": "Realme C65 5G",
+    "EnumName": "Realme_C65_5G",
+    "ThumbnailPath": "model/Realme_C65_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 484,
+    "Name": "Realme P1  Pro 5G",
+    "DisplayName": "Realme P1  Pro 5G",
+    "EnumName": "Realme_P1_Pro_5G",
+    "ThumbnailPath": "model/Realme_P1_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 484,
+    "Name": "Realme P1 5G",
+    "DisplayName": "Realme P1 5G",
+    "EnumName": "Realme_P1_5G",
+    "ThumbnailPath": "model/Realme_P1_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 70X 5G",
+    "DisplayName": "Realme Narzo 70X 5G",
+    "EnumName": "Realme_Narzo_70X_5G",
+    "ThumbnailPath": "model/Realme_Narzo_70X_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 445,
+    "Name": "Realme 12",
+    "DisplayName": "Realme 12",
+    "EnumName": "Realme_12",
+    "ThumbnailPath": "model/Realme_12.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 70 5G",
+    "DisplayName": "Realme Narzo 70 5G",
+    "EnumName": "Realme_Narzo_70_5G",
+    "ThumbnailPath": "model/Realme_Narzo_70_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 445,
+    "Name": "Realme 12 Pro Plus",
+    "DisplayName": "Realme 12 Pro Plus",
+    "EnumName": "Realme_12_Pro_Plus",
+    "ThumbnailPath": "model/Realme_12_Pro_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 445,
+    "Name": "Realme 12X",
+    "DisplayName": "Realme 12X",
+    "EnumName": "Realme_12X",
+    "ThumbnailPath": "model/Realme_12X.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 445,
+    "Name": "Realme 12 Pro 5G",
+    "DisplayName": "Realme 12 Pro 5G",
+    "EnumName": "Realme_12_Pro_5G",
+    "ThumbnailPath": "model/Realme_12_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme NARZO N61",
+    "DisplayName": "Realme NARZO N61",
+    "EnumName": "Realme_NARZO_N61",
+    "ThumbnailPath": "model/Realme_NARZO_N61.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C63",
+    "DisplayName": "Realme C63",
+    "EnumName": "Realme_C63",
+    "ThumbnailPath": "model/Realme_C63.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 467,
+    "Name": "Realme 13 Pro 5G",
+    "DisplayName": "Realme 13 Pro 5G",
+    "EnumName": "Realme_13_Pro_5G",
+    "ThumbnailPath": "model/Realme_13_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 467,
+    "Name": "Realme 13 Pro Plus 5G",
+    "DisplayName": "Realme 13 Pro Plus 5G",
+    "EnumName": "Realme_13_Pro_Plus_5G",
+    "ThumbnailPath": "model/Realme_13_Pro_Plus_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 60X",
+    "DisplayName": "Realme Narzo 60X",
+    "EnumName": "Realme_Narzo_60X",
+    "ThumbnailPath": "model/Realme_Narzo_60X.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 413,
+    "Name": "Realme 11x 5G",
+    "DisplayName": "Realme 11x 5G",
+    "EnumName": "Realme_11x_5G",
+    "ThumbnailPath": "model/Realme_11x_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 413,
+    "Name": "Realme 11 5G",
+    "DisplayName": "Realme 11 5G",
+    "EnumName": "Realme_11_5G",
+    "ThumbnailPath": "model/Realme_11_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C53",
+    "DisplayName": "Realme C53",
+    "EnumName": "Realme_C53",
+    "ThumbnailPath": "model/Realme_C53.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 60 Pro 5G",
+    "DisplayName": "Realme Narzo 60 Pro 5G",
+    "EnumName": "Realme_Narzo_60_Pro_5G",
+    "ThumbnailPath": "model/Realme_Narzo_60_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 60 5G",
+    "DisplayName": "Realme Narzo 60 5G",
+    "EnumName": "Realme_Narzo_60_5G",
+    "ThumbnailPath": "model/Realme_Narzo_60_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C67 5G",
+    "DisplayName": "Realme C67 5G",
+    "EnumName": "Realme_C67_5G",
+    "ThumbnailPath": "model/Realme_C67_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C51",
+    "DisplayName": "Realme C51",
+    "EnumName": "Realme_C51",
+    "ThumbnailPath": "model/Realme_C51.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 413,
+    "Name": "Realme 11 Pro Plus 5G",
+    "DisplayName": "Realme 11 Pro Plus 5G",
+    "EnumName": "Realme_11_Pro_Plus_5G",
+    "ThumbnailPath": "model/Realme_11_Pro_Plus_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 413,
+    "Name": "Realme 11 Pro 5G",
+    "DisplayName": "Realme 11 Pro 5G",
+    "EnumName": "Realme_11_Pro_5G",
+    "ThumbnailPath": "model/Realme_11_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo N53",
+    "DisplayName": "Realme Narzo N53",
+    "EnumName": "Realme_Narzo_N53",
+    "ThumbnailPath": "model/Realme_Narzo_N53.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo N55",
+    "DisplayName": "Realme Narzo N55",
+    "EnumName": "Realme_NARZO_N55",
+    "ThumbnailPath": "model/Realme_NARZO_N55.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C55",
+    "DisplayName": "Realme C55",
+    "EnumName": "Realme_C55",
+    "ThumbnailPath": "model/Realme_C55.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 77,
+    "Name": "Realme Gt Neo 3T",
+    "DisplayName": "Realme Gt Neo 3T",
+    "EnumName": "REALME_GT_Neo_3T",
+    "ThumbnailPath": "model/REALME_GT_Neo_3T.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 50i Prime",
+    "DisplayName": "Realme Narzo 50i Prime",
+    "EnumName": "REALME_NARZO_50I_PRIME",
+    "ThumbnailPath": "model/REALME_NARZO_50I_PRIME.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 335,
+    "Name": "Realme 9i 5G",
+    "DisplayName": "Realme 9i 5G",
+    "EnumName": "REALME_9i_5G",
+    "ThumbnailPath": "model/REALME_9i_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "REALME C33",
+    "DisplayName": "REALME C33",
+    "EnumName": "REALME_C33",
+    "ThumbnailPath": "model/REALME_C33.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "REALME C30S",
+    "DisplayName": "REALME C30S",
+    "EnumName": "REALME_C30S",
+    "ThumbnailPath": "model/REALME_C30S.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 50A Prime",
+    "DisplayName": "Realme Narzo 50A Prime",
+    "EnumName": "REALME_NARZO_50A_PRIME",
+    "ThumbnailPath": "model/REALME_NARZO_50A_PRIME.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 50 Pro 5G",
+    "DisplayName": "Realme Narzo 50 Pro 5G",
+    "EnumName": "REALME_NARZO_50_PRO_5G",
+    "ThumbnailPath": "model/REALME_NARZO_50_PRO_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 50 5G",
+    "DisplayName": "Realme Narzo 50 5G",
+    "EnumName": "REALME_NARZO_50_5G",
+    "ThumbnailPath": "model/REALME_NARZO_50_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 509,
+    "Name": "Realme 10 Pro Plus 5G",
+    "DisplayName": "Realme 10 Pro Plus 5G",
+    "EnumName": "REALME_10_PRO_PLUS_5G",
+    "ThumbnailPath": "model/REALME_10_PRO_PLUS_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 509,
+    "Name": "Realme 10 Pro 5G",
+    "DisplayName": "Realme 10 Pro 5G",
+    "EnumName": "REALME_10_PRO_5G",
+    "ThumbnailPath": "model/REALME_10_PRO_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 509,
+    "Name": "Realme 10",
+    "DisplayName": "Realme 10",
+    "EnumName": "REALME_10",
+    "ThumbnailPath": "model/REALME_10.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 77,
+    "Name": "Realme Gt Neo 3 150W",
+    "DisplayName": "Realme Gt Neo 3 150W",
+    "EnumName": "REALME_GT_NEO_3_150W",
+    "ThumbnailPath": "model/REALME_GT_NEO_3_150W.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 335,
+    "Name": "realme 9 5G",
+    "DisplayName": "realme 9 5G",
+    "EnumName": "realme_9_5G",
+    "ThumbnailPath": "model/realme_9_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 335,
+    "Name": "realme 9 5G Speed Edition",
+    "DisplayName": "realme 9 5G Speed Edition",
+    "EnumName": "realme_9_5G_Speed_Edition",
+    "ThumbnailPath": "model/realme_9_5G_Speed_Edition.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 77,
+    "Name": "realme GT 2",
+    "DisplayName": "realme GT 2",
+    "EnumName": "realme_GT_2",
+    "ThumbnailPath": "model/realme_GT_2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 77,
+    "Name": "realme GT Neo 3",
+    "DisplayName": "realme GT Neo 3",
+    "EnumName": "realme_GT_Neo_3",
+    "ThumbnailPath": "model/realme_GT_Neo_3.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 77,
+    "Name": "realme GT 2 Pro",
+    "DisplayName": "realme GT 2 Pro",
+    "EnumName": "realme_GT_2_Pro",
+    "ThumbnailPath": "model/realme_GT_2_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C31",
+    "DisplayName": "Realme C31",
+    "EnumName": "Realme_C31",
+    "ThumbnailPath": "model/Realme_C31.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C30",
+    "DisplayName": "Realme C30",
+    "EnumName": "Realme_C30",
+    "ThumbnailPath": "model/Realme_C30.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 335,
+    "Name": "Realme 9 Pro Plus 5G",
+    "DisplayName": "Realme 9 Pro Plus 5G",
+    "EnumName": "Realme_9_Pro_Plus_5G",
+    "ThumbnailPath": "model/Realme_9_Pro_Plus_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 335,
+    "Name": "Realme 9 Pro 5G",
+    "DisplayName": "Realme 9 Pro 5G",
+    "EnumName": "Realme_9_Pro_5G",
+    "ThumbnailPath": "model/Realme_9_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 335,
+    "Name": "Realme 9i",
+    "DisplayName": "Realme 9i",
+    "EnumName": "Realme_9i",
+    "ThumbnailPath": "model/Realme_9i.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 76,
+    "Name": "Realme 8s 5G",
+    "DisplayName": "Realme 8s 5G",
+    "EnumName": "Realme_8s_5G",
+    "ThumbnailPath": "model/Realme_8s_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 50",
+    "DisplayName": "Realme Narzo 50",
+    "EnumName": "Realme_Narzo_50",
+    "ThumbnailPath": "model/Realme_Narzo_50.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C35",
+    "DisplayName": "Realme C35",
+    "EnumName": "Realme_C35",
+    "ThumbnailPath": "model/Realme_C35.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 77,
+    "Name": "Realme GT Neo 2",
+    "DisplayName": "Realme GT Neo 2",
+    "EnumName": "Realme_GT_Neo_2",
+    "ThumbnailPath": "model/Realme_GT_Neo_2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 77,
+    "Name": "Realme GT Master Edition",
+    "DisplayName": "Realme GT Master Edition",
+    "EnumName": "Realme_GT_Master_Edition",
+    "ThumbnailPath": "model/Realme_GT_Master_Edition.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 77,
+    "Name": "Realme GT 5G",
+    "DisplayName": "Realme GT 5G",
+    "EnumName": "Realme_GT_5G",
+    "ThumbnailPath": "model/Realme_GT_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 76,
+    "Name": "Realme 8i",
+    "DisplayName": "Realme 8i",
+    "EnumName": "Realme_8i",
+    "ThumbnailPath": "model/Realme_8i.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 76,
+    "Name": "Realme 8 5G",
+    "DisplayName": "Realme 8 5G",
+    "EnumName": "Realme_8_5G",
+    "ThumbnailPath": "model/Realme_8_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 76,
+    "Name": "Realme 8 Pro",
+    "DisplayName": "Realme 8 Pro",
+    "EnumName": "Realme_8_Pro",
+    "ThumbnailPath": "model/Realme_8_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 76,
+    "Name": "Realme 8",
+    "DisplayName": "Realme 8",
+    "EnumName": "Realme_8",
+    "ThumbnailPath": "model/Realme_8.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 75,
+    "Name": "Realme 7i",
+    "DisplayName": "Realme 7i",
+    "EnumName": "Realme_7i",
+    "ThumbnailPath": "model/Realme_7i.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 75,
+    "Name": "Realme 7",
+    "DisplayName": "Realme 7",
+    "EnumName": "Realme_7",
+    "ThumbnailPath": "model/Realme_7.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 75,
+    "Name": "Realme 7 Pro",
+    "DisplayName": "Realme 7 Pro",
+    "EnumName": "Realme_7_Pro",
+    "ThumbnailPath": "model/Realme_7_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 50i",
+    "DisplayName": "Realme Narzo 50i",
+    "EnumName": "Realme_Narzo_50i",
+    "ThumbnailPath": "model/Realme_Narzo_50i.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 50A",
+    "DisplayName": "Realme Narzo 50A",
+    "EnumName": "Realme_Narzo_50A",
+    "ThumbnailPath": "model/Realme_Narzo_50A.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 30 5G",
+    "DisplayName": "Realme Narzo 30 5G",
+    "EnumName": "Realme_Narzo_30_5G",
+    "ThumbnailPath": "model/Realme_Narzo_30_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 30",
+    "DisplayName": "Realme Narzo 30",
+    "EnumName": "Realme_Narzo_30",
+    "ThumbnailPath": "model/Realme_Narzo_30.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 30 Pro 5G",
+    "DisplayName": "Realme Narzo 30 Pro 5G",
+    "EnumName": "Realme_Narzo_30_Pro_5G",
+    "ThumbnailPath": "model/Realme_Narzo_30_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 30A",
+    "DisplayName": "Realme Narzo 30A",
+    "EnumName": "Realme_Narzo_30A",
+    "ThumbnailPath": "model/Realme_Narzo_30A.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 20A",
+    "DisplayName": "Realme Narzo 20A",
+    "EnumName": "Realme_Narzo_20A",
+    "ThumbnailPath": "model/Realme_Narzo_20A.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 20",
+    "DisplayName": "Realme Narzo 20",
+    "EnumName": "Realme_Narzo_20",
+    "ThumbnailPath": "model/Realme_Narzo_20.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 20 Pro",
+    "DisplayName": "Realme Narzo 20 Pro",
+    "EnumName": "Realme_Narzo_20_Pro",
+    "ThumbnailPath": "model/Realme_Narzo_20_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 10A",
+    "DisplayName": "Realme Narzo 10A",
+    "EnumName": "Realme_Narzo_10A",
+    "ThumbnailPath": "model/Realme_Narzo_10A.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 74,
+    "Name": "Realme Narzo 10",
+    "DisplayName": "Realme Narzo 10",
+    "EnumName": "Realme_Narzo_10",
+    "ThumbnailPath": "model/Realme_Narzo_10.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 73,
+    "Name": "Realme U 1",
+    "DisplayName": "Realme U 1",
+    "EnumName": "Realme_U_1",
+    "ThumbnailPath": "model/Realme_U_1.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 72,
+    "Name": "Realme X7 Max 5G",
+    "DisplayName": "Realme X7 Max 5G",
+    "EnumName": "Realme_X7_Max_5G",
+    "ThumbnailPath": "model/Realme_X7_Max_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 72,
+    "Name": "Realme X7 Pro",
+    "DisplayName": "Realme X7 Pro",
+    "EnumName": "Realme_X7_Pro",
+    "ThumbnailPath": "model/Realme_X7_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 72,
+    "Name": "Realme X7",
+    "DisplayName": "Realme X7",
+    "EnumName": "Realme_X7",
+    "ThumbnailPath": "model/Realme_X7.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 72,
+    "Name": "Realme X3 SuperZoom",
+    "DisplayName": "Realme X3 SuperZoom",
+    "EnumName": "Realme_X3_SuperZoom",
+    "ThumbnailPath": "model/Realme_X3_SuperZoom.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 72,
+    "Name": "Realme X3",
+    "DisplayName": "Realme X3",
+    "EnumName": "Realme_X3",
+    "ThumbnailPath": "model/Realme_X3.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 72,
+    "Name": "Realme X50 Pro",
+    "DisplayName": "Realme X50 Pro",
+    "EnumName": "Realme_X50_Pro",
+    "ThumbnailPath": "model/Realme_X50_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 72,
+    "Name": "Realme X2",
+    "DisplayName": "Realme X2",
+    "EnumName": "Realme_X2",
+    "ThumbnailPath": "model/Realme_X2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 72,
+    "Name": "Realme X2 Pro",
+    "DisplayName": "Realme X2 Pro",
+    "EnumName": "Realme_X2_Pro",
+    "ThumbnailPath": "model/Realme_X2_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 72,
+    "Name": "Realme XT",
+    "DisplayName": "Realme XT",
+    "EnumName": "Realme_XT",
+    "ThumbnailPath": "model/Realme_XT.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 72,
+    "Name": "Realme X",
+    "DisplayName": "Realme X",
+    "EnumName": "Realme_X",
+    "ThumbnailPath": "model/Realme_X.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 71,
+    "Name": "Realme 6i",
+    "DisplayName": "Realme 6i",
+    "EnumName": "Realme_6i",
+    "ThumbnailPath": "model/Realme_6i.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 71,
+    "Name": "Realme 6 Pro",
+    "DisplayName": "Realme 6 Pro",
+    "EnumName": "Realme_6_Pro",
+    "ThumbnailPath": "model/Realme_6_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 71,
+    "Name": "Realme 6",
+    "DisplayName": "Realme 6",
+    "EnumName": "Realme_6",
+    "ThumbnailPath": "model/Realme_6.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 70,
+    "Name": "Realme 5i",
+    "DisplayName": "Realme 5i",
+    "EnumName": "Realme_5i",
+    "ThumbnailPath": "model/Realme_5i.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 70,
+    "Name": "Realme 5s",
+    "DisplayName": "Realme 5s",
+    "EnumName": "Realme_5s",
+    "ThumbnailPath": "model/Realme_5s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 70,
+    "Name": "Realme 5 Pro",
+    "DisplayName": "Realme 5 Pro",
+    "EnumName": "Realme_5_Pro",
+    "ThumbnailPath": "model/Realme_5_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 70,
+    "Name": "Realme 5",
+    "DisplayName": "Realme 5",
+    "EnumName": "Realme_5",
+    "ThumbnailPath": "model/Realme_5.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 69,
+    "Name": "Realme 3i",
+    "DisplayName": "Realme 3i",
+    "EnumName": "Realme_3i",
+    "ThumbnailPath": "model/Realme_3i.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 69,
+    "Name": "Realme 3 Pro",
+    "DisplayName": "Realme 3 Pro",
+    "EnumName": "Realme_3_Pro",
+    "ThumbnailPath": "model/Realme_3_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 69,
+    "Name": "Realme 3",
+    "DisplayName": "Realme 3",
+    "EnumName": "Realme_3",
+    "ThumbnailPath": "model/Realme_3.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C25Y",
+    "DisplayName": "Realme C25Y",
+    "EnumName": "Realme_C25Y",
+    "ThumbnailPath": "model/Realme_C25Y.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C21Y",
+    "DisplayName": "Realme C21Y",
+    "EnumName": "Realme_C21Y",
+    "ThumbnailPath": "model/Realme_C21Y.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C11 2021",
+    "DisplayName": "Realme C11 2021",
+    "EnumName": "Realme_C11_2021",
+    "ThumbnailPath": "model/Realme_C11_2021.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C25s",
+    "DisplayName": "Realme C25s",
+    "EnumName": "Realme_C25s",
+    "ThumbnailPath": "model/Realme_C25s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C25",
+    "DisplayName": "Realme C25",
+    "EnumName": "Realme_C25",
+    "ThumbnailPath": "model/Realme_C25.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C20",
+    "DisplayName": "Realme C20",
+    "EnumName": "Realme_C20",
+    "ThumbnailPath": "model/Realme_C20.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C21",
+    "DisplayName": "Realme C21",
+    "EnumName": "Realme_C21",
+    "ThumbnailPath": "model/Realme_C21.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C15 Qualcomm Edition",
+    "DisplayName": "Realme C15 Qualcomm Edition",
+    "EnumName": "Realme_C15_Qualcomm_Edition",
+    "ThumbnailPath": "model/Realme_C15_Qualcomm_Edition.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C15",
+    "DisplayName": "Realme C15",
+    "EnumName": "Realme_C15",
+    "ThumbnailPath": "model/Realme_C15.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C12",
+    "DisplayName": "Realme C12",
+    "EnumName": "Realme_C12",
+    "ThumbnailPath": "model/Realme_C12.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C11",
+    "DisplayName": "Realme C11",
+    "EnumName": "Realme_C11",
+    "ThumbnailPath": "model/Realme_C11.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C3",
+    "DisplayName": "Realme C3",
+    "EnumName": "Realme_C3",
+    "ThumbnailPath": "model/Realme_C3.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C2",
+    "DisplayName": "Realme C2",
+    "EnumName": "Realme_C2",
+    "ThumbnailPath": "model/Realme_C2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C1",
+    "DisplayName": "Realme C1",
+    "EnumName": "Realme_C1",
+    "ThumbnailPath": "model/Realme_C1.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 437,
+    "Name": "Realme C1 2019",
+    "DisplayName": "Realme C1 2019",
+    "EnumName": "Realme_C1_2019",
+    "ThumbnailPath": "model/Realme_C1_2019.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 67,
+    "Name": "Realme 1",
+    "DisplayName": "Realme 1",
+    "EnumName": "Realme_1",
+    "ThumbnailPath": "model/Realme_1.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 66,
+    "Name": "Realme 2",
+    "DisplayName": "Realme 2",
+    "EnumName": "Realme_2",
+    "ThumbnailPath": "model/Realme_2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 66,
+    "Name": "Realme 2 Pro",
+    "DisplayName": "Realme 2 Pro",
+    "EnumName": "Realme_2_Pro",
+    "ThumbnailPath": "model/Realme_2_Pro.png",
+    "DisplayInList": true
+  }
+]

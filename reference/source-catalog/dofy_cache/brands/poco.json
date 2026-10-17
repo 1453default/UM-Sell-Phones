@@ -1,0 +1,370 @@
+[
+  {
+    "BrandSeriesId": 423,
+    "Name": "Poco M8 Power",
+    "DisplayName": "Poco M8 Power",
+    "EnumName": "Poco_M8_Power",
+    "ThumbnailPath": "model/Poco_M8_Power.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 527,
+    "Name": "Poco X8 Pro 5G",
+    "DisplayName": "Poco X8 Pro 5G",
+    "EnumName": "Poco_X8_Pro_5G",
+    "ThumbnailPath": "model/Poco_X8_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 527,
+    "Name": "Poco X8 Pro Max 5G",
+    "DisplayName": "Poco X8 Pro Max 5G",
+    "EnumName": "Poco_X8_Pro_Max_5G",
+    "ThumbnailPath": "model/Poco_X8_Pro_Max_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 529,
+    "Name": "Poco C81",
+    "DisplayName": "Poco C81",
+    "EnumName": "Poco_C81",
+    "ThumbnailPath": "model/Poco_C81.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 529,
+    "Name": "Poco C81x",
+    "DisplayName": "Poco C81x",
+    "EnumName": "Poco_C81x",
+    "ThumbnailPath": "model/Poco_C81x.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 423,
+    "Name": "Poco M8 5G",
+    "DisplayName": "Poco M8 5G",
+    "EnumName": "Poco_M8_5G",
+    "ThumbnailPath": "model/Poco_M8_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 529,
+    "Name": "POCO C85",
+    "DisplayName": "POCO C85",
+    "EnumName": "POCO_C85",
+    "ThumbnailPath": "model/POCO_C85.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 423,
+    "Name": "Poco M7 Plus 5G",
+    "DisplayName": "Poco M7 Plus 5G",
+    "EnumName": "Poco_M7_Plus_5G",
+    "ThumbnailPath": "model/Poco_M7_Plus_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 513,
+    "Name": "Poco F7",
+    "DisplayName": "Poco F7",
+    "EnumName": "Poco_F7",
+    "ThumbnailPath": "model/Poco_F7.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 529,
+    "Name": "Poco C71",
+    "DisplayName": "Poco C71",
+    "EnumName": "Poco_C71",
+    "ThumbnailPath": "model/Poco_C71.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 423,
+    "Name": "Poco M7 5G",
+    "DisplayName": "Poco M7 5G",
+    "EnumName": "Poco_M7_5G",
+    "ThumbnailPath": "model/Poco_M7_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 423,
+    "Name": "Poco M7 Pro 5G",
+    "DisplayName": "Poco M7 Pro 5G",
+    "EnumName": "Poco_M7_Pro_5G",
+    "ThumbnailPath": "model/Poco_M7_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 527,
+    "Name": "Poco X7 Pro 5G",
+    "DisplayName": "Poco X7 Pro 5G",
+    "EnumName": "Poco_X7_Pro_5G",
+    "ThumbnailPath": "model/Poco_X7_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 527,
+    "Name": "Poco X7 5G",
+    "DisplayName": "Poco X7 5G",
+    "EnumName": "Poco_X7_5G",
+    "ThumbnailPath": "model/Poco_X7_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 529,
+    "Name": "Poco C75 5G",
+    "DisplayName": "Poco C75 5G",
+    "EnumName": "Poco_C75_5G",
+    "ThumbnailPath": "model/Poco_C75_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 423,
+    "Name": "Poco M6 Plus 5G",
+    "DisplayName": "Poco M6 Plus 5G",
+    "EnumName": "Poco_M6_Plus_5G",
+    "ThumbnailPath": "model/Poco_M6_Plus_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 513,
+    "Name": "Poco F6 5G",
+    "DisplayName": "Poco F6 5G",
+    "EnumName": "Poco_F6_5G",
+    "ThumbnailPath": "model/Poco_F6_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 527,
+    "Name": "Poco X6 Neo",
+    "DisplayName": "Poco X6 Neo",
+    "EnumName": "Poco_X6_Neo",
+    "ThumbnailPath": "model/Poco_X6_Neo.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 529,
+    "Name": "Poco C61",
+    "DisplayName": "Poco C61",
+    "EnumName": "Poco_C61",
+    "ThumbnailPath": "model/Poco_C61.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 423,
+    "Name": "Poco M6 5G",
+    "DisplayName": "Poco M6 5G",
+    "EnumName": "Poco_M6_5G",
+    "ThumbnailPath": "model/Poco_M6_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 527,
+    "Name": "Poco X6 5G",
+    "DisplayName": "Poco X6 5G",
+    "EnumName": "Poco_X6_5G",
+    "ThumbnailPath": "model/Poco_X6_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 527,
+    "Name": "Poco X6 Pro 5G",
+    "DisplayName": "Poco X6 Pro 5G",
+    "EnumName": "Poco_X6_Pro_5G",
+    "ThumbnailPath": "model/Poco_X6_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 529,
+    "Name": "Poco C65",
+    "DisplayName": "Poco C65",
+    "EnumName": "Poco_C65",
+    "ThumbnailPath": "model/Poco_C65.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 423,
+    "Name": "Poco M6 Pro 5G",
+    "DisplayName": "Poco M6 Pro 5G",
+    "EnumName": "Poco_M6_Pro_5G",
+    "ThumbnailPath": "model/Poco_M6_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 513,
+    "Name": "Poco F5",
+    "DisplayName": "Poco F5",
+    "EnumName": "Poco_F5",
+    "ThumbnailPath": "model/Poco_F5.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 529,
+    "Name": "Poco  C51",
+    "DisplayName": "Poco  C51",
+    "EnumName": "POCO_C51",
+    "ThumbnailPath": "model/POCO_C51.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 527,
+    "Name": "Poco X5",
+    "DisplayName": "Poco X5",
+    "EnumName": "POCO_X5",
+    "ThumbnailPath": "model/POCO_X5.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 529,
+    "Name": "Poco C55",
+    "DisplayName": "Poco C55",
+    "EnumName": "POCO_C55",
+    "ThumbnailPath": "model/POCO_C55.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 527,
+    "Name": "Poco X5 Pro 5G",
+    "DisplayName": "Poco X5 Pro 5G",
+    "EnumName": "POCO_X5_PRO_5G",
+    "ThumbnailPath": "model/POCO_X5_PRO_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 423,
+    "Name": "Poco M5",
+    "DisplayName": "Poco M5",
+    "EnumName": "POCO_M5",
+    "ThumbnailPath": "model/POCO_M5.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 529,
+    "Name": "Poco C50",
+    "DisplayName": "Poco C50",
+    "EnumName": "POCO_C50",
+    "ThumbnailPath": "model/POCO_C50.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 423,
+    "Name": "Poco M4 5G",
+    "DisplayName": "Poco M4 5G",
+    "EnumName": "POCO_M4_5G",
+    "ThumbnailPath": "model/POCO_M4_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 527,
+    "Name": "Poco X4 Pro 5G",
+    "DisplayName": "Poco X4 Pro 5G",
+    "EnumName": "POCO_X4_Pro_5G",
+    "ThumbnailPath": "model/POCO_X4_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 423,
+    "Name": "Poco M4 Pro",
+    "DisplayName": "Poco M4 Pro",
+    "EnumName": "POCO_M4_Pro",
+    "ThumbnailPath": "model/POCO_M4_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 513,
+    "Name": "Poco F4",
+    "DisplayName": "Poco F4",
+    "EnumName": "POCO_F4",
+    "ThumbnailPath": "model/POCO_F4.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 423,
+    "Name": "Poco M4 Pro 5G",
+    "DisplayName": "Poco M4 Pro 5G",
+    "EnumName": "POCO_M4_Pro_5G",
+    "ThumbnailPath": "model/POCO_M4_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 529,
+    "Name": "Poco C31",
+    "DisplayName": "Poco C31",
+    "EnumName": "POCO_C31",
+    "ThumbnailPath": "model/POCO_C31.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 423,
+    "Name": "Poco M2 Reloaded",
+    "DisplayName": "Poco M2 Reloaded",
+    "EnumName": "POCO_M2_Reloaded",
+    "ThumbnailPath": "model/POCO_M2_Reloaded.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 513,
+    "Name": "Poco F3 GT",
+    "DisplayName": "Poco F3 GT",
+    "EnumName": "POCO_F3_GT",
+    "ThumbnailPath": "model/POCO_F3_GT.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 423,
+    "Name": "Poco M3 Pro 5G",
+    "DisplayName": "Poco M3 Pro 5G",
+    "EnumName": "POCO_M3_Pro_5G",
+    "ThumbnailPath": "model/POCO_M3_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 527,
+    "Name": "Poco X3 Pro",
+    "DisplayName": "Poco X3 Pro",
+    "EnumName": "POCO_X3_Pro",
+    "ThumbnailPath": "model/POCO_X3_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 527,
+    "Name": "Poco X3",
+    "DisplayName": "Poco X3",
+    "EnumName": "POCO_X3",
+    "ThumbnailPath": "model/POCO_X3.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 529,
+    "Name": "Poco C3",
+    "DisplayName": "Poco C3",
+    "EnumName": "POCO_C3",
+    "ThumbnailPath": "model/POCO_C3.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 423,
+    "Name": "Poco M2 Pro",
+    "DisplayName": "Poco M2 Pro",
+    "EnumName": "POCO_M2_Pro",
+    "ThumbnailPath": "model/POCO_M2_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 527,
+    "Name": "Poco X2",
+    "DisplayName": "Poco X2",
+    "EnumName": "POCO_X2",
+    "ThumbnailPath": "model/POCO_X2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 513,
+    "Name": "Poco F1",
+    "DisplayName": "Poco F1",
+    "EnumName": "POCO_F1",
+    "ThumbnailPath": "model/POCO_F1.png",
+    "DisplayInList": true
+  }
+]

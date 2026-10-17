@@ -1,0 +1,1020 @@
+{
+  "brand": "Realme",
+  "total_models": 169,
+  "models": [
+    {
+      "model": "REALME C30S",
+      "file": "REALME-C30S.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "REALME C33",
+      "file": "REALME-C33.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme 1",
+      "file": "Realme-1.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 10",
+      "file": "Realme-10.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme 10 Pro 5G",
+      "file": "Realme-10-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme 10 Pro Plus 5G",
+      "file": "Realme-10-Pro-Plus-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme 11 5G",
+      "file": "Realme-11-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 11 Pro 5G",
+      "file": "Realme-11-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme 11 Pro Plus 5G",
+      "file": "Realme-11-Pro-Plus-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme 11x 5G",
+      "file": "Realme-11x-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 12",
+      "file": "Realme-12.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 12 Plus 5G",
+      "file": "Realme-12-Plus-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 12 Pro 5G",
+      "file": "Realme-12-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 12 Pro Plus",
+      "file": "Realme-12-Pro-Plus.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 12X",
+      "file": "Realme-12X.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 13 5G",
+      "file": "Realme-13-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 13 Plus 5G",
+      "file": "Realme-13-Plus-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 13 Pro 5G",
+      "file": "Realme-13-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 13 Pro Plus 5G",
+      "file": "Realme-13-Pro-Plus-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 14 Pro 5G",
+      "file": "Realme-14-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 14 Pro Lite 5G",
+      "file": "Realme-14-Pro-Lite-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 14 Pro Plus 5G",
+      "file": "Realme-14-Pro-Plus-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 14T 5G",
+      "file": "Realme-14T-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 14X 5G",
+      "file": "Realme-14X-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 15 5G",
+      "file": "Realme-15-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme 15 Pro 5G",
+      "file": "Realme-15-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme 15T",
+      "file": "Realme-15T.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme 15X 5G",
+      "file": "Realme-15X-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme 16 5G",
+      "file": "Realme-16-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme 16 Pro 5G",
+      "file": "Realme-16-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme 16 Pro Plus 5G",
+      "file": "Realme-16-Pro-Plus-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme 16T 5G",
+      "file": "Realme-16T-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme 16x 5G",
+      "file": "Realme-16x-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme 2",
+      "file": "Realme-2.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 2 Pro",
+      "file": "Realme-2-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 3",
+      "file": "Realme-3.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 3 Pro",
+      "file": "Realme-3-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 3i",
+      "file": "Realme-3i.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 5",
+      "file": "Realme-5.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 5 Pro",
+      "file": "Realme-5-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 5i",
+      "file": "Realme-5i.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 5s",
+      "file": "Realme-5s.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 6",
+      "file": "Realme-6.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 6 Pro",
+      "file": "Realme-6-Pro.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme 6i",
+      "file": "Realme-6i.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 7",
+      "file": "Realme-7.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 7 Pro",
+      "file": "Realme-7-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 7i",
+      "file": "Realme-7i.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 8",
+      "file": "Realme-8.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme 8 5G",
+      "file": "Realme-8-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme 8 Pro",
+      "file": "Realme-8-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme 8i",
+      "file": "Realme-8i.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme 8s 5G",
+      "file": "Realme-8s-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme 9 Pro 5G",
+      "file": "Realme-9-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme 9 Pro Plus 5G",
+      "file": "Realme-9-Pro-Plus-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme 9i",
+      "file": "Realme-9i.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme 9i 5G",
+      "file": "Realme-9i-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme C1",
+      "file": "Realme-C1.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme C1 2019",
+      "file": "Realme-C1-2019.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme C100x",
+      "file": "Realme-C100x.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme C11",
+      "file": "Realme-C11.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme C11 2021",
+      "file": "Realme-C11-2021.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme C12",
+      "file": "Realme-C12.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme C15",
+      "file": "Realme-C15.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme C15 Qualcomm Edition",
+      "file": "Realme-C15-Qualcomm-Edition.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme C2",
+      "file": "Realme-C2.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme C20",
+      "file": "Realme-C20.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme C21",
+      "file": "Realme-C21.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme C21Y",
+      "file": "Realme-C21Y.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme C25",
+      "file": "Realme-C25.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme C25Y",
+      "file": "Realme-C25Y.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme C25s",
+      "file": "Realme-C25s.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme C3",
+      "file": "Realme-C3.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme C30",
+      "file": "Realme-C30.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme C31",
+      "file": "Realme-C31.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme C35",
+      "file": "Realme-C35.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme C51",
+      "file": "Realme-C51.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme C53",
+      "file": "Realme-C53.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme C55",
+      "file": "Realme-C55.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme C61",
+      "file": "Realme-C61.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme C63",
+      "file": "Realme-C63.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme C63 5G",
+      "file": "Realme-C63-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme C65 5G",
+      "file": "Realme-C65-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme C67 5G",
+      "file": "Realme-C67-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme C71",
+      "file": "Realme-C71.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme C73 5G",
+      "file": "Realme-C73-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme C75 5G",
+      "file": "Realme-C75-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme C83 5G",
+      "file": "Realme-C83-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme C85 5G",
+      "file": "Realme-C85-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme GT 5G",
+      "file": "Realme-GT-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme GT 6",
+      "file": "Realme-GT-6.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme GT 6T",
+      "file": "Realme-GT-6T.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme GT 7",
+      "file": "Realme-GT-7.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme GT 7 Pro 5G",
+      "file": "Realme-GT-7-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme GT 7T",
+      "file": "Realme-GT-7T.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme GT 8 Pro",
+      "file": "Realme-GT-8-Pro.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme GT Master Edition",
+      "file": "Realme-GT-Master-Edition.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme GT Neo 2",
+      "file": "Realme-GT-Neo-2.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme Gt Neo 3 150W",
+      "file": "Realme-Gt-Neo-3-150W.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme Gt Neo 3T",
+      "file": "Realme-Gt-Neo-3T.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme NARZO N61",
+      "file": "Realme-NARZO-N61.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme Narzo 10",
+      "file": "Realme-Narzo-10.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme Narzo 100 Lite 5G",
+      "file": "Realme-Narzo-100-Lite-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme Narzo 100x 5G",
+      "file": "Realme-Narzo-100x-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme Narzo 10A",
+      "file": "Realme-Narzo-10A.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme Narzo 20",
+      "file": "Realme-Narzo-20.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme Narzo 20 Pro",
+      "file": "Realme-Narzo-20-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme Narzo 20A",
+      "file": "Realme-Narzo-20A.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme Narzo 30",
+      "file": "Realme-Narzo-30.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme Narzo 30 5G",
+      "file": "Realme-Narzo-30-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme Narzo 30 Pro 5G",
+      "file": "Realme-Narzo-30-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme Narzo 30A",
+      "file": "Realme-Narzo-30A.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme Narzo 50",
+      "file": "Realme-Narzo-50.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme Narzo 50 5G",
+      "file": "Realme-Narzo-50-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme Narzo 50 Pro 5G",
+      "file": "Realme-Narzo-50-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme Narzo 50A",
+      "file": "Realme-Narzo-50A.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme Narzo 50A Prime",
+      "file": "Realme-Narzo-50A-Prime.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme Narzo 50i",
+      "file": "Realme-Narzo-50i.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme Narzo 50i Prime",
+      "file": "Realme-Narzo-50i-Prime.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme Narzo 60 5G",
+      "file": "Realme-Narzo-60-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme Narzo 60 Pro 5G",
+      "file": "Realme-Narzo-60-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme Narzo 60X",
+      "file": "Realme-Narzo-60X.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme Narzo 70 5G",
+      "file": "Realme-Narzo-70-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme Narzo 70 Turbo 5G",
+      "file": "Realme-Narzo-70-Turbo-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme Narzo 70 pro 5G",
+      "file": "Realme-Narzo-70-pro-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme Narzo 70X 5G",
+      "file": "Realme-Narzo-70X-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme Narzo 80 Lite",
+      "file": "Realme-Narzo-80-Lite.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme Narzo 80 Lite 5G",
+      "file": "Realme-Narzo-80-Lite-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme Narzo 80 Pro 5G",
+      "file": "Realme-Narzo-80-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme Narzo 80X 5G",
+      "file": "Realme-Narzo-80X-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme Narzo 90 5G",
+      "file": "Realme-Narzo-90-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme Narzo 90x 5G",
+      "file": "Realme-Narzo-90x-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme Narzo N53",
+      "file": "Realme-Narzo-N53.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme Narzo N55",
+      "file": "Realme-Narzo-N55.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme Narzo N63",
+      "file": "Realme-Narzo-N63.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme Narzo N65 5G",
+      "file": "Realme-Narzo-N65-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme Narzo Power 5G",
+      "file": "Realme-Narzo-Power-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme P1 5G",
+      "file": "Realme-P1-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme P1 Pro 5G",
+      "file": "Realme-P1-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme P1 Speed 5G",
+      "file": "Realme-P1-Speed-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme P2 Pro 5G",
+      "file": "Realme-P2-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme P3 5G",
+      "file": "Realme-P3-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme P3 Lite 5G",
+      "file": "Realme-P3-Lite-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme P3 Pro 5G",
+      "file": "Realme-P3-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme P3 Ultra 5G",
+      "file": "Realme-P3-Ultra-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme P3X 5G",
+      "file": "Realme-P3X-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme P4 5G",
+      "file": "Realme-P4-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme P4 Lite",
+      "file": "Realme-P4-Lite.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme P4 Lite 5G",
+      "file": "Realme-P4-Lite-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme P4 Power 5G",
+      "file": "Realme-P4-Power-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme P4 Pro 5G",
+      "file": "Realme-P4-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme P4R 5G",
+      "file": "Realme-P4R-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme P4x 5G",
+      "file": "Realme-P4x-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Realme U 1",
+      "file": "Realme-U-1.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme X",
+      "file": "Realme-X.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme X2",
+      "file": "Realme-X2.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme X2 Pro",
+      "file": "Realme-X2-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme X3",
+      "file": "Realme-X3.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme X3 SuperZoom",
+      "file": "Realme-X3-SuperZoom.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme X50 Pro",
+      "file": "Realme-X50-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme X7",
+      "file": "Realme-X7.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme X7 Max 5G",
+      "file": "Realme-X7-Max-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Realme X7 Pro",
+      "file": "Realme-X7-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Realme XT",
+      "file": "Realme-XT.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "realme 9 5G",
+      "file": "realme-9-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "realme 9 5G Speed Edition",
+      "file": "realme-9-5G-Speed-Edition.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "realme GT 2",
+      "file": "realme-GT-2.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "realme GT 2 Pro",
+      "file": "realme-GT-2-Pro.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "realme GT Neo 3",
+      "file": "realme-GT-Neo-3.json",
+      "image_count": 1,
+      "confidence": "high"
+    }
+  ]
+}

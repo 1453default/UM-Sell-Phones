@@ -1,0 +1,234 @@
+{
+  "brand": "IQOO",
+  "total_models": 38,
+  "models": [
+    {
+      "model": "IQOO NEO 7 5G",
+      "file": "IQOO-NEO-7-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "IQOO Neo 10R 5G",
+      "file": "IQOO-Neo-10R-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "IQOO Neo 7 Pro 5G",
+      "file": "IQOO-Neo-7-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "IQOO Z6 Lite 5G",
+      "file": "IQOO-Z6-Lite-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "IQOO Z7 5G",
+      "file": "IQOO-Z7-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "IQOO Z7s 5G",
+      "file": "IQOO-Z7s-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "IQOO Z9x 5G",
+      "file": "IQOO-Z9x-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Iqoo Neo 9 Pro 5G",
+      "file": "Iqoo-Neo-9-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Iqoo Z9 5G",
+      "file": "Iqoo-Z9-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "iQOO 11 5G",
+      "file": "iQOO-11-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "iQOO 12 5G",
+      "file": "iQOO-12-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "iQOO 13 5G",
+      "file": "iQOO-13-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "iQOO 15 5G",
+      "file": "iQOO-15-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "iQOO 15R",
+      "file": "iQOO-15R.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "iQOO 3",
+      "file": "iQOO-3.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "iQOO 7 5G",
+      "file": "iQOO-7-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "iQOO 7 Legend 5G",
+      "file": "iQOO-7-Legend-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "iQOO 9 5G",
+      "file": "iQOO-9-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "iQOO 9 Pro 5G",
+      "file": "iQOO-9-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "iQOO 9 SE 5G",
+      "file": "iQOO-9-SE-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "iQOO 9T 5G",
+      "file": "iQOO-9T-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "iQOO Neo 10",
+      "file": "iQOO-Neo-10.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "iQOO Neo 6 5G",
+      "file": "iQOO-Neo-6-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "iQOO Z10 5G",
+      "file": "iQOO-Z10-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "iQOO Z10 Lite 5G",
+      "file": "iQOO-Z10-Lite-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "iQOO Z10r 5G",
+      "file": "iQOO-Z10r-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "iQOO Z11 Lite 5G",
+      "file": "iQOO-Z11-Lite-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "iQOO Z11x",
+      "file": "iQOO-Z11x.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "iQOO Z3 5G",
+      "file": "iQOO-Z3-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "iQOO Z5 5G",
+      "file": "iQOO-Z5-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "iQOO Z6",
+      "file": "iQOO-Z6.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "iQOO Z6 5G",
+      "file": "iQOO-Z6-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "iQOO Z6 Pro 5G",
+      "file": "iQOO-Z6-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "iQOO Z7 Pro",
+      "file": "iQOO-Z7-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "iQOO Z9 Lite 5G",
+      "file": "iQOO-Z9-Lite-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "iQOO Z9s 5G",
+      "file": "iQOO-Z9s-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "iQOO Z9s Pro 5G",
+      "file": "iQOO-Z9s-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "iQoo Z10x 5G",
+      "file": "iQoo-Z10x-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    }
+  ]
+}

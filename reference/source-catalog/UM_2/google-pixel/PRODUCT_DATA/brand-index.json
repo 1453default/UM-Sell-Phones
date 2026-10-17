@@ -1,0 +1,180 @@
+{
+  "brand": "google-pixel",
+  "total_models": 29,
+  "models": [
+    {
+      "model": "Google Pixel 10",
+      "file": "Google-Pixel-10.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Google Pixel 10 Pro",
+      "file": "Google-Pixel-10-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Google Pixel 10 Pro XL",
+      "file": "Google-Pixel-10-Pro-XL.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Google Pixel 10A",
+      "file": "Google-Pixel-10A.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Google Pixel 11",
+      "file": "Google-Pixel-11.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Google Pixel 11 Pro",
+      "file": "Google-Pixel-11-Pro.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Google Pixel 11 Pro Fold",
+      "file": "Google-Pixel-11-Pro-Fold.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Google Pixel 11 Pro XL",
+      "file": "Google-Pixel-11-Pro-XL.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Google Pixel 4",
+      "file": "Google-Pixel-4.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Google Pixel 4 XL",
+      "file": "Google-Pixel-4-XL.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Google Pixel 4A",
+      "file": "Google-Pixel-4A.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Google Pixel 5 5G",
+      "file": "Google-Pixel-5-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Google Pixel 5A 5G",
+      "file": "Google-Pixel-5A-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Google Pixel 6 5G",
+      "file": "Google-Pixel-6-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Google Pixel 6 Pro 5G",
+      "file": "Google-Pixel-6-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Google Pixel 6A",
+      "file": "Google-Pixel-6A.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Google Pixel 7",
+      "file": "Google-Pixel-7.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Google Pixel 7 Pro",
+      "file": "Google-Pixel-7-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Google Pixel 7A",
+      "file": "Google-Pixel-7A.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Google Pixel 8",
+      "file": "Google-Pixel-8.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Google Pixel 8 pro",
+      "file": "Google-Pixel-8-pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Google Pixel 8A",
+      "file": "Google-Pixel-8A.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Google Pixel 9",
+      "file": "Google-Pixel-9.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Google Pixel 9 Pro",
+      "file": "Google-Pixel-9-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Google Pixel 9 Pro Fold",
+      "file": "Google-Pixel-9-Pro-Fold.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Google Pixel 9 Pro XL",
+      "file": "Google-Pixel-9-Pro-XL.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Google Pixel 9A",
+      "file": "Google-Pixel-9A.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Google Pixel Fold Porcelain",
+      "file": "Google-Pixel-Fold-Porcelain.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Google pixel 10 Pro Fold",
+      "file": "Google-pixel-10-Pro-Fold.json",
+      "image_count": 1,
+      "confidence": "medium"
+    }
+  ]
+}

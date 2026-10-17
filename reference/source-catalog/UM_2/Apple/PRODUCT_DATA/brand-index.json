@@ -1,0 +1,234 @@
+{
+  "brand": "Apple",
+  "total_models": 38,
+  "models": [
+    {
+      "model": "Apple iPhone 11",
+      "file": "Apple-iPhone-11.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 11 Pro",
+      "file": "Apple-iPhone-11-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 11 Pro Max",
+      "file": "Apple-iPhone-11-Pro-Max.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 12",
+      "file": "Apple-iPhone-12.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 12 Mini",
+      "file": "Apple-iPhone-12-Mini.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 12 Pro",
+      "file": "Apple-iPhone-12-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 12 Pro Max",
+      "file": "Apple-iPhone-12-Pro-Max.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 13",
+      "file": "Apple-iPhone-13.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 13 Mini",
+      "file": "Apple-iPhone-13-Mini.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 13 Pro",
+      "file": "Apple-iPhone-13-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 13 Pro Max",
+      "file": "Apple-iPhone-13-Pro-Max.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 14",
+      "file": "Apple-iPhone-14.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 14 Plus",
+      "file": "Apple-iPhone-14-Plus.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 14 Pro",
+      "file": "Apple-iPhone-14-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 14 Pro Max",
+      "file": "Apple-iPhone-14-Pro-Max.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 15",
+      "file": "Apple-iPhone-15.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 15 Plus",
+      "file": "Apple-iPhone-15-Plus.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 15 Pro",
+      "file": "Apple-iPhone-15-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 15 Pro Max",
+      "file": "Apple-iPhone-15-Pro-Max.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 16",
+      "file": "Apple-iPhone-16.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 16 Plus",
+      "file": "Apple-iPhone-16-Plus.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 16 Pro",
+      "file": "Apple-iPhone-16-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 16 Pro Max",
+      "file": "Apple-iPhone-16-Pro-Max.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 16e",
+      "file": "Apple-iPhone-16e.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone 17",
+      "file": "Apple-iPhone-17.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Apple iPhone 17 Pro",
+      "file": "Apple-iPhone-17-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Apple iPhone 17 Pro Max",
+      "file": "Apple-iPhone-17-Pro-Max.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Apple iPhone 17e",
+      "file": "Apple-iPhone-17e.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Apple iPhone 18 Pro",
+      "file": "Apple-iPhone-18-Pro.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Apple iPhone 18 Pro Max",
+      "file": "Apple-iPhone-18-Pro-Max.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Apple iPhone Air",
+      "file": "Apple-iPhone-Air.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Apple iPhone Duo",
+      "file": "Apple-iPhone-Duo.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Apple iPhone SE 2020",
+      "file": "Apple-iPhone-SE-2020.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone SE 2022",
+      "file": "Apple-iPhone-SE-2022.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone X",
+      "file": "Apple-iPhone-X.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone XR",
+      "file": "Apple-iPhone-XR.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone XS",
+      "file": "Apple-iPhone-XS.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Apple iPhone XS Max",
+      "file": "Apple-iPhone-XS-Max.json",
+      "image_count": 1,
+      "confidence": "low"
+    }
+  ]
+}

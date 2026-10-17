@@ -1,0 +1,18 @@
+{
+  "brand": "Nubia",
+  "total_models": 2,
+  "models": [
+    {
+      "model": "Nubia Red Magic 3",
+      "file": "Nubia-Red-Magic-3.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Nubia Red Magic 3S",
+      "file": "Nubia-Red-Magic-3S.json",
+      "image_count": 1,
+      "confidence": "high"
+    }
+  ]
+}

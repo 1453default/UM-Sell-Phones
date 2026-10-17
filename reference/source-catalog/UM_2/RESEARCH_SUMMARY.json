@@ -1,0 +1,728 @@
+{
+  "repository": "UM_2",
+  "total_brands_processed": 22,
+  "total_unique_phone_models": 1330,
+  "total_images_scanned": 1330,
+  "total_models_successfully_researched": 1250,
+  "total_unresolved_models": 80,
+  "total_model_json_files_created": 1330,
+  "brands_completed": [
+    "Apple",
+    "Asus",
+    "CMF",
+    "HONOR",
+    "Huawei",
+    "IQOO",
+    "Infinix",
+    "LG",
+    "Lava",
+    "Nokia",
+    "Nothing",
+    "Nubia",
+    "OnePlus",
+    "POCO",
+    "Realme",
+    "Samsung",
+    "Tecno",
+    "Xiaomi",
+    "google-pixel",
+    "motorola",
+    "oppo",
+    "vivo"
+  ],
+  "brands_with_issues": [],
+  "non_phone_directories_preserved": [
+    "brand models",
+    "home_later"
+  ],
+  "filesystem_safety_verification": {
+    "all_original_html_files_preserved": true,
+    "all_original_images_preserved": true,
+    "all_local_image_references_valid": true,
+    "original_files_modified_or_overwritten": 0
+  },
+  "brand_breakdown": [
+    {
+      "brand": "Apple",
+      "images_scanned": 38,
+      "unique_models": 38,
+      "models_completed": 38,
+      "verified_models": 35,
+      "unresolved_models": 3,
+      "json_files_count": 38
+    },
+    {
+      "brand": "Asus",
+      "images_scanned": 13,
+      "unique_models": 13,
+      "models_completed": 13,
+      "verified_models": 13,
+      "unresolved_models": 0,
+      "json_files_count": 13
+    },
+    {
+      "brand": "CMF",
+      "images_scanned": 2,
+      "unique_models": 2,
+      "models_completed": 2,
+      "verified_models": 1,
+      "unresolved_models": 1,
+      "json_files_count": 2
+    },
+    {
+      "brand": "HONOR",
+      "images_scanned": 10,
+      "unique_models": 10,
+      "models_completed": 10,
+      "verified_models": 10,
+      "unresolved_models": 0,
+      "json_files_count": 10
+    },
+    {
+      "brand": "Huawei",
+      "images_scanned": 10,
+      "unique_models": 10,
+      "models_completed": 10,
+      "verified_models": 10,
+      "unresolved_models": 0,
+      "json_files_count": 10
+    },
+    {
+      "brand": "IQOO",
+      "images_scanned": 38,
+      "unique_models": 38,
+      "models_completed": 38,
+      "verified_models": 36,
+      "unresolved_models": 2,
+      "json_files_count": 38
+    },
+    {
+      "brand": "Infinix",
+      "images_scanned": 70,
+      "unique_models": 70,
+      "models_completed": 70,
+      "verified_models": 64,
+      "unresolved_models": 6,
+      "json_files_count": 70
+    },
+    {
+      "brand": "LG",
+      "images_scanned": 1,
+      "unique_models": 1,
+      "models_completed": 1,
+      "verified_models": 1,
+      "unresolved_models": 0,
+      "json_files_count": 1
+    },
+    {
+      "brand": "Lava",
+      "images_scanned": 42,
+      "unique_models": 42,
+      "models_completed": 42,
+      "verified_models": 32,
+      "unresolved_models": 10,
+      "json_files_count": 42
+    },
+    {
+      "brand": "Nokia",
+      "images_scanned": 36,
+      "unique_models": 36,
+      "models_completed": 36,
+      "verified_models": 36,
+      "unresolved_models": 0,
+      "json_files_count": 36
+    },
+    {
+      "brand": "Nothing",
+      "images_scanned": 11,
+      "unique_models": 11,
+      "models_completed": 11,
+      "verified_models": 11,
+      "unresolved_models": 0,
+      "json_files_count": 11
+    },
+    {
+      "brand": "Nubia",
+      "images_scanned": 2,
+      "unique_models": 2,
+      "models_completed": 2,
+      "verified_models": 2,
+      "unresolved_models": 0,
+      "json_files_count": 2
+    },
+    {
+      "brand": "OnePlus",
+      "images_scanned": 50,
+      "unique_models": 50,
+      "models_completed": 50,
+      "verified_models": 49,
+      "unresolved_models": 1,
+      "json_files_count": 50
+    },
+    {
+      "brand": "POCO",
+      "images_scanned": 46,
+      "unique_models": 46,
+      "models_completed": 46,
+      "verified_models": 45,
+      "unresolved_models": 1,
+      "json_files_count": 46
+    },
+    {
+      "brand": "Realme",
+      "images_scanned": 169,
+      "unique_models": 169,
+      "models_completed": 169,
+      "verified_models": 133,
+      "unresolved_models": 36,
+      "json_files_count": 169
+    },
+    {
+      "brand": "Samsung",
+      "images_scanned": 166,
+      "unique_models": 166,
+      "models_completed": 166,
+      "verified_models": 162,
+      "unresolved_models": 4,
+      "json_files_count": 166
+    },
+    {
+      "brand": "Tecno",
+      "images_scanned": 101,
+      "unique_models": 101,
+      "models_completed": 101,
+      "verified_models": 96,
+      "unresolved_models": 5,
+      "json_files_count": 101
+    },
+    {
+      "brand": "Xiaomi",
+      "images_scanned": 108,
+      "unique_models": 108,
+      "models_completed": 108,
+      "verified_models": 103,
+      "unresolved_models": 5,
+      "json_files_count": 108
+    },
+    {
+      "brand": "google-pixel",
+      "images_scanned": 29,
+      "unique_models": 29,
+      "models_completed": 29,
+      "verified_models": 25,
+      "unresolved_models": 4,
+      "json_files_count": 29
+    },
+    {
+      "brand": "motorola",
+      "images_scanned": 86,
+      "unique_models": 86,
+      "models_completed": 86,
+      "verified_models": 85,
+      "unresolved_models": 1,
+      "json_files_count": 86
+    },
+    {
+      "brand": "oppo",
+      "images_scanned": 132,
+      "unique_models": 132,
+      "models_completed": 132,
+      "verified_models": 132,
+      "unresolved_models": 0,
+      "json_files_count": 132
+    },
+    {
+      "brand": "vivo",
+      "images_scanned": 170,
+      "unique_models": 170,
+      "models_completed": 170,
+      "verified_models": 169,
+      "unresolved_models": 1,
+      "json_files_count": 170
+    }
+  ],
+  "unresolved_or_placeholder_models": [
+    {
+      "brand": "Apple",
+      "model": "Apple iPhone 18 Pro",
+      "file": "Apple-iPhone-18-Pro.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Apple",
+      "model": "Apple iPhone 18 Pro Max",
+      "file": "Apple-iPhone-18-Pro-Max.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Apple",
+      "model": "Apple iPhone Duo",
+      "file": "Apple-iPhone-Duo.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "CMF",
+      "model": "CMF Phone 2 Pro",
+      "file": "CMF-Phone-2-Pro.json",
+      "reason": "Unreleased placeholder device listed in Dofy buyback catalog. No official hardware specifications have been announced by Nothing/CMF."
+    },
+    {
+      "brand": "IQOO",
+      "model": "iQOO Z10r 5G",
+      "file": "iQOO-Z10r-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "IQOO",
+      "model": "iQOO Z11 Lite 5G",
+      "file": "iQOO-Z11-Lite-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Infinix",
+      "model": "Infinix GT 30 5G",
+      "file": "Infinix-GT-30-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Infinix",
+      "model": "Infinix GT 30 Pro 5G",
+      "file": "Infinix-GT-30-Pro-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Infinix",
+      "model": "Infinix Hot 60 5G",
+      "file": "Infinix-Hot-60-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Infinix",
+      "model": "Infinix Hot 60i 5G",
+      "file": "Infinix-Hot-60i-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Infinix",
+      "model": "Infinix Note 50X 5G",
+      "file": "Infinix-Note-50X-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Infinix",
+      "model": "Infinix Note 50s 5G",
+      "file": "Infinix-Note-50s-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Lava",
+      "model": "Lava Agni 4 5G",
+      "file": "Lava-Agni-4-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Lava",
+      "model": "Lava Bold 5G",
+      "file": "Lava-Bold-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Lava",
+      "model": "Lava Bold N1",
+      "file": "Lava-Bold-N1.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Lava",
+      "model": "Lava Bold N1 5G",
+      "file": "Lava-Bold-N1-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Lava",
+      "model": "Lava Bold N1 Pro",
+      "file": "Lava-Bold-N1-Pro.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Lava",
+      "model": "Lava Play Ultra",
+      "file": "Lava-Play-Ultra.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Lava",
+      "model": "Lava Shark",
+      "file": "Lava-Shark.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Lava",
+      "model": "Lava Shark 5G",
+      "file": "Lava-Shark-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Lava",
+      "model": "Lava Yuva Smart 2",
+      "file": "Lava-Yuva-Smart-2.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Lava",
+      "model": "Lava Yuva Star 2",
+      "file": "Lava-Yuva-Star-2.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "OnePlus",
+      "model": "Oneplus N6x",
+      "file": "Oneplus-N6x.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "POCO",
+      "model": "Poco M8 Power",
+      "file": "Poco-M8-Power.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme 15 5G",
+      "file": "Realme-15-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme 15 Pro 5G",
+      "file": "Realme-15-Pro-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme 15T",
+      "file": "Realme-15T.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme 15X 5G",
+      "file": "Realme-15X-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme 16 5G",
+      "file": "Realme-16-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme 16 Pro 5G",
+      "file": "Realme-16-Pro-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme 16 Pro Plus 5G",
+      "file": "Realme-16-Pro-Plus-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme 16T 5G",
+      "file": "Realme-16T-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme 16x 5G",
+      "file": "Realme-16x-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme C71",
+      "file": "Realme-C71.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme C73 5G",
+      "file": "Realme-C73-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme C75 5G",
+      "file": "Realme-C75-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme C83 5G",
+      "file": "Realme-C83-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme C85 5G",
+      "file": "Realme-C85-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme GT 7T",
+      "file": "Realme-GT-7T.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme GT 8 Pro",
+      "file": "Realme-GT-8-Pro.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme Narzo 100 Lite 5G",
+      "file": "Realme-Narzo-100-Lite-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme Narzo 100x 5G",
+      "file": "Realme-Narzo-100x-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme Narzo 80 Lite",
+      "file": "Realme-Narzo-80-Lite.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme Narzo 80 Lite 5G",
+      "file": "Realme-Narzo-80-Lite-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme Narzo 80 Pro 5G",
+      "file": "Realme-Narzo-80-Pro-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme Narzo 80X 5G",
+      "file": "Realme-Narzo-80X-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme Narzo 90 5G",
+      "file": "Realme-Narzo-90-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme Narzo 90x 5G",
+      "file": "Realme-Narzo-90x-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme P3 5G",
+      "file": "Realme-P3-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme P3 Lite 5G",
+      "file": "Realme-P3-Lite-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme P3 Pro 5G",
+      "file": "Realme-P3-Pro-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme P3 Ultra 5G",
+      "file": "Realme-P3-Ultra-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme P3X 5G",
+      "file": "Realme-P3X-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme P4 5G",
+      "file": "Realme-P4-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme P4 Lite",
+      "file": "Realme-P4-Lite.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme P4 Lite 5G",
+      "file": "Realme-P4-Lite-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme P4 Power 5G",
+      "file": "Realme-P4-Power-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme P4 Pro 5G",
+      "file": "Realme-P4-Pro-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme P4R 5G",
+      "file": "Realme-P4R-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Realme",
+      "model": "Realme P4x 5G",
+      "file": "Realme-P4x-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S26 Plus",
+      "file": "Samsung-Galaxy-S26-Plus.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Flip 8",
+      "file": "Samsung-Galaxy-Z-Flip-8.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Fold 8",
+      "file": "Samsung-Galaxy-Z-Fold-8.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Fold 8 Ultra",
+      "file": "Samsung-Galaxy-Z-Fold-8-Ultra.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Tecno",
+      "model": "Tecno Camon 40 Premier",
+      "file": "Tecno-Camon-40-Premier.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Tecno",
+      "model": "Tecno Camon 50 Ultra 5G",
+      "file": "Tecno-Camon-50-Ultra-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Tecno",
+      "model": "Tecno Pova 7 5G",
+      "file": "Tecno-Pova-7-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Tecno",
+      "model": "Tecno Pova 7 Pro 5G",
+      "file": "Tecno-Pova-7-Pro-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Tecno",
+      "model": "Tecno Pova 8 5G",
+      "file": "Tecno-Pova-8-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Xiaomi",
+      "model": "Redmi Note 14 Pro Plus 5G",
+      "file": "Redmi-Note-14-Pro-Plus-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Xiaomi",
+      "model": "Redmi Note 14 SE 5G",
+      "file": "Redmi-Note-14-SE-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Xiaomi",
+      "model": "Redmi Note 15 Pro Plus 5G",
+      "file": "Redmi-Note-15-Pro-Plus-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Xiaomi",
+      "model": "Redmi Note 15 SE 5G",
+      "file": "Redmi-Note-15-SE-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "Xiaomi",
+      "model": "Redmi Note 17 5G",
+      "file": "Redmi-Note-17-5G.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "google-pixel",
+      "model": "Google Pixel 11",
+      "file": "Google-Pixel-11.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "google-pixel",
+      "model": "Google Pixel 11 Pro",
+      "file": "Google-Pixel-11-Pro.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "google-pixel",
+      "model": "Google Pixel 11 Pro Fold",
+      "file": "Google-Pixel-11-Pro-Fold.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "google-pixel",
+      "model": "Google Pixel 11 Pro XL",
+      "file": "Google-Pixel-11-Pro-XL.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "motorola",
+      "model": "Moto Edge 70 Pro Plus",
+      "file": "Moto-Edge-70-Pro-Plus.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    },
+    {
+      "brand": "vivo",
+      "model": "Vivo T5e",
+      "file": "Vivo-T5e.json",
+      "reason": "Unreleased placeholder model listed in Dofy buyback catalog. No verified official hardware specifications exist."
+    }
+  ],
+  "image_path_errors": [],
+  "filesystem_warnings": []
+}

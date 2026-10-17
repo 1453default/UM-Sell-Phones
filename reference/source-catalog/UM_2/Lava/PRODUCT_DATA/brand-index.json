@@ -1,0 +1,258 @@
+{
+  "brand": "Lava",
+  "total_models": 42,
+  "models": [
+    {
+      "model": "Lava Agni 2 5G",
+      "file": "Lava-Agni-2-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Lava Agni 3 5G",
+      "file": "Lava-Agni-3-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Lava Agni 4 5G",
+      "file": "Lava-Agni-4-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Lava Agni 5G",
+      "file": "Lava-Agni-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Lava Blaze 2 4G",
+      "file": "Lava-Blaze-2-4G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Lava Blaze 2 5G",
+      "file": "Lava-Blaze-2-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Lava Blaze 2 Pro",
+      "file": "Lava-Blaze-2-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Lava Blaze 3 5G",
+      "file": "Lava-Blaze-3-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Lava Blaze 4G",
+      "file": "Lava-Blaze-4G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Lava Blaze 5G",
+      "file": "Lava-Blaze-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Lava Blaze Amoled",
+      "file": "Lava-Blaze-Amoled.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Lava Blaze Amoled 2",
+      "file": "Lava-Blaze-Amoled-2.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Lava Blaze Curve",
+      "file": "Lava-Blaze-Curve.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Lava Blaze Dragon",
+      "file": "Lava-Blaze-Dragon.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Lava Blaze Duo 3 5G",
+      "file": "Lava-Blaze-Duo-3-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Lava Blaze Nxt",
+      "file": "Lava-Blaze-Nxt.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Lava Blaze Pro",
+      "file": "Lava-Blaze-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Lava Blaze Pro 5G",
+      "file": "Lava-Blaze-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Lava Blaze X",
+      "file": "Lava-Blaze-X.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Lava Bold 5G",
+      "file": "Lava-Bold-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Lava Bold N1",
+      "file": "Lava-Bold-N1.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Lava Bold N1 5G",
+      "file": "Lava-Bold-N1-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Lava Bold N1 Pro",
+      "file": "Lava-Bold-N1-Pro.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Lava O1",
+      "file": "Lava-O1.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Lava O2",
+      "file": "Lava-O2.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Lava O3",
+      "file": "Lava-O3.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Lava Play Max 5G",
+      "file": "Lava-Play-Max-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Lava Play Ultra",
+      "file": "Lava-Play-Ultra.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Lava Shark",
+      "file": "Lava-Shark.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Lava Shark 5G",
+      "file": "Lava-Shark-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Lava Storm 5G",
+      "file": "Lava-Storm-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Lava Storm Lite 5G",
+      "file": "Lava-Storm-Lite-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Lava Strom Play 5G",
+      "file": "Lava-Strom-Play-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Lava Yuva 2",
+      "file": "Lava-Yuva-2.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Lava Yuva 2 Pro",
+      "file": "Lava-Yuva-2-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Lava Yuva 3",
+      "file": "Lava-Yuva-3.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Lava Yuva 3 Pro",
+      "file": "Lava-Yuva-3-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Lava Yuva 4",
+      "file": "Lava-Yuva-4.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Lava Yuva 5G",
+      "file": "Lava-Yuva-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Lava Yuva Smart",
+      "file": "Lava-Yuva-Smart.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Lava Yuva Smart 2",
+      "file": "Lava-Yuva-Smart-2.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Lava Yuva Star 2",
+      "file": "Lava-Yuva-Star-2.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    }
+  ]
+}

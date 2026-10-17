@@ -1,0 +1,104 @@
+{
+  "brand": "Asus",
+  "model": "Asus ROG Phone 3",
+  "official_name": "Asus ROG Phone 3",
+  "series": "ROG",
+  "release": {
+    "year": 2020,
+    "date": "2020 July 22"
+  },
+  "region": "India",
+  "variants": [
+    {
+      "ram": "8GB",
+      "storage": "128GB"
+    },
+    {
+      "ram": "12GB",
+      "storage": "128GB"
+    },
+    {
+      "ram": "12GB",
+      "storage": "256GB"
+    },
+    {
+      "ram": "12GB",
+      "storage": "512GB"
+    },
+    {
+      "ram": "16GB",
+      "storage": "512GB"
+    }
+  ],
+  "display": {
+    "type": "AMOLED, 1B colors, 144Hz, HDR10+, 650 nits (typ)",
+    "size": "6.59 inches, 106.6 cm2 (~79.9% screen-to-body ratio)",
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~391 ppi density)",
+    "refresh_rate": "144 Hz",
+    "hdr": "HDR10+, HDR10, HDR",
+    "protection": "Corning Gorilla Glass 6"
+  },
+  "processor": {
+    "chipset": "Qualcomm SM8250 Snapdragon 865 5G+ (7 nm+)",
+    "cpu": "Octa-core (1x3.10 GHz Cortex-A77 & 3x2.42 GHz Cortex-A77 & 4x1.80 GHz Cortex-A55)",
+    "gpu": "Adreno 650"
+  },
+  "camera": {
+    "rear": [
+      "64 MP, f/1.8, 26mm (wide), 1/1.73\", 0.8µm, PDAF 13 MP, f/2.4, 11mm, 125˚ (ultrawide) 5 MP (macro)"
+    ],
+    "front": "24 MP, f/2.0, 27mm (wide), 0.9µm",
+    "video": [
+      "8K@30fps",
+      "4K@30/60/120fps",
+      "1080p@30/60/240fps",
+      "720p@480fps; gyro-EIS"
+    ]
+  },
+  "battery": {
+    "capacity": "6000 mAh",
+    "charging": "30W wired, PD3.0, QC4 10W reverse wired",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "171 x 78 x 9.9 mm (6.73 x 3.07 x 0.39 in)",
+    "weight": "240 g (8.47 oz)",
+    "materials": "Glass front (Gorilla Glass 6), glass back (Gorilla Glass 3), aluminum frame",
+    "colors": [
+      "Black Glare"
+    ],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "GSM / CDMA / HSPA / LTE / 5G",
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.1, A2DP, LE, aptX HD, aptX Adaptive",
+    "nfc": "Yes",
+    "usb": "USB Type-C 3.1 (side), USB Type-C 2.0 (bottom), OTG, accessory connector",
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "software": {
+    "os_at_launch": "Android 10, upgradable to Android 12, ROG UI",
+    "update_policy": ""
+  },
+  "features": [
+    "Fingerprint (under display",
+    "optical)",
+    "accelerometer",
+    "gyro",
+    "proximity",
+    "compass"
+  ],
+  "images": [
+    "Asus/Asus images/Asus_ROG_Phone_3.png"
+  ],
+  "research_sources": [
+    {
+      "title": "GSMArena Asus ROG Phone 3 Specifications",
+      "url": "https://www.gsmarena.com",
+      "source_type": "database"
+    }
+  ],
+  "confidence": "high",
+  "notes": ""
+}

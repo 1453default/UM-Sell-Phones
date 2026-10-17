@@ -1,0 +1,67 @@
+{
+  "brand": "CMF",
+  "model": "Phone 2 Pro",
+  "official_name": "CMF by Nothing Phone 2 Pro",
+  "series": "CMF Phone",
+  "release": {
+    "year": 2025,
+    "date": ""
+  },
+  "region": "India",
+  "variants": [],
+  "display": {
+    "type": "",
+    "size": "",
+    "resolution": "",
+    "refresh_rate": "",
+    "hdr": "",
+    "protection": ""
+  },
+  "processor": {
+    "chipset": "",
+    "cpu": "",
+    "gpu": ""
+  },
+  "camera": {
+    "rear": [],
+    "front": "",
+    "video": []
+  },
+  "battery": {
+    "capacity": "",
+    "charging": "",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "",
+    "weight": "",
+    "materials": "",
+    "colors": [],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "",
+    "wifi": "",
+    "bluetooth": "",
+    "nfc": "",
+    "usb": "",
+    "sim": ""
+  },
+  "software": {
+    "os_at_launch": "",
+    "update_policy": ""
+  },
+  "features": [],
+  "research_sources": [
+    {
+      "title": "CMF by Nothing Official Website",
+      "url": "https://in.cmf.tech",
+      "source_type": "official"
+    }
+  ],
+  "confidence": "unverified",
+  "notes": "Unreleased placeholder device listed in Dofy buyback catalog. No official hardware specifications have been announced by Nothing/CMF.",
+  "images": [
+    "CMF/CMF images/CMF_Phone_2_Pro.png"
+  ]
+}

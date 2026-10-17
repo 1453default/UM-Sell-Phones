@@ -1,0 +1,84 @@
+{
+  "brand": "Asus",
+  "total_models": 13,
+  "models": [
+    {
+      "model": "Asus 6Z",
+      "file": "Asus-6Z.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Asus 8Z",
+      "file": "Asus-8Z.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Asus ROG Phone 3",
+      "file": "Asus-ROG-Phone-3.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Asus ROG Phone 5",
+      "file": "Asus-ROG-Phone-5.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Asus ROG Phone 5 Pro",
+      "file": "Asus-ROG-Phone-5-Pro.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Asus ROG Phone 5S",
+      "file": "Asus-ROG-Phone-5S.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Asus ROG Phone 5S Pro 5G",
+      "file": "Asus-ROG-Phone-5S-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Asus ROG Phone 6",
+      "file": "Asus-ROG-Phone-6.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Asus ROG Phone 6 Pro",
+      "file": "Asus-ROG-Phone-6-Pro.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Asus ROG Phone 7",
+      "file": "Asus-ROG-Phone-7.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Asus ROG Phone 7 Ultimate",
+      "file": "Asus-ROG-Phone-7-Ultimate.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Asus ROG Phone 8 Pro",
+      "file": "Asus-ROG-Phone-8-Pro.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Asus ZenFone 5Z",
+      "file": "Asus-ZenFone-5Z.json",
+      "image_count": 1,
+      "confidence": "high"
+    }
+  ]
+}

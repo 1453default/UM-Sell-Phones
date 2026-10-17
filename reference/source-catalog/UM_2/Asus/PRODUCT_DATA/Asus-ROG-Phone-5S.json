@@ -1,0 +1,109 @@
+{
+  "brand": "Asus",
+  "model": "Asus ROG Phone 5S",
+  "official_name": "Asus ROG Phone 5S",
+  "series": "ROG",
+  "release": {
+    "year": 2021,
+    "date": "2021 August 16"
+  },
+  "region": "India",
+  "variants": [
+    {
+      "ram": "8GB",
+      "storage": "128GB"
+    },
+    {
+      "ram": "12GB",
+      "storage": "128GB"
+    },
+    {
+      "ram": "12GB",
+      "storage": "256GB"
+    },
+    {
+      "ram": "16GB",
+      "storage": "256GB"
+    },
+    {
+      "ram": "16GB",
+      "storage": "512GB"
+    },
+    {
+      "ram": "18GB",
+      "storage": "512GB"
+    }
+  ],
+  "display": {
+    "type": "AMOLED, 1B colors, 144Hz, HDR10+, 800 nits (typ), 1200 nits (peak)",
+    "size": "6.78 inches, 109.5 cm2 (~82.0% screen-to-body ratio)",
+    "resolution": "1080 x 2448 pixels (~395 ppi density)",
+    "refresh_rate": "144 Hz",
+    "hdr": "HDR10+, HDR10, HDR",
+    "protection": "Corning Gorilla Glass Victus"
+  },
+  "processor": {
+    "chipset": "Qualcomm SM8350 Snapdragon 888+ 5G (5 nm)",
+    "cpu": "Octa-core (1x2.99 GHz Cortex-X1 & 3x2.42 GHz Cortex-A78 & 4x1.80 GHz Cortex-A55)",
+    "gpu": "Adreno 660"
+  },
+  "camera": {
+    "rear": [
+      "64 MP, f/1.8, 26mm (wide), 1/1.73\", 0.8µm, PDAF 13 MP, f/2.4, 11mm, 125˚ (ultrawide) 5 MP (macro)"
+    ],
+    "front": "24 MP, f/2.5, 27mm (wide), 0.9µm",
+    "video": [
+      "8K@30fps",
+      "4K@30/60/120fps",
+      "1080p@30/60/120/240fps",
+      "720p@480fps; gyro-EIS"
+    ]
+  },
+  "battery": {
+    "capacity": "6000 mAh",
+    "charging": "65W wired, PD3.0, QC5, 70% in 30 min, 100% in 52 min 10W reverse wired",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "172.8 x 77.3 x 9.9 mm (6.80 x 3.04 x 0.39 in)",
+    "weight": "238 g (8.40 oz)",
+    "materials": "Glass front (Gorilla Glass Victus), glass back (Gorilla Glass 3), aluminum frame",
+    "colors": [
+      "Phantom Black",
+      "Storm White"
+    ],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "GSM / HSPA / LTE / 5G",
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac/6e, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.2, A2DP, LE, aptX HD, aptX Adaptive",
+    "nfc": "Yes",
+    "usb": "USB Type-C 3.1 (side), USB Type-C 2.0 (bottom), OTG, accessory connector",
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "software": {
+    "os_at_launch": "Android 11, upgradable to Android 13, ROG UI",
+    "update_policy": ""
+  },
+  "features": [
+    "Fingerprint (under display",
+    "optical)",
+    "accelerometer",
+    "gyro",
+    "proximity",
+    "compass"
+  ],
+  "images": [
+    "Asus/Asus images/Asus_ROG_Phone_5_s.png"
+  ],
+  "research_sources": [
+    {
+      "title": "GSMArena Asus ROG Phone 5S Specifications",
+      "url": "https://www.gsmarena.com",
+      "source_type": "database"
+    }
+  ],
+  "confidence": "high",
+  "notes": ""
+}

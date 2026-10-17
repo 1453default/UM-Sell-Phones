@@ -1,0 +1,18 @@
+[
+  {
+    "BrandSeriesId": 182,
+    "Name": "Nubia Red Magic 3S",
+    "DisplayName": "Nubia Red Magic 3S",
+    "EnumName": "Nubia_Red_Magic_3S",
+    "ThumbnailPath": "model/Nubia_Red_Magic_3S.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 182,
+    "Name": "Nubia Red Magic 3",
+    "DisplayName": "Nubia Red Magic 3",
+    "EnumName": "Nubia_Red_Magic_3",
+    "ThumbnailPath": "model/Nubia_Red_Magic_3.png",
+    "DisplayInList": true
+  }
+]

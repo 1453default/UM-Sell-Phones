@@ -1,0 +1,798 @@
+{
+  "brand": "oppo",
+  "total_models": 132,
+  "models": [
+    {
+      "model": "OPPO F29 Pro 5G",
+      "file": "OPPO-F29-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OPPO Reno 11",
+      "file": "OPPO-Reno-11.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "OPPO Reno 11 Pro",
+      "file": "OPPO-Reno-11-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A11K",
+      "file": "Oppo-A11K.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A12",
+      "file": "Oppo-A12.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A15",
+      "file": "Oppo-A15.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A15S",
+      "file": "Oppo-A15S.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A16",
+      "file": "Oppo-A16.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A16E",
+      "file": "Oppo-A16E.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A16K",
+      "file": "Oppo-A16K.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A17",
+      "file": "Oppo-A17.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A17K",
+      "file": "Oppo-A17K.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A18",
+      "file": "Oppo-A18.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A1K",
+      "file": "Oppo-A1K.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A3 5G",
+      "file": "Oppo-A3-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A3 Pro 5G",
+      "file": "Oppo-A3-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A31",
+      "file": "Oppo-A31.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A33",
+      "file": "Oppo-A33.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A33 2020",
+      "file": "Oppo-A33-2020.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A38",
+      "file": "Oppo-A38.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A3S",
+      "file": "Oppo-A3S.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A3x 4G",
+      "file": "Oppo-A3x-4G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A3x 5G",
+      "file": "Oppo-A3x-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A5 2020",
+      "file": "Oppo-A5-2020.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A5 5G",
+      "file": "Oppo-A5-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A5 Pro 5G",
+      "file": "Oppo-A5-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A52",
+      "file": "Oppo-A52.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A53",
+      "file": "Oppo-A53.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A53S 5G",
+      "file": "Oppo-A53S-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A54",
+      "file": "Oppo-A54.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A55",
+      "file": "Oppo-A55.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A57 2022",
+      "file": "Oppo-A57-2022.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A58 4G",
+      "file": "Oppo-A58-4G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A59 5G",
+      "file": "Oppo-A59-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A5x",
+      "file": "Oppo-A5x.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A5x 5G",
+      "file": "Oppo-A5x-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A6 5G",
+      "file": "Oppo-A6-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A6 Pro 5G",
+      "file": "Oppo-A6-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A6c 4G",
+      "file": "Oppo-A6c-4G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A6s 5G",
+      "file": "Oppo-A6s-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A6x",
+      "file": "Oppo-A6x.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A6x 5G",
+      "file": "Oppo-A6x-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A7",
+      "file": "Oppo-A7.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A74 5G",
+      "file": "Oppo-A74-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A76",
+      "file": "Oppo-A76.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A77 2022",
+      "file": "Oppo-A77-2022.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A77S",
+      "file": "Oppo-A77S.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A78 4G",
+      "file": "Oppo-A78-4G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A78 5G",
+      "file": "Oppo-A78-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A79 5G",
+      "file": "Oppo-A79-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A9",
+      "file": "Oppo-A9.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A9 2020",
+      "file": "Oppo-A9-2020.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo A96",
+      "file": "Oppo-A96.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F11",
+      "file": "Oppo-F11.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F11 Pro",
+      "file": "Oppo-F11-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F11 Pro Avenger Edition",
+      "file": "Oppo-F11-Pro-Avenger-Edition.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F15",
+      "file": "Oppo-F15.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F17",
+      "file": "Oppo-F17.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F17 Pro",
+      "file": "Oppo-F17-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F19",
+      "file": "Oppo-F19.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F19 Pro",
+      "file": "Oppo-F19-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F19 Pro Plus 5G",
+      "file": "Oppo-F19-Pro-Plus-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F19S",
+      "file": "Oppo-F19S.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F21 Pro",
+      "file": "Oppo-F21-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F21 Pro 5G",
+      "file": "Oppo-F21-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F21S Pro 4G",
+      "file": "Oppo-F21S-Pro-4G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F21S Pro 5G",
+      "file": "Oppo-F21S-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F23",
+      "file": "Oppo-F23.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F25 Pro 5G",
+      "file": "Oppo-F25-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F27 5G",
+      "file": "Oppo-F27-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F27 Pro Plus 5G",
+      "file": "Oppo-F27-Pro-Plus-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F29 5G",
+      "file": "Oppo-F29-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F31 5G",
+      "file": "Oppo-F31-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F31 Pro 5G",
+      "file": "Oppo-F31-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F31 Pro Plus 5G",
+      "file": "Oppo-F31-Pro-Plus-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F33 5G",
+      "file": "Oppo-F33-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F33 Pro 5G",
+      "file": "Oppo-F33-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F9",
+      "file": "Oppo-F9.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo F9 Pro",
+      "file": "Oppo-F9-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Find N2 Flip",
+      "file": "Oppo-Find-N2-Flip.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Find N3 Flip",
+      "file": "Oppo-Find-N3-Flip.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Find X",
+      "file": "Oppo-Find-X.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Find X2",
+      "file": "Oppo-Find-X2.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Find X8",
+      "file": "Oppo-Find-X8.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Find X8 Pro",
+      "file": "Oppo-Find-X8-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Find X9",
+      "file": "Oppo-Find-X9.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Find X9 Pro",
+      "file": "Oppo-Find-X9-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Find X9 Ultra",
+      "file": "Oppo-Find-X9-Ultra.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Find X9s",
+      "file": "Oppo-Find-X9s.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo K1",
+      "file": "Oppo-K1.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo K10",
+      "file": "Oppo-K10.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo K10 5G",
+      "file": "Oppo-K10-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo K12x 5G",
+      "file": "Oppo-K12x-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo K13",
+      "file": "Oppo-K13.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo K13 Turbo 5G",
+      "file": "Oppo-K13-Turbo-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo K13 Turbo Pro 5G",
+      "file": "Oppo-K13-Turbo-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo K13x 5G",
+      "file": "Oppo-K13x-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo K14 5G",
+      "file": "Oppo-K14-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo K14x 5G",
+      "file": "Oppo-K14x-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo K3",
+      "file": "Oppo-K3.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo R17",
+      "file": "Oppo-R17.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo R17 Pro",
+      "file": "Oppo-R17-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno",
+      "file": "Oppo-Reno.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno 10",
+      "file": "Oppo-Reno-10.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno 10 Pro",
+      "file": "Oppo-Reno-10-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno 10 Pro Plus",
+      "file": "Oppo-Reno-10-Pro-Plus.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno 10X Zoom",
+      "file": "Oppo-Reno-10X-Zoom.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno 13 5G",
+      "file": "Oppo-Reno-13-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno 13 Pro 5G",
+      "file": "Oppo-Reno-13-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno 14 5G",
+      "file": "Oppo-Reno-14-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno 14 Pro 5G",
+      "file": "Oppo-Reno-14-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno 15 5G",
+      "file": "Oppo-Reno-15-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno 15 Pro 5G",
+      "file": "Oppo-Reno-15-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno 15 Pro Mini 5G",
+      "file": "Oppo-Reno-15-Pro-Mini-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno 15C",
+      "file": "Oppo-Reno-15C.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno 16 5G",
+      "file": "Oppo-Reno-16-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno 16C 5G",
+      "file": "Oppo-Reno-16C-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno 2",
+      "file": "Oppo-Reno-2.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno 2Z",
+      "file": "Oppo-Reno-2Z.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno 7 5G",
+      "file": "Oppo-Reno-7-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno 7 Pro 5G",
+      "file": "Oppo-Reno-7-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno 8 5G",
+      "file": "Oppo-Reno-8-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno 8 Pro 5G",
+      "file": "Oppo-Reno-8-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno 8T 5G",
+      "file": "Oppo-Reno-8T-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno12 5G",
+      "file": "Oppo-Reno12-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno12 Pro 5G",
+      "file": "Oppo-Reno12-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno2 F",
+      "file": "Oppo-Reno2-F.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno3 Pro",
+      "file": "Oppo-Reno3-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno4 Pro",
+      "file": "Oppo-Reno4-Pro.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno5 Pro 5G",
+      "file": "Oppo-Reno5-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno6 5G",
+      "file": "Oppo-Reno6-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    },
+    {
+      "model": "Oppo Reno6 Pro 5G",
+      "file": "Oppo-Reno6-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+ "pageProps": {
+  "language": "in-en",
+  "direction": "ltr",
+  "selectVariant": [
+   {
+    "Id": 4233,
+    "SeriesModelName": "Vivo V40 Pro 5G",
+    "ProductTypeName": null,
+    "BrandMasterName": "Vivo",
+    "RowOrder": 37005,
+    "Name": "8 GB/256 GB",
+    "ThumbnailPath": "model/Vivo_V40_Pro_5G.png",
+    "DisplayInList": true,
+    "MaximumValue": 24660
+   },
+   {
+    "Id": 4234,
+    "SeriesModelName": "Vivo V40 Pro 5G",
+    "ProductTypeName": null,
+    "BrandMasterName": "Vivo",
+    "RowOrder": 37006,
+    "Name": "12 GB/512 GB",
+    "ThumbnailPath": "model/Vivo_V40_Pro_5G.png",
+    "DisplayInList": true,
+    "MaximumValue": 26110
+   }
+  ],
+  "address": {
+   "Address": "Dofy Electronics And Solution Private Limited, 112 B2, Eldorado Building, Nungambakkam High Road, Chennai, Tamil Nadu 600034",
+   "Phone": "+91-9344691460",
+   "SellRelatedQueriesPhone": "+91-9344691460",
+   "SellOrderQueriesPhone": "+91-9344691460",
+   "Timing": "",
+   "Email": "customercare@dofy.in",
+   "SellRelatedQueriesEmail": "customercare@dofy.in",
+   "SellOrderQueriesEmail": "info@dofy.in",
+   "BusinessQueriesEmail": "admin@dofy.in",
+   "CorporateTradeIn": {
+    "SellRelatedQueriesPhone": "+91-9988112151",
+    "BusinessQueriesEmail": "info@dofy.in"
+   },
+   "BecomePartner": {
+    "SellRelatedQueriesPhone": "+91-7604991816",
+    "BusinessQueriesEmail": ""
+   },
+   "PromotionLinks": {
+    "FaceBook": "https://www.facebook.com/profile.php?id=61559135460826",
+    "Instagram": "https://www.instagram.com/dofyapp/",
+    "LinkedIn": "https://www.linkedin.com/company/dofyindia/?viewAsMember=true",
+    "TikTok": "",
+    "YouTube": "https://www.youtube.com/@dofy3449",
+    "Twitter": "https://twitter.com/dofyofficial?s=21&t=bB5ZqG8IPXTU1PC8VZrbNw"
+   }
+  },
+  "metaTags": {
+   "PageName": "Model",
+   "Title": "Sell Vivo Vivo V40 Pro 5G Online at Best Price in india",
+   "Description": "Dofy is the best platform to sell Vivo Vivo V40 Pro 5G online for the highest price. You can sell any model of Vivo V40 Pro 5G and get instant payment. Sell Now!",
+   "Keywords": "sell old device online, sell electronics gadgets online",
+   "OGTitle": null,
+   "OGType": null,
+   "OGUrl": null,
+   "OGImage": null,
+   "OGDescription": null,
+   "TwitterCard": null,
+   "TwitterSite": null,
+   "TwitterTitle": null,
+   "TwitterDescription": null,
+   "TwitterImage": null,
+   "SeocontentTitle": "",
+   "SeoContent": "",
+   "ProductTypeId": 0,
+   "BrandMasterId": 0,
+   "TotalRowsCount": 0,
+   "Id": 4,
+   "Created": "2023-08-04T14:25:05.623",
+   "CreatedBy": 0,
+   "Active": false,
+   "Modified": "2023-08-04T14:25:05.623",
+   "ModifiedBy": 454056,
+   "IsValid": true,
+   "ValidationErrors": {
+    "Items": []
+   }
+  }
+ },
+ "nonce": "N1BV6A5jOlN68Du/HApikA==",
+ "__N_SSP": true
+}

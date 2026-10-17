@@ -1,0 +1,82 @@
+[
+  {
+    "BrandSeriesId": 591,
+    "Name": "Honor X7c",
+    "DisplayName": "Honor X7c",
+    "EnumName": "Honor_X7c",
+    "ThumbnailPath": "model/Honor_X7c.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 591,
+    "Name": "Honor X9c",
+    "DisplayName": "Honor X9c",
+    "EnumName": "Honor_X9c",
+    "ThumbnailPath": "model/Honor_X9c.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 533,
+    "Name": "Honor 200 Lite 5G",
+    "DisplayName": "Honor 200 Lite 5G",
+    "EnumName": "Honor_200_Lite_5G",
+    "ThumbnailPath": "model/Honor_200_Lite_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 533,
+    "Name": "Honor 200 5G",
+    "DisplayName": "Honor 200 5G",
+    "EnumName": "Honor_200_5G",
+    "ThumbnailPath": "model/Honor_200_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 533,
+    "Name": "Honor 200 Pro 5G",
+    "DisplayName": "Honor 200 Pro 5G",
+    "EnumName": "Honor_200_Pro_5G",
+    "ThumbnailPath": "model/Honor_200_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 524,
+    "Name": "Honor X9b",
+    "DisplayName": "Honor X9b",
+    "EnumName": "Honor_X9b",
+    "ThumbnailPath": "model/Honor_X9b.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 524,
+    "Name": "Honor 90 5G",
+    "DisplayName": "Honor 90 5G",
+    "EnumName": "Honor_90_5G",
+    "ThumbnailPath": "model/Honor_90_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 105,
+    "Name": "Honor 20",
+    "DisplayName": "Honor 20",
+    "EnumName": "Honor_20",
+    "ThumbnailPath": "model/Honor_20.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 105,
+    "Name": "Honor 20i",
+    "DisplayName": "Honor 20i",
+    "EnumName": "Honor_20i",
+    "ThumbnailPath": "model/Honor_20i.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 97,
+    "Name": "Honor 8C",
+    "DisplayName": "Honor 8C",
+    "EnumName": "Honor_8C",
+    "ThumbnailPath": "model/Honor_8C.png",
+    "DisplayInList": true
+  }
+]

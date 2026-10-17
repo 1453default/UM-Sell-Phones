@@ -1,0 +1,402 @@
+[
+  {
+    "BrandSeriesId": 600,
+    "Name": "Oneplus N6",
+    "DisplayName": "Oneplus N6",
+    "EnumName": "Oneplus_N6",
+    "ThumbnailPath": "model/Oneplus_N6.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 600,
+    "Name": "Oneplus N6x",
+    "DisplayName": "Oneplus N6x",
+    "EnumName": "Oneplus_N6x",
+    "ThumbnailPath": "model/Oneplus_N6x.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 457,
+    "Name": "OnePlus Nord 6 5G",
+    "DisplayName": "OnePlus Nord 6 5G",
+    "EnumName": "OnePlus_Nord_6_5G",
+    "ThumbnailPath": "model/OnePlus_Nord_6_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 457,
+    "Name": "OnePlus Nord CE 6 Lite 5G",
+    "DisplayName": "OnePlus Nord CE 6 Lite 5G",
+    "EnumName": "OnePlus_Nord_CE_6_Lite_5G",
+    "ThumbnailPath": "model/OnePlus_Nord_CE_6_Lite_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 457,
+    "Name": "OnePlus Nord CE 6 5G",
+    "DisplayName": "OnePlus Nord CE 6 5G",
+    "EnumName": "OnePlus_Nord_CE_6_5G",
+    "ThumbnailPath": "model/OnePlus_Nord_CE_6_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 596,
+    "Name": "Oneplus 15R",
+    "DisplayName": "Oneplus 15R",
+    "EnumName": "Oneplus_15R",
+    "ThumbnailPath": "model/Oneplus_15R.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 596,
+    "Name": "OnePlus 15",
+    "DisplayName": "OnePlus 15",
+    "EnumName": "OnePlus_15",
+    "ThumbnailPath": "model/Oneplus_15.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 457,
+    "Name": "OnePlus Nord CE 5 5G",
+    "DisplayName": "OnePlus Nord CE 5 5G",
+    "EnumName": "OnePlus_Nord_CE_5_5G",
+    "ThumbnailPath": "model/OnePlus_Nord_CE_5_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 457,
+    "Name": "OnePlus Nord 5",
+    "DisplayName": "OnePlus Nord 5",
+    "EnumName": "OnePlus_Nord_5",
+    "ThumbnailPath": "model/OnePlus_Nord_5.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 582,
+    "Name": "Oneplus 13S",
+    "DisplayName": "Oneplus 13S",
+    "EnumName": "Oneplus_13S",
+    "ThumbnailPath": "model/Oneplus_13S.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 582,
+    "Name": "OnePlus 13R",
+    "DisplayName": "OnePlus 13R",
+    "EnumName": "OnePlus_13R",
+    "ThumbnailPath": "model/OnePlus_13R.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 582,
+    "Name": "OnePlus 13",
+    "DisplayName": "OnePlus 13",
+    "EnumName": "OnePlus_13",
+    "ThumbnailPath": "model/OnePlus_13.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 457,
+    "Name": "OnePlus Nord CE 4 5G",
+    "DisplayName": "OnePlus Nord CE 4 5G",
+    "EnumName": "OnePlus_Nord_CE_4_5G",
+    "ThumbnailPath": "model/OnePlus_Nord_CE_4_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 523,
+    "Name": "OnePlus 12R",
+    "DisplayName": "OnePlus 12R",
+    "EnumName": "OnePlus_12R",
+    "ThumbnailPath": "model/OnePlus_12R.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 457,
+    "Name": "OnePlus Nord 4",
+    "DisplayName": "OnePlus Nord 4",
+    "EnumName": "OnePlus_Nord_4",
+    "ThumbnailPath": "model/OnePlus_Nord_4.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 457,
+    "Name": "OnePlus Nord CE4 Lite 5G",
+    "DisplayName": "OnePlus Nord CE4 Lite 5G",
+    "EnumName": "OnePlus_Nord_CE4_Lite_5G",
+    "ThumbnailPath": "model/OnePlus_Nord_CE4_Lite_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 523,
+    "Name": "OnePlus 12",
+    "DisplayName": "OnePlus 12",
+    "EnumName": "OnePlus_12",
+    "ThumbnailPath": "model/OnePlus_12.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 518,
+    "Name": "OnePlus Open",
+    "DisplayName": "OnePlus Open",
+    "EnumName": "OnePlus_Open",
+    "ThumbnailPath": "model/OnePlus_Open.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 457,
+    "Name": "Oneplus Nord CE 3 5G",
+    "DisplayName": "Oneplus Nord CE 3 5G",
+    "EnumName": "Oneplus_Nord_CE_3_5G",
+    "ThumbnailPath": "model/Oneplus_Nord_CE_3_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 457,
+    "Name": "Oneplus Nord 3 5G",
+    "DisplayName": "Oneplus Nord 3 5G",
+    "EnumName": "Oneplus_Nord_3_5G",
+    "ThumbnailPath": "model/Oneplus_Nord_3_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 457,
+    "Name": "OnePlus Nord N20 SE",
+    "DisplayName": "OnePlus Nord N20 SE",
+    "EnumName": "OnePlus_Nord_N20_SE",
+    "ThumbnailPath": "model/OnePlus_Nord_N20_SE.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 457,
+    "Name": "Oneplus Nord CE 3 Lite 5G",
+    "DisplayName": "Oneplus Nord CE 3 Lite 5G",
+    "EnumName": "OnePlus_NORD_CE_3_LITE_5G",
+    "ThumbnailPath": "model/OnePlus_NORD_CE_3_LITE_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 522,
+    "Name": "OnePlus 11R 5G",
+    "DisplayName": "OnePlus 11R 5G",
+    "EnumName": "OnePlus_11R_5G",
+    "ThumbnailPath": "model/OnePlus_11R_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 522,
+    "Name": "OnePlus 11 5G",
+    "DisplayName": "OnePlus 11 5G",
+    "EnumName": "OnePlus_11_5G",
+    "ThumbnailPath": "model/OnePlus_11_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 457,
+    "Name": "Oneplus Nord 2T 5G",
+    "DisplayName": "Oneplus Nord 2T 5G",
+    "EnumName": "ONEPLUS_NORD_2T_5G",
+    "ThumbnailPath": "model/ONEPLUS_NORD_2T_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 457,
+    "Name": "OnePlus Nord CE 2 lite",
+    "DisplayName": "OnePlus Nord CE 2 lite",
+    "EnumName": "OnePlus_Nord_CE_2_lite",
+    "ThumbnailPath": "model/OnePlus_Nord_CE_2_lite.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 457,
+    "Name": "OnePlus Nord CE 2 5G",
+    "DisplayName": "OnePlus Nord CE 2 5G",
+    "EnumName": "OnePlus_Nord_CE_2_5G",
+    "ThumbnailPath": "model/OnePlus_Nord_CE_2_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 355,
+    "Name": "OnePlus 10r 5G",
+    "DisplayName": "OnePlus 10r 5G",
+    "EnumName": "OnePlus_10r_5G",
+    "ThumbnailPath": "model/OnePlus_10r_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 355,
+    "Name": "OnePlus 10 Pro 5G",
+    "DisplayName": "OnePlus 10 Pro 5G",
+    "EnumName": "OnePlus_10_Pro_5G",
+    "ThumbnailPath": "model/OnePlus_10_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 355,
+    "Name": "Oneplus 10T",
+    "DisplayName": "Oneplus 10T",
+    "EnumName": "Oneplus_10T",
+    "ThumbnailPath": "model/Oneplus_10T.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 495,
+    "Name": "OnePlus 9",
+    "DisplayName": "OnePlus 9",
+    "EnumName": "OnePlus_9",
+    "ThumbnailPath": "model/OnePlus_9.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 495,
+    "Name": "OnePlus 9RT 5G",
+    "DisplayName": "OnePlus 9RT 5G",
+    "EnumName": "OnePlus_9RT_5G",
+    "ThumbnailPath": "model/OnePlus_9RT_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 494,
+    "Name": "OnePlus 8T",
+    "DisplayName": "OnePlus 8T",
+    "EnumName": "OnePlus_8T",
+    "ThumbnailPath": "model/OnePlus_8T.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 457,
+    "Name": "OnePlus Nord 2 5G",
+    "DisplayName": "OnePlus Nord 2 5G",
+    "EnumName": "OnePlus_Nord_2_5G",
+    "ThumbnailPath": "model/OnePlus_Nord_2_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 457,
+    "Name": "OnePlus Nord CE 5G",
+    "DisplayName": "OnePlus Nord CE 5G",
+    "EnumName": "OnePlus_Nord_CE_5G",
+    "ThumbnailPath": "model/OnePlus_Nord_CE_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 495,
+    "Name": "OnePlus 9 Pro 5G",
+    "DisplayName": "OnePlus 9 Pro 5G",
+    "EnumName": "OnePlus_9_Pro_5G",
+    "ThumbnailPath": "model/OnePlus_9_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 495,
+    "Name": "OnePlus 9R 5G",
+    "DisplayName": "OnePlus 9R 5G",
+    "EnumName": "OnePlus_9R_5G",
+    "ThumbnailPath": "model/OnePlus_9R_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 457,
+    "Name": "OnePlus Nord",
+    "DisplayName": "OnePlus Nord",
+    "EnumName": "OnePlus_Nord",
+    "ThumbnailPath": "model/OnePlus_Nord.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 493,
+    "Name": "OnePlus 7T Pro McLaren Edition",
+    "DisplayName": "OnePlus 7T Pro McLaren Edition",
+    "EnumName": "OnePlus_7T_Pro_McLaren_Edition",
+    "ThumbnailPath": "model/OnePlus_7T_Pro_McLaren_Edition.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 494,
+    "Name": "OnePlus 8 Pro",
+    "DisplayName": "OnePlus 8 Pro",
+    "EnumName": "OnePlus_8_Pro",
+    "ThumbnailPath": "model/OnePlus_8_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 494,
+    "Name": "OnePlus 8",
+    "DisplayName": "OnePlus 8",
+    "EnumName": "OnePlus_8",
+    "ThumbnailPath": "model/OnePlus_8.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 493,
+    "Name": "OnePlus 7T Pro",
+    "DisplayName": "OnePlus 7T Pro",
+    "EnumName": "OnePlus_7T_Pro",
+    "ThumbnailPath": "model/OnePlus_7T_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 493,
+    "Name": "OnePlus 7T",
+    "DisplayName": "OnePlus 7T",
+    "EnumName": "OnePlus_7T",
+    "ThumbnailPath": "model/OnePlus_7T.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 493,
+    "Name": "OnePlus 7 Pro",
+    "DisplayName": "OnePlus 7 Pro",
+    "EnumName": "OnePlus_7_Pro",
+    "ThumbnailPath": "model/OnePlus_7_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 493,
+    "Name": "OnePlus 7",
+    "DisplayName": "OnePlus 7",
+    "EnumName": "OnePlus_7",
+    "ThumbnailPath": "model/OnePlus_7.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 492,
+    "Name": "OnePlus 6T McLaren",
+    "DisplayName": "OnePlus 6T McLaren",
+    "EnumName": "OnePlus_6T_McLaren",
+    "ThumbnailPath": "model/OnePlus_6T_McLaren.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 491,
+    "Name": "OnePlus 5",
+    "DisplayName": "OnePlus 5",
+    "EnumName": "OnePlus_5",
+    "ThumbnailPath": "model/OnePlus_5.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 491,
+    "Name": "OnePlus 5T",
+    "DisplayName": "OnePlus 5T",
+    "EnumName": "OnePlus_5T",
+    "ThumbnailPath": "model/OnePlus_5T.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 492,
+    "Name": "OnePlus 6",
+    "DisplayName": "OnePlus 6",
+    "EnumName": "OnePlus_6",
+    "ThumbnailPath": "model/OnePlus_6.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 492,
+    "Name": "OnePlus 6T",
+    "DisplayName": "OnePlus 6T",
+    "EnumName": "OnePlus_6T",
+    "ThumbnailPath": "model/OnePlus_6T.png",
+    "DisplayInList": true
+  }
+]

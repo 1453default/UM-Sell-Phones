@@ -1,0 +1,18 @@
+[
+  {
+    "BrandSeriesId": 466,
+    "Name": "CMF Phone 2 Pro",
+    "DisplayName": "CMF Phone 2 Pro",
+    "EnumName": "CMF_Phone_2_Pro",
+    "ThumbnailPath": "model/CMF_Phone_2_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 466,
+    "Name": "CMF Phone 1",
+    "DisplayName": "CMF Phone 1",
+    "EnumName": "CMF_Phone_1",
+    "ThumbnailPath": "model/CMF_Phone_1.png",
+    "DisplayInList": true
+  }
+]

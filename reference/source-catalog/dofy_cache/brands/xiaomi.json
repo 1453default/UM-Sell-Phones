@@ -1,0 +1,866 @@
+[
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 17 5G",
+    "DisplayName": "Redmi Note 17 5G",
+    "EnumName": "Redmi_Note_17_5G",
+    "ThumbnailPath": "model/Redmi_Note_17_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 496,
+    "Name": "Redmi Turbo 5",
+    "DisplayName": "Redmi Turbo 5",
+    "EnumName": "Redmi_Turbo_5",
+    "ThumbnailPath": "model/Redmi_Turbo_5.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 595,
+    "Name": "Redmi 15A 5G",
+    "DisplayName": "Redmi 15A 5G",
+    "EnumName": "Redmi_15A_5G",
+    "ThumbnailPath": "model/Redmi_15A_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 15 SE 5G",
+    "DisplayName": "Redmi Note 15 SE 5G",
+    "EnumName": "Redmi_Note_15_SE_5G",
+    "ThumbnailPath": "model/Redmi_Note_15_SE_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 530,
+    "Name": "Redmi A7 Pro 5G",
+    "DisplayName": "Redmi A7 Pro 5G",
+    "EnumName": "Redmi_A7_Pro_5G",
+    "ThumbnailPath": "model/Redmi_A7_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 15 5G",
+    "DisplayName": "Redmi Note 15 5G",
+    "EnumName": "Redmi_Note_15_5G",
+    "ThumbnailPath": "model/Redmi_Note_15_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 15 Pro 5G",
+    "DisplayName": "Redmi Note 15 Pro 5G",
+    "EnumName": "Redmi_Note_15_Pro_5G",
+    "ThumbnailPath": "model/Redmi_Note_15_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 15 Pro Plus 5G",
+    "DisplayName": "Redmi Note 15 Pro Plus 5G",
+    "EnumName": "Redmi_Note_15_Pro_Plus_5G",
+    "ThumbnailPath": "model/Redmi_Note_15_Pro_Plus_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 526,
+    "Name": "Xiaomi 17 Ultra",
+    "DisplayName": "Xiaomi 17 Ultra",
+    "EnumName": "Xiaomi_17_Ultra",
+    "ThumbnailPath": "model/Xiaomi_17_Ultra.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 526,
+    "Name": "Xiaomi 17",
+    "DisplayName": "Xiaomi 17",
+    "EnumName": "Xiaomi_17",
+    "ThumbnailPath": "model/Xiaomi_17.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 595,
+    "Name": "Redmi 15C 5G",
+    "DisplayName": "Redmi 15C 5G",
+    "EnumName": "Redmi_15C_5G",
+    "ThumbnailPath": "model/Redmi_15C_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 14 SE 5G",
+    "DisplayName": "Redmi Note 14 SE 5G",
+    "EnumName": "Redmi_Note_14_SE_5G",
+    "ThumbnailPath": "model/Redmi_Note_14_SE_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 595,
+    "Name": "Redmi 15 5G",
+    "DisplayName": "Redmi 15 5G",
+    "EnumName": "Redmi_15_5G",
+    "ThumbnailPath": "model/Redmi_15_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 530,
+    "Name": "Redmi A5",
+    "DisplayName": "Redmi A5",
+    "EnumName": "Redmi_A5",
+    "ThumbnailPath": "model/Redmi_A5.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 526,
+    "Name": "Xiaomi 15 Ultra",
+    "DisplayName": "Xiaomi 15 Ultra",
+    "EnumName": "Xiaomi_15_Ultra",
+    "ThumbnailPath": "model/Xiaomi_15_Ultra.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 526,
+    "Name": "Xiaomi 15",
+    "DisplayName": "Xiaomi 15",
+    "EnumName": "Xiaomi_15",
+    "ThumbnailPath": "model/Xiaomi_15.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 14 5G",
+    "DisplayName": "Redmi Note 14 5G",
+    "EnumName": "Redmi_Note_14_5G",
+    "ThumbnailPath": "model/Redmi_Note_14_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 14 Pro 5G",
+    "DisplayName": "Redmi Note 14 Pro 5G",
+    "EnumName": "Redmi_Note_14_Pro_5G",
+    "ThumbnailPath": "model/Redmi_Note_14_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 14 Pro Plus 5G",
+    "DisplayName": "Redmi Note 14 Pro Plus 5G",
+    "EnumName": "Redmi_Note_14_Pro_Plus_5G",
+    "ThumbnailPath": "model/Redmi_Note_14_Pro_Plus_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 585,
+    "Name": "Redmi 14C 5G",
+    "DisplayName": "Redmi 14C 5G",
+    "EnumName": "Redmi_14C_5G",
+    "ThumbnailPath": "model/Redmi_14C_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 530,
+    "Name": "Redmi A4 5G",
+    "DisplayName": "Redmi A4 5G",
+    "EnumName": "Redmi_A4_5G",
+    "ThumbnailPath": "model/Redmi_A4_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 481,
+    "Name": "Redmi 13 5G",
+    "DisplayName": "Redmi 13 5G",
+    "EnumName": "Redmi_13_5G",
+    "ThumbnailPath": "model/Redmi_13_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 526,
+    "Name": "Xiaomi 14 CIVI",
+    "DisplayName": "Xiaomi 14 CIVI",
+    "EnumName": "Xiaomi_14_CIVI",
+    "ThumbnailPath": "model/Xiaomi_14_CIVI.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 530,
+    "Name": "Redmi A3",
+    "DisplayName": "Redmi A3",
+    "EnumName": "Redmi_A3",
+    "ThumbnailPath": "model/Redmi_A3.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 526,
+    "Name": "Xiaomi Mi 14",
+    "DisplayName": "Xiaomi Mi 14",
+    "EnumName": "Xiaomi_Mi_14",
+    "ThumbnailPath": "model/Xiaomi_14.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 526,
+    "Name": "Xiaomi Mi 14 Ultra",
+    "DisplayName": "Xiaomi Mi 14 Ultra",
+    "EnumName": "Xiaomi_Mi_14_Ultra",
+    "ThumbnailPath": "model/Xiaomi_14_Ultra.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 530,
+    "Name": "Redmi A3X",
+    "DisplayName": "Redmi A3X",
+    "EnumName": "Redmi_A3X",
+    "ThumbnailPath": "model/Redmi_A3X.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 13 5G",
+    "DisplayName": "Redmi Note 13 5G",
+    "EnumName": "Redmi_Note_13_5G",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_13_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 13 Pro 5G",
+    "DisplayName": "Redmi Note 13 Pro 5G",
+    "EnumName": "Redmi_Note_13_Pro_5G",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_13_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 13 Pro Plus",
+    "DisplayName": "Redmi Note 13 Pro Plus",
+    "EnumName": "Redmi_Note_13_Pro_Plus",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_13_Pro_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 354,
+    "Name": "Redmi 12 4G",
+    "DisplayName": "Redmi 12 4G",
+    "EnumName": "Redmi_12_4G",
+    "ThumbnailPath": "model/Redmi_12_4G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 354,
+    "Name": "Redmi 12 5G",
+    "DisplayName": "Redmi 12 5G",
+    "EnumName": "Redmi_12_5G",
+    "ThumbnailPath": "model/Redmi_12_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 481,
+    "Name": "Redmi 13C 5G",
+    "DisplayName": "Redmi 13C 5G",
+    "EnumName": "Redmi_13C_5G",
+    "ThumbnailPath": "model/Redmi_13C_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 481,
+    "Name": "Redmi 13C",
+    "DisplayName": "Redmi 13C",
+    "EnumName": "Redmi_13C",
+    "ThumbnailPath": "model/Redmi_13C.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 530,
+    "Name": "Redmi A2 Plus",
+    "DisplayName": "Redmi A2 Plus",
+    "EnumName": "Redmi_A2_Plus",
+    "ThumbnailPath": "model/A2_PLUS.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 530,
+    "Name": "Redmi A2 2023",
+    "DisplayName": "Redmi A2 2023",
+    "EnumName": "Redmi_A2_2023",
+    "ThumbnailPath": "model/A2_2023.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 12 4G",
+    "DisplayName": "Redmi Note 12 4G",
+    "EnumName": "Redmi_Note_12_4G",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_12_4G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 15,
+    "Name": "Redmi 10 Prime",
+    "DisplayName": "Redmi 10 Prime",
+    "EnumName": "Redmi_10_Prime",
+    "ThumbnailPath": "model/MI_REDMI_10_PRIME.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 354,
+    "Name": "Redmi 12C",
+    "DisplayName": "Redmi 12C",
+    "EnumName": "Redmi_12C",
+    "ThumbnailPath": "model/MI_REDMI_12C.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 526,
+    "Name": "Xiaomi Mi 13 Pro",
+    "DisplayName": "Xiaomi Mi 13 Pro",
+    "EnumName": "Xiaomi_Mi_13_Pro",
+    "ThumbnailPath": "model/MI_Xiaomi_13_PRO.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 15,
+    "Name": "Redmi 10 Power",
+    "DisplayName": "Redmi 10 Power",
+    "EnumName": "Redmi_10_Power",
+    "ThumbnailPath": "model/MI_REDMI_10_POWER.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 334,
+    "Name": "Redmi 11 Prime 5G",
+    "DisplayName": "Redmi 11 Prime 5G",
+    "EnumName": "Redmi_11_Prime_5G",
+    "ThumbnailPath": "model/MI_Redmi_11_PRIME_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 334,
+    "Name": "Redmi 11 Prime",
+    "DisplayName": "Redmi 11 Prime",
+    "EnumName": "Redmi_11_Prime",
+    "ThumbnailPath": "model/MI_Redmi_11_PRIME.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 15,
+    "Name": "Redmi 10A Sport",
+    "DisplayName": "Redmi 10A Sport",
+    "EnumName": "Redmi_10A_Sport",
+    "ThumbnailPath": "model/MI_Redmi_10A_SPORT.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 11 Se",
+    "DisplayName": "Redmi Note 11 Se",
+    "EnumName": "Redmi_Note_11_Se",
+    "ThumbnailPath": "model/MI_Redmi_NOTE_11_SE.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 530,
+    "Name": "Redmi A1 Plus",
+    "DisplayName": "Redmi A1 Plus",
+    "EnumName": "Redmi_A1_Plus",
+    "ThumbnailPath": "model/MI_Redmi_A1_PLUS.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 530,
+    "Name": "Redmi A1 2022",
+    "DisplayName": "Redmi A1 2022",
+    "EnumName": "Redmi_A1_2022",
+    "ThumbnailPath": "model/MI_Redmi_A1_2022.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 12 Pro Plus 5G",
+    "DisplayName": "Redmi Note 12 Pro Plus 5G",
+    "EnumName": "Redmi_Note_12_Pro_Plus_5G",
+    "ThumbnailPath": "model/MI_REDMI_NOTE_12_PRO_PLUS_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 12 Pro 5G",
+    "DisplayName": "Redmi Note 12 Pro 5G",
+    "EnumName": "Redmi_Note_12_Pro_5G",
+    "ThumbnailPath": "model/MI_REDMI_NOTE_12_PRO_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 12 5G",
+    "DisplayName": "Redmi Note 12 5G",
+    "EnumName": "Redmi_Note_12_5G",
+    "ThumbnailPath": "model/MI_REDMI_NOTE_12_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 15,
+    "Name": "Redmi 10A",
+    "DisplayName": "Redmi 10A",
+    "EnumName": "Redmi_10A",
+    "ThumbnailPath": "model/MI_Redmi_10A.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 15,
+    "Name": "Redmi 10 Prime 2022",
+    "DisplayName": "Redmi 10 Prime 2022",
+    "EnumName": "Redmi_10_Prime_2022",
+    "ThumbnailPath": "model/MI_Redmi_10_Prime_2022.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 15,
+    "Name": "Redmi 10",
+    "DisplayName": "Redmi 10",
+    "EnumName": "Redmi_10",
+    "ThumbnailPath": "model/MI_Redmi_10.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 11 Pro Plus 5G",
+    "DisplayName": "Redmi Note 11 Pro Plus 5G",
+    "EnumName": "Redmi_Note_11_Pro_Plus_5G",
+    "ThumbnailPath": "model/MI_Note_11_Pro_Plus_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 11 Pro",
+    "DisplayName": "Redmi Note 11 Pro",
+    "EnumName": "Redmi_Note_11_Pro",
+    "ThumbnailPath": "model/MI_Note_11_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 526,
+    "Name": "Xiaomi Mi 12 Pro 5G",
+    "DisplayName": "Xiaomi Mi 12 Pro 5G",
+    "EnumName": "Xiaomi_Mi_12_Pro_5G",
+    "ThumbnailPath": "model/MI_12_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 12,
+    "Name": "Redmi K50i",
+    "DisplayName": "Redmi K50i",
+    "EnumName": "Redmi_K50i",
+    "ThumbnailPath": "model/MI_K50i.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 526,
+    "Name": "Xiaomi Mi 11T Pro 5G",
+    "DisplayName": "Xiaomi Mi 11T Pro 5G",
+    "EnumName": "Xiaomi_Mi_11T_Pro_5G",
+    "ThumbnailPath": "model/Xiaomi_11T_Pro_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 526,
+    "Name": "Xiaomi Mi 11i HyperCharge 5G",
+    "DisplayName": "Xiaomi Mi 11i HyperCharge 5G",
+    "EnumName": "Xiaomi_Mi_11i_HyperCharge_5G",
+    "ThumbnailPath": "model/Xiaomi_11i_HyperCharge_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 526,
+    "Name": "Xiaomi Mi 11i 5G",
+    "DisplayName": "Xiaomi Mi 11i 5G",
+    "EnumName": "Xiaomi_Mi_11i_5G",
+    "ThumbnailPath": "model/Xiaomi_11i_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 14,
+    "Name": "Redmi 9 Activ",
+    "DisplayName": "Redmi 9 Activ",
+    "EnumName": "Redmi_9_Activ",
+    "ThumbnailPath": "model/Xiaomi_Redmi_9_Activ.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 13,
+    "Name": "Redmi 8",
+    "DisplayName": "Redmi 8",
+    "EnumName": "Redmi_8",
+    "ThumbnailPath": "model/Xiaomi_Redmi_8.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 11",
+    "DisplayName": "Redmi Note 11",
+    "EnumName": "Redmi_Note_11",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_11.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 11T 5G",
+    "DisplayName": "Redmi Note 11T 5G",
+    "EnumName": "Redmi_Note_11T_5G",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_11T_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 11S",
+    "DisplayName": "Redmi Note 11S",
+    "EnumName": "Redmi_Note_11S",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_11S.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 10 Lite",
+    "DisplayName": "Redmi Note 10 Lite",
+    "EnumName": "Redmi_Note_10_Lite",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_10_Lite.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 14,
+    "Name": "Redmi 9i",
+    "DisplayName": "Redmi 9i",
+    "EnumName": "Redmi_9i",
+    "ThumbnailPath": "model/Xiaomi_Redmi_9i.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 14,
+    "Name": "Redmi 9A",
+    "DisplayName": "Redmi 9A",
+    "EnumName": "Redmi_9A",
+    "ThumbnailPath": "model/Xiaomi_Redmi_9A.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 14,
+    "Name": "Redmi 9",
+    "DisplayName": "Redmi 9",
+    "EnumName": "Redmi_9",
+    "ThumbnailPath": "model/Xiaomi_Redmi_9.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 14,
+    "Name": "Redmi 9 Prime",
+    "DisplayName": "Redmi 9 Prime",
+    "EnumName": "Redmi_9_Prime",
+    "ThumbnailPath": "model/Xiaomi_Redmi_9_Prime.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 13,
+    "Name": "Redmi 8A Dual",
+    "DisplayName": "Redmi 8A Dual",
+    "EnumName": "Redmi_8A_Dual",
+    "ThumbnailPath": "model/Xiaomi_Redmi_8A_Dual.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 13,
+    "Name": "Redmi 8A",
+    "DisplayName": "Redmi 8A",
+    "EnumName": "Redmi_8A",
+    "ThumbnailPath": "model/Xiaomi_Redmi_8A.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 12,
+    "Name": "Redmi K20 Pro",
+    "DisplayName": "Redmi K20 Pro",
+    "EnumName": "Redmi_K20_Pro",
+    "ThumbnailPath": "model/Xiaomi_Redmi_K20_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 12,
+    "Name": "Redmi K20",
+    "DisplayName": "Redmi K20",
+    "EnumName": "Redmi_K20",
+    "ThumbnailPath": "model/Xiaomi_Redmi_K20.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 11,
+    "Name": "Redmi 7A",
+    "DisplayName": "Redmi 7A",
+    "EnumName": "Redmi_7A",
+    "ThumbnailPath": "model/Xiaomi_Redmi_7A.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 11,
+    "Name": "Redmi 7",
+    "DisplayName": "Redmi 7",
+    "EnumName": "Redmi_7",
+    "ThumbnailPath": "model/Xiaomi_Redmi_7.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 526,
+    "Name": "Xiaomi Mi Black Shark 2",
+    "DisplayName": "Xiaomi Mi Black Shark 2",
+    "EnumName": "Xiaomi_Mi_Black_Shark_2",
+    "ThumbnailPath": "model/Xiaomi_Black_Shark_2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 496,
+    "Name": "Redmi Go",
+    "DisplayName": "Redmi Go",
+    "EnumName": "Redmi_Go",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Go.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 9,
+    "Name": "Redmi Y3",
+    "DisplayName": "Redmi Y3",
+    "EnumName": "Redmi_Y3",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Y3.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 9,
+    "Name": "Redmi Y2",
+    "DisplayName": "Redmi Y2",
+    "EnumName": "Redmi_Y2",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Y2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 10T 5G",
+    "DisplayName": "Redmi Note 10T 5G",
+    "EnumName": "Redmi_Note_10T_5G",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_10T_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 10S",
+    "DisplayName": "Redmi Note 10S",
+    "EnumName": "Redmi_Note_10S",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_10s.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 10 Pro Max",
+    "DisplayName": "Redmi Note 10 Pro Max",
+    "EnumName": "Redmi_Note_10_Pro_Max",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_10_Pro_Max.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 10 Pro",
+    "DisplayName": "Redmi Note 10 Pro",
+    "EnumName": "Redmi_Note_10_Pro",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_10_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 10",
+    "DisplayName": "Redmi Note 10",
+    "EnumName": "Redmi_Note_10",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_10.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 9",
+    "DisplayName": "Redmi Note 9",
+    "EnumName": "Redmi_Note_9",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_9.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 9 Pro Max",
+    "DisplayName": "Redmi Note 9 Pro Max",
+    "EnumName": "Redmi_Note_9_Pro_Max",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_9_Pro_Max.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 9 Pro",
+    "DisplayName": "Redmi Note 9 Pro",
+    "EnumName": "Redmi_Note_9_Pro",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_9_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 8 Pro",
+    "DisplayName": "Redmi Note 8 Pro",
+    "EnumName": "Redmi_Note_8_Pro",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_8_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 8",
+    "DisplayName": "Redmi Note 8",
+    "EnumName": "Redmi_Note_8",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_8.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 7S",
+    "DisplayName": "Redmi Note 7S",
+    "EnumName": "Redmi_Note_7S",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_7S.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 7 Pro",
+    "DisplayName": "Redmi Note 7 Pro",
+    "EnumName": "Redmi_Note_7_Pro",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_7_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 7",
+    "DisplayName": "Redmi Note 7",
+    "EnumName": "Redmi_Note_7",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_7.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 5",
+    "DisplayName": "Redmi Note 5",
+    "EnumName": "Redmi_Note_5",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_5.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 5 Pro",
+    "DisplayName": "Redmi Note 5 Pro",
+    "EnumName": "Redmi_Note_5_Pro",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_5_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 399,
+    "Name": "Redmi Note 6 Pro",
+    "DisplayName": "Redmi Note 6 Pro",
+    "EnumName": "Redmi_Note_6_Pro",
+    "ThumbnailPath": "model/Xiaomi_Redmi_Note_6_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 7,
+    "Name": "Redmi 6A",
+    "DisplayName": "Redmi 6A",
+    "EnumName": "Redmi_6A",
+    "ThumbnailPath": "model/Xiaomi_Redmi_6A.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 7,
+    "Name": "Redmi 6",
+    "DisplayName": "Redmi 6",
+    "EnumName": "Redmi_6",
+    "ThumbnailPath": "model/Xiaomi_Redmi_6.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 526,
+    "Name": "Xiaomi 11 Lite NE 5G",
+    "DisplayName": "Xiaomi 11 Lite NE 5G",
+    "EnumName": "Xiaomi_11_Lite_NE_5G",
+    "ThumbnailPath": "model/Xiaomi_11_Lite_NE_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 526,
+    "Name": "Xiaomi Mi 10",
+    "DisplayName": "Xiaomi Mi 10",
+    "EnumName": "Xiaomi_Mi_10",
+    "ThumbnailPath": "model/Xiaomi_Mi_10.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 526,
+    "Name": "Xiaomi Mi 11 Lite",
+    "DisplayName": "Xiaomi Mi 11 Lite",
+    "EnumName": "Xiaomi_Mi_11_Lite",
+    "ThumbnailPath": "model/Xiaomi_Mi_11_Lite.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 526,
+    "Name": "Xiaomi Mi 11X",
+    "DisplayName": "Xiaomi Mi 11X",
+    "EnumName": "Xiaomi_Mi_11X",
+    "ThumbnailPath": "model/Xiaomi_Mi_11X.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 526,
+    "Name": "Xiaomi Mi 11 Ultra",
+    "DisplayName": "Xiaomi Mi 11 Ultra",
+    "EnumName": "Xiaomi_Mi_11_Ultra",
+    "ThumbnailPath": "model/Xiaomi_Mi_11_Ultra.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 526,
+    "Name": "Xiaomi Mi 11X Pro",
+    "DisplayName": "Xiaomi Mi 11X Pro",
+    "EnumName": "Xiaomi_Mi_11X_Pro",
+    "ThumbnailPath": "model/Xiaomi_Mi_11X_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 526,
+    "Name": "Xiaomi Mi 10i",
+    "DisplayName": "Xiaomi Mi 10i",
+    "EnumName": "Xiaomi_Mi_10i",
+    "ThumbnailPath": "model/Xiaomi_Mi_10i.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 526,
+    "Name": "Xiaomi Mi 10T Pro",
+    "DisplayName": "Xiaomi Mi 10T Pro",
+    "EnumName": "Xiaomi_Mi_10T_Pro",
+    "ThumbnailPath": "model/Mi_10T_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 526,
+    "Name": "Xiaomi Mi 10T",
+    "DisplayName": "Xiaomi Mi 10T",
+    "EnumName": "Xiaomi_Mi_10T",
+    "ThumbnailPath": "model/Xiaomi_Mi_10T.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 530,
+    "Name": "Redmi A2",
+    "DisplayName": "Redmi A2",
+    "EnumName": "Redmi_A2",
+    "ThumbnailPath": "model/Xiaomi_Mi_A2.png",
+    "DisplayInList": true
+  }
+]

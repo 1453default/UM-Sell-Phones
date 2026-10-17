@@ -1,0 +1,426 @@
+{
+  "brand": "Infinix",
+  "total_models": 70,
+  "models": [
+    {
+      "model": "INFINIX SMART 5A",
+      "file": "INFINIX-SMART-5A.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "INFINIX SMART 6",
+      "file": "INFINIX-SMART-6.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "INFINIX SMART 6 HD",
+      "file": "INFINIX-SMART-6-HD.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Infinix GT 10 Pro",
+      "file": "Infinix-GT-10-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix GT 20 Pro",
+      "file": "Infinix-GT-20-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix GT 30 5G",
+      "file": "Infinix-GT-30-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Infinix GT 30 Pro 5G",
+      "file": "Infinix-GT-30-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Infinix Hot 10",
+      "file": "Infinix-Hot-10.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Hot 10 Play",
+      "file": "Infinix-Hot-10-Play.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Hot 10s",
+      "file": "Infinix-Hot-10s.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Hot 11",
+      "file": "Infinix-Hot-11.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Hot 11 2022",
+      "file": "Infinix-Hot-11-2022.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Hot 11S",
+      "file": "Infinix-Hot-11S.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Infinix Hot 12",
+      "file": "Infinix-Hot-12.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Infinix Hot 12 Play",
+      "file": "Infinix-Hot-12-Play.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Infinix Hot 12 Pro 5G",
+      "file": "Infinix-Hot-12-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Infinix Hot 20 4G",
+      "file": "Infinix-Hot-20-4G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Infinix Hot 20 5G",
+      "file": "Infinix-Hot-20-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Infinix Hot 30i",
+      "file": "Infinix-Hot-30i.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Hot 40i",
+      "file": "Infinix-Hot-40i.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Hot 50 5G",
+      "file": "Infinix-Hot-50-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Hot 6 Pro",
+      "file": "Infinix-Hot-6-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Hot 60 5G",
+      "file": "Infinix-Hot-60-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Infinix Hot 60i 5G",
+      "file": "Infinix-Hot-60i-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Infinix Hot 7",
+      "file": "Infinix-Hot-7.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Hot 7 Pro",
+      "file": "Infinix-Hot-7-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Hot 8",
+      "file": "Infinix-Hot-8.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Hot 9",
+      "file": "Infinix-Hot-9.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Hot 9 Pro",
+      "file": "Infinix-Hot-9-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix NOTE 12 TURBO",
+      "file": "Infinix-NOTE-12-TURBO.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Infinix Note 10",
+      "file": "Infinix-Note-10.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Note 10 Pro",
+      "file": "Infinix-Note-10-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Note 11",
+      "file": "Infinix-Note-11.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Note 11S",
+      "file": "Infinix-Note-11S.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Note 11S Free Fire Edition",
+      "file": "Infinix-Note-11S-Free-Fire-Edition.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Note 12 Pro",
+      "file": "Infinix-Note-12-Pro.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Infinix Note 12 Pro 5G",
+      "file": "Infinix-Note-12-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Infinix Note 30 5G",
+      "file": "Infinix-Note-30-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Note 40 5G",
+      "file": "Infinix-Note-40-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Note 40 Pro 5G",
+      "file": "Infinix-Note-40-Pro-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Note 40 Pro 5G Racing Edition",
+      "file": "Infinix-Note-40-Pro-5G-Racing-Edition.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Note 40 Pro Plus 5G",
+      "file": "Infinix-Note-40-Pro-Plus-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Note 40X 5G",
+      "file": "Infinix-Note-40X-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Note 5",
+      "file": "Infinix-Note-5.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Note 50X 5G",
+      "file": "Infinix-Note-50X-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Infinix Note 50s 5G",
+      "file": "Infinix-Note-50s-5G.json",
+      "image_count": 1,
+      "confidence": "unverified"
+    },
+    {
+      "model": "Infinix Note 60 Pro",
+      "file": "Infinix-Note-60-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Note 7",
+      "file": "Infinix-Note-7.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Note Edge",
+      "file": "Infinix-Note-Edge.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix SMART 7",
+      "file": "Infinix-SMART-7.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Smart 10",
+      "file": "Infinix-Smart-10.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Smart 20",
+      "file": "Infinix-Smart-20.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Smart 6 Plus",
+      "file": "Infinix-Smart-6-Plus.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Infinix Smart 7 HD",
+      "file": "Infinix-Smart-7-HD.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Smart 8",
+      "file": "Infinix-Smart-8.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Smart 8 HD",
+      "file": "Infinix-Smart-8-HD.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Smart 8 Plus",
+      "file": "Infinix-Smart-8-Plus.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Smart 8 Pro",
+      "file": "Infinix-Smart-8-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Smart 9 HD",
+      "file": "Infinix-Smart-9-HD.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Zero 20 5G",
+      "file": "Infinix-Zero-20-5G.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Infinix Zero 30 5G",
+      "file": "Infinix-Zero-30-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Zero 40 5G",
+      "file": "Infinix-Zero-40-5G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Zero 5",
+      "file": "Infinix-Zero-5.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Zero 5 G",
+      "file": "Infinix-Zero-5-G.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Zero 5 Pro",
+      "file": "Infinix-Zero-5-Pro.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Zero 5G 2023",
+      "file": "Infinix-Zero-5G-2023.json",
+      "image_count": 1,
+      "confidence": "high"
+    },
+    {
+      "model": "Infinix Zero 5G 2023 Turbo",
+      "file": "Infinix-Zero-5G-2023-Turbo.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Zero 8i",
+      "file": "Infinix-Zero-8i.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Zero Flip",
+      "file": "Infinix-Zero-Flip.json",
+      "image_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "model": "Infinix Zero Ultra",
+      "file": "Infinix-Zero-Ultra.json",
+      "image_count": 1,
+      "confidence": "high"
+    }
+  ]
+}

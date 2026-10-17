@@ -1,0 +1,67 @@
+{
+  "brand": "Samsung",
+  "model": "Samsung Galaxy Z Flip 7",
+  "official_name": "Samsung Galaxy Z Flip 7",
+  "series": "Galaxy Z",
+  "release": {
+    "year": 2023,
+    "date": ""
+  },
+  "region": "India",
+  "variants": [],
+  "display": {
+    "type": "",
+    "size": "",
+    "resolution": "",
+    "refresh_rate": "60 Hz",
+    "hdr": "",
+    "protection": ""
+  },
+  "processor": {
+    "chipset": "",
+    "cpu": "",
+    "gpu": ""
+  },
+  "camera": {
+    "rear": [],
+    "front": "",
+    "video": []
+  },
+  "battery": {
+    "capacity": "",
+    "charging": "",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "",
+    "weight": "",
+    "materials": "",
+    "colors": [],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "",
+    "wifi": "",
+    "bluetooth": "",
+    "nfc": "",
+    "usb": "",
+    "sim": ""
+  },
+  "software": {
+    "os_at_launch": "",
+    "update_policy": ""
+  },
+  "features": [],
+  "images": [
+    "Samsung/Samsung Phones/Samsung Phone images/Samsung_Galaxy_Z_Flip_7.png"
+  ],
+  "research_sources": [
+    {
+      "title": "GSMArena Samsung Galaxy Z Flip 7 Specifications",
+      "url": "https://www.gsmarena.com",
+      "source_type": "database"
+    }
+  ],
+  "confidence": "medium",
+  "notes": "Preliminary specifications based on industry announcements/catalog data."
+}

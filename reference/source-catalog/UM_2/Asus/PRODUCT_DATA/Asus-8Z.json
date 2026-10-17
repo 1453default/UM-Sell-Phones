@@ -1,0 +1,106 @@
+{
+  "brand": "Asus",
+  "model": "Asus 8Z",
+  "official_name": "Asus 8Z",
+  "series": "Asus Series",
+  "release": {
+    "year": 2021,
+    "date": "2021 May 12"
+  },
+  "region": "India",
+  "variants": [
+    {
+      "ram": "6GB",
+      "storage": "128GB"
+    },
+    {
+      "ram": "8GB",
+      "storage": "128GB"
+    },
+    {
+      "ram": "8GB",
+      "storage": "256GB"
+    },
+    {
+      "ram": "12GB",
+      "storage": "256GB"
+    },
+    {
+      "ram": "16GB",
+      "storage": "256GB"
+    }
+  ],
+  "display": {
+    "type": "Super AMOLED, 120Hz, HDR10+, 700 nits (HBM), 1100 nits (peak)",
+    "size": "5.9 inches, 84.0 cm2 (~82.9% screen-to-body ratio)",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~446 ppi density)",
+    "refresh_rate": "120 Hz",
+    "hdr": "HDR10+, HDR10, HDR",
+    "protection": "Corning Gorilla Glass Victus"
+  },
+  "processor": {
+    "chipset": "Qualcomm SM8350 Snapdragon 888 5G (5 nm)",
+    "cpu": "Octa-core (1x2.84 GHz Cortex-X1 & 3x2.42 GHz Cortex-A78 & 4x1.80 GHz Cortex-A55)",
+    "gpu": "Adreno 660"
+  },
+  "camera": {
+    "rear": [
+      "64 MP, f/1.8, 26mm (wide), 1/1.73\", 0.8µm, PDAF, OIS 12 MP, f/2.2, 112˚, 14mm (ultrawide), 1/2.55\", 1.4µm, dual pixel PDAF"
+    ],
+    "front": "12 MP, f/2.5, 28mm (standard), 1/2.93\", 1.22µm, dual pixel PDAF",
+    "video": [
+      "8K@24fps",
+      "4K@30/60/120fps",
+      "1080p@30/60/240fps",
+      "720p@480fps; gyro-EIS",
+      "HDR"
+    ]
+  },
+  "battery": {
+    "capacity": "4000 mAh",
+    "charging": "30W wired, PD3.0, 60% in 25 min, 100% in 80 min Reverse wired",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "148 x 68.5 x 8.9 mm (5.83 x 2.70 x 0.35 in)",
+    "weight": "169 g (5.96 oz)",
+    "materials": "Glass front (Gorilla Glass Victus), glass back (Gorilla Glass 3), aluminum frame",
+    "colors": [
+      "Obsidian Black",
+      "Horizon Silver"
+    ],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "GSM / HSPA / LTE / 5G",
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac/6e, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.2, A2DP, LE, aptX HD, aptX Adaptive",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG",
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "software": {
+    "os_at_launch": "Android 11, upgradable to Android 13",
+    "update_policy": ""
+  },
+  "features": [
+    "Fingerprint (under display",
+    "optical)",
+    "accelerometer",
+    "gyro",
+    "proximity",
+    "compass"
+  ],
+  "images": [
+    "Asus/Asus images/Asus_8z.png"
+  ],
+  "research_sources": [
+    {
+      "title": "GSMArena Asus 8Z Specifications",
+      "url": "https://www.gsmarena.com",
+      "source_type": "database"
+    }
+  ],
+  "confidence": "high",
+  "notes": ""
+}

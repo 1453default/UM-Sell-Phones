@@ -1,0 +1,290 @@
+[
+  {
+    "BrandSeriesId": 586,
+    "Name": "HMD Vibe 5G",
+    "DisplayName": "HMD Vibe 5G",
+    "EnumName": "HMD_Vibe_5G",
+    "ThumbnailPath": "model/HMD_Vibe_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 586,
+    "Name": "HMD Fusion",
+    "DisplayName": "HMD Fusion",
+    "EnumName": "HMD_Fusion",
+    "ThumbnailPath": "model/HMD_Fusion.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 465,
+    "Name": "Nokia HMD Skyline 5G",
+    "DisplayName": "Nokia HMD Skyline 5G",
+    "EnumName": "Nokia_HMD_Skyline_5G",
+    "ThumbnailPath": "model/Nokia_HMD_Skyline_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 465,
+    "Name": "Nokia HMD Crest Max 5G",
+    "DisplayName": "Nokia HMD Crest Max 5G",
+    "EnumName": "Nokia_HMD_Crest_Max_5G",
+    "ThumbnailPath": "model/Nokia_HMD_Crest_Max_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 465,
+    "Name": "Nokia HMD Crest",
+    "DisplayName": "Nokia HMD Crest",
+    "EnumName": "Nokia_HMD_Crest",
+    "ThumbnailPath": "model/Nokia_HMD_Crest.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 95,
+    "Name": "Nokia G42 5G",
+    "DisplayName": "Nokia G42 5G",
+    "EnumName": "Nokia_G42_5G",
+    "ThumbnailPath": "model/Nokia_G42_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 94,
+    "Name": "Nokia C32",
+    "DisplayName": "Nokia C32",
+    "EnumName": "Nokia_C32",
+    "ThumbnailPath": "model/Nokia_C32.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 94,
+    "Name": "Nokia C22",
+    "DisplayName": "Nokia C22",
+    "EnumName": "Nokia_C22",
+    "ThumbnailPath": "model/Nokia_C22.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 94,
+    "Name": "Nokia C12 Pro",
+    "DisplayName": "Nokia C12 Pro",
+    "EnumName": "Nokia_C12_PRO",
+    "ThumbnailPath": "model/Nokia_C12_PRO.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 94,
+    "Name": "Nokia C12",
+    "DisplayName": "Nokia C12",
+    "EnumName": "Nokia_C12",
+    "ThumbnailPath": "model/Nokia_C12.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 338,
+    "Name": "Nokia X30 5G",
+    "DisplayName": "Nokia X30 5G",
+    "EnumName": "Nokia_X30_5G",
+    "ThumbnailPath": "model/Nokia_X30_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 95,
+    "Name": "Nokia G11 Plus",
+    "DisplayName": "Nokia G11 Plus",
+    "EnumName": "Nokia_G11_PLUS",
+    "ThumbnailPath": "model/Nokia_G11_PLUS.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 94,
+    "Name": "Nokia C31",
+    "DisplayName": "Nokia C31",
+    "EnumName": "Nokia_C31",
+    "ThumbnailPath": "model/Nokia_C31.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 95,
+    "Name": "Nokia G60 5G",
+    "DisplayName": "Nokia G60 5G",
+    "EnumName": "Nokia_G60_5G",
+    "ThumbnailPath": "model/Nokia_G60_5G.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 94,
+    "Name": "Nokia C21 Plus",
+    "DisplayName": "Nokia C21 Plus",
+    "EnumName": "NOKIA_C21_PLUS",
+    "ThumbnailPath": "model/NOKIA_C21_PLUS.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 338,
+    "Name": " Nokia XR20",
+    "DisplayName": " Nokia XR20",
+    "EnumName": "Nokia_XR20",
+    "ThumbnailPath": "model/Nokia_XR20.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 95,
+    "Name": "Nokia G21",
+    "DisplayName": "Nokia G21",
+    "EnumName": "Nokia_G21",
+    "ThumbnailPath": "model/Nokia_G21.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 95,
+    "Name": "Nokia G10",
+    "DisplayName": "Nokia G10",
+    "EnumName": "Nokia_G10",
+    "ThumbnailPath": "model/Nokia_G10.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 95,
+    "Name": "Nokia G20",
+    "DisplayName": "Nokia G20",
+    "EnumName": "Nokia_G20",
+    "ThumbnailPath": "model/Nokia_G20.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 94,
+    "Name": "Nokia C30",
+    "DisplayName": "Nokia C30",
+    "EnumName": "Nokia_C30",
+    "ThumbnailPath": "model/Nokia_C30.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 94,
+    "Name": "Nokia C01 Plus",
+    "DisplayName": "Nokia C01 Plus",
+    "EnumName": "Nokia_C01_Plus",
+    "ThumbnailPath": "model/Nokia_C01_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 94,
+    "Name": "Nokia C20 Plus",
+    "DisplayName": "Nokia C20 Plus",
+    "EnumName": "Nokia_C20_Plus",
+    "ThumbnailPath": "model/Nokia_C20_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 93,
+    "Name": "Nokia 9 PureView",
+    "DisplayName": "Nokia 9 PureView",
+    "EnumName": "Nokia_9_PureView",
+    "ThumbnailPath": "model/Nokia_9_PureView.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 92,
+    "Name": "Nokia 4.2",
+    "DisplayName": "Nokia 4.2",
+    "EnumName": "Nokia_42",
+    "ThumbnailPath": "model/Nokia_42.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 90,
+    "Name": "Nokia 7.2",
+    "DisplayName": "Nokia 7.2",
+    "EnumName": "Nokia_72",
+    "ThumbnailPath": "model/Nokia_72.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 89,
+    "Name": "Nokia 6.2",
+    "DisplayName": "Nokia 6.2",
+    "EnumName": "Nokia_62",
+    "ThumbnailPath": "model/Nokia_62.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 89,
+    "Name": "Nokia 6.1 Plus",
+    "DisplayName": "Nokia 6.1 Plus",
+    "EnumName": "Nokia_61_Plus",
+    "ThumbnailPath": "model/Nokia_61_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 88,
+    "Name": "Nokia 5.4",
+    "DisplayName": "Nokia 5.4",
+    "EnumName": "Nokia_54",
+    "ThumbnailPath": "model/Nokia_54.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 88,
+    "Name": "Nokia 5.3",
+    "DisplayName": "Nokia 5.3",
+    "EnumName": "Nokia_53",
+    "ThumbnailPath": "model/Nokia_53.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 88,
+    "Name": "Nokia 5.1 Plus",
+    "DisplayName": "Nokia 5.1 Plus",
+    "EnumName": "Nokia_51_Plus",
+    "ThumbnailPath": "model/Nokia_51_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 87,
+    "Name": "Nokia 3.4",
+    "DisplayName": "Nokia 3.4",
+    "EnumName": "Nokia_34",
+    "ThumbnailPath": "model/Nokia_34.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 87,
+    "Name": "Nokia 3.2",
+    "DisplayName": "Nokia 3.2",
+    "EnumName": "Nokia_32",
+    "ThumbnailPath": "model/Nokia_32.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 87,
+    "Name": "Nokia 3.1 Plus",
+    "DisplayName": "Nokia 3.1 Plus",
+    "EnumName": "Nokia_31_Plus",
+    "ThumbnailPath": "model/Nokia_31_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 86,
+    "Name": "Nokia 2.4",
+    "DisplayName": "Nokia 2.4",
+    "EnumName": "Nokia_24",
+    "ThumbnailPath": "model/Nokia_24.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 86,
+    "Name": "Nokia 2.3",
+    "DisplayName": "Nokia 2.3",
+    "EnumName": "Nokia_23",
+    "ThumbnailPath": "model/Nokia_23.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 86,
+    "Name": "Nokia 2.2",
+    "DisplayName": "Nokia 2.2",
+    "EnumName": "Nokia_22",
+    "ThumbnailPath": "model/Nokia_22.png",
+    "DisplayInList": true
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "BrandSeriesId": 471,
+    "Name": "Nothing Phone 4b",
+    "DisplayName": "Nothing Phone 4b",
+    "EnumName": "Nothing_Phone_4b",
+    "ThumbnailPath": "model/Nothing_Phone_4b.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 471,
+    "Name": "Nothing Phone 4a Pro",
+    "DisplayName": "Nothing Phone 4a Pro",
+    "EnumName": "Nothing_Phone_4a_Pro",
+    "ThumbnailPath": "model/Nothing_Phone_4a_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 471,
+    "Name": "Nothing Phone 4a",
+    "DisplayName": "Nothing Phone 4a",
+    "EnumName": "Nothing_Phone_4a",
+    "ThumbnailPath": "model/Nothing_Phone_4a.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 471,
+    "Name": "Nothing Phone 3a Lite",
+    "DisplayName": "Nothing Phone 3a Lite",
+    "EnumName": "Nothing_Phone_3a_Lite",
+    "ThumbnailPath": "model/Nothing_Phone_3a_Lite.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 471,
+    "Name": "Nothing Phone 3",
+    "DisplayName": "Nothing Phone 3",
+    "EnumName": "Nothing_Phone_3",
+    "ThumbnailPath": "model/Nothing_Phone_3.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 471,
+    "Name": "Nothing Phone 3a",
+    "DisplayName": "Nothing Phone 3a",
+    "EnumName": "Nothing_Phone_3a",
+    "ThumbnailPath": "model/Nothing_Phone_3a.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 471,
+    "Name": "Nothing Phone 3a Pro",
+    "DisplayName": "Nothing Phone 3a Pro",
+    "EnumName": "Nothing_Phone_3a_Pro",
+    "ThumbnailPath": "model/Nothing_Phone_3a_Pro.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 471,
+    "Name": "Nothing Phone 2a",
+    "DisplayName": "Nothing Phone 2a",
+    "EnumName": "Nothing_Phone_2a",
+    "ThumbnailPath": "model/Nothing_Phone_2a.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 471,
+    "Name": "Nothing Phone 2a Plus",
+    "DisplayName": "Nothing Phone 2a Plus",
+    "EnumName": "Nothing_Phone_2a_Plus",
+    "ThumbnailPath": "model/Nothing_Phone_2a_Plus.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 471,
+    "Name": "Nothing Phone 2",
+    "DisplayName": "Nothing Phone 2",
+    "EnumName": "Nothing_Phone_2",
+    "ThumbnailPath": "model/Nothing_Phone_2.png",
+    "DisplayInList": true
+  },
+  {
+    "BrandSeriesId": 471,
+    "Name": "Nothing Phone 1",
+    "DisplayName": "Nothing Phone 1",
+    "EnumName": "Nothing_Phone_1",
+    "ThumbnailPath": "model/Nothing_Phone_1.png",
+    "DisplayInList": true
+  }
+]

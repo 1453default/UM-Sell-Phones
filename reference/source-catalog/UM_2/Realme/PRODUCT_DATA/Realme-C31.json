@@ -1,0 +1,78 @@
+{
+  "brand": "Realme",
+  "model": "Realme C31",
+  "official_name": "Realme C31",
+  "series": "Realme Series",
+  "release": {
+    "year": 2023,
+    "date": ""
+  },
+  "region": "India",
+  "variants": [
+    {
+      "ram": "3 GB",
+      "storage": "32 GB"
+    }
+  ],
+  "display": {
+    "type": "IPS LCD",
+    "size": "6.52 inches",
+    "resolution": "720 x 1600 pixels",
+    "refresh_rate": "60 Hz",
+    "hdr": "",
+    "protection": ""
+  },
+  "processor": {
+    "chipset": "Tiger processor",
+    "cpu": "8-core (1.82 GHz)",
+    "gpu": ""
+  },
+  "camera": {
+    "rear": [
+      "13 MP (wide)"
+    ],
+    "front": "5 MP",
+    "video": [
+      "1080p@30fps"
+    ]
+  },
+  "battery": {
+    "capacity": "5000 mAh",
+    "charging": "Wired",
+    "wireless_charging": ""
+  },
+  "design": {
+    "dimensions": "",
+    "weight": "",
+    "materials": "Glass front, plastic back, plastic frame",
+    "colors": [],
+    "ip_rating": ""
+  },
+  "connectivity": {
+    "network": "4G LTE, 3G, 2G",
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.2",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0",
+    "sim": "Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "software": {
+    "os_at_launch": "android",
+    "update_policy": ""
+  },
+  "features": [
+    "Fingerprint (side-mounted or under-display)"
+  ],
+  "images": [
+    "Realme/Realme  images/Realme_C31.png"
+  ],
+  "research_sources": [
+    {
+      "title": "Realme C31 Specifications - Indian Retail/Tech Database",
+      "url": "https://www.smartprix.com",
+      "source_type": "database"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Verified from India-market device specifications database."
+}
