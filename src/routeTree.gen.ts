@@ -10,6 +10,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as HowItWorksRouteImport } from './routes/how-it-works'
 import { Route as SellPhoneRouteImport } from './routes/sell-phone'
 import { Route as SellPhoneIndexRouteImport } from './routes/sell-phone.index'
 import { Route as SellPhoneBrandIndexRouteImport } from './routes/sell-phone.$brand.index'
@@ -19,6 +20,11 @@ import { Route as SellPhoneBrandModelVariantRouteImport } from './routes/sell-ph
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HowItWorksRoute = HowItWorksRouteImport.update({
+  id: '/how-it-works',
+  path: '/how-it-works',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SellPhoneRoute = SellPhoneRouteImport.update({
@@ -51,6 +57,7 @@ const SellPhoneBrandModelVariantRoute =
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/how-it-works': typeof HowItWorksRoute
   '/sell-phone': typeof SellPhoneRouteWithChildren
   '/sell-phone/': typeof SellPhoneIndexRoute
   '/sell-phone/$brand/': typeof SellPhoneBrandIndexRoute
@@ -59,6 +66,7 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/how-it-works': typeof HowItWorksRoute
   '/sell-phone': typeof SellPhoneIndexRoute
   '/sell-phone/$brand': typeof SellPhoneBrandIndexRoute
   '/sell-phone/$brand/$model/$variant': typeof SellPhoneBrandModelVariantRoute
@@ -67,6 +75,7 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/how-it-works': typeof HowItWorksRoute
   '/sell-phone': typeof SellPhoneRouteWithChildren
   '/sell-phone/': typeof SellPhoneIndexRoute
   '/sell-phone/$brand/': typeof SellPhoneBrandIndexRoute
@@ -77,6 +86,7 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/how-it-works'
     | '/sell-phone'
     | '/sell-phone/'
     | '/sell-phone/$brand/'
@@ -85,6 +95,7 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/how-it-works'
     | '/sell-phone'
     | '/sell-phone/$brand'
     | '/sell-phone/$brand/$model/$variant'
@@ -92,6 +103,7 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/how-it-works'
     | '/sell-phone'
     | '/sell-phone/'
     | '/sell-phone/$brand/'
@@ -101,6 +113,7 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  HowItWorksRoute: typeof HowItWorksRoute
   SellPhoneRoute: typeof SellPhoneRouteWithChildren
 }
 
@@ -111,6 +124,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/how-it-works': {
+      id: '/how-it-works'
+      path: '/how-it-works'
+      fullPath: '/how-it-works'
+      preLoaderRoute: typeof HowItWorksRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sell-phone': {
@@ -171,6 +191,7 @@ const SellPhoneRouteWithChildren = SellPhoneRoute._addFileChildren(
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  HowItWorksRoute: HowItWorksRoute,
   SellPhoneRoute: SellPhoneRouteWithChildren,
 }
 export const routeTree = rootRouteImport
