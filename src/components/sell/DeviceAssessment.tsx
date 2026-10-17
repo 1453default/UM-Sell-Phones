@@ -323,9 +323,7 @@ export function DeviceAssessment({
               <div className="mt-1 font-num text-4xl font-bold">
                 {formatINR(result.displayedEstimate)}
               </div>
-              <p className="mt-3 text-sm text-muted-foreground">
-                Rounded to the nearest ₹100. Subject to inspection and confirmation.
-              </p>
+              <p className="mt-3 text-sm text-muted-foreground">{"\n"}</p>
             </div>
             <details className="border-b border-border py-5">
               <summary className="cursor-pointer font-semibold">Review your answers</summary>
