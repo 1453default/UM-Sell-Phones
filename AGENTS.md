@@ -13,4 +13,4 @@
 - Maintain device-condition definitions and calculation in `src/lib/valuation.ts`, independently tested from the assessment UI; this keeps percentages, caps, and overlap handling consistent.
 - Keep lead validation and encoded WhatsApp messages in `src/lib/lead.ts` and never claim website storage; this project has no lead-storage service.
 - Key assessment and variant-selector state by device identity; this prevents answers or selections leaking across model and variant changes.
-- Preserve Nitro auto-detected deployment presets for the existing Vercel target, with sandbox dependency filesystem access in development; this repairs preview loading without changing production hosting.
+- Use @lovable.dev/vite-tanstack-config with the existing server entry and sandbox dependency filesystem access; it emits Lovable's dist bundle while preserving Nitro hosting auto-detection outside Lovable.
