@@ -10,8 +10,11 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AuthenticatedRouteRouteImport } from './routes/_authenticated/route'
+import { Route as AuthRouteImport } from './routes/auth'
 import { Route as HowItWorksRouteImport } from './routes/how-it-works'
 import { Route as SellPhoneRouteImport } from './routes/sell-phone'
+import { Route as AuthenticatedAdminRouteImport } from './routes/_authenticated/admin'
 import { Route as SellPhoneIndexRouteImport } from './routes/sell-phone.index'
 import { Route as SellPhoneBrandIndexRouteImport } from './routes/sell-phone.$brand.index'
 import { Route as SellPhoneBrandModelIndexRouteImport } from './routes/sell-phone.$brand.$model.index'
@@ -20,6 +23,15 @@ import { Route as SellPhoneBrandModelVariantRouteImport } from './routes/sell-ph
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthenticatedRouteRoute = AuthenticatedRouteRouteImport.update({
+  id: '/_authenticated',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthRoute = AuthRouteImport.update({
+  id: '/auth',
+  path: '/auth',
   getParentRoute: () => rootRouteImport,
 } as any)
 const HowItWorksRoute = HowItWorksRouteImport.update({
@@ -31,6 +43,11 @@ const SellPhoneRoute = SellPhoneRouteImport.update({
   id: '/sell-phone',
   path: '/sell-phone',
   getParentRoute: () => rootRouteImport,
+} as any)
+const AuthenticatedAdminRoute = AuthenticatedAdminRouteImport.update({
+  id: '/admin',
+  path: '/admin',
+  getParentRoute: () => AuthenticatedRouteRoute,
 } as any)
 const SellPhoneIndexRoute = SellPhoneIndexRouteImport.update({
   id: '/',
@@ -57,8 +74,10 @@ const SellPhoneBrandModelVariantRoute =
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/auth': typeof AuthRoute
   '/how-it-works': typeof HowItWorksRoute
   '/sell-phone': typeof SellPhoneRouteWithChildren
+  '/admin': typeof AuthenticatedAdminRoute
   '/sell-phone/': typeof SellPhoneIndexRoute
   '/sell-phone/$brand/': typeof SellPhoneBrandIndexRoute
   '/sell-phone/$brand/$model/$variant': typeof SellPhoneBrandModelVariantRoute
@@ -66,7 +85,9 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/auth': typeof AuthRoute
   '/how-it-works': typeof HowItWorksRoute
+  '/admin': typeof AuthenticatedAdminRoute
   '/sell-phone': typeof SellPhoneIndexRoute
   '/sell-phone/$brand': typeof SellPhoneBrandIndexRoute
   '/sell-phone/$brand/$model/$variant': typeof SellPhoneBrandModelVariantRoute
@@ -75,8 +96,11 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/_authenticated': typeof AuthenticatedRouteRouteWithChildren
+  '/auth': typeof AuthRoute
   '/how-it-works': typeof HowItWorksRoute
   '/sell-phone': typeof SellPhoneRouteWithChildren
+  '/_authenticated/admin': typeof AuthenticatedAdminRoute
   '/sell-phone/': typeof SellPhoneIndexRoute
   '/sell-phone/$brand/': typeof SellPhoneBrandIndexRoute
   '/sell-phone/$brand/$model/$variant': typeof SellPhoneBrandModelVariantRoute
@@ -86,8 +110,10 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/auth'
     | '/how-it-works'
     | '/sell-phone'
+    | '/admin'
     | '/sell-phone/'
     | '/sell-phone/$brand/'
     | '/sell-phone/$brand/$model/$variant'
@@ -95,7 +121,9 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/auth'
     | '/how-it-works'
+    | '/admin'
     | '/sell-phone'
     | '/sell-phone/$brand'
     | '/sell-phone/$brand/$model/$variant'
@@ -103,8 +131,11 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/_authenticated'
+    | '/auth'
     | '/how-it-works'
     | '/sell-phone'
+    | '/_authenticated/admin'
     | '/sell-phone/'
     | '/sell-phone/$brand/'
     | '/sell-phone/$brand/$model/$variant'
@@ -113,6 +144,8 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AuthenticatedRouteRoute: typeof AuthenticatedRouteRouteWithChildren
+  AuthRoute: typeof AuthRoute
   HowItWorksRoute: typeof HowItWorksRoute
   SellPhoneRoute: typeof SellPhoneRouteWithChildren
 }
@@ -124,6 +157,20 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/_authenticated': {
+      id: '/_authenticated'
+      path: ''
+      fullPath: '/'
+      preLoaderRoute: typeof AuthenticatedRouteRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/auth': {
+      id: '/auth'
+      path: '/auth'
+      fullPath: '/auth'
+      preLoaderRoute: typeof AuthRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/how-it-works': {
@@ -139,6 +186,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/sell-phone'
       preLoaderRoute: typeof SellPhoneRouteImport
       parentRoute: typeof rootRouteImport
+    }
+    '/_authenticated/admin': {
+      id: '/_authenticated/admin'
+      path: '/admin'
+      fullPath: '/admin'
+      preLoaderRoute: typeof AuthenticatedAdminRouteImport
+      parentRoute: typeof AuthenticatedRouteRoute
     }
     '/sell-phone/': {
       id: '/sell-phone/'
@@ -171,6 +225,17 @@ declare module '@tanstack/react-router' {
   }
 }
 
+interface AuthenticatedRouteRouteChildren {
+  AuthenticatedAdminRoute: typeof AuthenticatedAdminRoute
+}
+
+const AuthenticatedRouteRouteChildren: AuthenticatedRouteRouteChildren = {
+  AuthenticatedAdminRoute: AuthenticatedAdminRoute,
+}
+
+const AuthenticatedRouteRouteWithChildren =
+  AuthenticatedRouteRoute._addFileChildren(AuthenticatedRouteRouteChildren)
+
 interface SellPhoneRouteChildren {
   SellPhoneIndexRoute: typeof SellPhoneIndexRoute
   SellPhoneBrandIndexRoute: typeof SellPhoneBrandIndexRoute
@@ -191,6 +256,8 @@ const SellPhoneRouteWithChildren = SellPhoneRoute._addFileChildren(
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AuthenticatedRouteRoute: AuthenticatedRouteRouteWithChildren,
+  AuthRoute: AuthRoute,
   HowItWorksRoute: HowItWorksRoute,
   SellPhoneRoute: SellPhoneRouteWithChildren,
 }

@@ -11,6 +11,8 @@
 
 - Keep the existing TanStack file routes and exact static catalog/variant lookup; this preserves independent deep links and prevents similar-model pricing substitutions.
 - Maintain device-condition definitions and calculation in `src/lib/valuation.ts`, independently tested from the assessment UI; this keeps percentages, caps, and overlap handling consistent.
-- Keep lead validation and encoded WhatsApp messages in `src/lib/lead.ts` and never claim website storage; this project has no lead-storage service.
+- Pickup requests are saved via `createPickupRequest` in `src/lib/pickup.functions.ts`, which recomputes the estimate server-side from the exact catalog price; pickup rules live in `src/lib/pickup.ts` so they stay testable.
 - Key assessment and variant-selector state by device identity; this prevents answers or selections leaking across model and variant changes.
 - Use @lovable.dev/vite-tanstack-config with the existing server entry and sandbox dependency filesystem access; it emits Lovable's dist bundle while preserving Nitro hosting auto-detection outside Lovable.
+
+- Admin access is the `admin` row in `user_roles`, checked server-side with `has_role`; the first account created is granted admin by a database trigger.
