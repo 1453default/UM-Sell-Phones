@@ -337,7 +337,7 @@ export function DeviceAssessment({
               <h2 className="text-xl font-semibold">Continue with USED MOBILES</h2>
               <div>
                 <label htmlFor="lead-name" className="mb-2 block text-sm font-medium">
-                  Your name <span className="text-muted-foreground">(optional)</span>
+                  Your name
                 </label>
                 <input
                   id="lead-name"
@@ -370,10 +370,7 @@ export function DeviceAssessment({
               <Button type="submit" size="lg" className="h-12 w-full sm:w-auto">
                 <MessageCircle /> Continue on WhatsApp
               </Button>
-              <p className="text-xs leading-relaxed text-muted-foreground">
-                Your details will be included in a WhatsApp message to the store. Send it there to
-                share your enquiry; nothing is saved on this website.
-              </p>
+              <p className="text-xs leading-relaxed text-muted-foreground">{"\n"}</p>
             </form>
             {handoff && (
               <p role="status" className="mt-5 text-sm">
