@@ -1,0 +1,2 @@
+This project was set up in Lovable and prepared for syncing with a new private GitHub repository.
+Once connected, every change made in Lovable is automatically pushed to that repository, and changes pushed to GitHub flow back here.
