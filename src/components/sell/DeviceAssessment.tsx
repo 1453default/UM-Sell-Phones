@@ -137,7 +137,9 @@ export function DeviceAssessment({
               About Your Device <ArrowRight />
             </Button>
             <a
-              href={whatsappLink(`Hi, I want to sell my ${model.name} (${variant.label}). Base value ${formatINR(variant.uptoPrice)}. Please check the exact value.`)}
+              href={whatsappLink(
+                `Hi, I want to sell my ${model.name} (${variant.label}). Base value ${formatINR(variant.uptoPrice)}. Please check the exact value.`,
+              )}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-5 block text-sm font-semibold underline"
