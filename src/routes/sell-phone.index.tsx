@@ -32,10 +32,10 @@ function SellHome() {
     <PublicLayout>
       <section className="mx-auto max-w-6xl px-4 pt-6 pb-16 md:pt-10">
         <Crumbs items={[{ label: "Sell Phone" }, { label: "Brand" }]} />
-        <div className="mt-4 inline-flex items-center gap-2 rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold text-primary">
+        <div className="mt-4 inline-flex items-center gap-2 rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold text-foreground">
           <HandCoins className="h-3.5 w-3.5" /> Sell your phone
         </div>
-        <h1 className="mt-3 font-display text-3xl md:text-5xl font-extrabold tracking-tight">Sell your old mobile phone</h1>
+        <h1 className="mt-3 font-display text-3xl md:text-4xl font-extrabold ">Sell your old mobile phone</h1>
         <p className="mt-3 max-w-2xl text-muted-foreground">
           Pick your phone's brand and model to start. We buy used phones across {SELL_BRANDS.length} brands.
         </p>
@@ -52,10 +52,11 @@ function SellHome() {
                 <Link
                   to="/sell-phone/$brand"
                   params={{ brand: b.slug }}
-                  className="group flex h-24 md:h-28 flex-col items-center justify-center gap-1 rounded-2xl border border-border bg-card px-4 transition hover:-translate-y-0.5 hover:border-primary hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+                  className="group flex h-24 md:h-28 flex-col items-center justify-center gap-1 rounded-md border border-border bg-card px-4 transition hover:border-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                 >
                   {b.logo ? (
-                    <img src={b.logo} alt={`${b.name} logo`} className="h-16 md:h-18 w-auto max-w-[75%] object-contain" decoding="async" />
+                    <img src={b.logo} alt={`${b.name} logo`} className="h-12 md:h-14 w-auto max-w-[75%] object-contain" decoding="async" loading="lazy" />
+                    
                   ) : (
                     <span className="font-display text-lg font-bold">{b.name}</span>
                   )}

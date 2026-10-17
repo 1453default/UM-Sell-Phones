@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { createFileRoute, Link, notFound, useNavigate } from "@tanstack/react-router";
 import { PublicLayout } from "@/components/public/PublicLayout";
 import { Crumbs, PhoneImg, SearchBox } from "@/components/sell/SellParts";
+import { Button } from "@/components/ui/button";
 import { getSellBrand, normalizeSearch } from "@/data/sellPhoneCatalog";
 
 export const Route = createFileRoute("/sell-phone/$brand/")({
@@ -10,7 +11,7 @@ export const Route = createFileRoute("/sell-phone/$brand/")({
   loader: ({ params }) => {
     const brand = getSellBrand(params.brand);
     if (!brand) throw notFound();
-    return { name: brand.name, slug: brand.slug };
+    return { name: brand.name, slug: brand.slug, brand };
   },
   head: ({ loaderData }) => {
     if (!loaderData) return { meta: [{ title: "Brand not found" }, { name: "robots", content: "noindex" }] };
@@ -42,7 +43,7 @@ function BrandPage() {
   const { brand: slug } = Route.useParams();
   const { series } = Route.useSearch();
   const navigate = useNavigate({ from: Route.fullPath });
-  const brand = getSellBrand(slug)!;
+  const { brand } = Route.useLoaderData();
   const [q, setQ] = useState("");
   const active = series && brand.series.includes(series) ? series : "";
 
@@ -55,17 +56,17 @@ function BrandPage() {
 
   const showSeries = brand.series.length > 1;
   const chip = (label: string, value: string) => (
-    <button
+    <Button
       key={label}
       type="button"
       aria-pressed={active === value}
       onClick={() => navigate({ search: value ? { series: value } : {}, replace: true, resetScroll: false })}
-      className={`shrink-0 rounded-full border px-4 py-2 text-sm font-medium transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary ${
+      className={`shrink-0 rounded-md border px-4 py-2 text-sm font-medium transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary ${
         active === value ? "border-primary bg-primary text-primary-foreground" : "border-border bg-card hover:border-primary"
       }`}
     >
       {label}
-    </button>
+    </Button>
   );
 
   return (
@@ -74,11 +75,11 @@ function BrandPage() {
         <Crumbs items={[{ label: "Sell Phone", to: "/sell-phone" }, { label: brand.name }]} />
         <div className="mt-4 flex items-center gap-4">
           {brand.logo && (
-            <div className="flex h-14 w-20 shrink-0 items-center justify-center rounded-xl border border-border bg-card p-2">
+            <div className="flex h-14 w-20 shrink-0 items-center justify-center rounded-md border border-border bg-card p-2">
               <img src={brand.logo} alt={`${brand.name} logo`} className="max-h-full max-w-full object-contain" />
             </div>
           )}
-          <h1 className="min-w-0 font-display text-2xl md:text-4xl font-extrabold tracking-tight">
+          <h1 className="min-w-0 font-display text-2xl md:text-3xl font-extrabold ">
             Sell your old {brand.name} phone
           </h1>
         </div>
@@ -108,7 +109,7 @@ function BrandPage() {
                 <Link
                   to="/sell-phone/$brand/$model"
                   params={{ brand: brand.slug, model: m.slug }}
-                  className="group flex h-full flex-col items-center gap-3 rounded-2xl border border-border bg-card p-4 text-center transition hover:-translate-y-0.5 hover:border-primary hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+                  className="group flex h-full flex-col items-center gap-3 rounded-md border border-border bg-card p-4 text-center transition hover:border-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                 >
                   <PhoneImg src={m.images[0]} alt={m.name} eager={i < 10} className="h-28 w-28 md:h-32 md:w-32 transition group-hover:scale-105" />
                   <span className="text-sm font-semibold leading-snug">{m.name}</span>
