@@ -14,16 +14,114 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      pickup_requests: {
+        Row: {
+          address_line: string
+          admin_notes: string | null
+          answer_summary: string[]
+          answers: Json
+          assigned_to: string | null
+          base_value: number
+          brand: string
+          created_at: string
+          customer_name: string
+          estimate: number
+          id: string
+          landmark: string | null
+          locality: string
+          mobile: string
+          model: string
+          pincode: string
+          reference: string
+          slot_date: string
+          slot_time: string
+          status: string
+          updated_at: string
+          variant: string
+        }
+        Insert: {
+          address_line: string
+          admin_notes?: string | null
+          answer_summary?: string[]
+          answers: Json
+          assigned_to?: string | null
+          base_value: number
+          brand: string
+          created_at?: string
+          customer_name: string
+          estimate: number
+          id?: string
+          landmark?: string | null
+          locality: string
+          mobile: string
+          model: string
+          pincode: string
+          reference: string
+          slot_date: string
+          slot_time: string
+          status?: string
+          updated_at?: string
+          variant: string
+        }
+        Update: {
+          address_line?: string
+          admin_notes?: string | null
+          answer_summary?: string[]
+          answers?: Json
+          assigned_to?: string | null
+          base_value?: number
+          brand?: string
+          created_at?: string
+          customer_name?: string
+          estimate?: number
+          id?: string
+          landmark?: string | null
+          locality?: string
+          mobile?: string
+          model?: string
+          pincode?: string
+          reference?: string
+          slot_date?: string
+          slot_time?: string
+          status?: string
+          updated_at?: string
+          variant?: string
+        }
+        Relationships: []
+      }
+      user_roles: {
+        Row: {
+          id: string
+          role: Database["public"]["Enums"]["app_role"]
+          user_id: string
+        }
+        Insert: {
+          id?: string
+          role: Database["public"]["Enums"]["app_role"]
+          user_id: string
+        }
+        Update: {
+          id?: string
+          role?: Database["public"]["Enums"]["app_role"]
+          user_id?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      has_role: {
+        Args: {
+          _role: Database["public"]["Enums"]["app_role"]
+          _user_id: string
+        }
+        Returns: boolean
+      }
     }
     Enums: {
-      [_ in never]: never
+      app_role: "admin"
     }
     CompositeTypes: {
       [_ in never]: never
@@ -150,6 +248,8 @@ export type CompositeTypes<
 
 export const Constants = {
   public: {
-    Enums: {},
+    Enums: {
+      app_role: ["admin"],
+    },
   },
 } as const
