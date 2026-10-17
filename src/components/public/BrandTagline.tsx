@@ -7,13 +7,7 @@ type Tone = "default" | "print";
  * Editorial styling: uppercase display, wide tracking, hairline amber rules
  * as separators. Uses existing theme tokens only (primary/amber + foreground).
  */
-export function BrandTagline({
-  className,
-  tone = "default",
-}: {
-  className?: string;
-  tone?: Tone;
-}) {
+export function BrandTagline({ className, tone = "default" }: { className?: string; tone?: Tone }) {
   const textCls = "text-foreground/75";
   const ruleCls = "bg-primary/70";
 

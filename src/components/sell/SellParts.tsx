@@ -2,11 +2,18 @@ import { useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { ChevronRight, Search, Smartphone } from "lucide-react";
 
-type Crumb = { label: string; to?: "/" | "/sell-phone" | "/sell-phone/$brand" | "/sell-phone/$brand/$model"; params?: { brand: string; model?: string } };
+type Crumb = {
+  label: string;
+  to?: "/" | "/sell-phone" | "/sell-phone/$brand" | "/sell-phone/$brand/$model";
+  params?: { brand: string; model?: string };
+};
 
 export function Crumbs({ items }: { items: Crumb[] }) {
   return (
-    <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-1 text-xs text-muted-foreground">
+    <nav
+      aria-label="Breadcrumb"
+      className="flex flex-wrap items-center gap-1 text-xs text-muted-foreground"
+    >
       {items.map((it, i) => (
         <span key={i} className="flex items-center gap-1">
           {i > 0 && <ChevronRight className="h-3 w-3" />}
@@ -15,7 +22,12 @@ export function Crumbs({ items }: { items: Crumb[] }) {
               {it.label}
             </Link>
           ) : (
-            <span aria-current={i === items.length - 1 ? "page" : undefined} className="font-semibold text-foreground">{it.label}</span>
+            <span
+              aria-current={i === items.length - 1 ? "page" : undefined}
+              className="font-semibold text-foreground"
+            >
+              {it.label}
+            </span>
           )}
         </span>
       ))}
@@ -39,11 +51,24 @@ export function SearchBox(props: { value: string; onChange: (v: string) => void;
   );
 }
 
-export function PhoneImg({ src, alt, className, eager }: { src?: string; alt: string; className?: string; eager?: boolean }) {
+export function PhoneImg({
+  src,
+  alt,
+  className,
+  eager,
+}: {
+  src?: string;
+  alt: string;
+  className?: string;
+  eager?: boolean;
+}) {
   const [brokenSrc, setBrokenSrc] = useState<string | undefined>();
   if (!src || brokenSrc === src)
     return (
-      <div className={`flex items-center justify-center text-muted-foreground ${className ?? ""}`} aria-label={alt}>
+      <div
+        className={`flex items-center justify-center text-muted-foreground ${className ?? ""}`}
+        aria-label={alt}
+      >
         <Smartphone className="h-10 w-10" />
       </div>
     );

@@ -9,5 +9,11 @@ import { nitro } from "nitro/vite";
 // Override with NITRO_PRESET=<preset> when deploying elsewhere.
 export default defineConfig({
   server: { fs: { allow: [process.cwd(), "/persist/node_modules"] } },
-  plugins: [tsConfigPaths({ projects: ["./tsconfig.json"] }), tailwindcss(), tanstackStart(), nitro(), viteReact()],
+  plugins: [
+    tsConfigPaths({ projects: ["./tsconfig.json"] }),
+    tailwindcss(),
+    tanstackStart(),
+    nitro(),
+    viteReact(),
+  ],
 });

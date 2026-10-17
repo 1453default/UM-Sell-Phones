@@ -14,7 +14,8 @@ export const Route = createFileRoute("/sell-phone/$brand/$model/")({
     return { name: m.name, model: m, brand: getSellBrand(params.brand) };
   },
   head: ({ loaderData }) => {
-    if (!loaderData) return { meta: [{ title: "Model not found" }, { name: "robots", content: "noindex" }] };
+    if (!loaderData)
+      return { meta: [{ title: "Model not found" }, { name: "robots", content: "noindex" }] };
     const t = `Sell ${loaderData.name} — Choose Variant | USED MOBILES`;
     const d = `Choose your ${loaderData.name} storage variant to see how much you can get when you sell it to USED MOBILES.`;
     return {
@@ -32,7 +33,9 @@ export const Route = createFileRoute("/sell-phone/$brand/$model/")({
     <PublicLayout>
       <div className="mx-auto max-w-xl px-4 py-20 text-center">
         <h1 className="font-display text-2xl font-bold">Model not found</h1>
-        <Link to="/sell-phone" className="mt-4 inline-block text-primary underline">Back to all brands</Link>
+        <Link to="/sell-phone" className="mt-4 inline-block text-primary underline">
+          Back to all brands
+        </Link>
       </div>
     </PublicLayout>
   ),
@@ -46,9 +49,17 @@ function VariantPage() {
   return <VariantSelector key={`${bslug}/${mslug}`} brand={brand} model={model} />;
 }
 
-function VariantSelector({ brand, model }: { brand: NonNullable<ReturnType<typeof getSellBrand>>; model: NonNullable<ReturnType<typeof getSellModel>> }) {
+function VariantSelector({
+  brand,
+  model,
+}: {
+  brand: NonNullable<ReturnType<typeof getSellBrand>>;
+  model: NonNullable<ReturnType<typeof getSellModel>>;
+}) {
   const variants = getModelVariants(brand.name, model.name);
-  const [selected, setSelected] = useState<string | null>(variants.length === 1 ? variants[0]?.id ?? null : null);
+  const [selected, setSelected] = useState<string | null>(
+    variants.length === 1 ? (variants[0]?.id ?? null) : null,
+  );
   const navigate = useNavigate();
 
   return (
@@ -72,11 +83,22 @@ function VariantSelector({ brand, model }: { brand: NonNullable<ReturnType<typeo
             {variants.length === 0 ? (
               <p className="mt-4 rounded-md border border-border bg-muted/40 p-4 text-sm text-muted-foreground">
                 Price information is currently unavailable for this model.
-                <a className="mt-3 block font-semibold underline text-foreground" href={whatsappLink(`Hi, I would like an offer for my ${model.name}.`)} target="_blank" rel="noopener noreferrer">Ask for an offer on WhatsApp</a>
+                <a
+                  className="mt-3 block font-semibold underline text-foreground"
+                  href={whatsappLink(`Hi, I would like an offer for my ${model.name}.`)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ask for an offer on WhatsApp
+                </a>
               </p>
             ) : (
               <>
-                <div role="group" aria-label="Variant" className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-3">
+                <div
+                  role="group"
+                  aria-label="Variant"
+                  className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-3"
+                >
                   {variants.map((v) => {
                     const on = selected === v.id;
                     return (
@@ -87,7 +109,9 @@ function VariantSelector({ brand, model }: { brand: NonNullable<ReturnType<typeo
                         aria-pressed={on}
                         onClick={() => setSelected(v.id)}
                         className={`h-auto min-h-14 whitespace-normal rounded-md border px-3 py-3 text-sm font-semibold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary ${
-                          on ? "border-primary bg-primary/10 text-foreground" : "border-border hover:border-primary"
+                          on
+                            ? "border-primary bg-primary/10 text-foreground"
+                            : "border-border hover:border-primary"
                         }`}
                       >
                         {v.label}
@@ -100,7 +124,10 @@ function VariantSelector({ brand, model }: { brand: NonNullable<ReturnType<typeo
                   disabled={!selected}
                   onClick={() =>
                     selected &&
-                    navigate({ to: "/sell-phone/$brand/$model/$variant", params: { brand: brand.slug, model: model.slug, variant: selected } })
+                    navigate({
+                      to: "/sell-phone/$brand/$model/$variant",
+                      params: { brand: brand.slug, model: model.slug, variant: selected },
+                    })
                   }
                   className="mt-6 h-12 w-full rounded-md bg-primary px-10 font-semibold text-primary-foreground transition hover:opacity-90 disabled:opacity-40 sm:w-auto"
                 >

@@ -8,12 +8,27 @@ export function normalizeIndianMobile(value: string): string | null {
   else if (digits.length === 11 && digits.startsWith("0")) digits = digits.slice(1);
   return /^[6-9]\d{9}$/.test(digits) ? digits : null;
 }
-export function leadLink(input: { name: string; mobile: string; model: string; brand: string; variant: string; base: number; estimate: number; answers: Answers }) {
-  return whatsappLink([
-    "Hi USED MOBILES, I'd like to sell my phone.",
-    ...(input.name.trim() ? [`Name: ${input.name.trim()}`] : []),
-    `Mobile: ${input.mobile}`, `Brand: ${input.brand}`, `Model: ${input.model}`, `Variant: ${input.variant}`,
-    `Base value: ${formatINR(input.base)}`, `Estimated offer: ${formatINR(input.estimate)} (subject to inspection)`,
-    ...answerSummary(input.answers),
-  ].join("\n"));
+export function leadLink(input: {
+  name: string;
+  mobile: string;
+  model: string;
+  brand: string;
+  variant: string;
+  base: number;
+  estimate: number;
+  answers: Answers;
+}) {
+  return whatsappLink(
+    [
+      "Hi USED MOBILES, I'd like to sell my phone.",
+      ...(input.name.trim() ? [`Name: ${input.name.trim()}`] : []),
+      `Mobile: ${input.mobile}`,
+      `Brand: ${input.brand}`,
+      `Model: ${input.model}`,
+      `Variant: ${input.variant}`,
+      `Base value: ${formatINR(input.base)}`,
+      `Estimated offer: ${formatINR(input.estimate)} (subject to inspection)`,
+      ...answerSummary(input.answers),
+    ].join("\n"),
+  );
 }

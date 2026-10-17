@@ -6,7 +6,8 @@ import { Crumbs, SearchBox } from "@/components/sell/SellParts";
 import { SELL_BRANDS, normalizeSearch } from "@/data/sellPhoneCatalog";
 
 const TITLE = "Sell Your Old Phone — USED MOBILES Hyderabad";
-const DESC = "Sell your used smartphone to USED MOBILES. Choose your brand and model — Apple, Samsung, OnePlus, Xiaomi, Vivo, Oppo and more.";
+const DESC =
+  "Sell your used smartphone to USED MOBILES. Choose your brand and model — Apple, Samsung, OnePlus, Xiaomi, Vivo, Oppo and more.";
 
 export const Route = createFileRoute("/sell-phone/")({
   head: () => ({
@@ -35,9 +36,12 @@ function SellHome() {
         <div className="mt-4 inline-flex items-center gap-2 rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold text-foreground">
           <HandCoins className="h-3.5 w-3.5" /> Sell your phone
         </div>
-        <h1 className="mt-3 font-display text-3xl md:text-4xl font-extrabold ">Sell your old mobile phone</h1>
+        <h1 className="mt-3 font-display text-3xl md:text-4xl font-extrabold ">
+          Sell your old mobile phone
+        </h1>
         <p className="mt-3 max-w-2xl text-muted-foreground">
-          Pick your phone's brand and model to start. We buy used phones across {SELL_BRANDS.length} brands.
+          Pick your phone's brand and model to start. We buy used phones across {SELL_BRANDS.length}{" "}
+          brands.
         </p>
         <div className="mt-6">
           <SearchBox value={q} onChange={setQ} label="Search for brand" />
@@ -55,8 +59,13 @@ function SellHome() {
                   className="group flex h-24 md:h-28 flex-col items-center justify-center gap-1 rounded-md border border-border bg-card px-4 transition hover:border-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                 >
                   {b.logo ? (
-                    <img src={b.logo} alt={`${b.name} logo`} className="h-12 md:h-14 w-auto max-w-[75%] object-contain" decoding="async" loading="lazy" />
-                    
+                    <img
+                      src={b.logo}
+                      alt={`${b.name} logo`}
+                      className="h-12 md:h-14 w-auto max-w-[75%] object-contain"
+                      decoding="async"
+                      loading="lazy"
+                    />
                   ) : (
                     <span className="font-display text-lg font-bold">{b.name}</span>
                   )}

@@ -14,7 +14,8 @@ export const Route = createFileRoute("/sell-phone/$brand/")({
     return { name: brand.name, slug: brand.slug, brand };
   },
   head: ({ loaderData }) => {
-    if (!loaderData) return { meta: [{ title: "Brand not found" }, { name: "robots", content: "noindex" }] };
+    if (!loaderData)
+      return { meta: [{ title: "Brand not found" }, { name: "robots", content: "noindex" }] };
     const t = `Sell Old ${loaderData.name} Phone — USED MOBILES`;
     const d = `Choose your ${loaderData.name} model to sell your used phone to USED MOBILES, Hyderabad.`;
     return {
@@ -32,7 +33,9 @@ export const Route = createFileRoute("/sell-phone/$brand/")({
     <PublicLayout>
       <div className="mx-auto max-w-xl px-4 py-20 text-center">
         <h1 className="font-display text-2xl font-bold">Brand not found</h1>
-        <Link to="/sell-phone" className="mt-4 inline-block text-primary underline">Back to all brands</Link>
+        <Link to="/sell-phone" className="mt-4 inline-block text-primary underline">
+          Back to all brands
+        </Link>
       </div>
     </PublicLayout>
   ),
@@ -60,9 +63,13 @@ function BrandPage() {
       key={label}
       type="button"
       aria-pressed={active === value}
-      onClick={() => navigate({ search: value ? { series: value } : {}, replace: true, resetScroll: false })}
+      onClick={() =>
+        navigate({ search: value ? { series: value } : {}, replace: true, resetScroll: false })
+      }
       className={`shrink-0 rounded-md border px-4 py-2 text-sm font-medium transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary ${
-        active === value ? "border-primary bg-primary text-primary-foreground" : "border-border bg-card hover:border-primary"
+        active === value
+          ? "border-primary bg-primary text-primary-foreground"
+          : "border-border bg-card hover:border-primary"
       }`}
     >
       {label}
@@ -76,7 +83,11 @@ function BrandPage() {
         <div className="mt-4 flex items-center gap-4">
           {brand.logo && (
             <div className="flex h-14 w-20 shrink-0 items-center justify-center rounded-md border border-border bg-card p-2">
-              <img src={brand.logo} alt={`${brand.name} logo`} className="max-h-full max-w-full object-contain" />
+              <img
+                src={brand.logo}
+                alt={`${brand.name} logo`}
+                className="max-h-full max-w-full object-contain"
+              />
             </div>
           )}
           <h1 className="min-w-0 font-display text-2xl md:text-3xl font-extrabold ">
@@ -98,7 +109,8 @@ function BrandPage() {
         )}
 
         <h2 className="mt-8 font-display text-lg font-bold">
-          Choose model <span className="text-sm font-normal text-muted-foreground">({models.length})</span>
+          Choose model{" "}
+          <span className="text-sm font-normal text-muted-foreground">({models.length})</span>
         </h2>
         {models.length === 0 ? (
           <p className="mt-6 text-muted-foreground">No models match your search.</p>
@@ -111,7 +123,12 @@ function BrandPage() {
                   params={{ brand: brand.slug, model: m.slug }}
                   className="group flex h-full flex-col items-center gap-3 rounded-md border border-border bg-card p-4 text-center transition hover:border-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                 >
-                  <PhoneImg src={m.images[0]} alt="" eager={i < 10} className="h-28 w-28 md:h-32 md:w-32 transition group-hover:scale-105" />
+                  <PhoneImg
+                    src={m.images[0]}
+                    alt=""
+                    eager={i < 10}
+                    className="h-28 w-28 md:h-32 md:w-32 transition group-hover:scale-105"
+                  />
                   <span className="text-sm font-semibold leading-snug">{m.name}</span>
                 </Link>
               </li>
