@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef, useState, type FormEvent } from "react";
 import { ArrowLeft, ArrowRight, Check, MessageCircle, RotateCcw } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -17,6 +17,7 @@ import { leadLink, normalizeIndianMobile } from "@/lib/lead";
 import { formatINR, type SellVariant } from "@/data/sellPhonePricing";
 import { type SellBrand, type SellModel } from "@/data/sellPhoneCatalog";
 import { PhoneImg } from "./SellParts";
+import { whatsappLink } from "@/lib/shop";
 
 const STAGES = [
   "About your device",
@@ -50,7 +51,7 @@ export function DeviceAssessment({
     setHandoff(null);
     requestAnimationFrame(() => {
       heading.current?.focus();
-      heading.current?.scrollIntoView({ block: "start", behavior: "instant" });
+      heading.current?.parentElement?.scrollIntoView({ block: "start", behavior: "instant" });
     });
   }
   function continueStep() {
@@ -74,7 +75,7 @@ export function DeviceAssessment({
   function previous() {
     go(step === 3 && physical.length === 0 ? 1 : step - 1);
   }
-  function submit(e: React.FormEvent<HTMLFormElement>) {
+  function submit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const phone = normalizeIndianMobile(mobile);
     if (!phone) {
@@ -102,7 +103,7 @@ export function DeviceAssessment({
   const selectClass = (selected: boolean) => `selection-option ${selected ? "is-selected" : ""}`;
   return (
     <div className="mt-8 grid gap-10 lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-14">
-      <div className="min-w-0">
+      <div className="min-w-0 scroll-mt-24">
         {step >= 0 && (
           <div className="mb-7">
             <div className="mb-2 flex justify-between text-xs font-semibold text-muted-foreground">
@@ -135,6 +136,14 @@ export function DeviceAssessment({
             <Button size="lg" className="mt-8 h-12" onClick={() => go(0)}>
               About Your Device <ArrowRight />
             </Button>
+            <a
+              href={whatsappLink(`Hi, I want to sell my ${model.name} (${variant.label}). Base value ${formatINR(variant.uptoPrice)}. Please check the exact value.`)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-5 block text-sm font-semibold underline"
+            >
+              Check Exact Value on WhatsApp
+            </a>
           </div>
         )}
         {step === 0 && (
