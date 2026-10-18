@@ -4,6 +4,6 @@
 - [x] Apply supplied logo/icons, consistent logo sizing and reduced-motion transitions; check desktop/tablet/mobile.
 - [x] Add Privacy/Terms and document OTP/launch limits in REPAIR_REPORT.md.
 - [x] Run 89 tests and real booking/admin/browser verification; safely remove test records.
-- [ ] Verify intended password sign-in and email recovery completion: awaiting owner setting the administrator password through the secure email.
+- [ ] Complete the existing administrator account and verify password sign-in at /admin, refresh, saved edits and sign-out.
 - [ ] Publish-ready legal review: awaiting owner retention/cancellation/dispute decisions.
 - [ ] Verify custom-domain HTTPS and deployed assets: domain deferred by owner, project not published.
