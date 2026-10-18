@@ -45,7 +45,10 @@ export function DeviceAssessment({
     setStep(next);
     requestAnimationFrame(() => {
       heading.current?.focus();
-      heading.current?.parentElement?.scrollIntoView({ block: "start", behavior: "instant" });
+      heading.current?.parentElement?.scrollIntoView({
+        block: "start",
+        behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth",
+      });
     });
   }
   function continueStep() {
@@ -72,7 +75,7 @@ export function DeviceAssessment({
   const selectClass = (selected: boolean) => `selection-option ${selected ? "is-selected" : ""}`;
   return (
     <div className="mt-8 grid gap-10 lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-14">
-      <div className="min-w-0 scroll-mt-24">
+      <div key={step} className="assessment-step min-w-0 scroll-mt-24">
         {step >= 0 && (
           <div className="mb-7">
             <div className="mb-2 flex justify-between text-xs font-semibold text-muted-foreground">
