@@ -1,4 +1,6 @@
 # Repair and branding completion
+- [ ] Reproduce and repair customer pickup submission; verify a saved request through the admin panel.
+- [ ] Add restrained sitewide transitions and professional interaction animations; verify reduced motion and customer flow.
 - [x] Repair /admin public connection settings; four regression tests passed, authenticated entry/refresh/sign-out verified in preview.
 - [ ] Verify repaired /admin on the main website: awaiting owner republishing the updated app.
 - [x] Diagnose and repair booking access, retries and admin functions; verify authenticated admin reads/updates and logout.
