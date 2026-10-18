@@ -4,7 +4,7 @@ import { PublicLayout } from "@/components/public/PublicLayout";
 import { Crumbs, PhoneImg } from "@/components/sell/SellParts";
 import { getSellBrand, getSellModel } from "@/data/sellPhoneCatalog";
 import { Button } from "@/components/ui/button";
-import { whatsappLink } from "@/lib/shop";
+import { SHOP_PHONE } from "@/lib/shop";
 import { getModelVariants } from "@/data/sellPhonePricing";
 
 export const Route = createFileRoute("/sell-phone/$brand/$model/")({
@@ -16,7 +16,7 @@ export const Route = createFileRoute("/sell-phone/$brand/$model/")({
   head: ({ loaderData }) => {
     if (!loaderData)
       return { meta: [{ title: "Model not found" }, { name: "robots", content: "noindex" }] };
-    const t = `Sell ${loaderData.name} — Choose Variant | USED MOBILES`;
+    const t = `Sell ${loaderData.name} | Choose Variant | USED MOBILES`;
     const d = `Choose your ${loaderData.name} storage variant to see how much you can get when you sell it to USED MOBILES.`;
     return {
       meta: [
@@ -85,11 +85,9 @@ function VariantSelector({
                 Price information is currently unavailable for this model.
                 <a
                   className="mt-3 block font-semibold underline text-foreground"
-                  href={whatsappLink(`Hi, I would like an offer for my ${model.name}.`)}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={`tel:${SHOP_PHONE.replace(/\s/g, "")}`}
                 >
-                  Ask for an offer on WhatsApp
+                  Call the store for an offer
                 </a>
               </p>
             ) : (

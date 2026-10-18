@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
-import { Home, HandCoins, MapPin, Phone, MessageCircle } from "lucide-react";
-import { SHOP_PHONE, SHOP_MAPS_URL, whatsappLink } from "@/lib/shop";
+import { Home, HandCoins, MapPin, Phone } from "lucide-react";
+import { SHOP_PHONE, SHOP_MAPS_URL } from "@/lib/shop";
 import { Button } from "@/components/ui/button";
 export function Dock() {
   const cls = "h-14 flex-1 flex-col gap-1 rounded-none text-xs";
@@ -31,12 +31,6 @@ export function Dock() {
         <a href={`tel:${SHOP_PHONE.replace(/\s/g, "")}`}>
           <Phone />
           Call
-        </a>
-      </Button>
-      <Button asChild variant="ghost" className={cls}>
-        <a href={whatsappLink()} target="_blank" rel="noopener noreferrer">
-          <MessageCircle />
-          WhatsApp
         </a>
       </Button>
     </nav>

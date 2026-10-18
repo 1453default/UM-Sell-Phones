@@ -25,8 +25,6 @@
   --color-emerald: var(--emerald);
   --color-ruby: var(--ruby);
   --color-info: var(--info);
-  --color-whatsapp: var(--whatsapp);
-  --color-whatsapp-dark: var(--whatsapp-dark);
   --color-ink: var(--ink);
   --color-ink-muted: var(--ink-muted);
 
@@ -70,8 +68,6 @@
   --emerald: oklch(0.72 0.16 162);
   --ruby: oklch(0.65 0.22 27);
   --info: oklch(0.65 0.18 255);
-  --whatsapp: oklch(0.75 0.18 145);
-  --whatsapp-dark: oklch(0.55 0.13 165);
   --ink: oklch(0.18 0.04 270); /* deep navy from logo */
   --ink-muted: oklch(0.45 0.03 270);
 
@@ -232,7 +228,7 @@
   background: var(--primary);
 }
 .store-hero {
-  min-height: 470px;
+  min-height: 420px;
   background: var(--ink);
 }
 .store-hero-photo {
@@ -248,8 +244,8 @@
   inset: 0;
   background: linear-gradient(
     90deg,
-    color-mix(in oklch, var(--ink) 94%, transparent),
-    color-mix(in oklch, var(--ink) 70%, transparent) 50%,
+    color-mix(in oklch, var(--ink) 82%, transparent),
+    color-mix(in oklch, var(--ink) 48%, transparent) 50%,
     color-mix(in oklch, var(--ink) 20%, transparent)
   );
 }
@@ -272,10 +268,10 @@ summary:focus-visible {
     padding-bottom: calc(80px + env(safe-area-inset-bottom));
   }
   .store-hero {
-    min-height: 440px;
+    min-height: 400px;
   }
   .store-hero-shade {
-    background: color-mix(in oklch, var(--ink) 78%, transparent);
+    background: color-mix(in oklch, var(--ink) 64%, transparent);
   }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -378,3 +374,6 @@ summary:focus-visible {
     color: black !important;
   }
 }
+.page-enter { animation: page-enter 180ms ease-out; }
+@keyframes page-enter { from { opacity: 0.6; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+.selection-option:has(input:disabled) { cursor: not-allowed; opacity: 0.5; }

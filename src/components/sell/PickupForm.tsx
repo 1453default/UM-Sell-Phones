@@ -1,4 +1,4 @@
-import { useState, type FormEvent } from "react";
+import { useRef, useState, type FormEvent } from "react";
 import { CalendarCheck, Loader2 } from "lucide-react";
 import { useServerFn } from "@tanstack/react-start";
 import { Button } from "@/components/ui/button";
@@ -27,6 +27,8 @@ export function PickupForm({
   answers: Answers;
 }) {
   const submitFn = useServerFn(createPickupRequest);
+  const submissionKey = useRef<string | null>(null);
+  const sending = useRef(false);
   const [dates] = useState(() => pickupDates());
   const [f, setF] = useState({
     name: "",
@@ -45,6 +47,7 @@ export function PickupForm({
 
   async function submit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    if (sending.current || reference) return;
     const mobile = normalizeIndianMobile(f.mobile);
     if (f.name.trim().length < 2) return setError("Please enter your name.");
     if (!mobile) return setError("Enter a valid 10-digit Indian mobile number starting with 6–9.");
@@ -55,11 +58,14 @@ export function PickupForm({
     if (!f.slotDate || !f.slotTime) return setError("Please choose a pickup date and time slot.");
     if (!assessmentComplete(answers)) return setError("Complete the device assessment first.");
     setError("");
+    sending.current = true;
+    submissionKey.current ??= crypto.randomUUID();
     setBusy(true);
     try {
       const res = await submitFn({
         data: {
           ...f,
+          submissionKey: submissionKey.current,
           mobile,
           brandSlug: brand.slug,
           modelSlug: model.slug,
@@ -72,6 +78,7 @@ export function PickupForm({
     } catch {
       setError("Could not submit your request. Please check your details and try again.");
     } finally {
+      sending.current = false;
       setBusy(false);
     }
   }

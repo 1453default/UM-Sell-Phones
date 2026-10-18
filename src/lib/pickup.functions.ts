@@ -4,11 +4,14 @@ import { requireSupabaseAuth } from "@/integrations/supabase/auth-middleware";
 import { getSellBrand, getSellModel } from "@/data/sellPhoneCatalog";
 import { getVariant } from "@/data/sellPhonePricing";
 import { answerSummary, assessmentComplete, calculateValuation, type Answers } from "./valuation";
-import { REQUEST_STATUSES, isBookableSlot, makeReference, pickupSchema } from "./pickup";
+import { PHONE_VERIFICATION_STATUS, REQUEST_STATUSES, isBookableSlot, makeReference, pickupSchema } from "./pickup";
 
 export const createPickupRequest = createServerFn({ method: "POST" })
-  .inputValidator((d: unknown) => pickupSchema.parse(d))
-  .handler(async ({ data }) => {
+  .inputValidator((d: unknown) => d as z.input<typeof pickupSchema>)
+  .handler(async ({ data: input }) => {
+    const parsed = pickupSchema.safeParse(input);
+    if (!parsed.success) return { ok: false as const, error: parsed.error.issues[0]?.message ?? "Please check your details." };
+    const data = parsed.data;
     const brand = getSellBrand(data.brandSlug);
     const model = getSellModel(data.brandSlug, data.modelSlug);
     const variant = brand && model ? getVariant(brand.name, model.name, data.variantId) : undefined;
@@ -22,10 +25,17 @@ export const createPickupRequest = createServerFn({ method: "POST" })
       return { ok: false as const, error: "That pickup slot is no longer available." };
 
     const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+    if (data.submissionKey) {
+      const { data: previous, error } = await supabaseAdmin.from("pickup_requests").select("reference").eq("submission_key", data.submissionKey).maybeSingle();
+      if (error) { console.error("pickup retry lookup failed", { code: error.code }); return { ok: false as const, error: "Could not save your request. Please try again." }; }
+      if (previous) return { ok: true as const, reference: previous.reference };
+    }
     for (let attempt = 0; attempt < 3; attempt++) {
       const reference = makeReference();
       const { error } = await supabaseAdmin.from("pickup_requests").insert({
         reference,
+        submission_key: data.submissionKey ?? null,
+        phone_verification_status: PHONE_VERIFICATION_STATUS,
         customer_name: data.name,
         mobile: data.mobile,
         address_line: data.addressLine,
@@ -43,8 +53,12 @@ export const createPickupRequest = createServerFn({ method: "POST" })
         answer_summary: answerSummary(answers),
       });
       if (!error) return { ok: true as const, reference };
+      if (error.code === "23505" && data.submissionKey) {
+        const { data: previous } = await supabaseAdmin.from("pickup_requests").select("reference").eq("submission_key", data.submissionKey).maybeSingle();
+        if (previous) return { ok: true as const, reference: previous.reference };
+      }
       if (error.code !== "23505") {
-        console.error("pickup insert failed", error);
+        console.error("pickup insert failed", { code: error.code });
         return { ok: false as const, error: "Could not save your request. Please try again." };
       }
     }
@@ -95,7 +109,11 @@ export const updatePickupRequest = createServerFn({ method: "POST" })
   )
   .handler(async ({ data, context }) => {
     await assertAdmin(context);
-    const { error } = await context.supabase
+    if (!isBookableSlot(data.slotDate, data.slotTime)) {
+      const { data: current } = await context.supabase.from("pickup_requests").select("slot_date,slot_time").eq("id",data.id).single();
+      if (!current || current.slot_date !== data.slotDate || current.slot_time !== data.slotTime) throw new Error("Choose a valid upcoming pickup date and time.");
+    }
+    const { data: saved, error } = await context.supabase
       .from("pickup_requests")
       .update({
         status: data.status,
@@ -105,7 +123,8 @@ export const updatePickupRequest = createServerFn({ method: "POST" })
         slot_time: data.slotTime,
         updated_at: new Date().toISOString(),
       })
-      .eq("id", data.id);
+      .eq("id", data.id)
+      .select("*").single();
     if (error) throw new Error(error.message);
-    return { ok: true };
+    return saved;
   });

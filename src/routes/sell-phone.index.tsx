@@ -5,9 +5,9 @@ import { PublicLayout } from "@/components/public/PublicLayout";
 import { Crumbs, SearchBox } from "@/components/sell/SellParts";
 import { SELL_BRANDS, normalizeSearch } from "@/data/sellPhoneCatalog";
 
-const TITLE = "Sell Your Old Phone — USED MOBILES Hyderabad";
+const TITLE = "Sell Your Old Phone | USED MOBILES Hyderabad";
 const DESC =
-  "Sell your used smartphone to USED MOBILES. Choose your brand and model — Apple, Samsung, OnePlus, Xiaomi, Vivo, Oppo and more.";
+  "Sell your used smartphone to USED MOBILES. Choose your brand and model | Apple, Samsung, OnePlus, Xiaomi, Vivo, Oppo and more.";
 
 export const Route = createFileRoute("/sell-phone/")({
   head: () => ({
@@ -62,7 +62,7 @@ function SellHome() {
                     <img
                       src={b.logo}
                       alt={`${b.name} logo`}
-                      className="h-12 md:h-14 w-auto max-w-[75%] object-contain"
+                      className="h-14 md:h-16 w-auto max-w-[85%] object-contain"
                       decoding="async"
                       loading="lazy"
                     />

@@ -17,7 +17,7 @@ export const Route = createFileRoute("/sell-phone/$brand/$model/$variant")({
   head: ({ loaderData }) => {
     if (!loaderData)
       return { meta: [{ title: "Variant not found" }, { name: "robots", content: "noindex" }] };
-    const t = `Sell ${loaderData.name} (${loaderData.label}) — USED MOBILES`;
+    const t = `Sell ${loaderData.name} (${loaderData.label}) | USED MOBILES`;
     const d = `See the maximum value you can get for your ${loaderData.name} ${loaderData.label} at USED MOBILES, Hyderabad.`;
     return {
       meta: [
