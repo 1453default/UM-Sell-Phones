@@ -6,7 +6,7 @@ import { SELL_BRANDS } from "@/data/sellPhoneCatalog";
 import { SHOP_MAPS_URL } from "@/lib/shop";
 import heroMain from "@/assets/um-counter.jpg";
 
-const TITLE = "Sell Your Phone — Estimated Offers — USED MOBILES Hyderabad";
+const TITLE = "Sell Your Phone | Estimated Offers | USED MOBILES Hyderabad";
 const DESC =
   "Check how much your used iPhone, Samsung, OnePlus or other phone is worth and sell it to USED MOBILES, Toli Chowki, Hyderabad.";
 

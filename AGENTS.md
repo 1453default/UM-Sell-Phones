@@ -16,3 +16,7 @@
 - Use @lovable.dev/vite-tanstack-config with the existing server entry and sandbox dependency filesystem access; it emits Lovable's dist bundle while preserving Nitro hosting auto-detection outside Lovable.
 
 - Admin access is the `admin` row in `user_roles`, checked server-side with `has_role`; the first account created is granted admin by a database trigger.
+
+- Public pickup writes use a validated server-only privileged insert with a unique submission key; retries return the persisted reference without creating duplicate requests.
+- Keep a single shared business-logo renderer and derive browser icons from its source asset to prevent branding drift.
+- Staff accounts are provisioned by secure invitations, never public signup; administrator permissions remain server-validated in user_roles.

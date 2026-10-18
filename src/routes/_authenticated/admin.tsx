@@ -1,3 +1,4 @@
+import { BrandLogo } from "@/components/public/BrandLogo";
 import { useMemo, useState } from "react";
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useServerFn } from "@tanstack/react-start";
@@ -10,9 +11,9 @@ import { formatINR } from "@/data/sellPhonePricing";
 export const Route = createFileRoute("/_authenticated/admin")({
   head: () => ({
     meta: [
-      { title: "Pickup requests — USED MOBILES admin" },
+      { title: "Pickup requests | USED MOBILES admin" },
       { name: "description", content: "Manage doorstep pickup requests." },
-      { property: "og:title", content: "Pickup requests — USED MOBILES admin" },
+      { property: "og:title", content: "Pickup requests | USED MOBILES admin" },
       { property: "og:description", content: "Manage doorstep pickup requests." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
@@ -47,6 +48,7 @@ function AdminPage() {
     [rows, filter, q],
   );
   async function signOut() {
+    await navigate({ to: "/auth", replace: true });
     await supabase.auth.signOut();
     navigate({ to: "/auth", replace: true });
   }
@@ -63,7 +65,7 @@ function AdminPage() {
   return (
     <main className="mx-auto max-w-6xl px-5 py-10">
       <div className="flex flex-wrap items-center justify-between gap-4">
-        <h1 className="font-display text-3xl font-bold">Pickup requests</h1>
+        <div className="flex items-center gap-4"><BrandLogo /><h1 className="font-display text-3xl font-bold">Pickup requests</h1></div>
         <Button variant="outline" onClick={signOut}>Sign out</Button>
       </div>
       <div className="mt-6 flex flex-wrap gap-3">
@@ -99,13 +101,14 @@ function RequestItem({ row, onSaved }: { row: Row; onSaved: (r: Row) => void }) 
   });
   const [state, setState] = useState("");
   async function submit() {
+    if (state === "Saving…") return;
     setState("Saving…");
     try {
-      await save({ data: { id: row.id, ...edit, status: edit.status as (typeof REQUEST_STATUSES)[number] } });
-      onSaved({ ...row, status: edit.status, assigned_to: edit.assignedTo || null, admin_notes: edit.adminNotes || null, slot_date: edit.slotDate, slot_time: edit.slotTime });
+      const saved = await save({ data: { id: row.id, ...edit, status: edit.status as (typeof REQUEST_STATUSES)[number] } });
+      onSaved(saved);
       setState("Saved");
-    } catch {
-      setState("Could not save");
+    } catch (error) {
+      setState(error instanceof Error && error.message === "Choose a valid upcoming pickup date and time." ? error.message : "Could not save. Please try again.");
     }
   }
   return (
@@ -123,6 +126,7 @@ function RequestItem({ row, onSaved }: { row: Row; onSaved: (r: Row) => void }) 
         <div className="mt-5 grid gap-6 md:grid-cols-2">
           <div className="space-y-2 text-sm">
             <p><strong>Address:</strong> {row.address_line}, {row.locality}{row.landmark ? ` (near ${row.landmark})` : ""}, Hyderabad {row.pincode}</p>
+            <p><strong>Phone verification:</strong> {row.phone_verification_status}</p>
             <p><strong>Device:</strong> {row.brand} {row.model}, {row.variant}</p>
             <p><strong>Base value:</strong> {formatINR(Number(row.base_value))} · <strong>Estimate:</strong> {formatINR(Number(row.estimate))}</p>
             <p><strong>Submitted:</strong> {new Date(row.created_at).toLocaleString("en-IN")}</p>
@@ -143,7 +147,7 @@ function RequestItem({ row, onSaved }: { row: Row; onSaved: (r: Row) => void }) 
             </div>
             <textarea aria-label="Notes" placeholder="Internal notes" value={edit.adminNotes} onChange={(e) => setEdit({ ...edit, adminNotes: e.target.value })} className="field h-24 py-3" />
             <div className="flex items-center gap-3">
-              <Button onClick={submit}>Save changes</Button>
+              <Button onClick={submit} disabled={state === "Saving…"}>Save changes</Button>
               <span role="status" className="text-sm text-muted-foreground">{state}</span>
             </div>
           </div>

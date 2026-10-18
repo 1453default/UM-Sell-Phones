@@ -16,7 +16,7 @@ export const Route = createFileRoute("/sell-phone/$brand/$model/")({
   head: ({ loaderData }) => {
     if (!loaderData)
       return { meta: [{ title: "Model not found" }, { name: "robots", content: "noindex" }] };
-    const t = `Sell ${loaderData.name} — Choose Variant | USED MOBILES`;
+    const t = `Sell ${loaderData.name} | Choose Variant | USED MOBILES`;
     const d = `Choose your ${loaderData.name} storage variant to see how much you can get when you sell it to USED MOBILES.`;
     return {
       meta: [

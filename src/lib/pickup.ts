@@ -3,6 +3,8 @@ import { z } from "zod";
 // Doorstep pickup: Hyderabad, Monday–Saturday, 10:00 AM – 4:00 PM.
 export const PICKUP_SLOTS = ["10:00 AM – 12:00 PM", "12:00 PM – 2:00 PM", "2:00 PM – 4:00 PM"] as const;
 export const BOOKING_DAYS = 7;
+export const PHONE_VERIFICATION_STATUS = "unverified" as const;
+export const SLOT_CAPACITY: number | null = null;
 export const REQUEST_STATUSES = [
   "new",
   "confirmed",
@@ -48,6 +50,7 @@ export const formatPickupDate = (iso: string) =>
   });
 
 export const pickupSchema = z.object({
+  submissionKey: z.string().uuid().optional(),
   brandSlug: z.string().min(1).max(80),
   modelSlug: z.string().min(1).max(160),
   variantId: z.string().min(1).max(80),
