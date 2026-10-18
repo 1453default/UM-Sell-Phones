@@ -1,4 +1,5 @@
 # Repair and branding completion
+- [ ] Repair production /admin connection settings and verify authenticated entry, refresh, and signed-out redirect; published verification requires republishing.
 - [x] Diagnose and repair booking access, retries and admin functions; verify authenticated admin reads/updates and logout.
 - [x] Remove registration, WhatsApp, How It Works, and unwanted iPhone Duo entry.
 - [x] Apply supplied logo/icons, consistent logo sizing and reduced-motion transitions; check desktop/tablet/mobile.

@@ -20,3 +20,4 @@
 - Public pickup writes use a validated server-only privileged insert with a unique submission key; retries return the persisted reference without creating duplicate requests.
 - Keep a single shared business-logo renderer and derive browser icons from its source asset to prevent branding drift.
 - Staff accounts are provisioned by secure invitations, never public signup; administrator permissions remain server-validated in user_roles.
+- Inline only public auth environment references in the generated browser client via the Vite pre-transform; bracket access otherwise survives production replacement and breaks staff sign-in. Never inline server secrets.
