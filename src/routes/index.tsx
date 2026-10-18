@@ -1,9 +1,9 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, ArrowUpRight, MapPin, MessageCircle } from "lucide-react";
+import { ArrowRight, ArrowUpRight, MapPin } from "lucide-react";
 import { PublicLayout } from "@/components/public/PublicLayout";
 import { SELL_BRANDS } from "@/data/sellPhoneCatalog";
-import { SHOP_MAPS_URL, whatsappLink } from "@/lib/shop";
+import { SHOP_MAPS_URL } from "@/lib/shop";
 import heroMain from "@/assets/um-counter.jpg";
 
 const TITLE = "Sell Your Phone — Estimated Offers — USED MOBILES Hyderabad";
@@ -41,9 +41,9 @@ function Home() {
             Toli Chowki · Hyderabad
           </p>
           <h1 className="store-hero-copy mt-4 max-w-xl text-4xl md:text-5xl font-bold leading-tight">
-            Sell your phone.
+            Sell your phone
             <br />
-            At USED MOBILES.
+            at USED MOBILES
           </h1>
           <p className="store-hero-muted mt-5 max-w-md leading-relaxed">
             Choose your device, tell us its condition and get an estimated offer. Visit our store to
@@ -54,15 +54,6 @@ function Home() {
               <Link to="/sell-phone">
                 Check your phone’s value <ArrowRight />
               </Link>
-            </Button>
-            <Button asChild size="lg" variant="outline" className="h-12">
-              <a
-                href={whatsappLink("Hi! I'd like to sell my phone.")}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <MessageCircle /> WhatsApp us
-              </a>
             </Button>
           </div>
           <a
@@ -102,40 +93,13 @@ function Home() {
                     width="100"
                     height="50"
                     loading="lazy"
-                    className="max-h-12 w-full object-contain"
+                    className="h-14 md:h-16 w-auto max-w-[85%] object-contain"
                   />
                 )}
               </Link>
             </li>
           ))}
         </ul>
-      </section>
-      <section className="border-y border-border bg-card">
-        <div className="mx-auto max-w-6xl px-4 py-12">
-          <div className="flex flex-wrap items-center justify-between gap-4">
-            <h2 className="text-2xl font-bold">From phone to offer</h2>
-            <Link to="/how-it-works" className="text-sm font-semibold underline">
-              How it works
-            </Link>
-          </div>
-          <div className="mt-8 grid gap-8 md:grid-cols-3">
-            {[
-              ["01", "Choose your phone", "Select your exact model and storage/RAM variant."],
-              ["02", "Check its condition", "Answer a few questions to see your estimated offer."],
-              [
-                "03",
-                "Connect with the store",
-                "Share your details on WhatsApp and arrange an in-store inspection.",
-              ],
-            ].map(([num, title, text]) => (
-              <div key={num} className="border-l-2 border-primary pl-5">
-                <span className="font-num text-sm text-muted-foreground">{num}</span>
-                <h3 className="mt-2 font-semibold">{title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{text}</p>
-              </div>
-            ))}
-          </div>
-        </div>
       </section>
       <section className="mx-auto grid max-w-6xl gap-8 px-4 py-12 md:grid-cols-2">
         <div>
@@ -152,7 +116,7 @@ function Home() {
             ],
             [
               "What if my phone has no listed price?",
-              "You can still contact USED MOBILES on WhatsApp for an offer. We do not substitute another model’s price.",
+              "Call USED MOBILES for an offer. We do not substitute another model’s price.",
             ],
             [
               "Where can I sell my phone?",

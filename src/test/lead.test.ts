@@ -1,7 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { leadLink, normalizeIndianMobile } from "../lib/lead";
-import { emptyAnswers } from "../lib/valuation";
-describe("WhatsApp lead handoff", () => {
+import { normalizeIndianMobile } from "../lib/lead";
+describe("Indian mobile validation", () => {
   it.each([
     "9000464640",
     "+91 90004 64640",
@@ -17,23 +16,4 @@ describe("WhatsApp lead handoff", () => {
       expect(normalizeIndianMobile(phone)).toBeNull();
     },
   );
-  it("encodes the exact device and real lead details for the existing shop", () => {
-    const link = leadLink({
-      name: "A & B",
-      mobile: "9000464640",
-      brand: "Apple",
-      model: "iPhone 13",
-      variant: "128 GB",
-      base: 30000,
-      estimate: 27000,
-      answers: emptyAnswers(),
-    });
-    const url = new URL(link);
-    expect(url.hostname).toBe("wa.me");
-    expect(url.pathname).toBe("/919000464640");
-    expect(url.searchParams.get("text")).toContain("Name: A & B");
-    expect(url.searchParams.get("text")).toContain("Model: iPhone 13");
-    expect(url.searchParams.get("text")).toContain("Variant: 128 GB");
-    expect(url.searchParams.get("text")).toContain("27,000");
-  });
 });

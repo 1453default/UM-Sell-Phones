@@ -62,7 +62,7 @@ function SellHome() {
                     <img
                       src={b.logo}
                       alt={`${b.name} logo`}
-                      className="h-12 md:h-14 w-auto max-w-[75%] object-contain"
+                      className="h-14 md:h-16 w-auto max-w-[85%] object-contain"
                       decoding="async"
                       loading="lazy"
                     />

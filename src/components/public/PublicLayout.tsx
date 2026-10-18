@@ -6,10 +6,10 @@ import {
   SHOP_INSTAGRAM,
   SHOP_INSTAGRAM_HANDLE,
   SHOP_MAPS_URL,
-  whatsappLink,
 } from "@/lib/shop";
 import { Button } from "@/components/ui/button";
 import { Dock } from "@/components/public/Dock";
+import { BrandLogo } from "@/components/public/BrandLogo";
 import { BrandTagline } from "@/components/public/BrandTagline";
 
 export function PublicLayout({ children }: { children: ReactNode }) {
@@ -25,12 +25,12 @@ export function PublicLayout({ children }: { children: ReactNode }) {
 
 const NAV_CLS =
   "rounded-md px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-accent transition";
-const NAV: { to?: "/" | "/sell-phone" | "/how-it-works"; href?: string; label: string }[] = [
+const NAV: { to?: "/" | "/sell-phone" | "/privacy" | "/terms"; href?: string; label: string }[] = [
   { to: "/", label: "Home" },
   { to: "/sell-phone", label: "Sell Phone" },
-  { to: "/how-it-works", label: "How It Works" },
 
-  { href: whatsappLink("Hi! I have a question about selling my phone."), label: "Support" },
+
+
 ];
 
 function PublicHeader() {
@@ -38,14 +38,7 @@ function PublicHeader() {
     <header className="sticky top-0 z-40 shrink-0 border-b border-border bg-background">
       <div className="mx-auto flex h-18 max-w-6xl items-center justify-between px-4">
         <Link to="/" className="flex min-w-0 items-center gap-2.5">
-          <img
-            src="/USED_MOBILE_LOGO.png"
-            alt=""
-            width="56"
-            height="56"
-            className="h-10 w-10 md:h-14 md:w-14 shrink-0 object-contain"
-            onError={(e) => (e.currentTarget.style.display = "none")}
-          />
+          <BrandLogo />
           <div className="min-w-0">
             <div className="font-display text-base font-extrabold leading-none  text-foreground">
               USED MOBILES
@@ -78,7 +71,7 @@ function PublicHeader() {
 
         <a
           href={`tel:${SHOP_PHONE.replace(/\s/g, "")}`}
-          className="inline-flex h-11 items-center gap-2 rounded-full border border-border bg-card px-4 text-sm font-semibold text-foreground hover:border-primary transition"
+          className="inline-flex h-11 items-center gap-2 rounded-md border border-border bg-card px-4 text-sm font-semibold text-foreground hover:border-primary transition"
           aria-label="Call shop"
         >
           <Phone className="h-4 w-4 text-primary" />
@@ -90,10 +83,12 @@ function PublicHeader() {
 }
 
 function PublicFooter() {
-  const explore: { to?: "/" | "/sell-phone" | "/how-it-works"; href?: string; label: string }[] = [
+  const explore: { to?: "/" | "/sell-phone" | "/privacy" | "/terms"; href?: string; label: string }[] = [
+    { to: "/privacy", label: "Privacy Policy" },
+    { to: "/terms", label: "Terms and Conditions" },
     { to: "/", label: "Home" },
     { to: "/sell-phone", label: "Sell Your Phone" },
-    { to: "/how-it-works", label: "How It Works" },
+  
 
     { href: SHOP_MAPS_URL, label: "Store Location" },
   ];
@@ -103,7 +98,7 @@ function PublicFooter() {
       <div className="mx-auto max-w-6xl px-4 py-12 grid gap-10 md:grid-cols-4">
         <div className="md:col-span-1">
           <div className="flex items-center gap-2 mb-3">
-            <img src="/USED_MOBILE_LOGO.png" alt="" className="h-9 w-9 object-contain" />
+            <BrandLogo />
             <div className="min-w-0">
               <div className="font-display font-extrabold text-foreground">USED MOBILES</div>
               <div className="mt-1.5">
@@ -121,14 +116,14 @@ function PublicFooter() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
-              className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-border text-muted-foreground hover:text-primary hover:border-primary transition"
+              className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-border text-muted-foreground hover:text-primary hover:border-primary transition"
             >
               <Instagram className="h-4 w-4" />
             </a>
             <a
               href={`tel:${SHOP_PHONE.replace(/\s/g, "")}`}
               aria-label="Call"
-              className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-border text-muted-foreground hover:text-primary hover:border-primary transition"
+              className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-border text-muted-foreground hover:text-primary hover:border-primary transition"
             >
               <Phone className="h-4 w-4" />
             </a>
@@ -204,14 +199,6 @@ function PublicFooter() {
             className="mt-3 block text-sm font-semibold text-foreground hover:text-primary font-num"
           >
             {SHOP_PHONE}
-          </a>
-          <a
-            href={whatsappLink()}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block text-sm text-foreground hover:text-primary font-num"
-          >
-            WhatsApp · {SHOP_PHONE}
           </a>
           <span className="sr-only">{SHOP_INSTAGRAM_HANDLE}</span>
         </div>

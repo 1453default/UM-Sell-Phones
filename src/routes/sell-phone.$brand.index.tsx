@@ -82,11 +82,11 @@ function BrandPage() {
         <Crumbs items={[{ label: "Sell Phone", to: "/sell-phone" }, { label: brand.name }]} />
         <div className="mt-4 flex items-center gap-4">
           {brand.logo && (
-            <div className="flex h-14 w-20 shrink-0 items-center justify-center rounded-md border border-border bg-card p-2">
+            <div className="flex h-20 w-32 shrink-0 items-center justify-center rounded-md border border-border bg-card p-2">
               <img
                 src={brand.logo}
                 alt={`${brand.name} logo`}
-                className="max-h-full max-w-full object-contain"
+                className="h-14 md:h-16 w-auto max-w-[85%] object-contain"
               />
             </div>
           )}

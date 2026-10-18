@@ -5,6 +5,7 @@ import {
   HeadContent,
   Scripts,
   useRouter,
+  useLocation,
 } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
 import type { ReactNode } from "react";
@@ -58,13 +59,14 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1, viewport-fit=cover" },
-      { name: "theme-color", content: "#0D1117" },
+      { name: "theme-color", content: "#F4F5F9" },
       { title: "Sell Your Phone — USED MOBILES Hyderabad" },
       { property: "og:site_name", content: "USED MOBILES" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
-      { rel: "icon", href: "/favicon.ico" },
+      { rel: "icon", type: "image/png", href: "/favicon.png" },
+      { rel: "apple-touch-icon", href: "/apple-touch-icon.png" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "" },
       {
@@ -74,7 +76,7 @@ export const Route = createRootRoute({
     ],
   }),
   shellComponent: RootShell,
-  component: () => <Outlet />,
+  component: PageOutlet,
   notFoundComponent: NotFoundComponent,
   errorComponent: ErrorComponent,
 });
@@ -91,4 +93,9 @@ function RootShell({ children }: { children: ReactNode }) {
       </body>
     </html>
   );
+}
+
+function PageOutlet() {
+  const pathname = useLocation({ select: (location) => location.pathname });
+  return <div key={pathname} className="page-enter"><Outlet /></div>;
 }

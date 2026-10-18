@@ -16,7 +16,6 @@ import { PickupForm } from "./PickupForm";
 import { formatINR, type SellVariant } from "@/data/sellPhonePricing";
 import { type SellBrand, type SellModel } from "@/data/sellPhoneCatalog";
 import { PhoneImg } from "./SellParts";
-import { whatsappLink } from "@/lib/shop";
 
 const STAGES = [
   "About your device",
@@ -106,16 +105,7 @@ export function DeviceAssessment({
             <Button size="lg" className="mt-8 h-12" onClick={() => go(0)}>
               About Your Device <ArrowRight />
             </Button>
-            <a
-              href={whatsappLink(
-                `Hi, I want to sell my ${model.name} (${variant.label}). Base value ${formatINR(variant.uptoPrice)}. Please check the exact value.`,
-              )}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-5 block text-sm font-semibold underline"
-            >
-              Check Exact Value on WhatsApp
-            </a>
+
           </div>
         )}
         {step === 0 && (
