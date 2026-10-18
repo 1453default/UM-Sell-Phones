@@ -24,7 +24,7 @@
 - Reduced-motion animation duration suppressed. Favicon and Apple touch icon returned HTTP200 locally. Identifiable verification bookings were deleted precisely; no genuine records were removed.
 
 ## Launch checklist and owner actions
-- BLOCKED: Intended password login cannot be verified until the owner follows the secure invitation or password-reset email and sets their password. Authenticated admin flows were verified using a securely minted preview session, not a password login. Recovery-email delivery/link completion remains unverified.
+- VERIFIED 2026-10-18: Completed the existing administrator account with the owner-supplied password through the secure authentication service, not website code. Actual password sign-in via /admin, refresh, search and sign-out passed without browser runtime errors. The current request list is empty, so saved edits were not re-tested in this pass. Recovery-email delivery/link completion remains unverified.
 - DEFERRED BY OWNER: Custom domain remains blank. No domain/DNS records or absolute canonical URLs were invented. HTTPS, redirects and deployed favicon cannot be checked until a domain is chosen and the site is published.
 - INCOMPLETE: Business review of Privacy/Terms, especially retention duration, cancellation and dispute-handling terms. Existing contacts/address retained; no legal entity or guarantees invented.
 - COMPLETE IN SETTINGS: Builder badge hidden; published-site appearance awaits publication.
