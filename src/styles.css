@@ -61,6 +61,9 @@
 
 :root {
   --radius: 8px;
+  --motion-fast: 160ms;
+  --motion-page: 280ms;
+  --motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
 
   /* Brand palette (oklch) */
   --amber: oklch(0.78 0.16 70); /* #F59E0B vibe */
@@ -167,6 +170,7 @@
   cursor: pointer;
   font-size: 14px;
   line-height: 1.5;
+  transition: border-color var(--motion-fast) ease, background-color var(--motion-fast) ease, box-shadow var(--motion-fast) ease;
 }
 .selection-option:hover {
   border-color: var(--foreground);
@@ -206,6 +210,7 @@
   border-radius: 6px;
   padding: 0 14px;
   background: var(--card);
+  transition: border-color var(--motion-fast) ease;
 }
 .field:focus-visible {
   outline: 2px solid var(--ring);
@@ -374,6 +379,24 @@ summary:focus-visible {
     color: black !important;
   }
 }
-.page-enter { animation: page-enter 180ms ease-out; }
-@keyframes page-enter { from { opacity: 0.6; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+.page-enter { animation: page-enter var(--motion-page) var(--motion-ease); }
+.assessment-step { animation: page-enter var(--motion-page) var(--motion-ease); }
+.pickup-confirmation { animation: page-enter 360ms var(--motion-ease); }
+@keyframes page-enter { from { opacity: 0.3; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+[data-slot="button"], button.inline-flex {
+  transition-property: color, background-color, border-color, opacity, transform;
+  transition-duration: var(--motion-fast);
+  transition-timing-function: ease;
+}
+button.inline-flex:active:not(:disabled) { transform: translateY(1px); }
+.site-main a.group { transition: border-color var(--motion-fast) ease, transform var(--motion-page) var(--motion-ease); }
+@media (hover: hover) and (pointer: fine) {
+  .site-main a.group:hover { transform: translateY(-2px); }
+  .site-main a.group img { transition: transform var(--motion-page) var(--motion-ease); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .page-enter, .assessment-step, .pickup-confirmation { animation: none; }
+  .site-main a.group:hover, button.inline-flex:active:not(:disabled) { transform: none; }
+  .site-main a.group img { transform: none; }
+}
 .selection-option:has(input:disabled) { cursor: not-allowed; opacity: 0.5; }
