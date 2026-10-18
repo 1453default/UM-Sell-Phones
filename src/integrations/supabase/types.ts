@@ -31,11 +31,13 @@ export type Database = {
           locality: string
           mobile: string
           model: string
+          phone_verification_status: string
           pincode: string
           reference: string
           slot_date: string
           slot_time: string
           status: string
+          submission_key: string | null
           updated_at: string
           variant: string
         }
@@ -55,11 +57,13 @@ export type Database = {
           locality: string
           mobile: string
           model: string
+          phone_verification_status?: string
           pincode: string
           reference: string
           slot_date: string
           slot_time: string
           status?: string
+          submission_key?: string | null
           updated_at?: string
           variant: string
         }
@@ -79,11 +83,13 @@ export type Database = {
           locality?: string
           mobile?: string
           model?: string
+          phone_verification_status?: string
           pincode?: string
           reference?: string
           slot_date?: string
           slot_time?: string
           status?: string
+          submission_key?: string | null
           updated_at?: string
           variant?: string
         }
