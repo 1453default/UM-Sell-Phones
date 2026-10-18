@@ -1,6 +1,7 @@
 # Repair and branding completion
 - [x] Reproduce pickup failure on main website: outdated public auth settings stop submission before RPC; existing preview correction verified with successful booking and authenticated admin read.
-- [ ] Apply verified pickup connection correction on main website: awaiting owner republishing the updated app.
+- [x] Root-cause pickup error on hosted site (build ran without connection settings); added public fallbacks + non-blocking session attach; clean-environment build and real booking verified, 93 tests pass.
+- [ ] Apply pickup fix on main website: awaiting owner republishing the updated app.
 - [x] Add restrained sitewide transitions, assessment-step and confirmation motion, smooth assessment scrolling and professional interaction feedback; verify reduced motion, mobile layout and successful pickup submission.
 - [x] Repair /admin public connection settings; four regression tests passed, authenticated entry/refresh/sign-out verified in preview.
 - [ ] Verify repaired /admin on the main website: awaiting owner republishing the updated app.
