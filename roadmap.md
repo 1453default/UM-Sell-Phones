@@ -1,6 +1,6 @@
-# Sell Your Phone stabilization
-- [x] Audit existing routes, assets, and data; establish baseline.
-- [x] Refine brand-led shared design, homepage, navigation, and selection pages.
-- [x] Implement conditional assessment and centralized tested valuation rules.
-- [x] Add honest validated WhatsApp lead handoff and result review.
-- [x] Verify routes, catalog preservation, accessibility, responsive layouts, and checks; document blockers in IMPLEMENTATION_REPORT.md.
+# Repair and branding completion
+- [ ] Diagnose and repair admin access and customer booking failures; verify authenticated admin reads/updates and logout.
+- [ ] Remove registration, WhatsApp, How It Works, and unwanted iPhone Duo entry.
+- [ ] Apply supplied logo/icons, bright styling, consistent logo sizing and reduced-motion transitions.
+- [ ] Add accurate privacy/terms pages and document launch blockers and OTP configuration.
+- [ ] Run consolidated tests and real booking/admin/browser verification; safely remove test records.

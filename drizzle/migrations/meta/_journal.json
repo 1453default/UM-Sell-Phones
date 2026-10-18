@@ -8,6 +8,13 @@
       "when": 1792257074623,
       "tag": "0000_migration",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1792314648763,
+      "tag": "0001_repair_pickup_access_and_retry_integrity",
+      "breakpoints": true
     }
   ]
 }
