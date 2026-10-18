@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { publicAuthEnvPlugin } from "../../vite.config";
+import { PUBLIC_AUTH_FALLBACK, publicAuthEnvPlugin } from "../../vite.config";
 
 describe("Published staff auth configuration", () => {
   it("inlines both public settings used by the generated client", async () => {
@@ -21,5 +21,23 @@ describe("Published staff auth configuration", () => {
     const source = "process.env['SUPABASE_SERVICE_ROLE_KEY']";
     expect(await transform.call({} as never, source, "/src/integrations/supabase/client.ts")).toBe(source);
     expect(await transform.call({} as never, source, "/src/routes/auth.tsx")).toBeUndefined();
+  });
+});
+describe("Hosted build without an env file", () => {
+  it("still inlines the public backend address and publishable key", async () => {
+    const original = process.cwd();
+    process.chdir("/tmp");
+    try {
+      const plugin = publicAuthEnvPlugin({});
+      const config = plugin.config;
+      if (typeof config !== "function") throw new Error("Missing config");
+      await config.call({} as never, {}, { mode: "production", command: "build" });
+      const transform = plugin.transform;
+      if (typeof transform !== "function") throw new Error("Missing transform");
+      const result = await transform.call({} as never, "import.meta.env['VITE_SUPABASE_URL'] || import.meta.env['VITE_SUPABASE_PUBLISHABLE_KEY']", "/src/integrations/supabase/client.ts");
+      expect(result).toBe(`${JSON.stringify(PUBLIC_AUTH_FALLBACK.VITE_SUPABASE_URL)} || ${JSON.stringify(PUBLIC_AUTH_FALLBACK.VITE_SUPABASE_PUBLISHABLE_KEY)}`);
+    } finally {
+      process.chdir(original);
+    }
   });
 });
