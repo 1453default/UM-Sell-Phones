@@ -50,7 +50,9 @@ function AdminPage() {
   async function signOut() {
     await navigate({ to: "/auth", replace: true });
     await supabase.auth.signOut();
-    navigate({ to: "/auth", replace: true });
+    // This project uses router loader data, not a query cache. Clear private
+    // loader results and stale matches before a subsequent account signs in.
+    await navigate({ to: "/auth", replace: true, reloadDocument: true });
   }
 
   if (!isAdmin)

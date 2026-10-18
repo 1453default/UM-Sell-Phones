@@ -8,7 +8,7 @@ import {
   useLocation,
 } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
-import type { ReactNode } from "react";
+import { useEffect, type ReactNode } from "react";
 import appCss from "../styles.css?url";
 
 function NotFoundComponent() {
@@ -96,6 +96,14 @@ function RootShell({ children }: { children: ReactNode }) {
 }
 
 function PageOutlet() {
+  const router = useRouter();
   const pathname = useLocation({ select: (location) => location.pathname });
+  useEffect(() => {
+    const hash = window.location.hash.slice(1);
+    const type = new URLSearchParams(hash).get("type");
+    if (pathname !== "/reset-password" && (type === "invite" || type === "recovery")) {
+      void router.navigate({ to: "/reset-password", hash, replace: true });
+    }
+  }, [pathname, router]);
   return <div key={pathname} className="page-enter"><Outlet /></div>;
 }
