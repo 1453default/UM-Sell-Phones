@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { tmpdir } from "node:os";
 import { PUBLIC_AUTH_FALLBACK, publicAuthEnvPlugin } from "../../vite.config";
 
 describe("Published staff auth configuration", () => {
@@ -26,7 +27,7 @@ describe("Published staff auth configuration", () => {
 describe("Hosted build without an env file", () => {
   it("still inlines the public backend address and publishable key", async () => {
     const original = process.cwd();
-    process.chdir("/tmp");
+    process.chdir(tmpdir());
     try {
       const plugin = publicAuthEnvPlugin({});
       const config = plugin.config;
