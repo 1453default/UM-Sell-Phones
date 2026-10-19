@@ -4,6 +4,7 @@ import { PublicLayout } from "@/components/public/PublicLayout";
 import { Crumbs, PhoneImg, SearchBox } from "@/components/sell/SellParts";
 import { Button } from "@/components/ui/button";
 import { getSellBrand, normalizeSearch } from "@/data/sellPhoneCatalog";
+import { canonicalUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/sell-phone/$brand/")({
   validateSearch: (s: Record<string, unknown>): { series?: string } =>
@@ -27,6 +28,7 @@ export const Route = createFileRoute("/sell-phone/$brand/")({
         { property: "og:type", content: "website" },
         { name: "twitter:card", content: "summary" },
       ],
+      links: [{ rel: "canonical", href: canonicalUrl(`/sell-phone/${loaderData.slug}`) }],
     };
   },
   notFoundComponent: () => (

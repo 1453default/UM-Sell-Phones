@@ -35,24 +35,23 @@ npm test            # valuation, pickup, catalog, route and configuration checks
 
 Use the existing Supabase project configured for this application. Apply the SQL files in `drizzle/migrations/` in filename order using the Supabase SQL editor or your established migration workflow. The migrations create the role and pickup request tables, row-level security policies, admin role check, and unique retry key.
 
-Set these server environment variables in local development and the hosting provider:
+For the existing Supabase project, the public URL and publishable key have committed fallbacks shared by browser and server auth. The only required secret for accepting pickup requests is:
 
-- `SUPABASE_URL` — Supabase project URL
 - `SUPABASE_SERVICE_ROLE_KEY` — secret service-role key; server use only. Never add it to a `VITE_` variable or browser bundle.
 
-The site currently includes a public Supabase URL and publishable key fallback in `vite.config.ts` for its existing project. To use a different Supabase project, set `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY` at build time as well as the matching server variables above. The publishable key is public; the service-role key is not.
+To use a different Supabase project, set matching `SUPABASE_URL` and `SUPABASE_PUBLISHABLE_KEY` server variables and `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY` build variables. The publishable key is public; the service-role key is not.
 
 Staff accounts must be provisioned through Supabase's secure invitation process. The database migration assigns the initial administrator role through its auth-user trigger. Confirm the intended first administrator account before enabling staff invitations. No customer signup or SMS provider is configured.
 
 ## Deployment
 
-The checked-in Wrangler deployment setup targets Cloudflare Workers. `npm run build` currently creates a Nitro `cloudflare-module` bundle in `.output/`; deploy that bundle with `npx nitro deploy --prebuilt` after connecting the Cloudflare account. For Vercel or another Nitro-compatible host, set `NITRO_PRESET` to that host's Nitro preset during the build and verify the generated adapter output before deploying. The hosting account, secrets and domain must be configured outside this repository.
+The app uses Nitro for deployment. Vercel detects TanStack Start and selects its Vercel runtime during hosted builds; the local build may select a development or sandbox preset. Confirm the Vercel project uses the TanStack Start framework preset and check its deployment build logs after connecting the repository. The hosting account, pickup storage secret, database migrations and custom domain must be configured outside this repository.
 
 Before accepting bookings, configure the Supabase server variables, apply the migrations, and submit a booking in the deployed environment. Hosting credentials and database provisioning are deployment setup; this repository does not contain secret values.
 
 ## Domain and legal readiness
 
-No production domain is specified. Add the confirmed domain to the hosting provider, then set the final canonical URLs and domain-specific sitemap before launch. Do not use a preview URL as the canonical domain.
+The current canonical origin defaults to `https://umsp.vercel.app`. When a custom domain is confirmed, attach it to Vercel and set `VITE_SITE_URL` to that origin for the production build. Do not use a preview URL as the canonical domain. A sitemap can be added after the final domain and indexable routes are confirmed.
 
 Privacy and terms pages are included at `/privacy` and `/terms`. Their current text identifies the data stored and booking flow, and calls out retention and business-policy details that still need confirmation. Have the business review those details before publishing.
 

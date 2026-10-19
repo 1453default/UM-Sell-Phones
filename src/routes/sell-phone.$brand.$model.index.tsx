@@ -6,6 +6,7 @@ import { getSellBrand, getSellModel } from "@/data/sellPhoneCatalog";
 import { Button } from "@/components/ui/button";
 import { SHOP_PHONE } from "@/lib/shop";
 import { getModelVariants } from "@/data/sellPhonePricing";
+import { canonicalUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/sell-phone/$brand/$model/")({
   loader: ({ params }) => {
@@ -27,6 +28,7 @@ export const Route = createFileRoute("/sell-phone/$brand/$model/")({
         { property: "og:type", content: "product" },
         { name: "twitter:card", content: "summary" },
       ],
+      links: [{ rel: "canonical", href: canonicalUrl(`/sell-phone/${loaderData.brand?.slug}/${loaderData.model.slug}`) }],
     };
   },
   notFoundComponent: () => (

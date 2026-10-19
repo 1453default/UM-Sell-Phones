@@ -4,6 +4,7 @@ import { HandCoins } from "lucide-react";
 import { PublicLayout } from "@/components/public/PublicLayout";
 import { Crumbs, SearchBox } from "@/components/sell/SellParts";
 import { SELL_BRANDS, normalizeSearch } from "@/data/sellPhoneCatalog";
+import { canonicalUrl } from "@/lib/site";
 
 const TITLE = "Sell Your Old Phone | USED MOBILES Hyderabad";
 const DESC =
@@ -19,6 +20,7 @@ export const Route = createFileRoute("/sell-phone/")({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
     ],
+    links: [{ rel: "canonical", href: canonicalUrl("/sell-phone") }],
   }),
   component: SellHome,
 });

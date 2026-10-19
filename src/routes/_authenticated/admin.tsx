@@ -1,6 +1,6 @@
 import { BrandLogo } from "@/components/public/BrandLogo";
-import { useMemo, useState } from "react";
-import { createFileRoute, useNavigate } from "@tanstack/react-router";
+import { useEffect, useMemo, useState } from "react";
+import { createFileRoute, useNavigate, useRouter } from "@tanstack/react-router";
 import { useServerFn } from "@tanstack/react-start";
 import { Button } from "@/components/ui/button";
 import { supabase } from "@/integrations/supabase/client";
@@ -21,8 +21,19 @@ export const Route = createFileRoute("/_authenticated/admin")({
     ],
   }),
   loader: async () => {
-    const { isAdmin } = await checkAdmin();
-    return { isAdmin, rows: isAdmin ? await listPickupRequests() : [] };
+    try {
+      const { isAdmin } = await checkAdmin();
+      if (!isAdmin) return { isAdmin: false, rows: [], loadError: null };
+      try {
+        return { isAdmin: true, rows: await listPickupRequests(), loadError: null };
+      } catch (error) {
+        console.error("Admin pickup requests could not be loaded", error);
+        return { isAdmin: true, rows: [], loadError: "requests" as const };
+      }
+    } catch (error) {
+      console.error("Admin access could not be verified", error);
+      return { isAdmin: false, rows: [], loadError: "access" as const };
+    }
   },
   component: AdminPage,
 });
@@ -31,8 +42,9 @@ type Row = Awaited<ReturnType<typeof listPickupRequests>>[number];
 const label = (s: string) => s.replace("_", " ").replace(/^./, (c) => c.toUpperCase());
 
 function AdminPage() {
-  const { isAdmin, rows: initial } = Route.useLoaderData();
+  const { isAdmin, rows: initial, loadError } = Route.useLoaderData();
   const navigate = useNavigate();
+  const router = useRouter();
   const [rows, setRows] = useState<Row[]>(initial);
   const [filter, setFilter] = useState("all");
   const [q, setQ] = useState("");
@@ -47,6 +59,7 @@ function AdminPage() {
       ),
     [rows, filter, q],
   );
+  useEffect(() => setRows(initial), [initial]);
   async function signOut() {
     await navigate({ to: "/auth", replace: true });
     await supabase.auth.signOut();
@@ -54,6 +67,23 @@ function AdminPage() {
     // loader results and stale matches before a subsequent account signs in.
     await navigate({ to: "/auth", replace: true, reloadDocument: true });
   }
+
+  if (loadError)
+    return (
+      <main className="mx-auto max-w-lg px-5 py-16">
+        <BrandLogo />
+        <h1 className="mt-6 text-2xl font-bold">Pickup requests couldn't be loaded</h1>
+        <p className="mt-3 text-muted-foreground">
+          {loadError === "access"
+            ? "We couldn't verify this account's admin access. Sign in again or try once more."
+            : "The request list is temporarily unavailable. Check the Supabase connection and applied migrations, then try again."}
+        </p>
+        <div className="mt-6 flex gap-3">
+          <Button onClick={() => router.invalidate()}>Try again</Button>
+          <Button variant="outline" onClick={signOut}>Sign out</Button>
+        </div>
+      </main>
+    );
 
   if (!isAdmin)
     return (
