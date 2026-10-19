@@ -4,6 +4,7 @@ import { Crumbs } from "@/components/sell/SellParts";
 import { getSellBrand, getSellModel } from "@/data/sellPhoneCatalog";
 import { getVariant } from "@/data/sellPhonePricing";
 import { DeviceAssessment } from "@/components/sell/DeviceAssessment";
+import { canonicalUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/sell-phone/$brand/$model/$variant")({
   loader: ({ params }) => {
@@ -14,7 +15,7 @@ export const Route = createFileRoute("/sell-phone/$brand/$model/$variant")({
     if (!v) throw notFound();
     return { name: model.name, label: v.label };
   },
-  head: ({ loaderData }) => {
+  head: ({ loaderData, params }) => {
     if (!loaderData)
       return { meta: [{ title: "Variant not found" }, { name: "robots", content: "noindex" }] };
     const t = `Sell ${loaderData.name} (${loaderData.label}) | USED MOBILES`;
@@ -28,6 +29,7 @@ export const Route = createFileRoute("/sell-phone/$brand/$model/$variant")({
         { property: "og:type", content: "product" },
         { name: "twitter:card", content: "summary" },
       ],
+      links: [{ rel: "canonical", href: canonicalUrl(`/sell-phone/${params.brand}/${params.model}/${params.variant}`) }],
     };
   },
   notFoundComponent: () => (

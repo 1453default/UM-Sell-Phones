@@ -7,7 +7,7 @@ import { answerSummary, assessmentComplete, calculateValuation, type Answers } f
 import { PHONE_VERIFICATION_STATUS, REQUEST_STATUSES, isBookableSlot, makeReference, pickupSchema } from "./pickup";
 
 export const createPickupRequest = createServerFn({ method: "POST" })
-  .inputValidator((d: unknown) => d as z.input<typeof pickupSchema>)
+  .validator((d: unknown) => d as z.input<typeof pickupSchema>)
   .handler(async ({ data: input }) => {
     const parsed = pickupSchema.safeParse(input);
     if (!parsed.success) return { ok: false as const, error: parsed.error.issues[0]?.message ?? "Please check your details." };
@@ -66,17 +66,19 @@ export const createPickupRequest = createServerFn({ method: "POST" })
   });
 
 async function assertAdmin(ctx: { supabase: any; userId: string }) {
-  const { data } = await ctx.supabase.rpc("has_role", { _user_id: ctx.userId, _role: "admin" });
+  const { data, error } = await ctx.supabase.rpc("has_role", { _user_id: ctx.userId, _role: "admin" });
+  if (error) throw new Error("Could not verify admin access.");
   if (!data) throw new Error("Forbidden");
 }
 
 export const checkAdmin = createServerFn({ method: "GET" })
   .middleware([requireSupabaseAuth])
   .handler(async ({ context }) => {
-    const { data } = await context.supabase.rpc("has_role", {
+    const { data, error } = await context.supabase.rpc("has_role", {
       _user_id: context.userId,
       _role: "admin",
     });
+    if (error) throw new Error("Could not verify admin access.");
     return { isAdmin: !!data };
   });
 
@@ -95,7 +97,7 @@ export const listPickupRequests = createServerFn({ method: "GET" })
 
 export const updatePickupRequest = createServerFn({ method: "POST" })
   .middleware([requireSupabaseAuth])
-  .inputValidator((d: unknown) =>
+  .validator((d: unknown) =>
     z
       .object({
         id: z.string().uuid(),

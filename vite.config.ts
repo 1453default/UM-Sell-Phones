@@ -1,11 +1,12 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 import { loadEnv, type Plugin } from "vite";
+import { PUBLIC_SUPABASE_PUBLISHABLE_KEY, PUBLIC_SUPABASE_URL } from "./src/integrations/supabase/public-config.ts";
 
 // Public (non-secret) backend address and publishable key. Hosted builds may run
 // without the local env file, so these keep sign-in and bookings working there.
 export const PUBLIC_AUTH_FALLBACK: Record<string, string> = {
-  VITE_SUPABASE_URL: "https://xeryqcbacmisrnuqyjab.supabase.co",
-  VITE_SUPABASE_PUBLISHABLE_KEY: "sb_publishable_XhXtKNovfwWIDZwUUMfZ_g_P4ihAQUs",
+  VITE_SUPABASE_URL: PUBLIC_SUPABASE_URL,
+  VITE_SUPABASE_PUBLISHABLE_KEY: PUBLIC_SUPABASE_PUBLISHABLE_KEY,
 };
 
 // The generated client uses bracket access, which the production env transform
