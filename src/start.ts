@@ -1,7 +1,7 @@
 import { createStart, createCsrfMiddleware, createMiddleware } from "@tanstack/react-start";
+import { getRequest } from "@tanstack/react-start/server";
 
 import { renderErrorPage } from "./lib/error-page";
-import { attachSupabaseAuth } from "@/integrations/supabase/auth-attacher";
 
 const errorMiddleware = createMiddleware().server(async ({ next }) => {
   try {
@@ -10,10 +10,24 @@ const errorMiddleware = createMiddleware().server(async ({ next }) => {
     if (error != null && typeof error === "object" && "statusCode" in error) {
       throw error;
     }
-    console.error(error);
+    const requestId = crypto.randomUUID();
+    const request = getRequest();
+    const rawCode = error && typeof error === "object" && "code" in error ? error.code : undefined;
+    const errorCode =
+      typeof rawCode === "string" && /^[A-Z0-9_]{1,20}$/.test(rawCode) ? rawCode : null;
+    console.error("[Request] unhandled failure", {
+      requestId,
+      method: request?.method ?? "unknown",
+      path: request ? new URL(request.url).pathname : "unknown",
+      errorName: error instanceof Error ? error.name : "UnknownError",
+      errorCode,
+    });
     return new Response(renderErrorPage(), {
       status: 500,
-      headers: { "content-type": "text/html; charset=utf-8" },
+      headers: {
+        "content-type": "text/html; charset=utf-8",
+        "x-request-id": requestId,
+      },
     });
   }
 });
@@ -26,6 +40,7 @@ const csrfMiddleware = createCsrfMiddleware({
 });
 
 export const startInstance = createStart(() => ({
-  functionMiddleware: [attachSupabaseAuth],
+  // Authenticated server functions attach the session on their own. Public pickup
+  // submission must not require a browser Supabase session to reach the server.
   requestMiddleware: [errorMiddleware, csrfMiddleware],
 }));

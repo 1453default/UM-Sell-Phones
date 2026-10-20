@@ -105,7 +105,6 @@ export function DeviceAssessment({
             <Button size="lg" className="mt-8 h-12" onClick={() => go(0)}>
               About Your Device <ArrowRight />
             </Button>
-
           </div>
         )}
         {step === 0 && (

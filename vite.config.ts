@@ -1,8 +1,9 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 // The wrapper writes Lovable's deployable dist/ bundle in the sandbox.
-// Outside Lovable, Nitro still detects hosting presets such as Vercel.
+// Self-hosted builds use Vercel's Node-compatible Nitro output.
 export default defineConfig({
+  nitro: { preset: "vercel" },
   tanstackStart: { server: { entry: "server" } },
   vite: {
     server: { fs: { allow: [process.cwd(), "/persist/node_modules"] } },

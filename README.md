@@ -1,48 +1,140 @@
-# Sell Your Phone — USED MOBILES
+# USED MOBILES
 
-Standalone site where customers select brand → model → storage/RAM variant and see the
-"Get up to" price, complete a conditional device assessment, review an estimated offer,
-and hand off their enquiry through WhatsApp. The direct "Check Exact Value" handoff is retained.
+Customer-facing used-phone catalog and doorstep pickup request site for the Hyderabad shop. Customers select an exact model and storage variant, complete a condition assessment, see an estimated offer, and can submit a pickup request. The server validates the request, looks up the same exact static catalog variant, recalculates the estimate, and saves the request.
 
-## Stack
-TanStack Start v1 (React 19, file routes in `src/routes`), Vite 8, Tailwind CSS v4
-(`src/styles.css`), Nitro for the server build. No database, no auth, no external backend dependencies.
+## Project status
 
-## Commands
+The code includes Supabase-backed pickup storage and an admin request panel. A hosted database, Auth configuration, email sender, and production deployment were not verified from this checkout. Apply the migrations and complete the launch checklist below in staging before production.
+
+The price catalog has **22 brands, 1,329 models, 2,559 variant records, 1,130 priced models, and 199 models without a usable price**. Unpriced models retain the call-for-offer path. The active price snapshot is dated **6 October 2026**; review its freshness before launch. No prices are fetched or fabricated at runtime.
+
+## Stack and structure
+
+- TanStack Start and React, with file routes in `src/routes/`.
+- `@lovable.dev/vite-tanstack-config` and the existing server entry. The wrapper supports Lovable builds and Nitro host detection outside Lovable.
+- Supabase Auth and Postgres for administrator access and pickup requests.
+- `src/lib/valuation.ts` contains the shared condition matrix, caps, overlap rules, and nearest-₹100 display rounding.
+- `src/data/sellPhoneCatalog.generated.json` and `src/data/dofyPriceCatalog.generated.json` are the static catalog and exact price snapshot.
+- `src/lib/pickup.ts` holds pickup rules and server input validation; `src/lib/pickup.functions.ts` exposes protected server functions.
+- `drizzle/migrations/` contains the database migrations. Do not edit an already-applied migration; add a new numbered migration.
+
+## Local setup
+
 ```bash
-npm install       # install dependencies
-npm run dev       # http://localhost:3000
-npm run build     # production build -> .output/
-npm run preview   # serve the build
-npm run typecheck # verify TypeScript types
-npm test          # valuation, lead, catalog and route regression tests
+npm install
+npm run dev
+npm run lint
+npm run typecheck
+npm test
+npm run catalog:verify
+npm run build
 ```
-`src/routeTree.gen.ts` is regenerated automatically by the router plugin.
 
-## Structure
-- `src/routes/` — `/` landing page, `/sell-phone`, `/sell-phone/$brand`, `/sell-phone/$brand/$model`, `/sell-phone/$brand/$model/$variant`
-- `src/components/public/` — header, footer, mobile dock, brand tagline
-- `src/components/sell/SellParts.tsx` — breadcrumbs, search box, phone image component
-- `src/components/sell/DeviceAssessment.tsx` — staged condition assessment, review, and contact form
-- `src/lib/valuation.ts` — single condition matrix, category caps and overlap rules
-- `src/lib/lead.ts` — Indian mobile validation and encoded WhatsApp handoff
-- `src/data/sellPhoneCatalog.generated.json` + `sellPhoneCatalog.ts` — brands, models, image paths
-- `src/data/dofyPriceCatalog.generated.json` + `sellPhonePricing.ts` — price catalog (brand + model + storage/RAM match)
-- `public/sell-phone/logos/*.webp`, `public/sell-phone/phones/<brand>/<model>.webp` — local catalog images (1330 phone models across 22 brands)
-- `public/about-device-questions/P1–P5/` — images for device condition questionnaire
-- `reference/` — documentation, catalog source references, and condition question assets
-- `scripts/` — catalog maintenance and verification scripts (Python 3)
+`npm run lint` runs ESLint and the configured Prettier rule. The generated Supabase preview-auth adapter is excluded because its source comment says not to edit it directly. Existing Fast Refresh warnings remain visible in the lint output.
 
-## Deploy on Vercel
-New Vercel project from this repo · Framework: Other · Install: `npm install` · Build: `npm run build`.
-Nitro detects Vercel automatically. For other hosts set `NITRO_PRESET` (e.g. `netlify`, `node-server`).
+Copy `.env.example` to `.env` and fill in the values for a local or staging project. The `VITE_` Supabase URL and publishable key are public browser configuration. The service-role key, Resend key, database connection string, and rate-limit secret are server-only. Never add `VITE_` to those secrets.
 
-## Production identity and enquiries
-No production domain is known yet. Do not set a preview canonical URL. Once the Vercel
-domain is confirmed, add canonical URLs and a domain-specific sitemap. All content routes
-currently have distinct titles, descriptions and social metadata; bundled photos intentionally
-do not produce relative `og:image` URLs.
+Required Supabase values:
 
-There is no lead-storage backend. Contact details remain in page memory and the prepared
-WhatsApp message; customers must send that message in WhatsApp. Nothing is claimed saved.
-Assessment answers survive Previous/Continue within the page, but reloads intentionally restart.
+- `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY` for the browser build.
+- `SUPABASE_URL` and `SUPABASE_PUBLISHABLE_KEY` for server-side Auth checks.
+- `SUPABASE_SERVICE_ROLE_KEY` for validated server-only writes and outbox processing.
+- `LOVABLE_DB_MIGRATION_URL` for the direct PostgreSQL connection used by Drizzle migrations.
+
+The server validates missing Supabase variables and reports their names without logging secret values. Keep the service-role key only in the server runtime environment.
+
+## Database setup
+
+Apply migrations in order to a disposable or staging Supabase project first. Migration `0002_secure_admin_and_pickup_outbox.sql` removes the first-account admin trigger and function while preserving every existing `user_roles` row, adds a server-only rate-limit bucket, and adds a durable email outbox. The pickup insert and outbox insert are committed in one database transaction.
+
+With `LOVABLE_DB_MIGRATION_URL` set to the staging database's direct PostgreSQL connection string:
+
+```powershell
+$env:LOVABLE_DB_MIGRATION_URL = "<staging direct connection string>"
+npx drizzle-kit migrate
+Remove-Item Env:LOVABLE_DB_MIGRATION_URL
+```
+
+After applying, verify in the Supabase SQL Editor that:
+
+1. `on_auth_user_created_admin` and `public.grant_first_admin()` are absent. Existing administrator rows remain in `public.user_roles`.
+2. `pickup_notification_outbox` and `pickup_rate_limit_buckets` exist with RLS enabled.
+3. `create_pickup_request_atomic` and `claim_pickup_notification` are executable only by `service_role`.
+4. A staging pickup creates exactly one request and one pending outbox row, and repeating the same submission key returns the same reference.
+5. A non-admin cannot list pickup requests or notification status; an admin can.
+
+Do not run migrations against production as part of this code change. Back up the project and review the staging results before a production migration.
+
+## Administrator access
+
+Public user sign-up is not an administrator provisioning mechanism. `supabase/config.toml` disables sign-up for the local Supabase stack; verify the hosted Supabase Auth setting **Allow new users to sign up** is also off before launch. Supabase project settings are not changed by this repository migration.
+
+To provision the first or any subsequent staff administrator:
+
+1. In the trusted Supabase Dashboard, use **Authentication → Users → Add user → Send invitation**.
+2. After the invitee exists, use the owner-only SQL Editor to grant the role. This explicit step is required for the first administrator too; account creation never grants a role automatically.
+
+   ```sql
+   insert into public.user_roles (user_id, role)
+   select id, 'admin'::public.app_role
+   from auth.users
+   where lower(email) = lower('<invited staff email>')
+   on conflict (user_id, role) do nothing;
+   ```
+
+3. Sign in through `/auth` and verify access to `/admin`. Remove access by deleting only that user's `admin` row from `public.user_roles`.
+
+The UI is not the authorization boundary. Each admin server function checks `has_role`, and database policies restrict authenticated request reads and updates to administrators.
+
+## Pickup submissions and abuse controls
+
+The public server function validates the request size and fields, exact catalog model and variant, answers, address, pincode, and available pickup slot. It recalculates the offer from the static exact variant price; client-supplied prices are not accepted. A hidden honeypot rejects basic bots.
+
+Postgres applies a persistent, concurrency-safe token bucket keyed by an HMAC of the validated mobile number. It starts with five tokens and refills one every twelve minutes. Identical submission-key retries return the saved record without consuming another token. The raw IP address and arbitrary forwarded-IP headers are not used. A hosting-edge/IP limit may still be useful, but must be configured only after the deployment host and its trusted proxy behavior are confirmed.
+
+## Administrator email notifications
+
+New pickup requests automatically create an outbox row in the same Postgres transaction as the request. The server then attempts an administrator alert through the Resend Email API. The email includes the booking reference, submitted time, customer contact and pickup details, exact device and variant, selected condition summary, and server-calculated estimate. Customer input is escaped in HTML, with a plain-text alternative. The recipient can only come from server configuration. Delivery is attempted inline after the database commit; there is no scheduled background worker. If the server stops after commit but before sending, the durable outbox row remains pending for an administrator to retry from `/admin`.
+
+Set these server-only variables:
+
+- `RESEND_API_KEY`
+- `ADMIN_NOTIFICATION_EMAIL`
+- `EMAIL_FROM`
+
+Create a Resend account, verify the sender domain or address that will be used for `EMAIL_FROM`, and set all three values in a development or staging runtime. Do not assume a free plan or verified sender. No real email was sent during local implementation.
+
+Resend receives a stable `pickup-request/<request UUID>` idempotency key. A provider rejection is recorded as a failed notification and can be retried by an administrator from `/admin`. A timeout or server-side error with an uncertain outcome is recorded as unknown and is not retried blindly. Resend documents a 24-hour idempotency retention window; the app only reclaims a stale sending attempt within 23 hours. A `sent` status means Resend accepted the message, not that it reached the inbox. Requests remain saved if email configuration or delivery fails.
+
+Existing requests are not backfilled into the outbox, so they do not produce unsolicited email. The outbox stores the request ID and delivery status, not a second copy of customer details.
+
+## Catalog checks and pricing
+
+`npm run catalog:verify` checks model identity, exact price-row association, duplicate variants, invalid prices, missing images, and the generated summary. To regenerate only the counts and snapshot metadata after a reviewed source-data change, run `npm run catalog:summary` and inspect the summary-only diff.
+
+The older `scripts/generate_dofy_dataset.py` exports its research JSON under `reference/source-catalog/`; it no longer writes to the active Cashify price snapshot. Update the active price data only from an approved, reviewed source snapshot.
+
+The exact selected variant's `uptoPrice` is both the valuation base and a strict maximum. The existing condition formula and nearest-₹100 rounding stay unchanged; after rounding, the displayed and saved offer is capped at that variant's exact maximum. For Apple iPhone 13 128 GB, the healthy estimate is therefore ₹25,760 rather than the rounded ₹25,800.
+
+## Privacy and business review
+
+The privacy page describes pickup data, Supabase, conditional Resend processing, and Google Fonts. The business has not supplied a retention period. The terms page also records that cancellation fees/deadlines and dispute handling are not defined. The owner must review and approve those policies before presenting the pages as final.
+
+## Vercel deployment
+
+Vercel is the production target. `vite.config.ts` keeps the Lovable/TanStack wrapper and existing server entry, and pins Nitro to its Vercel preset for builds outside Lovable. `vercel.json` declares the TanStack Start framework so Vercel can detect the project. Current TanStack guidance uses Nitro for Vercel and recommends this framework declaration; see the [TanStack hosting guide](https://tanstack.com/start/latest/docs/framework/react/guide/hosting) and [Vercel TanStack Start guide](https://vercel.com/docs/frameworks/full-stack/tanstack-start).
+
+Import the repository into Vercel and use the detected `npm run build` command. Add browser variables `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY`, plus server-only `SUPABASE_URL`, `SUPABASE_PUBLISHABLE_KEY`, `SUPABASE_SERVICE_ROLE_KEY`, `PICKUP_RATE_LIMIT_SECRET`, `RESEND_API_KEY`, `ADMIN_NOTIFICATION_EMAIL`, and `EMAIL_FROM` in Vercel project settings. Set `LOVABLE_DB_MIGRATION_URL` only in a trusted migration environment; do not expose it as a browser variable. Never prefix server secrets with `VITE_`.
+
+The local default build previously selected `cloudflare-module` because the Lovable wrapper uses that as its fallback preset outside a hosting environment. The explicit Vercel preset and local Vercel-target build remove that ambiguity. A successful local target build is not a deployment or a live Vercel runtime test; configure a Vercel Preview environment and verify auth, pickup persistence, email status, and admin actions before production.
+
+## Launch checklist
+
+- Apply and verify all migrations in staging, then review and schedule the production migration separately.
+- Verify hosted public signup is disabled and invited staff have only their approved roles.
+- Configure the production Supabase public values and server-only service-role key.
+- Configure and verify the Resend sender and admin recipient; send a staging notification and check both its status and mailbox.
+- Confirm the price snapshot is current; offers use `uptoPrice` as a strict maximum.
+- Approve the privacy retention statement and cancellation/dispute terms.
+- Choose the deployment target and verify its server runtime, secrets, routes, and production smoke test.
+- Run `npm run lint`, `npm run typecheck`, `npm test`, `npm run catalog:verify`, and `npm run build` on the final branch.

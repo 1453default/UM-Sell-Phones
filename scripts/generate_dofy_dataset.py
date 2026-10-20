@@ -319,8 +319,8 @@ with open(out_b_csv, 'w', encoding='utf-8', newline='') as f:
         writer.writerow([r['Brand'], r['Model'], r['Variant'], r['Storage'], r['RAM'], r['UptoPrice'], r['Market'], r['Source'], r['SourceURL'], r['Notes']])
 print(f"Saved Output B CSV to {out_b_csv} ({len(output_b_rows)} rows)")
 
-# Save Output B (JSON for static catalog)
-out_b_json = 'src/data/dofyPriceCatalog.generated.json'
+# Keep this older Dofy research export separate from the active Cashify price snapshot.
+out_b_json = 'reference/source-catalog/dofy_price_research.generated.json'
 os.makedirs(os.path.dirname(out_b_json), exist_ok=True)
 with open(out_b_json, 'w', encoding='utf-8') as f:
     json.dump({
@@ -337,4 +337,4 @@ with open(out_b_json, 'w', encoding='utf-8') as f:
         },
         'records': dataset_records
     }, f, indent=1, ensure_ascii=False)
-print(f"Saved Output B JSON to {out_b_json}")
+print(f"Saved research JSON to {out_b_json}; the active sell-phone price catalog was not changed.")

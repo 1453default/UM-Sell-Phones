@@ -105,5 +105,9 @@ function PageOutlet() {
       void router.navigate({ to: "/reset-password", hash, replace: true });
     }
   }, [pathname, router]);
-  return <div key={pathname} className="page-enter"><Outlet /></div>;
+  return (
+    <div key={pathname} className="page-enter">
+      <Outlet />
+    </div>
+  );
 }

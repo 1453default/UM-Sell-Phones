@@ -15,6 +15,13 @@
       "when": 1792314648763,
       "tag": "0001_repair_pickup_access_and_retry_integrity",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1792494537958,
+      "tag": "0002_secure_admin_and_pickup_outbox",
+      "breakpoints": true
     }
   ]
 }

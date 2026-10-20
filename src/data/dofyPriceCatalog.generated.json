@@ -1,14 +1,18 @@
 {
   "summary": {
-    "total_models_in_input": 1330,
-    "total_models_researched": 1330,
-    "total_models_verified_on_cashify": 1130,
-    "total_models_not_found": 200,
-    "total_variant_entries": 2563,
-    "total_variants_verified": 2229,
-    "total_variants_not_found": 334,
-    "source": "https://www.cashify.in/sell-old-mobile-phone",
-    "timestamp": "2026-10-06"
+    "active_catalog": {
+      "brands": 22,
+      "models": 1329,
+      "priced_models": 1130,
+      "unpriced_models": 199,
+      "variant_records": 2559,
+      "priced_variant_records": 2229,
+      "unpriced_variant_records": 330
+    },
+    "price_snapshot": {
+      "source": "https://www.cashify.in/sell-old-mobile-phone",
+      "date": "2026-10-06"
+    }
   },
   "records": [
     {

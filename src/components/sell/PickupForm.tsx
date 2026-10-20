@@ -4,15 +4,11 @@ import { useServerFn } from "@tanstack/react-start";
 import { Button } from "@/components/ui/button";
 import { normalizeIndianMobile } from "@/lib/lead";
 import { assessmentComplete, type Answers } from "@/lib/valuation";
-import {
-  PICKUP_SLOTS,
-  formatPickupDate,
-  isHyderabadPincode,
-  pickupDates,
-} from "@/lib/pickup";
+import { PICKUP_SLOTS, formatPickupDate, isHyderabadPincode, pickupDates } from "@/lib/pickup";
 import { createPickupRequest } from "@/lib/pickup.functions";
 import type { SellVariant } from "@/data/sellPhonePricing";
 import type { SellBrand, SellModel } from "@/data/sellPhoneCatalog";
+import type { PickupInput } from "@/lib/pickup";
 import { SHOP_PHONE } from "@/lib/shop";
 
 export function PickupForm({
@@ -29,8 +25,10 @@ export function PickupForm({
   const submitFn = useServerFn(createPickupRequest);
   const submissionKey = useRef<string | null>(null);
   const sending = useRef(false);
+  const pendingRetry = useRef<PickupInput | null>(null);
   const [dates] = useState(() => pickupDates());
   const [f, setF] = useState({
+    website: "",
     name: "",
     mobile: "",
     addressLine: "",
@@ -42,6 +40,7 @@ export function PickupForm({
   });
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
+  const [retryPending, setRetryPending] = useState(false);
   const [reference, setReference] = useState<string | null>(null);
   const set = (k: keyof typeof f) => (v: string) => setF((p) => ({ ...p, [k]: v }));
 
@@ -54,29 +53,41 @@ export function PickupForm({
     if (f.addressLine.trim().length < 8) return setError("Please enter your full pickup address.");
     if (f.locality.trim().length < 2) return setError("Please enter your area or locality.");
     if (!isHyderabadPincode(f.pincode))
-      return setError("Doorstep pickup is available only within Hyderabad (pincode 500001–500110).");
+      return setError(
+        "Doorstep pickup is available only within Hyderabad (pincode 500001–500110).",
+      );
     if (!f.slotDate || !f.slotTime) return setError("Please choose a pickup date and time slot.");
     if (!assessmentComplete(answers)) return setError("Complete the device assessment first.");
     setError("");
     sending.current = true;
     submissionKey.current ??= crypto.randomUUID();
+    const payload = pendingRetry.current ?? {
+      ...f,
+      submissionKey: submissionKey.current,
+      mobile,
+      brandSlug: brand.slug,
+      modelSlug: model.slug,
+      variantId: variant.id,
+      answers,
+    };
+    pendingRetry.current = payload;
     setBusy(true);
     try {
-      const res = await submitFn({
-        data: {
-          ...f,
-          submissionKey: submissionKey.current,
-          mobile,
-          brandSlug: brand.slug,
-          modelSlug: model.slug,
-          variantId: variant.id,
-          answers,
-        },
-      });
-      if (res.ok) setReference(res.reference);
-      else setError(res.error);
+      const res = await submitFn({ data: payload });
+      if (res.ok) {
+        pendingRetry.current = null;
+        setRetryPending(false);
+        setReference(res.reference);
+      } else {
+        pendingRetry.current = null;
+        setRetryPending(false);
+        setError(res.error);
+      }
     } catch {
-      setError("Could not submit your request. Please check your details and try again.");
+      setRetryPending(true);
+      setError(
+        "We couldn't confirm whether your request was saved. Retry this unchanged request to avoid creating a duplicate.",
+      );
     } finally {
       sending.current = false;
       setBusy(false);
@@ -106,6 +117,7 @@ export function PickupForm({
         id={`p-${k}`}
         value={f[k]}
         onChange={(e) => set(k)(e.target.value)}
+        disabled={retryPending}
         className="field"
         {...props}
       />
@@ -115,7 +127,23 @@ export function PickupForm({
   return (
     <form onSubmit={submit} noValidate className="mt-7 space-y-5">
       <h2 className="text-xl font-semibold">Book a free doorstep pickup</h2>
-      <p className="text-sm text-muted-foreground">Available across Hyderabad, Monday to Saturday.</p>
+      <p className="text-sm text-muted-foreground">
+        Available across Hyderabad, Monday to Saturday.
+      </p>
+      <div
+        aria-hidden="true"
+        className="absolute -left-[10000px] top-auto h-px w-px overflow-hidden"
+      >
+        <label htmlFor="p-website">Leave this field empty</label>
+        <input
+          id="p-website"
+          name="website"
+          tabIndex={-1}
+          autoComplete="off"
+          value={f.website}
+          onChange={(event) => set("website")(event.target.value)}
+        />
+      </div>
       <div className="grid gap-5 sm:grid-cols-2">
         {field("name", "Your name", { maxLength: 80, autoComplete: "name" })}
         {field("mobile", "Mobile number", {
@@ -126,7 +154,10 @@ export function PickupForm({
           placeholder: "10-digit mobile number",
         })}
       </div>
-      {field("addressLine", "House / flat, street", { maxLength: 300, autoComplete: "street-address" })}
+      {field("addressLine", "House / flat, street", {
+        maxLength: 300,
+        autoComplete: "street-address",
+      })}
       <div className="grid gap-5 sm:grid-cols-3">
         {field("locality", "Area / locality", { maxLength: 120 })}
         {field("landmark", "Landmark (optional)", { maxLength: 120 })}
@@ -140,12 +171,16 @@ export function PickupForm({
         <legend className="mb-3 text-sm font-medium">Pickup date</legend>
         <div className="grid grid-cols-3 gap-2 sm:grid-cols-7">
           {dates.map((d) => (
-            <label key={d} className={`selection-option justify-center text-center ${f.slotDate === d ? "is-selected" : ""}`}>
+            <label
+              key={d}
+              className={`selection-option justify-center text-center ${f.slotDate === d ? "is-selected" : ""}`}
+            >
               <input
                 type="radio"
                 name="slotDate"
                 className="sr-only"
                 checked={f.slotDate === d}
+                disabled={retryPending}
                 onChange={() => set("slotDate")(d)}
               />
               {formatPickupDate(d)}
@@ -162,6 +197,7 @@ export function PickupForm({
                 type="radio"
                 name="slotTime"
                 checked={f.slotTime === s}
+                disabled={retryPending}
                 onChange={() => set("slotTime")(s)}
               />
               {s}
@@ -175,7 +211,8 @@ export function PickupForm({
         </p>
       )}
       <Button type="submit" size="lg" className="h-12 w-full sm:w-auto" disabled={busy}>
-        {busy ? <Loader2 className="animate-spin" /> : <CalendarCheck />} Confirm pickup request
+        {busy ? <Loader2 className="animate-spin" /> : <CalendarCheck />}
+        {retryPending ? "Retry pickup request" : "Confirm pickup request"}
       </Button>
     </form>
   );

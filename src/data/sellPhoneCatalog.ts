@@ -22,7 +22,13 @@ export const SELL_BRANDS: SellBrand[] = (raw as { brands: SellBrand[] }).brands.
   slug: b.slug,
   logo: b.logo,
   series: b.series,
-  models: b.models.map(({ name, slug, series, images, order }) => ({ name, slug, series, images, order })),
+  models: b.models.map(({ name, slug, series, images, order }) => ({
+    name,
+    slug,
+    series,
+    images,
+    order,
+  })),
 }));
 
 export const getSellBrand = (slug: string) => SELL_BRANDS.find((b) => b.slug === slug);

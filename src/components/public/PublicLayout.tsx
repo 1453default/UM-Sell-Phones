@@ -1,12 +1,7 @@
 import { type ReactNode } from "react";
 import { Link } from "@tanstack/react-router";
 import { Phone, Instagram, CheckCircle2 } from "lucide-react";
-import {
-  SHOP_PHONE,
-  SHOP_INSTAGRAM,
-  SHOP_INSTAGRAM_HANDLE,
-  SHOP_MAPS_URL,
-} from "@/lib/shop";
+import { SHOP_PHONE, SHOP_INSTAGRAM, SHOP_INSTAGRAM_HANDLE, SHOP_MAPS_URL } from "@/lib/shop";
 import { Button } from "@/components/ui/button";
 import { Dock } from "@/components/public/Dock";
 import { BrandLogo } from "@/components/public/BrandLogo";
@@ -28,9 +23,6 @@ const NAV_CLS =
 const NAV: { to?: "/" | "/sell-phone" | "/privacy" | "/terms"; href?: string; label: string }[] = [
   { to: "/", label: "Home" },
   { to: "/sell-phone", label: "Sell Phone" },
-
-
-
 ];
 
 function PublicHeader() {
@@ -83,12 +75,15 @@ function PublicHeader() {
 }
 
 function PublicFooter() {
-  const explore: { to?: "/" | "/sell-phone" | "/privacy" | "/terms"; href?: string; label: string }[] = [
+  const explore: {
+    to?: "/" | "/sell-phone" | "/privacy" | "/terms";
+    href?: string;
+    label: string;
+  }[] = [
     { to: "/privacy", label: "Privacy Policy" },
     { to: "/terms", label: "Terms and Conditions" },
     { to: "/", label: "Home" },
     { to: "/sell-phone", label: "Sell Your Phone" },
-  
 
     { href: SHOP_MAPS_URL, label: "Store Location" },
   ];

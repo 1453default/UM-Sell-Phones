@@ -163,7 +163,10 @@ export const emptyAnswers = (): Answers => ({
 export function activeQuestions(a: Answers) {
   return QUESTIONS.filter((q) => a.categories.includes(q.category));
 }
-export function assessmentComplete(a: Answers) {
+export function assessmentComplete(a: Answers): a is Answers & {
+  basic: { calls: boolean; touch: boolean; original: boolean };
+  box: boolean;
+} {
   return (
     BASIC.every((q) => typeof a.basic[q.id] === "boolean") &&
     activeQuestions(a).every((q) => q.options.some((o) => o.id === a.physical[q.id])) &&
@@ -207,7 +210,7 @@ export function calculateValuation(base: number | null | undefined, a: Answers) 
     percent,
     deduction,
     estimate,
-    displayedEstimate: Math.round(estimate / 100) * 100,
+    displayedEstimate: Math.min(Math.round(estimate / 100) * 100, base),
   };
 }
 export function answerSummary(a: Answers): string[] {

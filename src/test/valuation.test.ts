@@ -10,6 +10,7 @@ import {
   toggleFault,
   type Answers,
 } from "../lib/valuation";
+import { getVariant } from "@/data/sellPhonePricing";
 const healthy = (): Answers => ({
   ...emptyAnswers(),
   basic: { calls: true, touch: true, original: true },
@@ -107,6 +108,13 @@ describe("Condition valuation business rules", () => {
     expect(result?.estimate).toBe(12098.1);
     expect(result?.displayedEstimate).toBe(12100);
   });
+  it("keeps the rounded display at or below the exact variant ceiling", () => {
+    const a = healthy();
+    expect(calculateValuation(25760, a)?.displayedEstimate).toBe(25760);
+    a.categories = ["body"];
+    a.physical = { bodyScratches: "minor" };
+    expect(calculateValuation(25760, a)?.displayedEstimate).toBe(25000);
+  });
   it("battery selections are exclusive and malformed overlap uses larger deduction", () => {
     expect(toggleFault(["batteryLow"], "batteryMid")).toEqual(["batteryMid"]);
     const a = healthy();
@@ -163,5 +171,72 @@ describe("Condition valuation business rules", () => {
       accessories: 2,
       total: 70,
     });
+  });
+});
+
+describe("Apple iPhone 13 128 GB pricing regression", () => {
+  const variant = getVariant("Apple", "Apple iPhone 13", "128-gb");
+  const base = variant?.uptoPrice;
+
+  it("uses the exact 128 GB catalog price", () => {
+    expect(variant?.id).toBe("128-gb");
+    expect(base).toBe(25760);
+  });
+
+  it.each([
+    ["healthy, capped at the exact catalog maximum", healthy(), 25760],
+    [
+      "minor body scratches",
+      { ...healthy(), categories: ["body"], physical: { bodyScratches: "minor" } },
+      25000,
+    ],
+    [
+      "cracked screen",
+      { ...healthy(), categories: ["screen"], physical: { screenPhysical: "cracked" } },
+      20600,
+    ],
+    [
+      "screen and display defects capped at 35 percent",
+      {
+        ...healthy(),
+        categories: ["screen", "display"],
+        physical: { screenPhysical: "cracked", spots: "large" },
+      },
+      16700,
+    ],
+    [
+      "multiple defects capped at 70 percent",
+      {
+        ...healthy(),
+        basic: { calls: false, touch: false, original: false },
+        categories: ["screen", "display", "body", "panel"],
+        physical: {
+          screenPhysical: "cracked",
+          spots: "large",
+          lines: "visible",
+          discoloration: "major",
+          bodyScratches: "many",
+          dents: "major",
+          panel: "missing",
+          shape: "bent",
+        },
+        faults: FAULTS.map((fault) => fault.id),
+        box: false,
+      },
+      7700,
+    ],
+  ])("preserves the audited %s displayed estimate", (_name, answers, expected) => {
+    expect(calculateValuation(base, answers as Answers)?.displayedEstimate).toBe(expected);
+  });
+
+  it.each([
+    ["128-gb", 25760],
+    ["256-gb", 26400],
+    ["512-gb", 26980],
+  ])("never exceeds the selected %s variant", (id, expected) => {
+    const selected = getVariant("Apple", "Apple iPhone 13", id);
+    const result = selected && calculateValuation(selected.uptoPrice, healthy());
+    expect(result?.displayedEstimate).toBe(expected);
+    expect(result?.displayedEstimate).toBeLessThanOrEqual(selected?.uptoPrice ?? 0);
   });
 });

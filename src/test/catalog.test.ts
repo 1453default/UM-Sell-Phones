@@ -7,9 +7,13 @@ describe("Preserved catalog and exact variant lookup", () => {
     expect(SELL_BRANDS.reduce((n, b) => n + b.models.length, 0)).toBe(1329);
   });
   it("removes only the unwanted Apple iPhone Duo", () => {
-    expect(SELL_BRANDS.find(b => b.name === "Apple")?.models.some(m => m.slug === "iphone-duo")).toBe(false);
+    expect(
+      SELL_BRANDS.find((b) => b.name === "Apple")?.models.some((m) => m.slug === "iphone-duo"),
+    ).toBe(false);
     expect(getModelVariants("Apple", "Apple iPhone Duo")).toEqual([]);
-    expect(SELL_BRANDS.find(b => b.name === "Lava")?.models.some(m => m.name.includes("Blaze Duo"))).toBe(true);
+    expect(
+      SELL_BRANDS.find((b) => b.name === "Lava")?.models.some((m) => m.name.includes("Blaze Duo")),
+    ).toBe(true);
   });
   it("reads the existing exact variant prices independently", () => {
     expect(getVariant("Apple", "Apple iPhone 13", "128-gb")?.uptoPrice).toBe(25760);

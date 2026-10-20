@@ -1,7 +1,12 @@
 import { z } from "zod";
+import { FAULTS, QUESTIONS } from "./valuation";
 
 // Doorstep pickup: Hyderabad, Monday–Saturday, 10:00 AM – 4:00 PM.
-export const PICKUP_SLOTS = ["10:00 AM – 12:00 PM", "12:00 PM – 2:00 PM", "2:00 PM – 4:00 PM"] as const;
+export const PICKUP_SLOTS = [
+  "10:00 AM – 12:00 PM",
+  "12:00 PM – 2:00 PM",
+  "2:00 PM – 4:00 PM",
+] as const;
 export const BOOKING_DAYS = 7;
 export const PHONE_VERIFICATION_STATUS = "unverified" as const;
 export const SLOT_CAPACITY: number | null = null;
@@ -49,27 +54,71 @@ export const formatPickupDate = (iso: string) =>
     timeZone: "UTC",
   });
 
-export const pickupSchema = z.object({
-  submissionKey: z.string().uuid().optional(),
-  brandSlug: z.string().min(1).max(80),
-  modelSlug: z.string().min(1).max(160),
-  variantId: z.string().min(1).max(80),
-  answers: z.object({
-    basic: z.record(z.string(), z.boolean()),
-    categories: z.array(z.string().max(40)).max(10),
-    physical: z.record(z.string(), z.string().max(40)),
+const pickupAnswersSchema = z
+  .object({
+    basic: z
+      .object({
+        calls: z.boolean(),
+        touch: z.boolean(),
+        original: z.boolean(),
+      })
+      .strict(),
+    categories: z.array(z.enum(["screen", "display", "body", "panel"])).max(4),
+    physical: z.record(z.string().max(40), z.string().max(40)),
     faults: z.array(z.string().max(40)).max(30),
     box: z.boolean().nullable(),
-  }),
-  name: z.string().trim().min(2, "Enter your name").max(80),
-  mobile: z.string().regex(/^[6-9]\d{9}$/, "Enter a valid 10-digit mobile number"),
-  addressLine: z.string().trim().min(8, "Enter your full address").max(300),
-  landmark: z.string().trim().max(120).optional().default(""),
-  locality: z.string().trim().min(2, "Enter your area").max(120),
-  pincode: z.string().refine(isHyderabadPincode, "We pick up only within Hyderabad (500001–500110)"),
-  slotDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
-  slotTime: z.string().max(40),
-});
+  })
+  .strict()
+  .superRefine((answers, context) => {
+    if (new Set(answers.categories).size !== answers.categories.length) {
+      context.addIssue({
+        code: "custom",
+        path: ["categories"],
+        message: "Duplicate condition category.",
+      });
+    }
+    for (const [id, value] of Object.entries(answers.physical)) {
+      const question = QUESTIONS.find((item) => item.id === id);
+      if (!question || !question.options.some((option) => option.id === value)) {
+        context.addIssue({
+          code: "custom",
+          path: ["physical", id],
+          message: "Invalid condition answer.",
+        });
+      }
+    }
+    if (
+      new Set(answers.faults).size !== answers.faults.length ||
+      answers.faults.some((id) => !FAULTS.some((fault) => fault.id === id))
+    ) {
+      context.addIssue({
+        code: "custom",
+        path: ["faults"],
+        message: "Invalid functional problem selection.",
+      });
+    }
+  });
+
+export const pickupSchema = z
+  .object({
+    website: z.string().max(0).optional().default(""),
+    submissionKey: z.string().uuid().optional(),
+    brandSlug: z.string().min(1).max(80),
+    modelSlug: z.string().min(1).max(160),
+    variantId: z.string().min(1).max(80),
+    answers: pickupAnswersSchema,
+    name: z.string().trim().min(2, "Enter your name").max(80),
+    mobile: z.string().regex(/^[6-9]\d{9}$/, "Enter a valid 10-digit mobile number"),
+    addressLine: z.string().trim().min(8, "Enter your full address").max(300),
+    landmark: z.string().trim().max(120).optional().default(""),
+    locality: z.string().trim().min(2, "Enter your area").max(120),
+    pincode: z
+      .string()
+      .refine(isHyderabadPincode, "We pick up only within Hyderabad (500001–500110)"),
+    slotDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+    slotTime: z.string().max(40),
+  })
+  .strict();
 export type PickupInput = z.input<typeof pickupSchema>;
 
 export function makeReference(rand: () => number = Math.random) {

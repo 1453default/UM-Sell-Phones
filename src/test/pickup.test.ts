@@ -1,10 +1,24 @@
 import { describe, expect, it } from "vitest";
-import { isBookableSlot, isHyderabadPincode, pickupDates, PICKUP_SLOTS, PHONE_VERIFICATION_STATUS, SLOT_CAPACITY, pickupSchema } from "@/lib/pickup";
+import {
+  isBookableSlot,
+  isHyderabadPincode,
+  pickupDates,
+  PICKUP_SLOTS,
+  PHONE_VERIFICATION_STATUS,
+  SLOT_CAPACITY,
+  pickupSchema,
+} from "@/lib/pickup";
 
 describe("pickup rules", () => {
-  it("keeps phone verification disabled and records unverified", () => { expect(PHONE_VERIFICATION_STATUS).toBe("unverified"); });
-  it("keeps unlimited slot capacity", () => { expect(SLOT_CAPACITY).toBeNull(); });
-  it("rejects malformed retry keys", () => { expect(pickupSchema.shape.submissionKey.safeParse("bad").success).toBe(false); });
+  it("keeps phone verification disabled and records unverified", () => {
+    expect(PHONE_VERIFICATION_STATUS).toBe("unverified");
+  });
+  it("keeps unlimited slot capacity", () => {
+    expect(SLOT_CAPACITY).toBeNull();
+  });
+  it("rejects malformed retry keys", () => {
+    expect(pickupSchema.shape.submissionKey.safeParse("bad").success).toBe(false);
+  });
   it("accepts Hyderabad pincodes only", () => {
     expect(isHyderabadPincode("500008")).toBe(true);
     expect(isHyderabadPincode("560001")).toBe(false);
