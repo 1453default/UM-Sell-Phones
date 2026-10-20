@@ -4,6 +4,7 @@ import { ArrowRight, ArrowUpRight, MapPin } from "lucide-react";
 import { PublicLayout } from "@/components/public/PublicLayout";
 import { SELL_BRANDS } from "@/data/sellPhoneCatalog";
 import { SHOP_MAPS_URL } from "@/lib/shop";
+import { canonicalUrl } from "@/lib/site";
 import heroMain from "@/assets/um-counter.jpg";
 
 const TITLE = "Sell Your Phone | Estimated Offers | USED MOBILES Hyderabad";
@@ -20,6 +21,7 @@ export const Route = createFileRoute("/")({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
+    links: [{ rel: "canonical", href: canonicalUrl("/") }],
   }),
   component: Home,
 });

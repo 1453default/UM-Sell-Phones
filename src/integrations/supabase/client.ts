@@ -66,7 +66,11 @@ function createSupabaseClient() {
       ...(!SUPABASE_URL ? ["SUPABASE_URL"] : []),
       ...(!SUPABASE_PUBLISHABLE_KEY ? ["SUPABASE_PUBLISHABLE_KEY"] : []),
     ];
+<<<<<<< HEAD
     const message = `Missing Supabase environment variable(s): ${missing.join(", ")}. Connect Supabase in Lovable Cloud.`;
+=======
+    const message = `Missing Supabase public environment variable(s): ${missing.join(', ')}. Configure the backend public settings.`;
+>>>>>>> 82b3de4d68f96599d8612343ab3e124a89323dea
     console.error(`[Supabase] ${message}`);
     throw new Error(message);
   }

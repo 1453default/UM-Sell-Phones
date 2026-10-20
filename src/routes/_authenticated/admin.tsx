@@ -1,6 +1,11 @@
 import { BrandLogo } from "@/components/public/BrandLogo";
+<<<<<<< HEAD
 import { useState, type FormEvent } from "react";
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
+=======
+import { useEffect, useMemo, useState } from "react";
+import { createFileRoute, useNavigate, useRouter } from "@tanstack/react-router";
+>>>>>>> 82b3de4d68f96599d8612343ab3e124a89323dea
 import { useServerFn } from "@tanstack/react-start";
 import { Button } from "@/components/ui/button";
 import { supabase } from "@/integrations/supabase/client";
@@ -26,11 +31,27 @@ export const Route = createFileRoute("/_authenticated/admin")({
     ],
   }),
   loader: async () => {
+<<<<<<< HEAD
     const { isAdmin } = await checkAdmin();
     return {
       isAdmin,
       page: isAdmin ? await listPickupRequests({ data: {} }) : { items: [], nextCursor: null },
     };
+=======
+    try {
+      const { isAdmin } = await checkAdmin();
+      if (!isAdmin) return { isAdmin: false, rows: [], loadError: null };
+      try {
+        return { isAdmin: true, rows: await listPickupRequests(), loadError: null };
+      } catch (error) {
+        console.error("Admin pickup requests could not be loaded", error);
+        return { isAdmin: true, rows: [], loadError: "requests" as const };
+      }
+    } catch (error) {
+      console.error("Admin access could not be verified", error);
+      return { isAdmin: false, rows: [], loadError: "access" as const };
+    }
+>>>>>>> 82b3de4d68f96599d8612343ab3e124a89323dea
   },
   component: AdminPage,
 });
@@ -40,6 +61,7 @@ type Notification = Row["notification"];
 const label = (s: string) => s.replaceAll("_", " ").replace(/^./, (c) => c.toUpperCase());
 
 function AdminPage() {
+<<<<<<< HEAD
   const { isAdmin, page: initialPage } = Route.useLoaderData();
   const navigate = useNavigate();
   const listFn = useServerFn(listPickupRequests);
@@ -54,6 +76,26 @@ function AdminPage() {
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState("");
 
+=======
+  const { isAdmin, rows: initial, loadError } = Route.useLoaderData();
+  const navigate = useNavigate();
+  const router = useRouter();
+  const [rows, setRows] = useState<Row[]>(initial);
+  const [filter, setFilter] = useState("all");
+  const [q, setQ] = useState("");
+  const shown = useMemo(
+    () =>
+      rows.filter(
+        (r) =>
+          (filter === "all" || r.status === filter) &&
+          `${r.reference} ${r.customer_name} ${r.mobile} ${r.model}`
+            .toLowerCase()
+            .includes(q.toLowerCase()),
+      ),
+    [rows, filter, q],
+  );
+  useEffect(() => setRows(initial), [initial]);
+>>>>>>> 82b3de4d68f96599d8612343ab3e124a89323dea
   async function signOut() {
     await navigate({ to: "/auth", replace: true });
     await supabase.auth.signOut();
@@ -61,6 +103,7 @@ function AdminPage() {
     await navigate({ to: "/auth", replace: true, reloadDocument: true });
   }
 
+<<<<<<< HEAD
   async function applyFilters(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (busy) return;
@@ -97,6 +140,26 @@ function AdminPage() {
   }
 
   if (!isAdmin) {
+=======
+  if (loadError)
+    return (
+      <main className="mx-auto max-w-lg px-5 py-16">
+        <BrandLogo />
+        <h1 className="mt-6 text-2xl font-bold">Pickup requests couldn't be loaded</h1>
+        <p className="mt-3 text-muted-foreground">
+          {loadError === "access"
+            ? "We couldn't verify this account's admin access. Sign in again or try once more."
+            : "The request list is temporarily unavailable. Check the Supabase connection and applied migrations, then try again."}
+        </p>
+        <div className="mt-6 flex gap-3">
+          <Button onClick={() => router.invalidate()}>Try again</Button>
+          <Button variant="outline" onClick={signOut}>Sign out</Button>
+        </div>
+      </main>
+    );
+
+  if (!isAdmin)
+>>>>>>> 82b3de4d68f96599d8612343ab3e124a89323dea
     return (
       <main className="mx-auto max-w-lg px-5 py-16">
         <h1 className="text-2xl font-bold">No admin access</h1>

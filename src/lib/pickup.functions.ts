@@ -8,14 +8,41 @@ import { AdminAccessUnavailableError, resolveAdminRole } from "./admin-access";
 import { isBookableSlot, makeReference, REQUEST_STATUSES } from "./pickup";
 import type { PickupInput } from "./pickup";
 
+<<<<<<< HEAD
 type AdminContext = { supabase: SupabaseClient<Database>; userId: string };
+=======
+export const createPickupRequest = createServerFn({ method: "POST" })
+  .validator((d: unknown) => d as z.input<typeof pickupSchema>)
+  .handler(async ({ data: input }) => {
+    const parsed = pickupSchema.safeParse(input);
+    if (!parsed.success) return { ok: false as const, error: parsed.error.issues[0]?.message ?? "Please check your details." };
+    const data = parsed.data;
+    const brand = getSellBrand(data.brandSlug);
+    const model = getSellModel(data.brandSlug, data.modelSlug);
+    const variant = brand && model ? getVariant(brand.name, model.name, data.variantId) : undefined;
+    if (!brand || !model || !variant) return { ok: false as const, error: "Device not found." };
+    const answers = data.answers as Answers;
+    // Recompute on the server so the stored estimate cannot be tampered with.
+    const result = calculateValuation(variant.uptoPrice, answers);
+    if (!result || !assessmentComplete(answers))
+      return { ok: false as const, error: "Please complete the device assessment." };
+    if (!isBookableSlot(data.slotDate, data.slotTime))
+      return { ok: false as const, error: "That pickup slot is no longer available." };
+>>>>>>> 82b3de4d68f96599d8612343ab3e124a89323dea
 
 async function assertAdmin(context: AdminContext) {
   const { data, error } = await context.supabase.rpc("has_role", {
     _user_id: context.userId,
     _role: "admin",
   });
+<<<<<<< HEAD
   if (error) throw new AdminAccessUnavailableError("backend");
+=======
+
+async function assertAdmin(ctx: { supabase: any; userId: string }) {
+  const { data, error } = await ctx.supabase.rpc("has_role", { _user_id: ctx.userId, _role: "admin" });
+  if (error) throw new Error("Could not verify admin access.");
+>>>>>>> 82b3de4d68f96599d8612343ab3e124a89323dea
   if (!data) throw new Error("Forbidden");
 }
 
@@ -26,7 +53,12 @@ export const checkAdmin = createServerFn({ method: "GET" })
       _user_id: context.userId,
       _role: "admin",
     });
+<<<<<<< HEAD
     return { isAdmin: resolveAdminRole(data, error) };
+=======
+    if (error) throw new Error("Could not verify admin access.");
+    return { isAdmin: !!data };
+>>>>>>> 82b3de4d68f96599d8612343ab3e124a89323dea
   });
 
 // Keep input errors in the structured response returned by processPickupSubmission.
@@ -185,8 +217,24 @@ const updatePickupSchema = z.object({
 });
 
 export const updatePickupRequest = createServerFn({ method: "POST" })
+<<<<<<< HEAD
   .middleware([attachSupabaseAuth, requireSupabaseAuth])
   .validator(updatePickupSchema)
+=======
+  .middleware([requireSupabaseAuth])
+  .validator((d: unknown) =>
+    z
+      .object({
+        id: z.string().uuid(),
+        status: z.enum(REQUEST_STATUSES),
+        assignedTo: z.string().trim().max(80),
+        adminNotes: z.string().trim().max(1000),
+        slotDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+        slotTime: z.string().max(40),
+      })
+      .parse(d),
+  )
+>>>>>>> 82b3de4d68f96599d8612343ab3e124a89323dea
   .handler(async ({ data, context }) => {
     await assertAdmin(context);
     if (!isBookableSlot(data.slotDate, data.slotTime)) {

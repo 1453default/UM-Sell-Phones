@@ -2,6 +2,10 @@ import { createStart, createCsrfMiddleware, createMiddleware } from "@tanstack/r
 import { getRequest } from "@tanstack/react-start/server";
 
 import { renderErrorPage } from "./lib/error-page";
+<<<<<<< HEAD
+=======
+import { supabase } from "@/integrations/supabase/client";
+>>>>>>> 82b3de4d68f96599d8612343ab3e124a89323dea
 
 const errorMiddleware = createMiddleware().server(async ({ next }) => {
   try {
@@ -39,8 +43,25 @@ const csrfMiddleware = createCsrfMiddleware({
   filter: (ctx) => ctx.handlerType === "serverFn",
 });
 
+// Attach the staff session when available; a missing or unreadable session must
+// never block public calls such as pickup booking (protected calls still verify on the server).
+const attachSessionIfAvailable = createMiddleware({ type: "function" }).client(async ({ next }) => {
+  try {
+    const { data } = await supabase.auth.getSession();
+    const token = data.session?.access_token;
+    return next({ headers: token ? { Authorization: `Bearer ${token}` } : {} });
+  } catch (error) {
+    console.error("Session unavailable; continuing without sign-in", error);
+    return next();
+  }
+});
+
 export const startInstance = createStart(() => ({
+<<<<<<< HEAD
   // Authenticated server functions attach the session on their own. Public pickup
   // submission must not require a browser Supabase session to reach the server.
+=======
+  functionMiddleware: [attachSessionIfAvailable],
+>>>>>>> 82b3de4d68f96599d8612343ab3e124a89323dea
   requestMiddleware: [errorMiddleware, csrfMiddleware],
 }));

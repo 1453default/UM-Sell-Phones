@@ -15,7 +15,7 @@ export function BrandLogo({ className }: { className?: string } = {}) {
       height={64}
       loading="eager"
       decoding="async"
-      className={className ?? "h-14 md:h-16 w-auto max-w-[85%] object-contain shrink-0"}
+      className={className ?? "size-12 object-contain shrink-0"}
     />
   );
 }

@@ -96,7 +96,7 @@ export function PickupForm({
 
   if (reference)
     return (
-      <div role="status" className="mt-7 border border-foreground p-6">
+      <div role="status" className="pickup-confirmation mt-7 border border-foreground p-6">
         <CalendarCheck className="size-7" />
         <h2 className="mt-3 text-xl font-semibold">Pickup request received</h2>
         <p className="mt-2 text-sm text-muted-foreground">Your booking reference</p>
