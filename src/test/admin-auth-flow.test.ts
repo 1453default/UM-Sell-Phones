@@ -8,6 +8,14 @@ const adminRoute = readFileSync(
   resolve(process.cwd(), "src/routes/_authenticated/admin.tsx"),
   "utf8",
 );
+const authMiddleware = readFileSync(
+  resolve(process.cwd(), "src/integrations/supabase/auth-middleware.ts"),
+  "utf8",
+);
+const authAttacher = readFileSync(
+  resolve(process.cwd(), "src/integrations/supabase/auth-attacher.ts"),
+  "utf8",
+);
 
 describe("single administrator authentication flow", () => {
   it("checks the server-side admin role after password login and rejects non-admins", () => {
@@ -16,6 +24,13 @@ describe("single administrator authentication flow", () => {
     expect(loginPage).toMatch(/if\s*\(!isAdmin\)[\s\S]*?signOut\(\{\s*scope:\s*"local"\s*\}\)/);
     expect(loginPage).toMatch(/Unable to sign in with those credentials/);
     expect(loginPage).not.toMatch(/resetPasswordForEmail|signUp\s*\(/);
+  });
+
+  it("passes the browser access token to Supabase Auth for server-side verification", () => {
+    expect(authAttacher).toMatch(/data\.session\?\.access_token/);
+    expect(authAttacher).toMatch(/Authorization: `Bearer \$\{token\}`/);
+    expect(authMiddleware).toMatch(/supabase\.auth\.getUser\(accessToken\)/);
+    expect(authMiddleware).not.toMatch(/supabase\.auth\.getClaims/);
   });
 
   it("clears sessions from stale recovery or invitation links", () => {
