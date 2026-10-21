@@ -30,6 +30,9 @@ describe("single administrator authentication flow", () => {
     expect(authAttacher).toMatch(/data\.session\?\.access_token/);
     expect(authAttacher).toMatch(/Authorization: `Bearer \$\{token\}`/);
     expect(authMiddleware).toMatch(/supabase\.auth\.getUser\(accessToken\)/);
+    expect(authMiddleware).toMatch(/PUBLIC_SUPABASE_URL/);
+    expect(authMiddleware).toMatch(/PUBLIC_SUPABASE_PUBLISHABLE_KEY/);
+    expect(authMiddleware).not.toMatch(/getSupabaseUrl\(\)|getSupabasePublishableKey\(\)/);
     expect(authMiddleware).not.toMatch(/supabase\.auth\.getClaims/);
   });
 

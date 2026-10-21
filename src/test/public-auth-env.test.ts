@@ -22,6 +22,29 @@ describe("Published staff auth configuration", () => {
     );
   });
 
+  it("builds server token verification against the same project as the browser", async () => {
+    const plugin = publicAuthEnvPlugin({
+      VITE_SUPABASE_URL: "https://browser-project.example.test",
+      VITE_SUPABASE_PUBLISHABLE_KEY: "sb_publishable_browser",
+      SUPABASE_URL: "https://different-server-project.example.test",
+      SUPABASE_PUBLISHABLE_KEY: "sb_publishable_server",
+    });
+    const transform = plugin.transform;
+    if (typeof transform !== "function") throw new Error("Missing transform");
+    const source =
+      'export const PUBLIC_SUPABASE_URL = "https://fallback.example.test"; export const PUBLIC_SUPABASE_PUBLISHABLE_KEY = "sb_publishable_fallback";';
+    const result = await transform.call(
+      {} as never,
+      source,
+      "/src/integrations/supabase/public-config.ts",
+    );
+
+    expect(result).toContain('PUBLIC_SUPABASE_URL = "https://browser-project.example.test"');
+    expect(result).toContain('PUBLIC_SUPABASE_PUBLISHABLE_KEY = "sb_publishable_browser"');
+    expect(result).not.toContain("different-server-project");
+    expect(result).not.toContain("sb_publishable_server");
+  });
+
   it("does not rewrite other modules or private environment values", async () => {
     const plugin = publicAuthEnvPlugin({ SUPABASE_SERVICE_ROLE_KEY: "private-test-value" });
     const transform = plugin.transform;
@@ -42,7 +65,10 @@ describe("Hosted build without an env file", () => {
     delete process.env.VITE_SUPABASE_PUBLISHABLE_KEY;
     process.chdir(tmpdir());
     try {
-      const plugin = publicAuthEnvPlugin({});
+      const plugin = publicAuthEnvPlugin({
+        SUPABASE_URL: "https://runtime-server-project.example.test",
+        SUPABASE_PUBLISHABLE_KEY: "sb_publishable_runtime_server",
+      });
       const config = plugin.config;
       if (typeof config !== "function") throw new Error("Missing config");
       await config.call({} as never, {}, { mode: "production", command: "build" });
@@ -56,6 +82,19 @@ describe("Hosted build without an env file", () => {
       expect(result).toBe(
         `${JSON.stringify(PUBLIC_AUTH_FALLBACK.VITE_SUPABASE_URL)} || ${JSON.stringify(PUBLIC_AUTH_FALLBACK.VITE_SUPABASE_PUBLISHABLE_KEY)}`,
       );
+
+      const serverConfig = await transform.call(
+        {} as never,
+        'export const PUBLIC_SUPABASE_URL = "old"; export const PUBLIC_SUPABASE_PUBLISHABLE_KEY = "old";',
+        "/src/integrations/supabase/public-config.ts",
+      );
+      expect(serverConfig).toContain(
+        `PUBLIC_SUPABASE_URL = ${JSON.stringify(PUBLIC_AUTH_FALLBACK.VITE_SUPABASE_URL)}`,
+      );
+      expect(serverConfig).toContain(
+        `PUBLIC_SUPABASE_PUBLISHABLE_KEY = ${JSON.stringify(PUBLIC_AUTH_FALLBACK.VITE_SUPABASE_PUBLISHABLE_KEY)}`,
+      );
+      expect(serverConfig).not.toContain("runtime-server-project");
     } finally {
       process.chdir(original);
       if (originalUrl === undefined) delete process.env.VITE_SUPABASE_URL;
