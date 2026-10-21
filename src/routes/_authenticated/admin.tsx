@@ -1,11 +1,6 @@
 import { BrandLogo } from "@/components/public/BrandLogo";
-<<<<<<< HEAD
 import { useState, type FormEvent } from "react";
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
-=======
-import { useEffect, useMemo, useState } from "react";
-import { createFileRoute, useNavigate, useRouter } from "@tanstack/react-router";
->>>>>>> 82b3de4d68f96599d8612343ab3e124a89323dea
 import { useServerFn } from "@tanstack/react-start";
 import { Button } from "@/components/ui/button";
 import { supabase } from "@/integrations/supabase/client";
@@ -31,28 +26,13 @@ export const Route = createFileRoute("/_authenticated/admin")({
     ],
   }),
   loader: async () => {
-<<<<<<< HEAD
     const { isAdmin } = await checkAdmin();
     return {
       isAdmin,
       page: isAdmin ? await listPickupRequests({ data: {} }) : { items: [], nextCursor: null },
     };
-=======
-    try {
-      const { isAdmin } = await checkAdmin();
-      if (!isAdmin) return { isAdmin: false, rows: [], loadError: null };
-      try {
-        return { isAdmin: true, rows: await listPickupRequests(), loadError: null };
-      } catch (error) {
-        console.error("Admin pickup requests could not be loaded", error);
-        return { isAdmin: true, rows: [], loadError: "requests" as const };
-      }
-    } catch (error) {
-      console.error("Admin access could not be verified", error);
-      return { isAdmin: false, rows: [], loadError: "access" as const };
-    }
->>>>>>> 82b3de4d68f96599d8612343ab3e124a89323dea
   },
+  pendingComponent: AdminLoading,
   component: AdminPage,
 });
 
@@ -60,8 +40,26 @@ type Row = Awaited<ReturnType<typeof listPickupRequests>>["items"][number];
 type Notification = Row["notification"];
 const label = (s: string) => s.replaceAll("_", " ").replace(/^./, (c) => c.toUpperCase());
 
+function AdminLoading() {
+  return (
+    <main className="admin-page" aria-busy="true" aria-label="Loading pickup requests">
+      <div className="admin-heading">
+        <div>
+          <p className="eyebrow">USED MOBILES · OPERATIONS</p>
+          <h1 className="mt-1 text-2xl font-bold">Pickup requests</h1>
+        </div>
+      </div>
+      <div className="mt-7 grid gap-3" role="status">
+        <span className="sr-only">Loading pickup requests…</span>
+        {[0, 1, 2].map((item) => (
+          <div key={item} className="h-20 animate-pulse rounded-xl border border-border bg-card" />
+        ))}
+      </div>
+    </main>
+  );
+}
+
 function AdminPage() {
-<<<<<<< HEAD
   const { isAdmin, page: initialPage } = Route.useLoaderData();
   const navigate = useNavigate();
   const listFn = useServerFn(listPickupRequests);
@@ -76,26 +74,6 @@ function AdminPage() {
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState("");
 
-=======
-  const { isAdmin, rows: initial, loadError } = Route.useLoaderData();
-  const navigate = useNavigate();
-  const router = useRouter();
-  const [rows, setRows] = useState<Row[]>(initial);
-  const [filter, setFilter] = useState("all");
-  const [q, setQ] = useState("");
-  const shown = useMemo(
-    () =>
-      rows.filter(
-        (r) =>
-          (filter === "all" || r.status === filter) &&
-          `${r.reference} ${r.customer_name} ${r.mobile} ${r.model}`
-            .toLowerCase()
-            .includes(q.toLowerCase()),
-      ),
-    [rows, filter, q],
-  );
-  useEffect(() => setRows(initial), [initial]);
->>>>>>> 82b3de4d68f96599d8612343ab3e124a89323dea
   async function signOut() {
     await navigate({ to: "/auth", replace: true });
     await supabase.auth.signOut();
@@ -103,7 +81,6 @@ function AdminPage() {
     await navigate({ to: "/auth", replace: true, reloadDocument: true });
   }
 
-<<<<<<< HEAD
   async function applyFilters(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (busy) return;
@@ -140,86 +117,93 @@ function AdminPage() {
   }
 
   if (!isAdmin) {
-=======
-  if (loadError)
     return (
-      <main className="mx-auto max-w-lg px-5 py-16">
-        <BrandLogo />
-        <h1 className="mt-6 text-2xl font-bold">Pickup requests couldn't be loaded</h1>
-        <p className="mt-3 text-muted-foreground">
-          {loadError === "access"
-            ? "We couldn't verify this account's admin access. Sign in again or try once more."
-            : "The request list is temporarily unavailable. Check the Supabase connection and applied migrations, then try again."}
-        </p>
-        <div className="mt-6 flex gap-3">
-          <Button onClick={() => router.invalidate()}>Try again</Button>
-          <Button variant="outline" onClick={signOut}>Sign out</Button>
-        </div>
-      </main>
-    );
-
-  if (!isAdmin)
->>>>>>> 82b3de4d68f96599d8612343ab3e124a89323dea
-    return (
-      <main className="mx-auto max-w-lg px-5 py-16">
-        <h1 className="text-2xl font-bold">No admin access</h1>
-        <p className="mt-3 text-muted-foreground">This account is not an administrator.</p>
-        <Button variant="outline" className="mt-6" onClick={signOut}>
-          Sign out
-        </Button>
+      <main className="exception-page">
+        <section className="exception-panel">
+          <p className="eyebrow">Restricted area</p>
+          <h1 className="mt-2 text-2xl font-bold">No admin access</h1>
+          <p className="mt-3 leading-relaxed text-muted-foreground">
+            This signed-in account is not assigned an administrator role.
+          </p>
+          <Button variant="outline" className="mt-6" onClick={signOut}>
+            Sign out
+          </Button>
+        </section>
       </main>
     );
   }
 
   return (
-    <main className="mx-auto max-w-6xl px-5 py-10">
-      <div className="flex flex-wrap items-center justify-between gap-4">
-        <div className="flex items-center gap-4">
-          <BrandLogo />
-          <h1 className="font-display text-3xl font-bold">Pickup requests</h1>
+    <main className="admin-page">
+      <header className="admin-heading">
+        <div className="flex min-w-0 items-center gap-3 sm:gap-4">
+          <BrandLogo className="size-12 shrink-0 rounded-full object-contain" />
+          <div className="min-w-0">
+            <p className="eyebrow">USED MOBILES · OPERATIONS</p>
+            <h1 className="mt-1 text-xl font-bold tracking-tight sm:text-2xl">Pickup requests</h1>
+          </div>
         </div>
-        <Button variant="outline" onClick={signOut}>
+        <Button
+          variant="outline"
+          className="shrink-0 border-white/30 bg-white/5 text-white hover:bg-white/10 hover:text-white"
+          onClick={signOut}
+        >
           Sign out
         </Button>
-      </div>
+      </header>
 
-      <form onSubmit={applyFilters} className="mt-6 flex flex-wrap gap-3">
-        <input
-          aria-label="Search pickup requests"
-          placeholder="Search reference, name, mobile, device"
-          value={search}
-          onChange={(event) => setSearch(event.target.value)}
-          className="field max-w-xs"
-        />
-        <select
-          aria-label="Filter by status"
-          value={filter}
-          onChange={(event) =>
-            setFilter(event.target.value as (typeof REQUEST_STATUSES)[number] | "all")
-          }
-          className="field max-w-[200px]"
-        >
-          <option value="all">All statuses</option>
-          {REQUEST_STATUSES.map((status) => (
-            <option key={status} value={status}>
-              {label(status)}
-            </option>
-          ))}
-        </select>
-        <Button type="submit" disabled={busy}>
-          {busy ? "Loading…" : "Search"}
-        </Button>
-      </form>
+      <section className="admin-toolbar" aria-label="Request search and filters">
+        <div>
+          <p className="eyebrow">Request queue</p>
+          <h2 className="mt-1 font-display text-xl font-bold">Customer pickups</h2>
+          <p className="mt-1 text-sm text-muted-foreground">
+            {rows.length} loaded{cursor ? " · more available" : ""}
+          </p>
+        </div>
+        <form onSubmit={applyFilters} className="admin-filter-form">
+          <input
+            aria-label="Search pickup requests"
+            placeholder="Reference, name, mobile or device"
+            value={search}
+            onChange={(event) => setSearch(event.target.value)}
+            className="field max-w-xs"
+          />
+          <select
+            aria-label="Filter by status"
+            value={filter}
+            onChange={(event) =>
+              setFilter(event.target.value as (typeof REQUEST_STATUSES)[number] | "all")
+            }
+            className="field max-w-[200px]"
+          >
+            <option value="all">All statuses</option>
+            {REQUEST_STATUSES.map((status) => (
+              <option key={status} value={status}>
+                {label(status)}
+              </option>
+            ))}
+          </select>
+          <Button type="submit" disabled={busy} className="h-12 px-5">
+            {busy ? "Loading…" : "Apply"}
+          </Button>
+        </form>
+      </section>
 
       {message && (
-        <p role="alert" className="mt-4 text-sm text-destructive">
+        <p
+          role="alert"
+          className="mt-4 rounded-lg border border-destructive/25 bg-destructive/5 p-3 text-sm text-destructive"
+        >
           {message}
         </p>
       )}
       {rows.length === 0 ? (
-        <p className="mt-10 text-muted-foreground">No requests found.</p>
+        <div className="admin-empty mt-6">
+          <p className="font-semibold text-foreground">No pickup requests found</p>
+          <p className="mt-1 text-sm">Try a different search or status filter.</p>
+        </div>
       ) : (
-        <ul className="mt-6 divide-y divide-border border-y border-border">
+        <ul className="admin-request-list" aria-label="Pickup request results">
           {rows.map((row) => (
             <RequestItem
               key={row.id}
@@ -239,8 +223,8 @@ function AdminPage() {
         </ul>
       )}
       {cursor && (
-        <div className="mt-6">
-          <Button variant="outline" onClick={loadOlder} disabled={busy}>
+        <div className="mt-6 flex justify-center">
+          <Button variant="outline" onClick={loadOlder} disabled={busy} className="min-h-11 px-5">
             {busy ? "Loading…" : "Load older requests"}
           </Button>
         </div>
@@ -250,10 +234,14 @@ function AdminPage() {
 }
 
 function canRetryNotification(notification: NonNullable<Notification>) {
+  if (notification.channel !== "telegram") return false;
   if (notification.status === "pending" || notification.status === "failed") return true;
+  return false;
+}
+
+function notificationIsStaleSending(notification: NonNullable<Notification>) {
   if (notification.status !== "sending" || !notification.last_attempt_at) return false;
-  const age = Date.now() - new Date(notification.last_attempt_at).getTime();
-  return age >= 2 * 60_000 && age < 23 * 60 * 60_000;
+  return Date.now() - new Date(notification.last_attempt_at).getTime() >= 2 * 60_000;
 }
 
 function RequestItem({
@@ -299,17 +287,18 @@ function RequestItem({
     }
   }
 
-  async function retryEmail() {
+  async function retryTelegramAlert() {
     setNotificationState("Retrying…");
     try {
       const notification = await retry({ data: { requestId: row.id } });
       onNotificationSaved(row.id, notification);
       setNotificationState(
         notification?.status === "sent"
-          ? "Accepted by Resend"
-          : notification?.status === "unknown"
-            ? "Outcome unconfirmed; check Resend before retrying again."
-            : "Still failed. Check the email configuration and retry.",
+          ? "Telegram confirmed the alert."
+          : notification?.status === "unknown" ||
+              (notification?.status === "sending" && notificationIsStaleSending(notification))
+            ? "Outcome unconfirmed. Check the Telegram group before taking action."
+            : "Telegram rejected the alert. You can retry it.",
       );
     } catch {
       setNotificationState("Could not retry the notification. Please try again.");
@@ -319,61 +308,83 @@ function RequestItem({
   const notification = row.notification;
   const notificationDescription = !notification
     ? "No notification was queued for this older request."
-    : notification.status === "sent"
-      ? `Accepted by Resend${notification.delivered_at ? ` on ${new Date(notification.delivered_at).toLocaleString("en-IN")}` : ""}.`
-      : notification.status === "unknown"
-        ? "Delivery outcome is unconfirmed. Check Resend before retrying."
-        : `${label(notification.status)}${notification.last_error_code ? `: ${notification.last_error_code}` : ""}.`;
+    : notification.channel === "email"
+      ? `Historical alert status retained: ${label(notification.status)}. New alerts use Telegram.`
+      : notification.status === "sent"
+        ? `Accepted by Telegram${notification.delivered_at ? ` on ${new Date(notification.delivered_at).toLocaleString("en-IN")}` : ""}.`
+        : notification.status === "unknown"
+          ? "Delivery outcome is unconfirmed. Check the Telegram group before taking action."
+          : notificationIsStaleSending(notification)
+            ? "Delivery outcome is unconfirmed. Check the Telegram group before taking action."
+            : notification.status === "sending"
+              ? "Sending alert to Telegram…"
+              : `${label(notification.status)}${notification.last_error_code ? `: ${notification.last_error_code}` : ""}.`;
 
   return (
-    <li className="py-5">
+    <li className="admin-request">
       <details>
-        <summary className="flex cursor-pointer flex-wrap items-baseline gap-x-5 gap-y-1">
-          <span className="font-num font-bold">{row.reference}</span>
-          <span>{row.customer_name}</span>
-          <a href={`tel:${row.mobile}`} className="underline">
-            {row.mobile}
-          </a>
-          <span className="text-muted-foreground">
-            {row.model} · {row.variant}
-          </span>
-          <span className="font-num">{formatINR(Number(row.estimate))}</span>
-          <span className="text-sm">
-            {formatPickupDate(row.slot_date)}, {row.slot_time}
-          </span>
-          <span className="border border-border px-2 text-xs font-semibold uppercase">
-            {label(row.status)}
-          </span>
-        </summary>
-        <div className="mt-5 grid gap-6 md:grid-cols-2">
-          <div className="space-y-2 text-sm">
-            <p>
-              <strong>Address:</strong> {row.address_line}, {row.locality}
-              {row.landmark ? ` (near ${row.landmark})` : ""}, Hyderabad {row.pincode}
-            </p>
-            <p>
-              <strong>Phone verification:</strong> {row.phone_verification_status}
-            </p>
-            <p>
-              <strong>Device:</strong> {row.brand} {row.model}, {row.variant}
-            </p>
-            <p>
-              <strong>Base value:</strong> {formatINR(Number(row.base_value))} ·{" "}
-              <strong>Estimate:</strong> {formatINR(Number(row.estimate))}
-            </p>
-            <p>
-              <strong>Submitted:</strong> {new Date(row.created_at).toLocaleString("en-IN")}
-            </p>
-            <ul className="list-disc pl-5 text-muted-foreground">
-              {row.answer_summary.map((answer) => (
-                <li key={answer}>{answer}</li>
-              ))}
-            </ul>
+        <summary className="admin-request-summary cursor-pointer">
+          <div className="min-w-0">
+            <span className="font-num text-xs font-bold text-amber-dark">{row.reference}</span>
+            <p className="mt-0.5 truncate font-semibold">{row.customer_name}</p>
           </div>
-          <div className="space-y-3">
-            <div className="border border-border p-3 text-sm">
-              <p>
-                <strong>Admin email:</strong> {notificationDescription}
+          <span className="font-num text-sm font-semibold">{row.mobile}</span>
+          <div className="min-w-0">
+            <p className="truncate text-sm font-semibold">{row.model}</p>
+            <p className="truncate text-xs text-muted-foreground">
+              {row.brand} · {row.variant}
+            </p>
+          </div>
+          <div className="text-right">
+            <p className="font-num font-bold">{formatINR(Number(row.estimate))}</p>
+            <p className="mt-0.5 text-xs text-muted-foreground">
+              {formatPickupDate(row.slot_date)} · {row.slot_time}
+            </p>
+          </div>
+          <span className={`status-chip status-${row.status}`}>{label(row.status)}</span>
+        </summary>
+        <div className="admin-request-detail grid gap-6 lg:grid-cols-[1fr_minmax(18rem,0.8fr)]">
+          <div className="space-y-4 text-sm">
+            <section>
+              <h3 className="eyebrow">Pickup details</h3>
+              <p className="mt-2 leading-relaxed">
+                {row.address_line}, {row.locality}
+                {row.landmark ? ` (near ${row.landmark})` : ""}, Hyderabad {row.pincode}
+              </p>
+              <a
+                href={`tel:${row.mobile}`}
+                className="mt-2 inline-block font-semibold underline underline-offset-4"
+              >
+                Call {row.customer_name} · {row.mobile}
+              </a>
+              <p className="mt-2 text-muted-foreground">
+                Phone verification: {label(row.phone_verification_status)}
+              </p>
+              <p className="mt-1 text-muted-foreground">
+                Submitted {new Date(row.created_at).toLocaleString("en-IN")}
+              </p>
+            </section>
+            <section className="border-t border-border pt-4">
+              <h3 className="eyebrow">Estimate details</h3>
+              <p className="mt-2">
+                {row.brand} {row.model} · {row.variant}
+              </p>
+              <p className="mt-1 text-muted-foreground">
+                Variant maximum {formatINR(Number(row.base_value))} · Estimated offer{" "}
+                {formatINR(Number(row.estimate))}
+              </p>
+              <ul className="mt-3 list-disc space-y-1 pl-5 text-muted-foreground">
+                {row.answer_summary.map((answer) => (
+                  <li key={answer}>{answer}</li>
+                ))}
+              </ul>
+            </section>
+          </div>
+          <div className="admin-request-controls space-y-4">
+            <section className="rounded-lg border border-border bg-card p-3 text-sm">
+              <h3 className="font-semibold">Telegram lead alert</h3>
+              <p className="mt-1 leading-relaxed text-muted-foreground">
+                {notificationDescription}
               </p>
               {notification && canRetryNotification(notification) && (
                 <Button
@@ -381,70 +392,82 @@ function RequestItem({
                   variant="outline"
                   size="sm"
                   className="mt-3"
-                  onClick={retryEmail}
+                  onClick={retryTelegramAlert}
                   disabled={notificationState === "Retrying…"}
                 >
-                  Retry admin email
+                  Retry Telegram alert
                 </Button>
               )}
               {notificationState && (
-                <p role="status" className="mt-2 text-muted-foreground">
+                <p role="status" className="mt-2 text-xs text-muted-foreground">
                   {notificationState}
                 </p>
               )}
-            </div>
-            <select
-              aria-label="Status"
-              value={edit.status}
-              onChange={(event) => setEdit({ ...edit, status: event.target.value })}
-              className="field"
-            >
-              {REQUEST_STATUSES.map((status) => (
-                <option key={status} value={status}>
-                  {label(status)}
-                </option>
-              ))}
-            </select>
-            <input
-              aria-label="Assigned to"
-              placeholder="Assigned to (staff name)"
-              value={edit.assignedTo}
-              onChange={(event) => setEdit({ ...edit, assignedTo: event.target.value })}
-              className="field"
-            />
-            <div className="grid grid-cols-2 gap-3">
-              <input
-                aria-label="Pickup date"
-                type="date"
-                value={edit.slotDate}
-                onChange={(event) => setEdit({ ...edit, slotDate: event.target.value })}
-                className="field"
-              />
+            </section>
+            <label className="block text-xs font-semibold">
+              Request status
               <select
-                aria-label="Time slot"
-                value={edit.slotTime}
-                onChange={(event) => setEdit({ ...edit, slotTime: event.target.value })}
-                className="field"
+                value={edit.status}
+                onChange={(event) => setEdit({ ...edit, status: event.target.value })}
+                className="field mt-1.5"
               >
-                {PICKUP_SLOTS.map((slot) => (
-                  <option key={slot} value={slot}>
-                    {slot}
+                {REQUEST_STATUSES.map((status) => (
+                  <option key={status} value={status}>
+                    {label(status)}
                   </option>
                 ))}
               </select>
+            </label>
+            <label className="block text-xs font-semibold">
+              Assigned staff member
+              <input
+                placeholder="Staff name"
+                maxLength={80}
+                value={edit.assignedTo}
+                onChange={(event) => setEdit({ ...edit, assignedTo: event.target.value })}
+                className="field mt-1.5"
+              />
+            </label>
+            <div className="grid grid-cols-2 gap-3">
+              <label className="block text-xs font-semibold">
+                Pickup date
+                <input
+                  type="date"
+                  value={edit.slotDate}
+                  onChange={(event) => setEdit({ ...edit, slotDate: event.target.value })}
+                  className="field mt-1.5 px-2"
+                />
+              </label>
+              <label className="block text-xs font-semibold">
+                Time slot
+                <select
+                  value={edit.slotTime}
+                  onChange={(event) => setEdit({ ...edit, slotTime: event.target.value })}
+                  className="field mt-1.5 px-2"
+                >
+                  {PICKUP_SLOTS.map((slot) => (
+                    <option key={slot} value={slot}>
+                      {slot}
+                    </option>
+                  ))}
+                </select>
+              </label>
             </div>
-            <textarea
-              aria-label="Notes"
-              placeholder="Internal notes"
-              value={edit.adminNotes}
-              onChange={(event) => setEdit({ ...edit, adminNotes: event.target.value })}
-              className="field h-24 py-3"
-            />
-            <div className="flex items-center gap-3">
+            <label className="block text-xs font-semibold">
+              Internal notes
+              <textarea
+                placeholder="Notes for the team"
+                maxLength={1000}
+                value={edit.adminNotes}
+                onChange={(event) => setEdit({ ...edit, adminNotes: event.target.value })}
+                className="field mt-1.5 h-24 py-3"
+              />
+            </label>
+            <div className="flex flex-wrap items-center gap-3">
               <Button type="button" onClick={submit} disabled={state === "Saving…"}>
-                Save changes
+                {state === "Saving…" ? "Saving…" : "Save changes"}
               </Button>
-              <span role="status" className="text-sm text-muted-foreground">
+              <span role="status" className="text-xs text-muted-foreground">
                 {state}
               </span>
             </div>

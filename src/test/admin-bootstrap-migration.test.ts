@@ -10,6 +10,11 @@ const hardening = readFileSync(
   resolve(process.cwd(), "drizzle/migrations/0002_secure_admin_and_pickup_outbox.sql"),
   "utf8",
 );
+const singleAdmin = readFileSync(
+  resolve(process.cwd(), "drizzle/migrations/0003_single_admin_only.sql"),
+  "utf8",
+);
+const supabaseConfig = readFileSync(resolve(process.cwd(), "supabase/config.toml"), "utf8");
 
 describe("admin bootstrap migration", () => {
   it("removes first-account auto-admin and preserves existing role rows", () => {
@@ -17,5 +22,15 @@ describe("admin bootstrap migration", () => {
     expect(hardening).toMatch(/DROP\s+TRIGGER\s+IF\s+EXISTS\s+on_auth_user_created_admin/i);
     expect(hardening).toMatch(/DROP\s+FUNCTION\s+IF\s+EXISTS\s+public\.grant_first_admin\s*\(\)/i);
     expect(hardening).not.toMatch(/(?:DELETE|TRUNCATE)\s+(?:FROM\s+)?public\.user_roles/i);
+  });
+
+  it("limits administrator access to one role row", () => {
+    expect(singleAdmin).toMatch(
+      /CREATE\s+UNIQUE\s+INDEX\s+IF\s+NOT\s+EXISTS\s+user_roles_single_admin\s+ON\s+public\.user_roles\s*\(\s*role\s*\)\s+WHERE\s+role\s*=\s*'admin'/i,
+    );
+  });
+
+  it("disables new Auth signups in the local Supabase provider", () => {
+    expect(supabaseConfig).toMatch(/\[auth\][\s\S]*?enable_signup\s*=\s*false/i);
   });
 });

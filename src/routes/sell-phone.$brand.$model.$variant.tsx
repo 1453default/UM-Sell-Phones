@@ -29,7 +29,12 @@ export const Route = createFileRoute("/sell-phone/$brand/$model/$variant")({
         { property: "og:type", content: "product" },
         { name: "twitter:card", content: "summary" },
       ],
-      links: [{ rel: "canonical", href: canonicalUrl(`/sell-phone/${params.brand}/${params.model}/${params.variant}`) }],
+      links: [
+        {
+          rel: "canonical",
+          href: canonicalUrl(`/sell-phone/${params.brand}/${params.model}/${params.variant}`),
+        },
+      ],
     };
   },
   notFoundComponent: () => (

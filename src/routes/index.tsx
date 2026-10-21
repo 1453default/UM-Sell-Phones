@@ -1,15 +1,15 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Button } from "@/components/ui/button";
 import { ArrowRight, ArrowUpRight, MapPin } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import { PublicLayout } from "@/components/public/PublicLayout";
 import { SELL_BRANDS } from "@/data/sellPhoneCatalog";
 import { SHOP_MAPS_URL } from "@/lib/shop";
 import { canonicalUrl } from "@/lib/site";
 import heroMain from "@/assets/um-counter.jpg";
 
-const TITLE = "Sell Your Phone | Estimated Offers | USED MOBILES Hyderabad";
+const TITLE = "Sell Your Phone | USED MOBILES Hyderabad";
 const DESC =
-  "Check how much your used iPhone, Samsung, OnePlus or other phone is worth and sell it to USED MOBILES, Toli Chowki, Hyderabad.";
+  "Choose your exact phone, answer a few condition questions and review an estimated offer from USED MOBILES in Toli Chowki, Hyderabad.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -27,111 +27,132 @@ export const Route = createFileRoute("/")({
 });
 
 function Home() {
-  const featured = SELL_BRANDS.filter((b) => b.logo).slice(0, 8);
+  const featured = SELL_BRANDS.filter((brand) => brand.logo).slice(0, 8);
+
   return (
     <PublicLayout>
-      <section className="store-hero relative overflow-hidden">
-        <img
-          src={heroMain}
-          alt="USED MOBILES store in Toli Chowki, Hyderabad"
-          className="store-hero-photo"
-          fetchPriority="high"
-        />
-        <div className="store-hero-shade" />
-        <div className="relative mx-auto max-w-6xl px-4 py-16 md:py-20">
-          <p className="store-hero-muted text-xs font-semibold uppercase">
-            Toli Chowki · Hyderabad
-          </p>
-          <h1 className="store-hero-copy mt-4 max-w-xl text-4xl md:text-5xl font-bold leading-tight">
-            Sell your phone
-            <br />
-            at USED MOBILES
-          </h1>
-          <p className="store-hero-muted mt-5 max-w-md leading-relaxed">
-            Choose your device, tell us its condition and get an estimated offer. Visit our store to
-            confirm the value.
-          </p>
-          <div className="mt-8 flex flex-wrap gap-3">
-            <Button asChild size="lg" className="h-12">
-              <Link to="/sell-phone">
-                Check your phone’s value <ArrowRight />
-              </Link>
-            </Button>
-          </div>
-          <a
-            href={SHOP_MAPS_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="store-hero-muted mt-7 inline-flex items-center gap-2 text-sm"
-          >
-            <MapPin className="h-4 w-4" /> Visit our store <ArrowUpRight className="h-3 w-3" />
-          </a>
-        </div>
-      </section>
-      <section className="mx-auto max-w-6xl px-4 py-10 md:py-12">
-        <div className="flex flex-wrap items-end justify-between gap-4">
-          <div>
-            <p className="text-xs font-semibold uppercase text-muted-foreground">
-              Start with your device
+      <div className="home-page">
+        <section className="home-hero">
+          <div className="home-hero-copy">
+            <p className="eyebrow inline-flex items-center gap-2">
+              <MapPin aria-hidden="true" className="size-4 text-amber-dark" />
+              Toli Chowki · Hyderabad
             </p>
-            <h2 className="mt-2 text-2xl font-bold">Which brand is your phone?</h2>
-          </div>
-          <Link to="/sell-phone" className="inline-flex items-center gap-2 text-sm font-semibold">
-            All {SELL_BRANDS.length} brands <ArrowRight className="h-4 w-4" />
-          </Link>
-        </div>
-        <ul className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-8">
-          {featured.map((b) => (
-            <li key={b.slug}>
-              <Link
-                to="/sell-phone/$brand"
-                params={{ brand: b.slug }}
-                className="flex h-24 items-center justify-center rounded-md border border-border bg-card p-4 hover:border-foreground"
+            <h1 className="home-hero-title">
+              Sell your phone with a <em>clear estimate.</em>
+            </h1>
+            <p className="home-hero-description">
+              Choose your exact model and variant, tell us about its condition, then review an
+              estimate before arranging a pickup request or visiting our store.
+            </p>
+            <div className="mt-7 flex flex-wrap items-center gap-3">
+              <Button asChild size="lg" className="h-12 px-5 font-bold">
+                <Link to="/sell-phone">
+                  Choose your phone <ArrowRight aria-hidden="true" />
+                </Link>
+              </Button>
+              <a
+                href={SHOP_MAPS_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex h-11 items-center gap-1.5 rounded-md px-3 text-sm font-semibold text-foreground transition hover:bg-accent"
               >
-                {b.logo && (
-                  <img
-                    src={b.logo}
-                    alt={b.name}
-                    width="100"
-                    height="50"
-                    loading="lazy"
-                    className="h-14 md:h-16 w-auto max-w-[85%] object-contain"
-                  />
-                )}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </section>
-      <section className="mx-auto grid max-w-6xl gap-8 px-4 py-12 md:grid-cols-2">
-        <div>
-          <h2 className="text-2xl font-bold">Before you sell</h2>
-          <p className="mt-3 text-muted-foreground">
-            A clear estimate. A real conversation. A final inspection.
-          </p>
-        </div>
-        <div className="divide-y divide-border">
-          {[
-            [
-              "Is the online offer final?",
-              "No. Your estimated offer depends on the condition answers. The store confirms the final price after inspecting the device.",
-            ],
-            [
-              "What if my phone has no listed price?",
-              "Call USED MOBILES for an offer. We do not substitute another model’s price.",
-            ],
-            [
-              "Where can I sell my phone?",
-              "Visit our store in Toli Chowki, Hyderabad. Bring a valid government ID when selling your device.",
-            ],
-          ].map(([q, a]) => (
-            <details key={q} className="py-4">
-              <summary className="cursor-pointer font-semibold">{q}</summary>
-              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{a}</p>
-            </details>
-          ))}
-        </div>
-      </section>
+                Visit the store <ArrowUpRight aria-hidden="true" className="size-4" />
+              </a>
+            </div>
+            <p className="mt-5 max-w-md text-xs leading-relaxed text-muted-foreground">
+              The online amount is an estimate. We confirm the final offer after inspecting the
+              phone.
+            </p>
+          </div>
+
+          <figure className="home-hero-figure">
+            <img
+              src={heroMain}
+              alt="Phone display counter inside the USED MOBILES store in Toli Chowki"
+              fetchPriority="high"
+            />
+            <figcaption className="home-photo-caption">
+              <span className="font-display text-sm font-bold">USED MOBILES</span>
+              <span>7 Tombs Road, Toli Chowki</span>
+            </figcaption>
+          </figure>
+        </section>
+
+        <section className="home-brand-section" aria-labelledby="brand-heading">
+          <div className="flex flex-wrap items-end justify-between gap-4">
+            <div>
+              <p className="eyebrow">Start with your device</p>
+              <h2 id="brand-heading" className="section-title mt-2">
+                Choose your phone brand
+              </h2>
+            </div>
+            <Link
+              to="/sell-phone"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-foreground hover:text-amber-dark"
+            >
+              Browse all {SELL_BRANDS.length} supported brands <ArrowRight className="size-4" />
+            </Link>
+          </div>
+          <ul className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+            {featured.map((brand) => (
+              <li key={brand.slug}>
+                <Link
+                  to="/sell-phone/$brand"
+                  params={{ brand: brand.slug }}
+                  aria-label={`Browse ${brand.name} phones`}
+                  className="home-brand-tile"
+                >
+                  {brand.logo && (
+                    <img
+                      src={brand.logo}
+                      alt={brand.name}
+                      width="100"
+                      height="50"
+                      loading="lazy"
+                      className="h-14 w-auto max-w-[78%] object-contain sm:h-16"
+                    />
+                  )}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section className="home-note-section" aria-labelledby="estimate-heading">
+          <div>
+            <p className="eyebrow">Before you sell</p>
+            <h2 id="estimate-heading" className="section-title mt-2 max-w-sm">
+              A useful estimate starts with the right details.
+            </h2>
+            <p className="mt-4 max-w-md text-sm leading-relaxed text-muted-foreground">
+              We use the selected catalog variant and your answers. The store checks the device
+              before confirming a purchase price.
+            </p>
+          </div>
+          <div className="home-faq">
+            {[
+              [
+                "Is the online offer final?",
+                "No. It is an estimate based on your selected variant and condition answers. The store confirms the final offer after inspecting the phone.",
+              ],
+              [
+                "What if my phone has no listed price?",
+                "Call USED MOBILES for an offer. We do not substitute another model’s price.",
+              ],
+              [
+                "Can I request a pickup?",
+                "You can submit a pickup request for a supported Hyderabad pincode and choose from the dates and time slots shown in the form.",
+              ],
+            ].map(([question, answer]) => (
+              <details key={question}>
+                <summary>{question}</summary>
+                <p>{answer}</p>
+              </details>
+            ))}
+          </div>
+        </section>
+      </div>
     </PublicLayout>
   );
 }

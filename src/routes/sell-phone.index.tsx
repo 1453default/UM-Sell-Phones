@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { HandCoins } from "lucide-react";
+import { ArrowRight, Smartphone } from "lucide-react";
 import { PublicLayout } from "@/components/public/PublicLayout";
 import { Crumbs, SearchBox } from "@/components/sell/SellParts";
 import { SELL_BRANDS, normalizeSearch } from "@/data/sellPhoneCatalog";
@@ -33,24 +33,28 @@ function SellHome() {
   }, [q]);
   return (
     <PublicLayout>
-      <section className="mx-auto max-w-6xl px-4 pt-6 pb-16 md:pt-10">
+      <section className="catalog-page">
         <Crumbs items={[{ label: "Sell Phone" }, { label: "Brand" }]} />
-        <div className="mt-4 inline-flex items-center gap-2 rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold text-foreground">
-          <HandCoins className="h-3.5 w-3.5" /> Sell your phone
-        </div>
-        <h1 className="mt-3 font-display text-3xl md:text-4xl font-extrabold ">
-          Sell your old mobile phone
+        <p className="eyebrow mt-8">Phone catalog · {SELL_BRANDS.length} supported brands</p>
+        <h1 className="section-title mt-2 max-w-2xl text-3xl md:text-4xl">
+          Find your phone to get an estimate
         </h1>
-        <p className="mt-3 max-w-2xl text-muted-foreground">
-          Pick your phone's brand and model to start. We buy used phones across {SELL_BRANDS.length}{" "}
-          brands.
+        <p className="mt-3 max-w-2xl text-muted-foreground leading-relaxed">
+          Start with a brand, then choose the exact model and variant listed for your device.
         </p>
-        <div className="mt-6">
+        <div className="mt-7">
           <SearchBox value={q} onChange={setQ} label="Search for brand" />
         </div>
-        <h2 className="mt-10 font-display text-xl md:text-2xl font-bold">Choose brand</h2>
+        <div className="mt-9 flex items-center justify-between gap-3 border-b border-border pb-3">
+          <h2 className="font-display text-lg font-bold">All brands</h2>
+          <span className="text-sm text-muted-foreground">{brands.length} results</span>
+        </div>
         {brands.length === 0 ? (
-          <p className="mt-6 text-muted-foreground">No brand matches "{q}".</p>
+          <div className="empty-state mt-5">
+            <Smartphone className="mx-auto size-7" aria-hidden="true" />
+            <p className="mt-3 font-semibold text-foreground">No brand matches “{q}”</p>
+            <p className="mt-1 text-sm">Try another brand name or clear your search.</p>
+          </div>
         ) : (
           <ul className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
             {brands.map((b) => (
@@ -58,19 +62,25 @@ function SellHome() {
                 <Link
                   to="/sell-phone/$brand"
                   params={{ brand: b.slug }}
-                  className="group flex h-24 md:h-28 flex-col items-center justify-center gap-1 rounded-md border border-border bg-card px-4 transition hover:border-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+                  className="group flex min-h-28 items-center justify-between gap-3 rounded-xl border border-border bg-card px-4 py-3 transition hover:border-amber-dark hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary sm:min-h-32 sm:px-5"
                 >
                   {b.logo ? (
                     <img
                       src={b.logo}
                       alt={`${b.name} logo`}
-                      className="h-14 md:h-16 w-auto max-w-[85%] object-contain"
+                      className="h-14 w-auto max-w-[78%] object-contain sm:h-16"
                       decoding="async"
                       loading="lazy"
                     />
                   ) : (
-                    <span className="font-display text-lg font-bold">{b.name}</span>
+                    <span className="font-display text-base font-bold leading-snug sm:text-lg">
+                      {b.name}
+                    </span>
                   )}
+                  <ArrowRight
+                    className="size-4 shrink-0 text-muted-foreground transition group-hover:translate-x-0.5 group-hover:text-foreground"
+                    aria-hidden="true"
+                  />
                 </Link>
               </li>
             ))}

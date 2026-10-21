@@ -79,7 +79,7 @@ describe("pickup submission service", () => {
   it("does not trust or accept a client-supplied estimate or recipient", async () => {
     const deps = dependencies();
     const result = await processPickupSubmission(
-      { ...validInput(), estimate: 1, recipientEmail: "attacker@example.com" },
+      { ...validInput(), estimate: 1, recipientChatId: "attacker-controlled" },
       deps,
     );
     expect(result.ok).toBe(false);
@@ -98,7 +98,7 @@ describe("pickup submission service", () => {
     expect(deps.notify).not.toHaveBeenCalled();
   });
 
-  it("keeps a saved pickup successful when email delivery throws", async () => {
+  it("keeps a saved pickup successful when notification delivery throws", async () => {
     let saved = false;
     const deps = dependencies({
       persist: vi.fn<PickupSubmissionDependencies["persist"]>(async () => {

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { createFileRoute } from "@tanstack/react-router";
 import { PublicLayout } from "@/components/public/PublicLayout";
 import { SHOP_PHONE } from "@/lib/shop";
@@ -23,9 +22,12 @@ export const Route = createFileRoute("/terms")({
 function Terms() {
   return (
     <PublicLayout>
-      <article className="mx-auto max-w-3xl space-y-6 px-5 py-12">
-        <h1 className="text-3xl font-bold">Terms and Conditions</h1>
-        <p className="text-muted-foreground">Updated 20 October 2026</p>
+      <article className="legal-page space-y-7">
+        <p className="eyebrow">USED MOBILES · Hyderabad</p>
+        <h1 className="-mt-5 text-3xl font-bold tracking-tight sm:text-4xl">
+          Terms and Conditions
+        </h1>
+        <p className="-mt-4 text-sm text-muted-foreground">Updated 20 October 2026</p>
 
         <section>
           <h2 className="text-xl font-semibold">Estimates and final offers</h2>
@@ -43,8 +45,8 @@ function Terms() {
             Pickup requests are available within the supported Hyderabad pincodes, Monday to
             Saturday, between 10:00 AM and 4:00 PM. A booking reference confirms receipt of your
             request, not a guaranteed arrival time or completed sale. The team will call to confirm
-            arrangements. An administrator email alert is a business notification and does not
-            change your booking or the estimated offer.
+            arrangements. A Telegram alert to the shop's private employee group is an internal
+            business notification and does not change your booking or the estimated offer.
           </p>
         </section>
 
@@ -85,12 +87,3 @@ function Terms() {
     </PublicLayout>
   );
 }
-=======
-import { createFileRoute } from '@tanstack/react-router';
-import { PublicLayout } from '@/components/public/PublicLayout';
-import { SHOP_PHONE } from '@/lib/shop';
-import { canonicalUrl } from '@/lib/site';
-const description='Terms for device estimates, inspection and pickup requests at USED MOBILES.';
-export const Route=createFileRoute('/terms')({head:()=>({meta:[{title:'Terms and Conditions | USED MOBILES'},{name:'description',content:description},{property:'og:title',content:'Terms and Conditions | USED MOBILES'},{property:'og:description',content:description},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary'}],links:[{rel:'canonical',href:canonicalUrl('/terms')}]}),component:Terms});
-function Terms(){return <PublicLayout><article className="mx-auto max-w-3xl px-5 py-12 space-y-6"><h1 className="text-3xl font-bold">Terms and Conditions</h1><p className="text-muted-foreground">Updated 18 October 2026</p><section><h2 className="text-xl font-semibold">Estimated and final offers</h2><p className="mt-2 leading-relaxed">Online values use the selected exact model and variant and your condition answers. They are estimates, not guaranteed purchase prices. The store confirms the final offer after inspecting the device. An unavailable price is not replaced with another model’s price.</p></section><section><h2 className="text-xl font-semibold">Pickup requests</h2><p className="mt-2 leading-relaxed">Pickup requests are available within the supported Hyderabad pincodes, Monday to Saturday, between 10:00 AM and 4:00 PM. A booking reference confirms receipt of your request, not a guaranteed arrival time or completed sale. Our team will call to confirm arrangements.</p></section><section><h2 className="text-xl font-semibold">Your responsibilities</h2><p className="mt-2 leading-relaxed">Provide accurate contact, address and device details. You must be entitled to sell the device and bring a valid government ID at the time of sale. Back up your personal information before handing over the phone and discuss data removal with the inspecting staff.</p></section><section><h2 className="text-xl font-semibold">Changes and cancellations</h2><p className="mt-2 leading-relaxed">Call {SHOP_PHONE} to request a change or cancellation. The store must confirm any rescheduling. No cancellation fee or deadline is stated here because those policies have not been supplied by the business.</p></section><section><h2 className="text-xl font-semibold">Sale and payment</h2><p className="mt-2 leading-relaxed">A sale proceeds only after inspection and agreement on the final price. The store offers UPI or cash payment. This website does not collect online payments.</p></section><section><h2 className="text-xl font-semibold">Questions</h2><p className="mt-2 leading-relaxed">Contact USED MOBILES at {SHOP_PHONE}. These terms require business review before publication, including any applicable cancellation and dispute-handling policies.</p></section></article></PublicLayout>}
->>>>>>> 82b3de4d68f96599d8612343ab3e124a89323dea

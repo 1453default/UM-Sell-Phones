@@ -92,6 +92,7 @@ export type Database = {
       pickup_notification_outbox: {
         Row: {
           attempts: number;
+          channel: string;
           created_at: string;
           delivered_at: string | null;
           id: string;
@@ -104,6 +105,7 @@ export type Database = {
         };
         Insert: {
           attempts?: number;
+          channel?: string;
           created_at?: string;
           delivered_at?: string | null;
           id?: string;
@@ -116,6 +118,7 @@ export type Database = {
         };
         Update: {
           attempts?: number;
+          channel?: string;
           created_at?: string;
           delivered_at?: string | null;
           id?: string;

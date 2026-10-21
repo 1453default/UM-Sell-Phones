@@ -10,9 +10,16 @@ describe("Published staff auth configuration", () => {
     });
     const transform = plugin.transform;
     if (typeof transform !== "function") throw new Error("Missing transform");
-    const source = "const url = import.meta.env['VITE_SUPABASE_URL']; const key = import.meta.env['VITE_SUPABASE_PUBLISHABLE_KEY']; const secret = process.env['SUPABASE_SERVICE_ROLE_KEY'];";
-    const result = await transform.call({} as never, source, "/src/integrations/supabase/client.ts");
-    expect(result).toBe('const url = "https://auth.example.test"; const key = "sb_publishable_test"; const secret = process.env[\'SUPABASE_SERVICE_ROLE_KEY\'];');
+    const source =
+      "const url = import.meta.env['VITE_SUPABASE_URL']; const key = import.meta.env['VITE_SUPABASE_PUBLISHABLE_KEY']; const secret = process.env['SUPABASE_SERVICE_ROLE_KEY'];";
+    const result = await transform.call(
+      {} as never,
+      source,
+      "/src/integrations/supabase/client.ts",
+    );
+    expect(result).toBe(
+      'const url = "https://auth.example.test"; const key = "sb_publishable_test"; const secret = process.env[\'SUPABASE_SERVICE_ROLE_KEY\'];',
+    );
   });
 
   it("does not rewrite other modules or private environment values", async () => {
@@ -20,13 +27,19 @@ describe("Published staff auth configuration", () => {
     const transform = plugin.transform;
     if (typeof transform !== "function") throw new Error("Missing transform");
     const source = "process.env['SUPABASE_SERVICE_ROLE_KEY']";
-    expect(await transform.call({} as never, source, "/src/integrations/supabase/client.ts")).toBe(source);
+    expect(await transform.call({} as never, source, "/src/integrations/supabase/client.ts")).toBe(
+      source,
+    );
     expect(await transform.call({} as never, source, "/src/routes/auth.tsx")).toBeUndefined();
   });
 });
 describe("Hosted build without an env file", () => {
   it("still inlines the public backend address and publishable key", async () => {
     const original = process.cwd();
+    const originalUrl = process.env.VITE_SUPABASE_URL;
+    const originalKey = process.env.VITE_SUPABASE_PUBLISHABLE_KEY;
+    delete process.env.VITE_SUPABASE_URL;
+    delete process.env.VITE_SUPABASE_PUBLISHABLE_KEY;
     process.chdir(tmpdir());
     try {
       const plugin = publicAuthEnvPlugin({});
@@ -35,10 +48,20 @@ describe("Hosted build without an env file", () => {
       await config.call({} as never, {}, { mode: "production", command: "build" });
       const transform = plugin.transform;
       if (typeof transform !== "function") throw new Error("Missing transform");
-      const result = await transform.call({} as never, "import.meta.env['VITE_SUPABASE_URL'] || import.meta.env['VITE_SUPABASE_PUBLISHABLE_KEY']", "/src/integrations/supabase/client.ts");
-      expect(result).toBe(`${JSON.stringify(PUBLIC_AUTH_FALLBACK.VITE_SUPABASE_URL)} || ${JSON.stringify(PUBLIC_AUTH_FALLBACK.VITE_SUPABASE_PUBLISHABLE_KEY)}`);
+      const result = await transform.call(
+        {} as never,
+        "import.meta.env['VITE_SUPABASE_URL'] || import.meta.env['VITE_SUPABASE_PUBLISHABLE_KEY']",
+        "/src/integrations/supabase/client.ts",
+      );
+      expect(result).toBe(
+        `${JSON.stringify(PUBLIC_AUTH_FALLBACK.VITE_SUPABASE_URL)} || ${JSON.stringify(PUBLIC_AUTH_FALLBACK.VITE_SUPABASE_PUBLISHABLE_KEY)}`,
+      );
     } finally {
       process.chdir(original);
+      if (originalUrl === undefined) delete process.env.VITE_SUPABASE_URL;
+      else process.env.VITE_SUPABASE_URL = originalUrl;
+      if (originalKey === undefined) delete process.env.VITE_SUPABASE_PUBLISHABLE_KEY;
+      else process.env.VITE_SUPABASE_PUBLISHABLE_KEY = originalKey;
     }
   });
 });

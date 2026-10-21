@@ -47,7 +47,9 @@ export function DeviceAssessment({
       heading.current?.focus();
       heading.current?.parentElement?.scrollIntoView({
         block: "start",
-        behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth",
+        behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
+          ? "instant"
+          : "smooth",
       });
     });
   }
@@ -74,13 +76,15 @@ export function DeviceAssessment({
   }
   const selectClass = (selected: boolean) => `selection-option ${selected ? "is-selected" : ""}`;
   return (
-    <div className="mt-8 grid gap-10 lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-14">
+    <div className="assessment-layout mt-8 grid gap-6 lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-8">
       <div key={step} className="assessment-step min-w-0 scroll-mt-24">
         {step >= 0 && (
           <div className="mb-7">
-            <div className="mb-2 flex justify-between text-xs font-semibold text-muted-foreground">
-              <span>DEVICE ASSESSMENT</span>
-              <span>Step {step + 1} of 6</span>
+            <div className="mb-3 flex flex-wrap justify-between gap-2 text-xs font-semibold text-muted-foreground">
+              <span className="eyebrow">Device assessment</span>
+              <span>
+                Step {step + 1} of {STAGES.length}
+              </span>
             </div>
             <progress
               aria-label="Assessment progress"
@@ -93,20 +97,22 @@ export function DeviceAssessment({
         <h1
           ref={heading}
           tabIndex={-1}
-          className="scroll-mt-28 font-display text-3xl font-bold outline-none"
+          className="scroll-mt-28 font-display text-2xl font-bold tracking-tight outline-none sm:text-3xl"
         >
           {step < 0 ? "Your phone’s base value" : STAGES[step]}
         </h1>
         {step < 0 && (
           <div className="py-8">
-            <p className="text-sm text-muted-foreground">Get up to</p>
-            <p className="mt-2 font-num text-4xl font-bold">{formatINR(variant.uptoPrice)}</p>
+            <p className="eyebrow">Maximum for this variant</p>
+            <p className="mt-2 font-num text-4xl font-extrabold tracking-tight">
+              {formatINR(variant.uptoPrice)}
+            </p>
             <p className="mt-5 max-w-lg text-muted-foreground leading-relaxed">
               Tell us about your phone’s condition for an estimated offer. The final price is
               confirmed after inspection at our Toli Chowki store.
             </p>
-            <Button size="lg" className="mt-8 h-12" onClick={() => go(0)}>
-              About Your Device <ArrowRight />
+            <Button size="lg" className="mt-7 h-12 px-5 font-bold" onClick={() => go(0)}>
+              Start condition assessment <ArrowRight />
             </Button>
           </div>
         )}
@@ -270,10 +276,20 @@ export function DeviceAssessment({
         )}
         {step === 5 && result && (
           <div className="mt-6">
-            <div className="border-y border-border py-6">
+            <div className="price-callout">
+              <p className="eyebrow">Your estimated offer</p>
+              <div className="price-callout-amount mt-2 font-num">
+                {formatINR(result.displayedEstimate)}
+              </div>
+              <p className="mt-3 max-w-lg text-sm leading-relaxed text-muted-foreground">
+                This estimate uses the selected variant and your answers. The store confirms a final
+                offer after inspecting the phone.
+              </p>
+            </div>
+            <div className="mt-5 border-y border-border py-5">
               <dl className="space-y-3">
                 <div className="flex justify-between gap-4">
-                  <dt className="text-muted-foreground">Base value</dt>
+                  <dt className="text-muted-foreground">Variant maximum</dt>
                   <dd className="font-num">{formatINR(result.base)}</dd>
                 </div>
                 <div className="flex justify-between gap-4">
@@ -281,11 +297,6 @@ export function DeviceAssessment({
                   <dd className="font-num">−{formatINR(result.deduction)}</dd>
                 </div>
               </dl>
-              <div className="mt-6 text-sm text-muted-foreground">Estimated offer</div>
-              <div className="mt-1 font-num text-4xl font-bold">
-                {formatINR(result.displayedEstimate)}
-              </div>
-              <p className="mt-3 text-sm text-muted-foreground">{"\n"}</p>
             </div>
             <details className="border-b border-border py-5">
               <summary className="cursor-pointer font-semibold">Review your answers</summary>
@@ -297,6 +308,12 @@ export function DeviceAssessment({
             </details>
             <PickupForm brand={brand} model={model} variant={variant} answers={answers} />
           </div>
+        )}
+        {step === 5 && !result && (
+          <p role="alert" className="mt-5 rounded-lg border border-border bg-muted p-4 text-sm">
+            An estimate is unavailable for this variant. Please choose another supported variant or
+            contact the store for an offer.
+          </p>
         )}
         {error && (
           <p id="assessment-error" role="alert" className="mt-5 text-sm text-destructive">
@@ -326,22 +343,20 @@ export function DeviceAssessment({
           </div>
         )}
       </div>
-      <aside className="order-first border-b border-border pb-6 lg:order-last lg:border-b-0 lg:border-l lg:pl-8">
-        <div className="flex items-center gap-4 lg:sticky lg:top-28 lg:flex-col lg:items-start">
+      <aside className="assessment-device-panel order-first lg:order-last">
+        <div className="flex min-w-0 items-center gap-4 lg:sticky lg:top-28 lg:flex-col lg:items-start">
           <PhoneImg
             src={model.images[0]}
             alt={model.name}
             eager
-            className="h-20 w-20 shrink-0 lg:h-40 lg:w-full"
+            className="h-20 w-20 shrink-0 rounded-lg bg-background p-1 lg:h-44 lg:w-full"
           />
-          <div>
-            <p className="text-xs font-semibold uppercase text-muted-foreground">Your device</p>
-            <h2 className="mt-1 text-lg font-semibold">{model.name}</h2>
+          <div className="min-w-0">
+            <p className="eyebrow">Your device</p>
+            <h2 className="mt-1 break-words text-base font-bold leading-snug">{model.name}</h2>
             <p className="mt-1 text-sm text-muted-foreground">{variant.label}</p>
-            <p className="mt-3 text-sm">
-              Base value{" "}
-              <span className="font-num font-semibold">{formatINR(variant.uptoPrice)}</span>
-            </p>
+            <p className="mt-3 text-xs text-muted-foreground">Maximum estimate</p>
+            <p className="font-num text-sm font-bold">{formatINR(variant.uptoPrice)}</p>
           </div>
         </div>
       </aside>

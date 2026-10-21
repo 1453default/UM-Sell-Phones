@@ -1,7 +1,7 @@
 import { type ReactNode } from "react";
 import { Link } from "@tanstack/react-router";
-import { Phone, Instagram, CheckCircle2 } from "lucide-react";
-import { SHOP_PHONE, SHOP_INSTAGRAM, SHOP_INSTAGRAM_HANDLE, SHOP_MAPS_URL } from "@/lib/shop";
+import { ArrowUpRight, Instagram, MapPin, Phone } from "lucide-react";
+import { SHOP_ADDRESS, SHOP_HOURS, SHOP_INSTAGRAM, SHOP_PHONE, SHOP_MAPS_URL } from "@/lib/shop";
 import { Button } from "@/components/ui/button";
 import { Dock } from "@/components/public/Dock";
 import { BrandLogo } from "@/components/public/BrandLogo";
@@ -9,9 +9,14 @@ import { BrandTagline } from "@/components/public/BrandTagline";
 
 export function PublicLayout({ children }: { children: ReactNode }) {
   return (
-    <div className="min-h-dvh flex flex-col bg-background">
+    <div className="flex min-h-dvh flex-col bg-background">
+      <a href="#main-content" className="skip-link">
+        Skip to content
+      </a>
       <PublicHeader />
-      <main className="flex-1 site-main">{children}</main>
+      <main id="main-content" className="site-main flex-1">
+        {children}
+      </main>
       <PublicFooter />
       <Dock />
     </div>
@@ -19,20 +24,16 @@ export function PublicLayout({ children }: { children: ReactNode }) {
 }
 
 const NAV_CLS =
-  "rounded-md px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-accent transition";
-const NAV: { to?: "/" | "/sell-phone" | "/privacy" | "/terms"; href?: string; label: string }[] = [
-  { to: "/", label: "Home" },
-  { to: "/sell-phone", label: "Sell Phone" },
-];
+  "rounded-md px-3 py-2 text-sm font-medium text-muted-foreground transition hover:bg-accent hover:text-foreground";
 
 function PublicHeader() {
   return (
     <header className="sticky top-0 z-40 shrink-0 border-b border-border bg-background">
-      <div className="mx-auto flex h-18 max-w-6xl items-center justify-between px-4">
-        <Link to="/" className="flex min-w-0 items-center gap-2.5">
-          <BrandLogo />
+      <div className="mx-auto flex h-[4.5rem] max-w-[80rem] items-center justify-between gap-4 px-4 sm:px-6">
+        <Link to="/" className="flex min-w-0 items-center gap-2.5" aria-label="USED MOBILES home">
+          <BrandLogo className="size-11 shrink-0 rounded-full object-contain" />
           <div className="min-w-0">
-            <div className="font-display text-base font-extrabold leading-none  text-foreground">
+            <div className="font-display text-sm font-extrabold leading-none tracking-tight text-foreground sm:text-base">
               USED MOBILES
             </div>
             <div className="mt-1.5 hidden sm:block">
@@ -41,165 +42,134 @@ function PublicHeader() {
           </div>
         </Link>
 
-        <nav className="hidden gap-1 md:flex">
-          {NAV.map((n) =>
-            n.href ? (
-              <a key={n.label} href={n.href} className={NAV_CLS}>
-                {n.label}
-              </a>
-            ) : (
-              <Link
-                key={n.label}
-                to={n.to ?? "/"}
-                activeOptions={{ exact: n.to === "/" }}
-                activeProps={{ className: "bg-accent text-foreground" }}
-                className={NAV_CLS}
-              >
-                {n.label}
-              </Link>
-            ),
-          )}
+        <nav aria-label="Main navigation" className="hidden items-center gap-1 sm:flex">
+          <Link
+            to="/"
+            activeOptions={{ exact: true }}
+            activeProps={{ className: "bg-accent text-foreground" }}
+            className={NAV_CLS}
+          >
+            Home
+          </Link>
+          <Link
+            to="/sell-phone"
+            activeOptions={{ includeSearch: false }}
+            activeProps={{ className: "bg-accent text-foreground" }}
+            className={NAV_CLS}
+          >
+            Phone catalog
+          </Link>
         </nav>
 
-        <a
-          href={`tel:${SHOP_PHONE.replace(/\s/g, "")}`}
-          className="inline-flex h-11 items-center gap-2 rounded-md border border-border bg-card px-4 text-sm font-semibold text-foreground hover:border-primary transition"
-          aria-label="Call shop"
-        >
-          <Phone className="h-4 w-4 text-primary" />
-          <span className="hidden sm:inline font-num">{SHOP_PHONE}</span>
-        </a>
+        <Button asChild className="h-10 shrink-0 px-3 text-xs font-bold sm:px-4 sm:text-sm">
+          <Link to="/sell-phone">
+            <span className="hidden sm:inline">Get an estimate</span>
+            <span className="sm:hidden">Estimate</span>
+            <ArrowUpRight aria-hidden="true" />
+          </Link>
+        </Button>
       </div>
     </header>
   );
 }
 
 function PublicFooter() {
-  const explore: {
-    to?: "/" | "/sell-phone" | "/privacy" | "/terms";
-    href?: string;
-    label: string;
-  }[] = [
-    { to: "/privacy", label: "Privacy Policy" },
-    { to: "/terms", label: "Terms and Conditions" },
-    { to: "/", label: "Home" },
-    { to: "/sell-phone", label: "Sell Your Phone" },
-
-    { href: SHOP_MAPS_URL, label: "Store Location" },
-  ];
-
   return (
-    <footer className="site-footer mt-12 border-t border-border bg-card">
-      <div className="mx-auto max-w-6xl px-4 py-12 grid gap-10 md:grid-cols-4">
-        <div className="md:col-span-1">
-          <div className="flex items-center gap-2 mb-3">
-            <BrandLogo />
-            <div className="min-w-0">
-              <div className="font-display font-extrabold text-foreground">USED MOBILES</div>
-              <div className="mt-1.5">
+    <footer className="site-footer mt-10 border-t border-border bg-card">
+      <div className="mx-auto grid max-w-[80rem] gap-9 px-5 py-11 sm:grid-cols-2 sm:px-6 lg:grid-cols-[1.25fr_0.75fr_1fr] lg:gap-14 lg:py-14">
+        <div>
+          <Link to="/" className="inline-flex items-center gap-3">
+            <BrandLogo className="size-12 shrink-0 rounded-full object-contain" />
+            <span className="min-w-0">
+              <span className="block font-display font-extrabold tracking-tight text-foreground">
+                USED MOBILES
+              </span>
+              <span className="mt-1 block">
                 <BrandTagline />
-              </div>
-            </div>
-          </div>
-          <p className="text-sm text-muted-foreground leading-relaxed">
-            Sell your used smartphone at our Toli Chowki store. Get an estimated offer online, then
-            confirm the price after inspection.
+              </span>
+            </span>
+          </Link>
+          <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted-foreground">
+            Choose your exact phone, share its condition and review an estimate before arranging a
+            pickup request or visiting the store.
           </p>
-          <div className="mt-4 flex items-center gap-3">
+          <div className="mt-5 flex items-center gap-2">
             <a
               href={SHOP_INSTAGRAM}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Instagram"
-              className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-border text-muted-foreground hover:text-primary hover:border-primary transition"
+              aria-label="USED MOBILES on Instagram"
+              className="inline-flex size-10 items-center justify-center rounded-md border border-border text-muted-foreground transition hover:border-primary hover:text-foreground"
             >
-              <Instagram className="h-4 w-4" />
+              <Instagram className="size-4" />
             </a>
             <a
               href={`tel:${SHOP_PHONE.replace(/\s/g, "")}`}
-              aria-label="Call"
-              className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-border text-muted-foreground hover:text-primary hover:border-primary transition"
+              aria-label={`Call USED MOBILES at ${SHOP_PHONE}`}
+              className="inline-flex size-10 items-center justify-center rounded-md border border-border text-muted-foreground transition hover:border-primary hover:text-foreground"
             >
-              <Phone className="h-4 w-4" />
+              <Phone className="size-4" />
             </a>
           </div>
         </div>
 
         <div>
-          <h4 className="text-xs font-semibold uppercase tracking-widest mb-3 text-foreground">
-            Explore
-          </h4>
-          <ul className="space-y-2">
-            {explore.map((l) => (
-              <li key={l.label}>
-                {l.href ? (
-                  <a
-                    href={l.href}
-                    className="text-sm text-muted-foreground hover:text-primary transition"
-                  >
-                    {l.label}
-                  </a>
-                ) : (
-                  <Link
-                    to={l.to ?? "/"}
-                    className="text-sm text-muted-foreground hover:text-primary transition"
-                  >
-                    {l.label}
-                  </Link>
-                )}
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <div>
-          <h4 className="text-xs font-semibold uppercase tracking-widest mb-3 text-foreground">
-            Our Promise
-          </h4>
-          <ul className="space-y-2.5 text-sm text-muted-foreground">
-            <li className="flex items-start gap-2">
-              <CheckCircle2 className="h-4 w-4 text-emerald shrink-0 mt-0.5" />
-              <span>Condition-based valuation</span>
+          <h2 className="eyebrow">Explore</h2>
+          <ul className="mt-4 space-y-3 text-sm">
+            <li>
+              <Link to="/sell-phone" className="text-muted-foreground hover:text-foreground">
+                Browse supported phones
+              </Link>
             </li>
-            <li className="flex items-start gap-2">
-              <CheckCircle2 className="h-4 w-4 text-emerald shrink-0 mt-0.5" />
-              <span>In-store device inspection</span>
+            <li>
+              <Link to="/privacy" className="text-muted-foreground hover:text-foreground">
+                Privacy policy
+              </Link>
             </li>
-            <li className="flex items-start gap-2">
-              <CheckCircle2 className="h-4 w-4 text-emerald shrink-0 mt-0.5" />
-              <span>Instant UPI or Cash payout</span>
+            <li>
+              <Link to="/terms" className="text-muted-foreground hover:text-foreground">
+                Terms and conditions
+              </Link>
             </li>
-            <li className="flex items-start gap-2">
-              <CheckCircle2 className="h-4 w-4 text-emerald shrink-0 mt-0.5" />
-              <span>Personal assistance at our store</span>
-            </li>
-            <li className="pt-1 text-xs text-muted-foreground/75">
-              * Valid Govt ID required at the time of sale.
+            <li>
+              <a
+                href={SHOP_MAPS_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-muted-foreground hover:text-foreground"
+              >
+                Store location <ArrowUpRight className="size-3.5" />
+              </a>
             </li>
           </ul>
         </div>
 
         <div>
-          <h4 className="text-xs font-semibold uppercase tracking-widest mb-3 text-foreground">
-            Visit Store
-          </h4>
-          <p className="text-sm text-muted-foreground leading-relaxed">
-            Hyder Manzil, 7 Tombs Rd, beside Al Ameen Meat Mart,
-            <br />
-            Samata Colony, Toli Chowki, Hyderabad 500008
-          </p>
-          <p className="mt-2 text-sm text-muted-foreground">Open all days · 10:00 AM – 11:00 PM</p>
+          <h2 className="eyebrow">At the store</h2>
+          <ul className="mt-4 space-y-3 text-sm leading-relaxed text-muted-foreground">
+            <li>Online values are estimates; the final offer follows device inspection.</li>
+            <li>Payment is arranged after the final offer is agreed.</li>
+          </ul>
+          <a
+            href={SHOP_MAPS_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-5 inline-flex items-start gap-2 text-sm leading-relaxed text-foreground hover:text-amber-dark"
+          >
+            <MapPin className="mt-0.5 size-4 shrink-0 text-amber-dark" />
+            <span>{SHOP_ADDRESS}</span>
+          </a>
+          <p className="mt-3 text-sm text-muted-foreground">{SHOP_HOURS}</p>
           <a
             href={`tel:${SHOP_PHONE.replace(/\s/g, "")}`}
-            className="mt-3 block text-sm font-semibold text-foreground hover:text-primary font-num"
+            className="mt-2 inline-block font-num text-sm font-semibold text-foreground hover:text-amber-dark"
           >
             {SHOP_PHONE}
           </a>
-          <span className="sr-only">{SHOP_INSTAGRAM_HANDLE}</span>
         </div>
       </div>
-      <div className="border-t border-border py-4 text-center text-xs text-muted-foreground px-4">
-        © {new Date().getFullYear()} USED MOBILES · Hyderabad · All rights reserved.
+      <div className="border-t border-border px-4 py-4 text-center text-xs text-muted-foreground">
+        © {new Date().getFullYear()} USED MOBILES · Hyderabad
       </div>
     </footer>
   );

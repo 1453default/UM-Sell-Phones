@@ -96,10 +96,13 @@ export function PickupForm({
 
   if (reference)
     return (
-      <div role="status" className="pickup-confirmation mt-7 border border-foreground p-6">
-        <CalendarCheck className="size-7" />
+      <div role="status" className="pickup-confirmation mt-7 border border-emerald/40">
+        <CalendarCheck className="size-8 text-emerald" aria-hidden="true" />
+        <p className="eyebrow mt-4">Request received</p>
         <h2 className="mt-3 text-xl font-semibold">Pickup request received</h2>
-        <p className="mt-2 text-sm text-muted-foreground">Your booking reference</p>
+        <p className="mt-4 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+          Booking reference
+        </p>
         <p className="mt-1 font-num text-3xl font-bold tracking-wider">{reference}</p>
         <p className="mt-4 text-sm leading-relaxed">
           {formatPickupDate(f.slotDate)}, {f.slotTime}. Our team will call you on {f.mobile} to
@@ -110,8 +113,14 @@ export function PickupForm({
 
   const field = (k: keyof typeof f, label: string, props: Record<string, unknown> = {}) => (
     <div>
-      <label htmlFor={`p-${k}`} className="mb-2 block text-sm font-medium">
+      <label
+        htmlFor={`p-${k}`}
+        className="mb-2 flex items-center justify-between gap-2 text-sm font-semibold"
+      >
         {label}
+        <span className="text-[0.68rem] font-medium text-muted-foreground">
+          {k === "landmark" ? "Optional" : "Required"}
+        </span>
       </label>
       <input
         id={`p-${k}`}
@@ -125,9 +134,12 @@ export function PickupForm({
   );
 
   return (
-    <form onSubmit={submit} noValidate className="mt-7 space-y-5">
-      <h2 className="text-xl font-semibold">Book a free doorstep pickup</h2>
-      <p className="text-sm text-muted-foreground">
+    <form onSubmit={submit} noValidate className="pickup-form space-y-5">
+      <div>
+        <p className="eyebrow">Next step</p>
+        <h2 className="mt-1 text-xl font-bold tracking-tight">Request a doorstep pickup</h2>
+      </div>
+      <p className="text-sm leading-relaxed text-muted-foreground">
         Available across Hyderabad, Monday to Saturday.
       </p>
       <div
@@ -144,31 +156,40 @@ export function PickupForm({
           onChange={(event) => set("website")(event.target.value)}
         />
       </div>
-      <div className="grid gap-5 sm:grid-cols-2">
-        {field("name", "Your name", { maxLength: 80, autoComplete: "name" })}
-        {field("mobile", "Mobile number", {
-          type: "tel",
-          inputMode: "tel",
-          autoComplete: "tel",
-          maxLength: 16,
-          placeholder: "10-digit mobile number",
+      <fieldset className="pickup-section space-y-4">
+        <legend className="px-1 text-sm font-bold">Your contact details</legend>
+        <div className="grid gap-5 sm:grid-cols-2">
+          {field("name", "Your name", { maxLength: 80, autoComplete: "name" })}
+          {field("mobile", "Mobile number", {
+            type: "tel",
+            inputMode: "tel",
+            autoComplete: "tel",
+            maxLength: 16,
+            placeholder: "10-digit mobile number",
+          })}
+        </div>
+      </fieldset>
+      <fieldset className="pickup-section space-y-4">
+        <legend className="px-1 text-sm font-bold">Pickup address</legend>
+        {field("addressLine", "House / flat, street", {
+          maxLength: 300,
+          autoComplete: "street-address",
         })}
-      </div>
-      {field("addressLine", "House / flat, street", {
-        maxLength: 300,
-        autoComplete: "street-address",
-      })}
-      <div className="grid gap-5 sm:grid-cols-3">
-        {field("locality", "Area / locality", { maxLength: 120 })}
-        {field("landmark", "Landmark (optional)", { maxLength: 120 })}
-        {field("pincode", "Pincode", {
-          inputMode: "numeric",
-          maxLength: 6,
-          autoComplete: "postal-code",
-        })}
-      </div>
-      <fieldset>
-        <legend className="mb-3 text-sm font-medium">Pickup date</legend>
+        <div className="grid gap-5 sm:grid-cols-3">
+          {field("locality", "Area / locality", { maxLength: 120 })}
+          {field("landmark", "Landmark", { maxLength: 120 })}
+          {field("pincode", "Pincode", {
+            inputMode: "numeric",
+            maxLength: 6,
+            autoComplete: "postal-code",
+          })}
+        </div>
+      </fieldset>
+      <fieldset className="pickup-section">
+        <legend className="px-1 text-sm font-bold">Choose a pickup date</legend>
+        <p className="mb-3 text-xs leading-relaxed text-muted-foreground">
+          Dates are shown in India Standard Time.
+        </p>
         <div className="grid grid-cols-3 gap-2 sm:grid-cols-7">
           {dates.map((d) => (
             <label
@@ -188,8 +209,8 @@ export function PickupForm({
           ))}
         </div>
       </fieldset>
-      <fieldset>
-        <legend className="mb-3 text-sm font-medium">Time slot</legend>
+      <fieldset className="pickup-section">
+        <legend className="px-1 text-sm font-bold">Choose a time slot</legend>
         <div className="grid gap-2 sm:grid-cols-3">
           {PICKUP_SLOTS.map((s) => (
             <label key={s} className={`selection-option ${f.slotTime === s ? "is-selected" : ""}`}>
@@ -206,14 +227,25 @@ export function PickupForm({
         </div>
       </fieldset>
       {error && (
-        <p role="alert" className="text-sm text-destructive">
+        <p
+          role="alert"
+          className="rounded-lg border border-destructive/30 bg-destructive/5 p-3 text-sm leading-relaxed text-destructive"
+        >
           {error}
         </p>
       )}
-      <Button type="submit" size="lg" className="h-12 w-full sm:w-auto" disabled={busy}>
+      <Button type="submit" size="lg" className="h-12 w-full font-bold sm:w-auto" disabled={busy}>
         {busy ? <Loader2 className="animate-spin" /> : <CalendarCheck />}
-        {retryPending ? "Retry pickup request" : "Confirm pickup request"}
+        {busy
+          ? "Submitting request…"
+          : retryPending
+            ? "Retry unchanged request"
+            : "Confirm pickup request"}
       </Button>
+      <p className="text-xs leading-relaxed text-muted-foreground">
+        Submitting sends your device, contact and pickup details to the store. A booking reference
+        confirms your request; the team will call to confirm arrangements.
+      </p>
     </form>
   );
 }

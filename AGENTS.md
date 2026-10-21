@@ -15,11 +15,11 @@
 - Key assessment and variant-selector state by device identity; this prevents answers or selections leaking across model and variant changes.
 - Use @lovable.dev/vite-tanstack-config with the existing server entry and sandbox dependency filesystem access; it emits Lovable's dist bundle while preserving Nitro hosting auto-detection outside Lovable.
 
-- Admin access is the `admin` row in `user_roles`, checked server-side with `has_role`; the first account created is granted admin by a database trigger.
+- Admin access is the single `admin` row in `user_roles`, checked server-side with `has_role` and limited by a unique index. There is no first-account auto-admin path; provision the owner through trusted Supabase Auth tooling and assign that account's role through trusted admin tooling.
 
 - Public pickup writes use a validated server-only privileged insert with a unique submission key; retries return the persisted reference without creating duplicate requests.
 - Keep a single shared business-logo renderer and derive browser icons from its source asset to prevent branding drift.
-- Staff accounts are provisioned by secure invitations, never public signup; administrator permissions remain server-validated in user_roles.
+- Public signup and email-based admin recovery are disabled; manage the fixed administrator password in Supabase Auth and never put it in source or frontend configuration. Keep administrator permissions server-validated in `user_roles`.
 - Inline only public auth environment references in the generated browser client via the Vite pre-transform, with committed public fallbacks shared with server auth; hosted builds run without the env file. Pickup writes still require the server-only service-role secret. Never inline server secrets.
 - The client function middleware attaches a session only when readable and never throws; public calls like pickup booking must not depend on browser auth.
 - Keep route, assessment-step and confirmation motion in shared CSS with reduced-motion overrides; this keeps animation consistent without changing booking or assessment state.

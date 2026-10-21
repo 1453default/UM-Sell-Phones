@@ -80,22 +80,25 @@ function BrandPage() {
 
   return (
     <PublicLayout>
-      <section className="mx-auto max-w-6xl px-4 pt-6 pb-16 md:pt-10">
+      <section className="catalog-page">
         <Crumbs items={[{ label: "Sell Phone", to: "/sell-phone" }, { label: brand.name }]} />
-        <div className="mt-4 flex items-center gap-4">
+        <div className="mt-8 flex flex-wrap items-center gap-4">
           {brand.logo && (
-            <div className="flex h-20 w-32 shrink-0 items-center justify-center rounded-md border border-border bg-card p-2">
+            <div className="flex h-16 w-24 shrink-0 items-center justify-center rounded-lg border border-border bg-card p-2">
               <img
                 src={brand.logo}
                 alt={`${brand.name} logo`}
-                className="h-14 md:h-16 w-auto max-w-[85%] object-contain"
+                className="h-12 w-auto max-w-[85%] object-contain"
               />
             </div>
           )}
-          <h1 className="min-w-0 font-display text-2xl md:text-3xl font-extrabold ">
+          <h1 className="min-w-0 font-display text-2xl font-extrabold tracking-tight md:text-3xl">
             Sell your old {brand.name} phone
           </h1>
         </div>
+        <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground">
+          Search by model name. Each result opens the exact variants available for assessment.
+        </p>
         <div className="mt-6">
           <SearchBox value={q} onChange={setQ} label="Search for model" />
         </div>
@@ -110,12 +113,15 @@ function BrandPage() {
           </>
         )}
 
-        <h2 className="mt-8 font-display text-lg font-bold">
-          Choose model{" "}
-          <span className="text-sm font-normal text-muted-foreground">({models.length})</span>
-        </h2>
+        <div className="mt-8 flex items-center justify-between gap-3 border-b border-border pb-3">
+          <h2 className="font-display text-lg font-bold">Choose a model</h2>
+          <span className="text-sm text-muted-foreground">{models.length} results</span>
+        </div>
         {models.length === 0 ? (
-          <p className="mt-6 text-muted-foreground">No models match your search.</p>
+          <div className="empty-state mt-5">
+            <p className="font-semibold text-foreground">No models match that search</p>
+            <p className="mt-1 text-sm">Try a shorter model name or select another series.</p>
+          </div>
         ) : (
           <ul className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
             {models.map((m, i) => (
@@ -123,15 +129,17 @@ function BrandPage() {
                 <Link
                   to="/sell-phone/$brand/$model"
                   params={{ brand: brand.slug, model: m.slug }}
-                  className="group flex h-full flex-col items-center gap-3 rounded-md border border-border bg-card p-4 text-center transition hover:border-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+                  className="model-card group flex h-full min-w-0 flex-col items-center gap-3 border border-border text-center transition hover:-translate-y-0.5 hover:border-amber-dark hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                 >
                   <PhoneImg
                     src={m.images[0]}
                     alt=""
                     eager={i < 10}
-                    className="h-28 w-28 md:h-32 md:w-32 transition group-hover:scale-105"
+                    className="h-28 w-28 max-w-full transition group-hover:scale-105 md:h-32 md:w-32"
                   />
-                  <span className="text-sm font-semibold leading-snug">{m.name}</span>
+                  <span className="line-clamp-2 break-words text-sm font-semibold leading-snug">
+                    {m.name}
+                  </span>
                 </Link>
               </li>
             ))}

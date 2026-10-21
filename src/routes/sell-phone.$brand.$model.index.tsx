@@ -5,7 +5,7 @@ import { Crumbs, PhoneImg } from "@/components/sell/SellParts";
 import { getSellBrand, getSellModel } from "@/data/sellPhoneCatalog";
 import { Button } from "@/components/ui/button";
 import { SHOP_PHONE } from "@/lib/shop";
-import { getModelVariants } from "@/data/sellPhonePricing";
+import { formatINR, getModelVariants } from "@/data/sellPhonePricing";
 import { canonicalUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/sell-phone/$brand/$model/")({
@@ -28,7 +28,12 @@ export const Route = createFileRoute("/sell-phone/$brand/$model/")({
         { property: "og:type", content: "product" },
         { name: "twitter:card", content: "summary" },
       ],
-      links: [{ rel: "canonical", href: canonicalUrl(`/sell-phone/${loaderData.brand?.slug}/${loaderData.model.slug}`) }],
+      links: [
+        {
+          rel: "canonical",
+          href: canonicalUrl(`/sell-phone/${loaderData.brand?.slug}/${loaderData.model.slug}`),
+        },
+      ],
     };
   },
   notFoundComponent: () => (
@@ -66,7 +71,7 @@ function VariantSelector({
 
   return (
     <PublicLayout>
-      <section className="mx-auto max-w-5xl px-4 pt-6 pb-16 md:pt-10">
+      <section className="catalog-page max-w-5xl">
         <Crumbs
           items={[
             { label: "Sell Phone", to: "/sell-phone" },
@@ -75,16 +80,24 @@ function VariantSelector({
             { label: "Variant" },
           ]}
         />
-        <h1 className="mt-4 font-display text-2xl md:text-3xl font-bold">Choose variant</h1>
-        <div className="mt-6 grid gap-6 border-y border-border p-5 md:grid-cols-[220px_minmax(0,1fr)] md:items-center md:p-10">
-          <div className="flex h-48 items-center justify-center md:h-56">
+        <p className="eyebrow mt-8">Exact model selected</p>
+        <h1 className="mt-2 font-display text-2xl font-bold tracking-tight md:text-3xl">
+          Choose your variant
+        </h1>
+        <div className="variant-panel mt-6 grid gap-5 p-4 sm:p-6 md:grid-cols-[220px_minmax(0,1fr)] md:items-center md:p-8">
+          <div className="flex h-44 items-center justify-center rounded-lg bg-muted/45 sm:h-52 md:h-60">
             <PhoneImg src={model.images[0]} alt={model.name} eager className="h-full w-full" />
           </div>
           <div className="min-w-0">
-            <h2 className="text-lg font-semibold">Select your {model.name} variant</h2>
+            <p className="eyebrow">{brand.name}</p>
+            <h2 className="mt-1 break-words text-xl font-bold tracking-tight">{model.name}</h2>
+            <p className="mt-2 text-sm text-muted-foreground">
+              Select the storage variant printed in your phone settings or on its original box.
+            </p>
             {variants.length === 0 ? (
-              <p className="mt-4 rounded-md border border-border bg-muted/40 p-4 text-sm text-muted-foreground">
-                Price information is currently unavailable for this model.
+              <p className="mt-5 rounded-lg border border-border bg-muted/40 p-4 text-sm leading-relaxed text-muted-foreground">
+                A price is not listed for this model yet. We will not substitute another phone’s
+                price.
                 <a
                   className="mt-3 block font-semibold underline text-foreground"
                   href={`tel:${SHOP_PHONE.replace(/\s/g, "")}`}
@@ -97,7 +110,7 @@ function VariantSelector({
                 <div
                   role="group"
                   aria-label="Variant"
-                  className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-3"
+                  className="mt-5 grid grid-cols-1 gap-2 sm:grid-cols-2"
                 >
                   {variants.map((v) => {
                     const on = selected === v.id;
@@ -108,13 +121,15 @@ function VariantSelector({
                         type="button"
                         aria-pressed={on}
                         onClick={() => setSelected(v.id)}
-                        className={`h-auto min-h-14 whitespace-normal rounded-md border px-3 py-3 text-sm font-semibold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary ${
+                        aria-label={`${v.label}, maximum estimate ${formatINR(v.uptoPrice)}`}
+                        className={`variant-choice h-auto min-h-16 whitespace-normal rounded-lg border px-3 py-3 text-sm font-semibold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary ${
                           on
-                            ? "border-primary bg-primary/10 text-foreground"
-                            : "border-border hover:border-primary"
+                            ? "border-amber-dark bg-accent text-foreground"
+                            : "border-border hover:border-amber-dark"
                         }`}
                       >
-                        {v.label}
+                        <span>{v.label}</span>
+                        <span className="variant-choice-price">Up to {formatINR(v.uptoPrice)}</span>
                       </Button>
                     );
                   })}
@@ -129,9 +144,9 @@ function VariantSelector({
                       params: { brand: brand.slug, model: model.slug, variant: selected },
                     })
                   }
-                  className="mt-6 h-12 w-full rounded-md bg-primary px-10 font-semibold text-primary-foreground transition hover:opacity-90 disabled:opacity-40 sm:w-auto"
+                  className="mt-6 h-12 w-full px-6 font-bold sm:w-auto"
                 >
-                  Proceed
+                  Continue to condition questions
                 </Button>
               </>
             )}

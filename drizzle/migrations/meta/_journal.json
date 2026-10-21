@@ -22,6 +22,20 @@
       "when": 1792494537958,
       "tag": "0002_secure_admin_and_pickup_outbox",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1792509487000,
+      "tag": "0003_single_admin_only",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1792588800000,
+      "tag": "0004_telegram_lead_notifications",
+      "breakpoints": true
     }
   ]
 }

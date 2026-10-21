@@ -1,13 +1,6 @@
 import { cn } from "@/lib/utils";
 
-type Tone = "default" | "print";
-
-/**
- * Tagline for Sell Phone: SELL — BEST VALUE — INSTANT CASH
- * Editorial styling: uppercase display, wide tracking, hairline amber rules
- * as separators. Uses existing theme tokens only (primary/amber + foreground).
- */
-export function BrandTagline({ className, tone = "default" }: { className?: string; tone?: Tone }) {
+export function BrandTagline({ className }: { className?: string }) {
   const textCls = "text-foreground/75";
   const ruleCls = "bg-primary/70";
 
@@ -18,13 +11,11 @@ export function BrandTagline({ className, tone = "default" }: { className?: stri
         textCls,
         className,
       )}
-      aria-label="Sell Phone · Best Value · Instant Cash"
+      aria-label="Used phone buyback in Hyderabad"
     >
-      <span>Sell</span>
+      <span>Used phone buyback</span>
       <span aria-hidden="true" className={cn("h-px w-2.5 shrink-0", ruleCls)} />
-      <span>Best Value</span>
-      <span aria-hidden="true" className={cn("h-px w-2.5 shrink-0", ruleCls)} />
-      <span>Instant Cash</span>
+      <span>Hyderabad</span>
     </span>
   );
 }
