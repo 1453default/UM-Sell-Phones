@@ -14,12 +14,31 @@ export const PUBLIC_AUTH_FALLBACK: Record<string, string> = {
 
 // The generated client uses bracket access, which the production env transform
 // leaves unresolved. Inline only these two public values, never server secrets.
-export function publicAuthEnvPlugin(env: Record<string, string>): Plugin {
+function resolvePublicAuthEnv(env: Record<string, string>): Record<string, string> {
+  return {
+    // The server-configured URL and publishable key target the same database
+    // used by pickup persistence, so browser auth and server reads must match.
+    VITE_SUPABASE_URL:
+      env.SUPABASE_URL || env.VITE_SUPABASE_URL || PUBLIC_AUTH_FALLBACK.VITE_SUPABASE_URL,
+    VITE_SUPABASE_PUBLISHABLE_KEY:
+      env.SUPABASE_PUBLISHABLE_KEY ||
+      env.VITE_SUPABASE_PUBLISHABLE_KEY ||
+      PUBLIC_AUTH_FALLBACK.VITE_SUPABASE_PUBLISHABLE_KEY,
+  };
+}
+
+export function publicAuthEnvPlugin(sourceEnv: Record<string, string>): Plugin {
+  let env = resolvePublicAuthEnv(sourceEnv);
   return {
     name: "public-auth-env",
     enforce: "pre",
     config(_config, { mode }) {
-      env = { ...PUBLIC_AUTH_FALLBACK, ...loadEnv(mode, process.cwd(), "VITE_"), ...env };
+      const loaded = loadEnv(mode, process.cwd(), [
+        "VITE_",
+        "SUPABASE_URL",
+        "SUPABASE_PUBLISHABLE_KEY",
+      ]);
+      env = resolvePublicAuthEnv({ ...loaded, ...sourceEnv });
     },
     transform(code, id) {
       const file = id.split("?")[0];

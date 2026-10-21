@@ -3,10 +3,12 @@ import { tmpdir } from "node:os";
 import { PUBLIC_AUTH_FALLBACK, publicAuthEnvPlugin } from "../../vite.config";
 
 describe("Published staff auth configuration", () => {
-  it("inlines both public settings used by the generated client", async () => {
+  it("uses server database settings for browser and server auth when they differ", async () => {
     const plugin = publicAuthEnvPlugin({
-      VITE_SUPABASE_URL: "https://auth.example.test",
-      VITE_SUPABASE_PUBLISHABLE_KEY: "sb_publishable_test",
+      SUPABASE_URL: "https://server-project.example.test",
+      SUPABASE_PUBLISHABLE_KEY: "sb_publishable_server",
+      VITE_SUPABASE_URL: "https://stale-browser-project.example.test",
+      VITE_SUPABASE_PUBLISHABLE_KEY: "sb_publishable_stale_browser",
     });
     const transform = plugin.transform;
     if (typeof transform !== "function") throw new Error("Missing transform");
@@ -18,8 +20,17 @@ describe("Published staff auth configuration", () => {
       "/src/integrations/supabase/client.ts",
     );
     expect(result).toBe(
-      'const url = "https://auth.example.test"; const key = "sb_publishable_test"; const secret = process.env[\'SUPABASE_SERVICE_ROLE_KEY\'];',
+      'const url = "https://server-project.example.test"; const key = "sb_publishable_server"; const secret = process.env[\'SUPABASE_SERVICE_ROLE_KEY\'];',
     );
+
+    const publicConfig = await transform.call(
+      {} as never,
+      'export const PUBLIC_SUPABASE_URL = "https://fallback.example.test"; export const PUBLIC_SUPABASE_PUBLISHABLE_KEY = "sb_publishable_fallback";',
+      "/src/integrations/supabase/public-config.ts",
+    );
+    expect(publicConfig).toContain('PUBLIC_SUPABASE_URL = "https://server-project.example.test"');
+    expect(publicConfig).toContain('PUBLIC_SUPABASE_PUBLISHABLE_KEY = "sb_publishable_server"');
+    expect(publicConfig).not.toContain("stale-browser-project");
   });
 
   it("builds server token verification against the same project as the browser", async () => {
@@ -39,10 +50,12 @@ describe("Published staff auth configuration", () => {
       "/src/integrations/supabase/public-config.ts",
     );
 
-    expect(result).toContain('PUBLIC_SUPABASE_URL = "https://browser-project.example.test"');
-    expect(result).toContain('PUBLIC_SUPABASE_PUBLISHABLE_KEY = "sb_publishable_browser"');
-    expect(result).not.toContain("different-server-project");
-    expect(result).not.toContain("sb_publishable_server");
+    expect(result).toContain(
+      'PUBLIC_SUPABASE_URL = "https://different-server-project.example.test"',
+    );
+    expect(result).toContain('PUBLIC_SUPABASE_PUBLISHABLE_KEY = "sb_publishable_server"');
+    expect(result).not.toContain("browser-project");
+    expect(result).not.toContain("sb_publishable_browser");
   });
 
   it("does not rewrite other modules or private environment values", async () => {
@@ -65,10 +78,7 @@ describe("Hosted build without an env file", () => {
     delete process.env.VITE_SUPABASE_PUBLISHABLE_KEY;
     process.chdir(tmpdir());
     try {
-      const plugin = publicAuthEnvPlugin({
-        SUPABASE_URL: "https://runtime-server-project.example.test",
-        SUPABASE_PUBLISHABLE_KEY: "sb_publishable_runtime_server",
-      });
+      const plugin = publicAuthEnvPlugin({});
       const config = plugin.config;
       if (typeof config !== "function") throw new Error("Missing config");
       await config.call({} as never, {}, { mode: "production", command: "build" });
@@ -94,7 +104,6 @@ describe("Hosted build without an env file", () => {
       expect(serverConfig).toContain(
         `PUBLIC_SUPABASE_PUBLISHABLE_KEY = ${JSON.stringify(PUBLIC_AUTH_FALLBACK.VITE_SUPABASE_PUBLISHABLE_KEY)}`,
       );
-      expect(serverConfig).not.toContain("runtime-server-project");
     } finally {
       process.chdir(original);
       if (originalUrl === undefined) delete process.env.VITE_SUPABASE_URL;
