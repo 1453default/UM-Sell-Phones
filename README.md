@@ -135,3 +135,5 @@ The local default build previously selected `cloudflare-module` because the Lova
 - Approve the privacy retention statement and cancellation/dispute terms.
 - Choose the deployment target and verify its server runtime, secrets, routes, and production smoke test.
 - Run `npm run lint`, `npm run typecheck`, `npm test`, `npm run catalog:verify`, and `npm run build` on the final branch.
+
+<!-- Deployment identity verification -->
